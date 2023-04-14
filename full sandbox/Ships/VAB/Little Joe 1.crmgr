@@ -1,0 +1,30 @@
+craftName = Little Joe 1
+cachedCraftData
+{
+	origChecksum = 4c1adb9edefd3e3194fda4329fe11675
+	cacheVersion = 3
+	name = Little Joe 1
+	kspVersion = 1.12.5
+	stagesCount = 5
+	cost = 6817
+	partCount = 20
+	mass = 3.08639979
+	description = 
+	crewCapacity = 1
+	partNames = bluedog.Mercury.Capsule
+	partNames = bluedog.Mercury.Heatshield
+	partNames = bluedog.Mercury.Retropack
+	partNames = bluedog.Mercury.PosigradeRocket
+	partNames = bluedog.Mercury.RetroRocket
+	partNames = conformaldecals-flag
+	partNames = SurfAntenna
+	partNames = probeCoreOcto2.v2
+	partNames = bluedog.Mercury.ParachuteRCS
+	partNames = bluedog.Mercury.Parachute
+	partNames = bluedog.Mercury.AntennaNose
+	partNames = bluedog.Mercury.Airbrake
+	partNames = bluedog.Mercury.LES
+	partNames = bluedog.Mercury.Interstage
+	partNames = bluedog.Mercury.Decoupler
+	partNames = solidBooster.sm.v2
+}

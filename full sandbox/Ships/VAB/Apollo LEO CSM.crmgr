@@ -1,0 +1,27 @@
+craftName = Apollo LEO CSM
+cachedCraftData
+{
+	origChecksum = 9d29459d765d4c0147f8c16bb1310ae5
+	cacheVersion = 3
+	name = Apollo LEO CSM
+	kspVersion = 1.12.5
+	stagesCount = 3
+	cost = 17999
+	partCount = 17
+	mass = 15.4566994
+	description = 
+	crewCapacity = 3
+	partNames = bluedog.Apollo.CrewPod
+	partNames = bluedog.Apollo.MainChute
+	partNames = bluedog.Apollo.Heatshield
+	partNames = bluedog.Apollo.Decoupler
+	partNames = bluedog.Apollo.ParachuteCover
+	partNames = bluedog.Apollo.ProbeDockingPort
+	partNames = bluedog.Apollo.LES
+	partNames = bluedog.Apollo.Block2.SM
+	partNames = bluedog.Apollo.EngineMount
+	partNames = bluedog.Apollo.Block2.SPS
+	partNames = bluedog.Apollo.Block2.highGain
+	partNames = bluedog.Apollo.ScimitarAntenna
+	partNames = bluedog.Apollo.RCS.45
+}

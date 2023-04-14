@@ -1,0 +1,24 @@
+craftName = Apollo LUT Milkstool
+cachedCraftData
+{
+	origChecksum = 9f2b983d1254c04fcea2429fe646f421
+	cacheVersion = 3
+	name = Apollo LUT Milkstool
+	kspVersion = 1.12.5
+	stagesCount = 7
+	cost = -3010.00024
+	partCount = 15
+	mass = 1053.20227
+	description = 
+	crewCapacity = 8
+	partNames = AM.MLP.SaturnLauncherMilkstool
+	partNames = AM.MLP.SaturnMobileLauncherClampBase
+	partNames = AM.MLP.SaturnTowerBase
+	partNames = AM.MLP.SaturnTowerMultiSection
+	partNames = AM.MLP.SaturnTowerCrewSection
+	partNames = AM.MLP.SaturnTowerTopSection
+	partNames = AM.MLP.SaturnHammerheadCrane
+	partNames = AM.MLP.SaturnTowerDamperArm
+	partNames = AM.MLP.SaturnTowerCrewArm
+	partNames = AM.MLP.SaturnTowerSwingArmGen
+}

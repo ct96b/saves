@@ -1,0 +1,17 @@
+shipName = Untitled Space Craft
+description = 
+version = 1.12.5
+partCount = 1
+stageCount = 1
+totalCost = 100
+totalMass = 0.0399999991
+shipSize = 1.25000012,0.187501907,1.24999976
+type = VAB
+duplicatedParts = False
+steamPublishedFileId = 0
+partNames = adapterSmallMiniShort
+partModules = ModulePartVariants
+partModules = ModuleCargoPart
+partModules = ModuleFreeIva
+saveMD5 = 
+lastWriteTime = 638142237823760817

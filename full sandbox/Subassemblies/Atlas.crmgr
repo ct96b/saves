@@ -1,0 +1,23 @@
+craftName = Atlas
+cachedCraftData
+{
+	origChecksum = 6e29faa8f344b6a16491753fbe6221dd
+	cacheVersion = 3
+	name = Atlas
+	kspVersion = 1.12.5
+	stagesCount = 8
+	cost = 14411
+	partCount = 12
+	mass = 38.4882507
+	description = No Description.
+	crewCapacity = 0
+	partNames = bluedog.Atlas.AdapterFuelTank
+	partNames = bluedog.Atlas.MediumFuelTank
+	partNames = bluedog.Atlas.LongFuelTank
+	partNames = bluedog.Atlas.SustainerAdapterTank
+	partNames = bluedog.Atlas.LR105
+	partNames = AM.MLP.AtlasLaunchStand
+	partNames = bluedog.Atlas.BoosterSkirt
+	partNames = bluedog.Atlas.LR89
+	partNames = bluedog.Atlas.LR101.Radial
+}

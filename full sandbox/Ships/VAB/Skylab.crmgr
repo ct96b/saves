@@ -1,0 +1,30 @@
+craftName = Skylab
+cachedCraftData
+{
+	origChecksum = 06e369fe745b376d91d0c30cff0cd7e8
+	cacheVersion = 3
+	name = Skylab
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 90321
+	partCount = 31
+	mass = 38.9093857
+	description = 
+	crewCapacity = 9
+	partNames = bluedog.Saturn.S4B.InstrumentUnit
+	partNames = bluedog.Skylab.Workshop
+	partNames = bluedog.Skylab.airlockModule
+	partNames = bluedog.Skylab.multipleDockingAdapter
+	partNames = bluedog.Apollo.ConeDockingPort
+	partNames = bluedog.Apollo.ProbeDockingPort
+	partNames = bluedog.Skylab.ATM.core
+	partNames = bluedog.Skylab.ATM.experiments
+	partNames = bluedog.Skylab.ATM.solar
+	partNames = bluedog.Skylab.RadiatorMount
+	partNames = bluedog.skylab.solarWing
+	partNames = strutOcto
+	partNames = bluedog.Apollo.RCS.Quad
+	partNames = bluedog.Skylab.discone.antenna
+	partNames = mumech.MJ2.AR202
+	partNames = bluedog.Apollo.VHFantenna
+}

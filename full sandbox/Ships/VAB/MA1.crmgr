@@ -1,0 +1,37 @@
+craftName = MA1
+cachedCraftData
+{
+	origChecksum = f27811865dece15e724bb4790975d86d
+	cacheVersion = 3
+	name = MA1
+	kspVersion = 1.12.5
+	stagesCount = 7
+	cost = 20678
+	partCount = 30
+	mass = 40.0346489
+	description = 
+	crewCapacity = 1
+	partNames = bluedog.Mercury.Capsule
+	partNames = bluedog.Mercury.Heatshield
+	partNames = bluedog.Mercury.Retropack
+	partNames = bluedog.Mercury.PosigradeRocket
+	partNames = bluedog.Mercury.RetroRocket
+	partNames = conformaldecals-flag
+	partNames = SurfAntenna
+	partNames = probeCoreOcto2.v2
+	partNames = bluedog.Mercury.ParachuteRCS
+	partNames = bluedog.Mercury.Parachute
+	partNames = bluedog.Mercury.AntennaNose
+	partNames = bluedog.Mercury.Airbrake
+	partNames = bluedog.Mercury.LES
+	partNames = bluedog.Mercury.Interstage
+	partNames = bluedog.Atlas.AdapterFuelTank
+	partNames = bluedog.Atlas.MediumFuelTank
+	partNames = bluedog.Atlas.LongFuelTank
+	partNames = bluedog.Atlas.SustainerAdapterTank
+	partNames = bluedog.Atlas.LR105
+	partNames = bluedog.Atlas.BoosterSkirt
+	partNames = bluedog.Atlas.LR89
+	partNames = bluedog.Atlas.LR101.Radial
+	partNames = AM.MLP.AtlasLaunchStand
+}

@@ -1,0 +1,35 @@
+craftName = MR1b
+cachedCraftData
+{
+	origChecksum = 9d37c0a725ba962a4a94e9d47d52b653
+	cacheVersion = 3
+	name = MR1b
+	kspVersion = 1.12.5
+	stagesCount = 6
+	cost = 10711.7002
+	partCount = 33
+	mass = 19.9418983
+	description = 
+	crewCapacity = 1
+	partNames = bluedog.Mercury.Capsule
+	partNames = bluedog.Mercury.Heatshield
+	partNames = bluedog.Mercury.Retropack
+	partNames = bluedog.Mercury.PosigradeRocket
+	partNames = bluedog.Mercury.RetroRocket
+	partNames = conformaldecals-flag
+	partNames = SurfAntenna
+	partNames = probeCoreOcto2.v2
+	partNames = bluedog.Mercury.ParachuteRCS
+	partNames = bluedog.Mercury.Decoupler
+	partNames = bluedog.Redstone.Guidance
+	partNames = bluedog.Mercury.Parachute
+	partNames = bluedog.Mercury.AntennaNose
+	partNames = bluedog.Mercury.Airbrake
+	partNames = bluedog.Mercury.LES
+	partNames = bluedog.Redstone.ShortFuelTank
+	partNames = bluedog.Redstone.FuelTank
+	partNames = bluedog.Redstone.A7.TailUnit
+	partNames = bluedog.Redstone.Fin.CtrlSurf
+	partNames = AM.MLP.SmallLaunchStandRect
+	partNames = AM.MLP.GeneralFallbackUmbilicalTower
+}

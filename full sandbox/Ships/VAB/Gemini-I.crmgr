@@ -1,0 +1,39 @@
+craftName = Gemini-I
+cachedCraftData
+{
+	origChecksum = b6f976ab09306dd66d43ab53735eb276
+	cacheVersion = 3
+	name = Gemini-I
+	kspVersion = 1.12.5
+	stagesCount = 8
+	cost = 24256
+	partCount = 32
+	mass = 38.6674995
+	description = 
+	crewCapacity = 2
+	partNames = bluedog.Gemini.Capsule
+	partNames = bluedog.Gemini.Heatshield.1p5m
+	partNames = bluedog.Gemini.Decoupler.1p5m
+	partNames = bluedog.Gemini.UHFAntenna
+	partNames = mumech.MJ2.AR202
+	partNames = probeCoreOcto2.v2
+	partNames = bluedog.Gemini.ReentryRCS
+	partNames = bluedog.Gemini.MainParachute
+	partNames = bluedog.BigG.Nose
+	partNames = bluedog.Gemini.DrogueChute
+	partNames = bluedog.Gemini.LES
+	partNames = bluedog.Gemini.RetroModule
+	partNames = bluedog.Gemini.RetroMotor
+	partNames = bluedog.Gemini.EquipmentModule
+	partNames = bluedog.Gemini.WhipAntenna
+	partNames = bluedog.Gemini.DoubleXAntenna
+	partNames = bluedog.Gemini.OAMSThruster
+	partNames = bluedog.Gemini.Decoupler.1p875m
+	partNames = bluedog.Titan2.S2.Tank
+	partNames = bluedog.LR91.11
+	partNames = bluedog.Titan2.S2.GeminiDecoupler
+	partNames = bluedog.Titan2.S1.Upper.Tank
+	partNames = bluedog.Titan2.S1.Lower.Tank
+	partNames = bluedog.LR87.5
+	partNames = AM.MLP.TitanIILaunchStand
+}

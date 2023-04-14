@@ -1,0 +1,22 @@
+craftName = Apollo Lunar Module
+cachedCraftData
+{
+	origChecksum = 9fd71d4bbbc5eb0012cf544305818e9b
+	cacheVersion = 3
+	name = Apollo Lunar Module
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 12201
+	partCount = 11
+	mass = 9.85929966
+	description = In Launch Shroud
+	crewCapacity = 2
+	partNames = bluedog.LM.Ascent.Cockpit
+	partNames = bluedog.LM.Ascent.Engine
+	partNames = bluedog.LM.Descent.Tanks
+	partNames = bluedog.LM.Descent.Engine
+	partNames = bluedog.LM.Descent.Leg
+	partNames = bluedog.Saturn.S4B.SLA
+	partNames = bluedog.AIMP.Core
+	partNames = bluedog.Apollo.ConeDockingPort
+}

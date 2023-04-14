@@ -1,0 +1,27 @@
+craftName = Rover1
+cachedCraftData
+{
+	origChecksum = 5c9c206e6bc682ab40cfdd826300280a
+	cacheVersion = 3
+	name = Rover1
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 25271
+	partCount = 29
+	mass = 9.88700104
+	description = 
+	crewCapacity = 5
+	partNames = Lynx.Cockpit
+	partNames = Lynx.CrewCabin
+	partNames = Lynx.Wheel
+	partNames = Lynx.FuelTankBig
+	partNames = Lynx.FuelTankRear
+	partNames = Lynx.CanisterEC
+	partNames = Lynx.FuelCell.Roof
+	partNames = Lynx.Solarpanel.wide
+	partNames = Lynx.LadderPlatform
+	partNames = Lynx.Ladder
+	partNames = SurfAntenna
+	partNames = landingLeg1
+	partNames = mumech.MJ2.AR202
+}

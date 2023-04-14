@@ -1,0 +1,21 @@
+craftName = Titan II GLV
+cachedCraftData
+{
+	origChecksum = 20433bfb12b5bce594148bd2f8f9c7ee
+	cacheVersion = 3
+	name = Titan II GLV
+	kspVersion = 1.12.5
+	stagesCount = 9
+	cost = 13141
+	partCount = 7
+	mass = 35.5950012
+	description = Gemini Launch Vehicle configuration
+	crewCapacity = 0
+	partNames = bluedog.Titan2.S2.Tank
+	partNames = bluedog.LR91.11
+	partNames = bluedog.Titan2.S2.GeminiDecoupler
+	partNames = bluedog.Titan2.S1.Upper.Tank
+	partNames = bluedog.Titan2.S1.Lower.Tank
+	partNames = bluedog.LR87.5
+	partNames = AM.MLP.TitanIILaunchStand
+}

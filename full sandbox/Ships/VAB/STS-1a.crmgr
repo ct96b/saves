@@ -1,0 +1,47 @@
+craftName = STS-1a
+cachedCraftData
+{
+	origChecksum = d708a4564953bb475333d48e14cdcb01
+	cacheVersion = 3
+	name = STS-1a
+	kspVersion = 1.12.5
+	stagesCount = 4
+	cost = 203631.406
+	partCount = 57
+	mass = 1417.37451
+	description = 
+	crewCapacity = 17
+	partNames = benjee10.shuttle.forwardFuselage
+	partNames = benjee10.shuttle.midFuselage
+	partNames = benjee10.shuttle.aftFuselage
+	partNames = benjee10.shuttle.deltaWing
+	partNames = benjee10.shuttle.elevon1
+	partNames = benjee10.shuttle.elevon2
+	partNames = benjee10.shuttle.noseGear
+	partNames = benjee10.shuttle.mainGear
+	partNames = benjee10.shuttle.kuBand
+	partNames = benjee10.AJ10.v2
+	partNames = DIRECT.SSME.B
+	partNames = benjee10.shuttle.rudder
+	partNames = benjee10.shuttle.bodyFlap
+	partNames = STS.ET.decoupler
+	partNames = DIRECT.STS.tank
+	partNames = radialDecoupler2
+	partNames = DIRECT.SRB.4
+	partNames = probeStackSmall
+	partNames = benjee10.shuttle.ODS
+	partNames = DIRECT.SRB.cone
+	partNames = AM.MLP.ShuttleLauncherBaseClamp
+	partNames = AM.MLP.ShuttleLauncherTSM
+	partNames = AM.MLP.ShuttleLauncherFSSBase
+	partNames = AM.MLP.ShuttleTowerMultiSection
+	partNames = AM.MLP.ShuttleTowerCrewSection
+	partNames = AM.MLP.ShuttleTowerTopSection
+	partNames = AM.MLP.SaturnLightningMastAlt
+	partNames = AM.MLP.ShuttleLauncherRSSHinge
+	partNames = AM.MLP.ShuttleLauncherRSS
+	partNames = bluedog.Saturn.AJ260.Sepratron
+	partNames = radialDrogue
+	partNames = parachuteRadial
+	partNames = mumech.MJ2.AR202
+}

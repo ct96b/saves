@@ -1,0 +1,30 @@
+craftName = Saturn IB
+cachedCraftData
+{
+	origChecksum = 0ede024aa11cd6cf00bcab4e26334c8f
+	cacheVersion = 3
+	name = Saturn IB
+	kspVersion = 1.12.5
+	stagesCount = 6
+	cost = 58773
+	partCount = 34
+	mass = 144.157455
+	description = Use RSS Ascent Profile
+	crewCapacity = 0
+	partNames = bluedog.Saturn.S4B.SLA
+	partNames = bluedog.Saturn.S4B.InstrumentUnit
+	partNames = bluedog.Saturn.S4B.Tank
+	partNames = bluedog.Saturn.S4B.EngineMount
+	partNames = bluedog.Saturn.Engine.J2
+	partNames = bluedog.Saturn.S1B.Interstage
+	partNames = bluedog.Saturn.S1.Tanks
+	partNames = bluedog.Saturn.S1.EngineMount
+	partNames = bluedog.Saturn.Engine.H1C
+	partNames = bluedog.Saturn.Engine.H1D
+	partNames = bluedog.Saturn.S1.LargeFin
+	partNames = bluedog.Saturn.S1.SmallFin
+	partNames = AM.MLP.LargeLaunchStand
+	partNames = bluedog.Saturn.S1.Retro
+	partNames = bluedog.Saturn.S4B.APS.200
+	partNames = bluedog.Saturn.S4B.Ullage
+}

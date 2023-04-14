@@ -1,0 +1,40 @@
+craftName = STS-1
+cachedCraftData
+{
+	origChecksum = e1a70fc90c8179192052395c7412a756
+	cacheVersion = 3
+	name = STS-1
+	kspVersion = 1.12.5
+	stagesCount = 4
+	cost = 199335.094
+	partCount = 58
+	mass = 661.995483
+	description = 
+	crewCapacity = 7
+	partNames = benjee10.shuttle.forwardFuselage
+	partNames = benjee10.shuttle.midFuselage
+	partNames = benjee10.shuttle.aftFuselage
+	partNames = benjee10.shuttle.deltaWing
+	partNames = benjee10.shuttle.elevon1
+	partNames = benjee10.shuttle.elevon2
+	partNames = benjee10.AJ10.v2
+	partNames = SSME
+	partNames = benjee10.shuttle.bodyFlap
+	partNames = benjee10.shuttle.rudder
+	partNames = benjee10.shuttle.noseGear
+	partNames = benjee10.shuttle.mainGear
+	partNames = mumech.MJ2.AR202
+	partNames = launchClamp1
+	partNames = radialDecoupler1-2
+	partNames = Size3LargeTank
+	partNames = Size3MediumTank
+	partNames = Size3To2Adapter.v2
+	partNames = rocketNoseCone.v3
+	partNames = bluedog.Saturn.AJ260.Sepratron
+	partNames = radialDecoupler2
+	partNames = Clydesdale
+	partNames = largeAdapter2
+	partNames = SurfAntenna
+	partNames = parachuteRadial
+	partNames = sspx-cargo-container-25-1
+}
