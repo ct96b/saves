@@ -1,27 +1,15 @@
 craftName = Untitled Space Craft
 cachedCraftData
 {
-	origChecksum = 40494c4165308d27240241cf8f1c68bf
+	origChecksum = a08faba7855ab7a852ddfdfaf466f5e1
 	cacheVersion = 3
-	name = Rover1
+	name = Untitled Space Craft
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 24521
-	partCount = 28
-	mass = 9.8869009
+	cost = 1800
+	partCount = 1
+	mass = 0.400000006
 	description = 
-	crewCapacity = 5
-	partNames = Lynx.Cockpit
-	partNames = Lynx.CrewCabin
-	partNames = Lynx.Wheel
-	partNames = Lynx.FuelTankBig
-	partNames = Lynx.FuelTankRear
-	partNames = Lynx.CanisterEC
-	partNames = Lynx.FuelCell.Roof
-	partNames = Lynx.Solarpanel.wide
-	partNames = Lynx.LadderPlatform
-	partNames = Lynx.Ladder
-	partNames = SurfAntenna
-	partNames = landingLeg1
-	partNames = mumech.MJ2.AR202
+	crewCapacity = 0
+	partNames = bluedog.Apollo.AARDV.Core
 }

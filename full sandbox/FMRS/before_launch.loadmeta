@@ -1,5 +1,5 @@
-vesselCount = 20
-UT = 10798.9168946665
+vesselCount = 12
+UT = 12251.754082198113
 gameMode = SANDBOX
 gameNull = False
 kspVersion = 1.12.5
@@ -13,4 +13,4 @@ missionIsEnded = False
 missionHistoryId = 00000000-0000-0000-0000-000000000000
 missionExpansionVersion = 
 saveMD5 = 
-lastWriteTime = 638170253299864196
+lastWriteTime = 638171661756685813

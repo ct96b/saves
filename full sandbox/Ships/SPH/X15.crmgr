@@ -1,0 +1,21 @@
+craftName = X15
+cachedCraftData
+{
+	origChecksum = 940d7ab19963f1dd7059746f2b61fcb3
+	cacheVersion = 3
+	name = X15
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 7096
+	partCount = 9
+	mass = 4.45304966
+	description = 
+	crewCapacity = 1
+	partNames = CX-15
+	partNames = SmallGearBay
+	partNames = bluedog.Vanguard.GE405
+	partNames = CX-15-SKID
+	partNames = SurfAntenna
+	partNames = mumech.MJ2.AR202
+	partNames = launchClamp1
+}

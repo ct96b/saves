@@ -1878,6 +1878,30 @@ GAME
 		{
 			intact = True
 		}
+		4993ec2e-7617-4318-8f35-bf5e47c430f7
+		{
+			intact = True
+		}
+		51c8b3d4-892e-436b-9a37-6bcfe985755d
+		{
+			intact = True
+		}
+		48208929-a7b5-49a9-991c-2a6aaca3f9f3
+		{
+			intact = True
+		}
+		ad76a6e8-938a-467e-9664-c81b6a6769cd
+		{
+			intact = True
+		}
+		f39a4ba9-03d6-45e6-8c3d-da1817624d8f
+		{
+			intact = True
+		}
+		29e5b936-fcc2-477d-8251-3135e1577148
+		{
+			intact = True
+		}
 	}
 	SCENARIO
 	{
@@ -1899,8 +1923,8 @@ GAME
 	{
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
-		initialized = False
-		savetime = 69.660000000003279
+		initialized = True
+		savetime = 72.960000000002623
 		useUUID = True
 		KKSettings
 		{
@@ -2051,6 +2075,13 @@ GAME
 				MissionLog = No Log
 				isOpen = False
 			}
+			BOCACHICA_OLM2
+			{
+				favouriteSite = No
+				MissionCount = 0
+				MissionLog = No Log
+				isOpen = False
+			}
 			BOCACHICA_OLM1
 			{
 				favouriteSite = No
@@ -2059,6 +2090,13 @@ GAME
 				isOpen = False
 			}
 			BOCACHICA_SMALLHELIPAD
+			{
+				favouriteSite = No
+				MissionCount = 0
+				MissionLog = No Log
+				isOpen = False
+			}
+			SLC41_
 			{
 				favouriteSite = No
 				MissionCount = 0
@@ -2542,7 +2580,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.12.5
-		UT = 69.660000000003279
+		UT = 72.960000000002623
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network

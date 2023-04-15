@@ -2,7 +2,7 @@ ship = Apollo LEO CSM Saturn I-B Mk1 MM
 version = 1.12.5
 description = 
 type = VAB
-size = 26.5119457,72.6168442,22.921917
+size = 26.5119457,71.2551422,22.921917
 steamPublishedFileId = 0
 persistentId = 18042473
 rot = 0,0,0,0
@@ -2641,8 +2641,8 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 0
-	sidx = 0
-	sqor = 2
+	sidx = 1
+	sqor = 3
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
@@ -3609,7 +3609,7 @@ PART
 	{
 		name = ModuleSystemHeatCryoTank
 		isEnabled = True
-		LastUpdateTime = 12359.334082200461
+		LastUpdateTime = 12632.074082206414
 		CoolingAllowed = True
 		CoolingEnabled = False
 		BoiloffOccuring = False
@@ -6753,7 +6753,7 @@ PART
 	part = bluedog.Saturn.S4B.Tank_4286764614
 	partName = Part
 	persistentId = 1297386588
-	pos = 0.026673384,29.6056557,-0.194545612
+	pos = 0.026673384,30.9673557,-0.194545612
 	attPos = 0,0,0
 	attPos0 = 0,-3.576231,0
 	rot = 0,0,0,1
@@ -6771,14 +6771,14 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 3424.81177
-	modMass = 1.85000026
+	modCost = 1712.40552
+	modMass = 0.925000191
 	modSize = 0,0,0
 	link = bluedog.Saturn.S4B.EngineMount_4286764448
 	link = bluedog.Saturn.S4B.Ullage_4286754172
 	link = bluedog.Saturn.S4B.Ullage_4286754042
 	link = bluedog.Saturn.S4B.Ullage_4286753912
-	attN = top,bluedog.Saturn.S4B.InstrumentUnit_4286766640_0|3.21490002|0_0|1|0_0|6.09819984|0_0|1|0
+	attN = top,bluedog.Saturn.S4B.InstrumentUnit_4286766640_0|3.21490002|0_0|1|0_0|4.73649979|0_0|1|0
 	attN = bottom,bluedog.Saturn.S4B.EngineMount_4286764448_0|-3.21490002|0_0|-1|0_0|-3.21490002|0_0|-1|0
 	EVENTS
 	{
@@ -6843,7 +6843,7 @@ PART
 	{
 		name = ModuleSystemHeatCryoTank
 		isEnabled = True
-		LastUpdateTime = 12359.334082200461
+		LastUpdateTime = 12632.074082206414
 		CoolingAllowed = True
 		CoolingEnabled = False
 		BoiloffOccuring = False
@@ -6877,7 +6877,7 @@ PART
 		isEnabled = True
 		stagingEnabled = True
 		moduleID = meshSwitchLength
-		currentSubtype = 3m Extension
+		currentSubtype = 1.5m Extension
 		EVENTS
 		{
 		}
@@ -7027,8 +7027,8 @@ PART
 	RESOURCE
 	{
 		name = LqdHydrogen
-		amount = 81375
-		maxAmount = 81375
+		amount = 67500
+		maxAmount = 67500
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7038,8 +7038,8 @@ PART
 	RESOURCE
 	{
 		name = Oxidizer
-		amount = 5425
-		maxAmount = 5425
+		amount = 4500
+		maxAmount = 4500
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7052,7 +7052,7 @@ PART
 	part = bluedog.Saturn.S4B.EngineMount_4286764448
 	partName = Part
 	persistentId = 1551420346
-	pos = 0.026673384,25.7521057,-0.194545612
+	pos = 0.026673384,27.1138058,-0.194545612
 	attPos = 0,0,0
 	attPos0 = 0,-3.85355186,0
 	rot = 0,0,0,1
@@ -7277,7 +7277,7 @@ PART
 	part = bluedog.Saturn.Engine.J2_4286764192
 	partName = Part
 	persistentId = 3652562522
-	pos = 0.026673384,22.6923141,-0.194545612
+	pos = 0.026673384,24.0540142,-0.194545612
 	attPos = 0,0,0
 	attPos0 = 0,-3.05979156,0
 	rot = 0,0,0,1
@@ -7290,8 +7290,8 @@ PART
 	istg = 2
 	resPri = 0
 	dstg = 5
-	sidx = 1
-	sqor = 2
+	sidx = 0
+	sqor = 3
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
@@ -7779,7 +7779,7 @@ PART
 	part = bluedog.Saturn.S1B.Interstage_4286764002
 	partName = Part
 	persistentId = 4073439597
-	pos = 0.026673384,23.240406,-0.194545612
+	pos = 0.026673384,24.6021061,-0.194545612
 	attPos = 0,0,0
 	attPos0 = 0,-2.51169968,0
 	rot = 0,0,0,1
@@ -7792,8 +7792,8 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 5
-	sidx = 2
-	sqor = 3
+	sidx = 1
+	sqor = 4
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -8149,7 +8149,7 @@ PART
 	part = bluedog.Saturn.S1.Tanks_4286762770
 	partName = Part
 	persistentId = 626844713
-	pos = 0.026673384,15.0836086,-0.194545612
+	pos = 0.026673384,16.4453087,-0.194545612
 	attPos = 0,0,0
 	attPos0 = 0,-8.15679741,0
 	rot = 0,0,0,1
@@ -8360,7 +8360,7 @@ PART
 	{
 		name = ModuleSystemHeatCryoTank
 		isEnabled = True
-		LastUpdateTime = 12359.334082200461
+		LastUpdateTime = 12632.074082206414
 		CoolingAllowed = True
 		CoolingEnabled = False
 		BoiloffOccuring = False
@@ -8449,7 +8449,7 @@ PART
 	part = bluedog.Saturn.S1.EngineMount_4286760542
 	partName = Part
 	persistentId = 1831983487
-	pos = 0.026673384,7.73341751,-0.194545612
+	pos = 0.026673384,9.09511948,-0.194545612
 	attPos = 0,0,0
 	attPos0 = 0,-7.35018921,0
 	rot = 0,0,0,1
@@ -8627,7 +8627,7 @@ PART
 	part = bluedog.Saturn.Engine.H1C_4286758618
 	partName = Part
 	persistentId = 550067190
-	pos = -0.437805295,6.79615402,-0.194545612
+	pos = -0.437805295,8.15785599,-0.194545612
 	attPos = 0,0,0
 	attPos0 = -0.464478523,-0.937263489,-5.96046448E-08
 	rot = 3.72528994E-08,0,-0.034899503,0.999390841
@@ -8641,7 +8641,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 0
-	sqor = 5
+	sqor = 6
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -9118,7 +9118,7 @@ PART
 	part = bluedog.Saturn.Engine.H1C_4286758518
 	partName = Part
 	persistentId = 429820080
-	pos = 0.0266734436,6.79615402,0.269932985
+	pos = 0.0266734436,8.15785599,0.269932985
 	attPos = 0,0,0
 	attPos0 = -5.96046448E-08,-0.937263489,0.464478493
 	rot = -0.0246776547,0.706676066,-0.0246777032,0.706676066
@@ -9132,7 +9132,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 0
-	sqor = 5
+	sqor = 6
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -9601,7 +9601,7 @@ PART
 	part = bluedog.Saturn.Engine.H1C_4286758418
 	partName = Part
 	persistentId = 4161943143
-	pos = 0.491152108,6.79615402,-0.194545612
+	pos = 0.491152108,8.15785599,-0.194545612
 	attPos = 0,0,0
 	attPos0 = 0.464478552,-0.937263489,5.96046448E-08
 	rot = -0.0348995067,0.999390841,-3.35276091E-08,-8.94069601E-08
@@ -9615,7 +9615,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 0
-	sqor = 5
+	sqor = 6
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -10084,7 +10084,7 @@ PART
 	part = bluedog.Saturn.Engine.H1C_4286758318
 	partName = Part
 	persistentId = 3737674553
-	pos = 0.0266733244,6.79615402,-0.659024298
+	pos = 0.0266733244,8.15785599,-0.659024298
 	attPos = 0,0,0
 	attPos0 = 5.96046448E-08,-0.937263489,-0.464478552
 	rot = -0.0246777032,0.706676066,0.0246776547,-0.706676066
@@ -10098,7 +10098,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 0
-	sqor = 5
+	sqor = 6
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -10567,7 +10567,7 @@ PART
 	part = bluedog.Saturn.Engine.H1D_4286758218
 	partName = Part
 	persistentId = 325579568
-	pos = 1.17063987,6.82050705,0.949420094
+	pos = 1.17063987,8.18220901,0.949420094
 	attPos = 0,0,0
 	attPos0 = 1.14396584,-0.912910461,1.14396572
 	rot = -0.0308435746,0,0.0308435559,0.999048233
@@ -10581,7 +10581,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 1
-	sqor = 5
+	sqor = 6
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -11154,7 +11154,7 @@ PART
 	part = bluedog.Saturn.Engine.H1D_4286757884
 	partName = Part
 	persistentId = 4016044535
-	pos = 1.1706394,6.82050705,-1.33851206
+	pos = 1.1706394,8.18220901,-1.33851206
 	attPos = 0,0,0
 	attPos0 = 1.14396584,-0.912910461,-1.14396584
 	rot = -1.30385125E-08,0.706433773,0.0436193869,0.706433773
@@ -11168,7 +11168,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 1
-	sqor = 5
+	sqor = 6
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -11733,7 +11733,7 @@ PART
 	part = bluedog.Saturn.Engine.H1D_4286757550
 	partName = Part
 	persistentId = 2819620900
-	pos = -1.11729276,6.82050705,-1.33851159
+	pos = -1.11729276,8.18220901,-1.33851159
 	attPos = 0,0,0
 	attPos0 = -1.14396584,-0.912910461,-1.14396584
 	rot = 0.0308435578,0.999048233,0.0308435727,-8.94069601E-08
@@ -11747,7 +11747,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 1
-	sqor = 5
+	sqor = 6
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -12312,7 +12312,7 @@ PART
 	part = bluedog.Saturn.Engine.H1D_4286757216
 	partName = Part
 	persistentId = 3613299774
-	pos = -1.11729228,6.82050705,0.949420571
+	pos = -1.11729228,8.18220901,0.949420571
 	attPos = 0,0,0
 	attPos0 = -1.14396584,-0.912910461,1.14396572
 	rot = 0.0436193869,0.706433773,1.30385125E-08,-0.706433773
@@ -12326,7 +12326,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 1
-	sqor = 5
+	sqor = 6
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -12891,7 +12891,7 @@ PART
 	part = bluedog.Saturn.S1.LargeFin_4286756882
 	partName = Part
 	persistentId = 1320234994
-	pos = -1.4596709,7.0342598,-1.68088973
+	pos = -1.4596709,8.39596176,-1.68088973
 	attPos = 0,0,0
 	attPos0 = -1.48634398,-0.699157715,-1.48634386
 	rot = 0,0.382683456,0,-0.923879564
@@ -13055,7 +13055,7 @@ PART
 	part = bluedog.Saturn.S1.LargeFin_4286756748
 	partName = Part
 	persistentId = 690326573
-	pos = -1.45967042,7.0342598,1.29179871
+	pos = -1.45967042,8.39596176,1.29179871
 	attPos = 0,0,0
 	attPos0 = -1.48634386,-0.699157715,1.48634386
 	rot = 0,-0.382683456,0,-0.923879564
@@ -13219,7 +13219,7 @@ PART
 	part = bluedog.Saturn.S1.LargeFin_4286756614
 	partName = Part
 	persistentId = 1363920406
-	pos = 1.51301801,7.0342598,1.29179811
+	pos = 1.51301801,8.39596176,1.29179811
 	attPos = 0,0,0
 	attPos0 = 1.4863441,-0.699157715,1.48634374
 	rot = 0,-0.923879564,0,-0.382683456
@@ -13383,7 +13383,7 @@ PART
 	part = bluedog.Saturn.S1.LargeFin_4286756480
 	partName = Part
 	persistentId = 3081778068
-	pos = 1.5130173,7.0342598,-1.68089044
+	pos = 1.5130173,8.39596176,-1.68089044
 	attPos = 0,0,0
 	attPos0 = 1.48634374,-0.699157715,-1.48634398
 	rot = 0,-0.923879564,0,0.382683456
@@ -13547,7 +13547,7 @@ PART
 	part = bluedog.Saturn.S1.SmallFin_4286756346
 	partName = Part
 	persistentId = 3490133819
-	pos = -2.06556964,7.19391251,-0.194544896
+	pos = -2.06556964,8.55561447,-0.194544896
 	attPos = 0,0,0
 	attPos0 = -2.09224248,-0.539505005,1.1920929E-07
 	rot = 0,-2.08616228E-07,0,1
@@ -13711,7 +13711,7 @@ PART
 	part = bluedog.Saturn.S1.SmallFin_4286756228
 	partName = Part
 	persistentId = 2936491255
-	pos = 0.0266738608,7.19391251,1.89769709
+	pos = 0.0266738608,8.55561447,1.89769709
 	attPos = 0,0,0
 	attPos0 = 0,-0.539505005,2.09224224
 	rot = 0,0.707106709,0,0.707106948
@@ -13875,7 +13875,7 @@ PART
 	part = bluedog.Saturn.S1.SmallFin_4286756110
 	partName = Part
 	persistentId = 1513040921
-	pos = 2.11891627,7.19391251,-0.194546327
+	pos = 2.11891627,8.55561447,-0.194546327
 	attPos = 0,0,0
 	attPos0 = 2.09224248,-0.539505005,-2.98023224E-07
 	rot = 0,1,0,1.19209275E-07
@@ -14039,7 +14039,7 @@ PART
 	part = bluedog.Saturn.S1.SmallFin_4286755992
 	partName = Part
 	persistentId = 2547641201
-	pos = 0.0266726688,7.19391251,-2.28678823
+	pos = 0.0266726688,8.55561447,-2.28678823
 	attPos = 0,0,0
 	attPos0 = -2.38418579E-07,-0.539505005,-2.09224224
 	rot = 0,0.707106948,0,-0.707106709
@@ -14203,7 +14203,7 @@ PART
 	part = AM.MLP.LargeLaunchStand_4286755874
 	partName = Part
 	persistentId = 349488615
-	pos = 0.026673384,-1.5165863,-0.194545612
+	pos = 0.026673384,-0.154884338,-0.194545612
 	attPos = 0,0,0
 	attPos0 = 0,-9.25,0
 	rot = 0,-0.707106829,0,-0.707106829
@@ -14217,7 +14217,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 0
-	sqor = 4
+	sqor = 5
 	sepI = 4
 	attm = 0
 	sameVesselCollision = False
@@ -14254,8 +14254,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.696682751
-		height = 3.4834137
+		scaleFactor = 0.969023108
+		height = 4.84511566
 		stagingEnabled = True
 		towerRot = 0,0.707106829,0,-0.707106829
 		EVENTS
@@ -14540,7 +14540,7 @@ PART
 	part = bluedog.Saturn.S4B.APS.200_4286754308
 	partName = Part
 	persistentId = 1611335755
-	pos = 0.0266735628,25.6044197,-2.39457822
+	pos = 0.0266735628,26.9661198,-2.39457822
 	attPos = 0,0,0
 	attPos0 = 1.78813934E-07,-0.147689819,-2.20003271
 	rot = 0,-1,0,-1.74622912E-08
@@ -14801,7 +14801,7 @@ PART
 	part = bluedog.Saturn.S4B.APS.200_4286754240
 	partName = Part
 	persistentId = 3803180682
-	pos = 0.026673384,25.6044197,2.0054872
+	pos = 0.026673384,26.9661198,2.0054872
 	attPos = 0,0,0
 	attPos0 = 0,-0.147689819,2.20003271
 	rot = 0,2.62490971E-08,0,1
@@ -15062,7 +15062,7 @@ PART
 	part = bluedog.Saturn.S4B.Ullage_4286754172
 	partName = Part
 	persistentId = 3515648521
-	pos = -2.23072386,26.5029716,-0.194545135
+	pos = -2.23072386,27.8646717,-0.194545135
 	attPos = 0,0,0
 	attPos0 = -2.2573967,-3.10268402,0
 	rot = 0,-1,0,2.08616228E-07
@@ -15076,7 +15076,7 @@ PART
 	resPri = 0
 	dstg = 4
 	sidx = 0
-	sqor = 3
+	sqor = 4
 	sepI = 3
 	attm = 1
 	sameVesselCollision = False
@@ -15398,7 +15398,7 @@ PART
 	part = bluedog.Saturn.S4B.Ullage_4286754042
 	partName = Part
 	persistentId = 3475291118
-	pos = 1.15537274,26.5029716,1.76041734
+	pos = 1.15537274,27.8646717,1.76041734
 	attPos = 0,0,0
 	attPos0 = 1.12869883,-3.10268402,1.95496261
 	rot = 0,-0.499999851,0,0.866025507
@@ -15412,7 +15412,7 @@ PART
 	resPri = 0
 	dstg = 4
 	sidx = 0
-	sqor = 3
+	sqor = 4
 	sepI = 3
 	attm = 1
 	sameVesselCollision = False
@@ -15726,7 +15726,7 @@ PART
 	part = bluedog.Saturn.S4B.Ullage_4286753912
 	partName = Part
 	persistentId = 806325834
-	pos = 1.15537155,26.5029716,-2.14950967
+	pos = 1.15537155,27.8646717,-2.14950967
 	attPos = 0,0,0
 	attPos0 = 1.12869823,-3.10268402,-1.95496321
 	rot = 0,0.500000238,0,0.866025329
@@ -15740,7 +15740,7 @@ PART
 	resPri = 0
 	dstg = 4
 	sidx = 0
-	sqor = 3
+	sqor = 4
 	sepI = 3
 	attm = 1
 	sameVesselCollision = False
@@ -17707,7 +17707,7 @@ PART
 	part = bluedog.Saturn.S1.Retro_4286754612
 	partName = Part
 	persistentId = 2975654698
-	pos = -2.05823255,20.024395,-0.194545493
+	pos = -2.05823255,21.386095,-0.194545493
 	attPos = 0,0,0
 	attPos0 = -2.08490586,4.94078636,1.1920929E-07
 	rot = 0,-1,0,1.68587405E-07
@@ -17720,7 +17720,7 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 6
-	sidx = 1
+	sidx = 2
 	sqor = 3
 	sepI = 3
 	attm = 1
@@ -18004,7 +18004,7 @@ PART
 	part = bluedog.Saturn.S1.Retro_4290357226
 	partName = Part
 	persistentId = 2244866968
-	pos = 0.0266733784,20.024395,1.89036
+	pos = 0.0266733784,21.386095,1.89036
 	attPos = 0,0,0
 	attPos0 = -5.58793545E-09,4.94078636,2.08490562
 	rot = 0,-0.70710665,0,0.707106888
@@ -18017,7 +18017,7 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 6
-	sidx = 1
+	sidx = 2
 	sqor = 3
 	sepI = 3
 	attm = 1
@@ -18301,7 +18301,7 @@ PART
 	part = bluedog.Saturn.S1.Retro_4290357146
 	partName = Part
 	persistentId = 3820708539
-	pos = 2.11157918,20.024395,-0.19454591
+	pos = 2.11157918,21.386095,-0.19454591
 	attPos = 0,0,0
 	attPos0 = 2.08490586,4.94078636,-2.98023224E-07
 	rot = 0,2.12298801E-07,0,1
@@ -18314,7 +18314,7 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 6
-	sidx = 1
+	sidx = 2
 	sqor = 3
 	sepI = 3
 	attm = 1
@@ -18598,7 +18598,7 @@ PART
 	part = bluedog.Saturn.S1.Retro_4290357066
 	partName = Part
 	persistentId = 1243450801
-	pos = 0.02667314,20.024395,-2.27945113
+	pos = 0.02667314,21.386095,-2.27945113
 	attPos = 0,0,0
 	attPos0 = -2.44006515E-07,4.94078636,-2.08490562
 	rot = 0,0.707106888,0,0.70710665
@@ -18611,7 +18611,7 @@ PART
 	istg = 3
 	resPri = 0
 	dstg = 6
-	sidx = 1
+	sidx = 2
 	sqor = 3
 	sepI = 3
 	attm = 1
