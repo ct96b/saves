@@ -1,0 +1,34 @@
+craftName = Orion
+cachedCraftData
+{
+	origChecksum = 80b94ec7435c71ba3f3da02f35000d6c
+	cacheVersion = 3
+	name = Orion
+	kspVersion = 1.12.5
+	stagesCount = 4
+	cost = 30415.0742
+	partCount = 38
+	mass = 43.1982689
+	description = 
+	crewCapacity = 6
+	partNames = DIRECT.Orion
+	partNames = DIRECT.orionHeatShield
+	partNames = DIRECT.orionAvionicsRing
+	partNames = parachuteRadial
+	partNames = mumech.MJ2.AR202
+	partNames = DIRECT.orion.ServiceModule
+	partNames = DIRECT.orion.LinearRCSBlock
+	partNames = bluedog.LM.Descent.Engine
+	partNames = DIRECT.Orion.FairingBase
+	partNames = DIRECT.SLS.ICPS
+	partNames = DIRECT.KL10.B
+	partNames = AM.MLP.SoyuzLaunchBase
+	partNames = DIRECT.orion.RCSBlock
+	partNames = DIRECT.orionSolarPanel
+	partNames = DIRECT.orionServiceCone
+	partNames = radialDrogue
+	partNames = bluedog.Decoupler.1p25m
+	partNames = bluedog.Apollo.CADS.active
+	partNames = fairingSize1
+	partNames = DIRECT.LaunchEscapeSystem
+}

@@ -1,14 +1,14 @@
 craftName = SpaceLab Propulsion Module
 cachedCraftData
 {
-	origChecksum = fd6c2c3518b065d05a14a63bef55b50d
+	origChecksum = 0f806c064396d5f91d39903c84cc0c2c
 	cacheVersion = 3
 	name = SpaceLab Propulsion Module
 	kspVersion = 1.12.5
 	stagesCount = 6
-	cost = 360573.188
-	partCount = 72
-	mass = 1754.03247
+	cost = 361323.188
+	partCount = 73
+	mass = 1754.03259
 	description = 
 	crewCapacity = 10
 	partNames = bluedog.Saturn.S4B.InstrumentUnit
@@ -46,4 +46,5 @@ cachedCraftData
 	partNames = BDB.FASAlaunchClampApollo
 	partNames = bluedog.Saturn.S2.Ullage
 	partNames = bluedog.Saturn.S4B.SLA.JettisonPanel
+	partNames = mumech.MJ2.AR202
 }

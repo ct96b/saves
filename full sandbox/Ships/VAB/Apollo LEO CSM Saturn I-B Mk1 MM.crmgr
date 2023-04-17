@@ -1,1 +1,46 @@
 craftName = Apollo LEO CSM Saturn I-B Mk1 MM
+cachedCraftData
+{
+	origChecksum = 5c86cee1d3271e1d7cea8ea51b47a075
+	cacheVersion = 3
+	name = Apollo LEO CSM Saturn I-B Mk1 MM
+	kspVersion = 1.12.5
+	stagesCount = 5
+	cost = 88661.7109
+	partCount = 58
+	mass = 174.809433
+	description = 
+	crewCapacity = 5
+	partNames = bluedog.Apollo.CrewPod
+	partNames = bluedog.Apollo.MainChute
+	partNames = bluedog.Apollo.Heatshield
+	partNames = bluedog.Apollo.Decoupler
+	partNames = bluedog.Apollo.ParachuteCover
+	partNames = bluedog.Apollo.ProbeDockingPort
+	partNames = bluedog.Apollo.LES
+	partNames = bluedog.Apollo.Block2.SM
+	partNames = bluedog.Apollo.EngineMount
+	partNames = bluedog.Apollo.Block2.SPS
+	partNames = bluedog.Apollo.Block2.highGain
+	partNames = bluedog.Apollo.ScimitarAntenna
+	partNames = bluedog.Apollo.RCS.45
+	partNames = bluedog.Saturn.S4B.SLA
+	partNames = bluedog.Saturn.S4B.InstrumentUnit
+	partNames = bluedog.Saturn.S4B.Tank
+	partNames = bluedog.Saturn.S4B.EngineMount
+	partNames = bluedog.Saturn.Engine.J2
+	partNames = bluedog.Saturn.S1B.Interstage
+	partNames = bluedog.Saturn.S1.Tanks
+	partNames = bluedog.Saturn.S1.EngineMount
+	partNames = bluedog.Saturn.Engine.H1C
+	partNames = bluedog.Saturn.Engine.H1D
+	partNames = bluedog.Saturn.S1.LargeFin
+	partNames = bluedog.Saturn.S1.SmallFin
+	partNames = AM.MLP.LargeLaunchStand
+	partNames = bluedog.Saturn.S4B.APS.200
+	partNames = bluedog.Saturn.S4B.Ullage
+	partNames = bluedog.Apollo.Block3.MissionModule
+	partNames = bluedog.Apollo.ConeDockingPort
+	partNames = bluedog.OGO.SolarPanel.Basic
+	partNames = bluedog.Saturn.S1.Retro
+}

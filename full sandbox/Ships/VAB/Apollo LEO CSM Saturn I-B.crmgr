@@ -1,14 +1,14 @@
 craftName = Apollo LEO CSM Saturn I-B
 cachedCraftData
 {
-	origChecksum = 250a20501ebebae28a71f853c7ecedcb
+	origChecksum = 03e870dabe7d33dd67ef9dc0e12f990f
 	cacheVersion = 3
 	name = Apollo LEO CSM Saturn I-B
 	kspVersion = 1.12.5
 	stagesCount = 6
-	cost = 76782.5
+	cost = 86350.0156
 	partCount = 51
-	mass = 156.59166
+	mass = 199.47023
 	description = 
 	crewCapacity = 3
 	partNames = bluedog.Apollo.CrewPod
@@ -37,7 +37,7 @@ cachedCraftData
 	partNames = bluedog.Saturn.S1.LargeFin
 	partNames = bluedog.Saturn.S1.SmallFin
 	partNames = AM.MLP.LargeLaunchStand
-	partNames = bluedog.Saturn.S1.Retro
 	partNames = bluedog.Saturn.S4B.APS.200
 	partNames = bluedog.Saturn.S4B.Ullage
+	partNames = bluedog.Saturn.S1.Retro
 }

@@ -1,0 +1,41 @@
+craftName = Artemis SLS Bl1
+cachedCraftData
+{
+	origChecksum = 88a930d8d56df10ea03f5c2e97bb1c31
+	cacheVersion = 3
+	name = Artemis SLS Bl1
+	kspVersion = 1.12.5
+	stagesCount = 8
+	cost = 216729.688
+	partCount = 51
+	mass = 469.95697
+	description = 
+	crewCapacity = 6
+	partNames = DIRECT.Orion
+	partNames = parachuteRadial
+	partNames = mumech.MJ2.AR202
+	partNames = DIRECT.orionServiceCone
+	partNames = radialDrogue
+	partNames = bluedog.Decoupler.1p25m
+	partNames = bluedog.Apollo.CADS.active
+	partNames = fairingSize1
+	partNames = DIRECT.LaunchEscapeSystem
+	partNames = DIRECT.orionHeatShield
+	partNames = DIRECT.orionAvionicsRing
+	partNames = DIRECT.orion.ServiceModule
+	partNames = DIRECT.orion.LinearRCSBlock
+	partNames = bluedog.LM.Descent.Engine
+	partNames = DIRECT.Orion.FairingBase
+	partNames = DIRECT.SLS.ICPS
+	partNames = DIRECT.KL10.B
+	partNames = DIRECT.orion.RCSBlock
+	partNames = DIRECT.orionSolarPanel
+	partNames = DIRECT.payloadAdapter1
+	partNames = DIRECT.jupiter.tank
+	partNames = DIRECT.STS.tank.stack
+	partNames = DIRECT.SLS.engineMount
+	partNames = DIRECT.SSME.B
+	partNames = DIRECT.SRB.decoupler
+	partNames = DIRECT.SRB.5
+	partNames = DIRECT.SRB.cone
+}

@@ -1,0 +1,70 @@
+version = 5
+availableTag = -Archived?
+availableTag = Bodies\Kerbin
+availableTag = Bodies\Kerbin\Mun
+availableTag = Bodies\Kerbin\Minmus
+availableTag = Bodies\Duna
+availableTag = Type\Crewed
+availableTag = Type\Lander
+availableTag = Type\Lifters
+availableTag = Type\LKO
+availableTag = Type\Orbit
+availableTag = Type\Satellite
+availableTag = Type\Spaceplanes
+availableTag = Type\SpaceStation
+availableTag = Type\Stock
+availableTag = Type\Rover
+availableTag = Type\Unmanned
+availableTag = Status\Prototype
+availableTag = Status\Final
+availableTag = Apollo
+availableTag = STS
+SphInSph_isRestFilterTagsCollapsed = False
+SphInSph_isRestManagementTagsCollapsed = False
+SphInSph_filterText = 
+SphInVab_isRestFilterTagsCollapsed = False
+SphInVab_isRestManagementTagsCollapsed = False
+SphInVab_filterText = 
+VabInSph_isRestFilterTagsCollapsed = False
+VabInSph_isRestManagementTagsCollapsed = False
+VabInSph_filterText = 
+VabInVab_isRestFilterTagsCollapsed = False
+VabInVab_isRestManagementTagsCollapsed = False
+VabInVab_filterText = 
+guiStyle = KSP
+craftSorting
+{
+	sortingId = byName
+	sortingData = 
+	isReversed = False
+}
+craftSorting
+{
+	sortingId = byCrewCapacity
+	sortingData = 
+	isReversed = False
+}
+craftSorting
+{
+	sortingId = byMass
+	sortingData = 
+	isReversed = False
+}
+craftSorting
+{
+	sortingId = byStagesCount
+	sortingData = 
+	isReversed = False
+}
+craftSorting
+{
+	sortingId = byCost
+	sortingData = 
+	isReversed = False
+}
+craftSorting
+{
+	sortingId = byName
+	sortingData = 
+	isReversed = False
+}

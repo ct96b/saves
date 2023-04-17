@@ -2,9 +2,9 @@ ship = Saturn IB
 version = 1.12.5
 description = Use RSS Ascent Profile
 type = None
-size = 6.29587269,36.9028816,6.32102108
+size = 6.29587269,32.7868462,6.32102108
 steamPublishedFileId = 0
-persistentId = 2359183400
+persistentId = 3199523234
 rot = 0,0,0,0
 missionFlag = 
 vesselType = Debris
@@ -14,350 +14,12 @@ OverrideAxisControl = 0,0,0,0
 OverrideGroupNames = ,,,
 PART
 {
-	part = bluedog.Saturn.S4B.SLA_4287157804
-	partName = Part
-	persistentId = 1824606137
-	pos = 0.0941352844,33.1492348,-0.586673319
-	attPos = 0,0,0
-	attPos0 = 0,-7.04904938,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,-1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 3
-	sidx = 0
-	sqor = 1
-	sepI = 0
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = bluedog.Saturn.S4B.InstrumentUnit_4287107692
-	attN = bottom,bluedog.Saturn.S4B.InstrumentUnit_4287107692_0|-0.20984|0_0|-1|0_0|-0.20984|0_0|-1|0
-	attN = payload,Null_0_0|0.365839005|0_0|1|0_0|0.365839005|0_0|1|0
-	attN = top,bluedog.Saturn.S4.Boilerplate_4287259310_0|5.3039999|0_0|1|0_0|5.3039999|0_0|1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleBdbDecouplerAnimation
-		isEnabled = True
-		animPosition = 0
-		animSpeed = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoBay
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleDecouple
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = None
-				active = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleDecouple
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = meshSwitchFairing
-		currentSubtype = Open
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = meshSwitchPayload
-		currentSubtype = LM
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleToggleCrossfeed
-		isEnabled = True
-		crossfeedStatus = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			EnableAction
-			{
-				actionGroup = None
-			}
-			DisableAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSparesContainer
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTankReliability
-		isEnabled = True
-		pole = 0.01
-		MaxTC = 360
-		MinTC = 90
-		leakName = none
-		MTBF = 350400
-		LifeTime = 131400
-		RepairCost = 1
-		RepairBonus = 0.100000001
-		MaintenanceCost = 1
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 7200
-		Silent = False
-		Priority = HIGH
-		PerksRequirementName = Engineer
-		PerksRequirementValue = 1
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = SpareParts
-		amount = 20
-		maxAmount = 150
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = bluedog.Saturn.S4B.InstrumentUnit_4287107692
+	part = bluedog.Saturn.S4B.InstrumentUnit_4287343212
 	partName = Part
 	persistentId = 3027316254
-	pos = 0.0941352844,32.675724,-0.586673319
+	pos = -0.816232562,19.7105999,2.5865941
 	attPos = 0,0,0
-	attPos0 = 0,-0.473509789,0
+	attPos0 = -0.816232562,19.7105999,2.5865941
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -365,20 +27,20 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 0
 	resPri = 0
-	dstg = 4
+	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = -1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = bluedog.Saturn.S4B.Tank_4287092666
-	attN = top,bluedog.Saturn.S4B.SLA_4287157804_0|0.263669997|0_0|1|0_0|0.263669997|0_0|1|0
-	attN = bottom,bluedog.Saturn.S4B.Tank_4287092666_0|-0.361330003|0_0|-1|0_0|-0.361330003|0_0|-1|0
+	link = bluedog.Saturn.S4B.Tank_4287341186
+	attN = top,Null_0_0|0.263669997|0_0|1|0_0|0.263669997|0_0|1|0
+	attN = bottom,bluedog.Saturn.S4B.Tank_4287341186_0|-0.361330003|0_0|-1|0_0|-0.361330003|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -842,10 +504,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S4B.Tank_4287092666
+	part = bluedog.Saturn.S4B.Tank_4287341186
 	partName = Part
 	persistentId = 1274425120
-	pos = 0.0941352844,29.0994949,-0.586673319
+	pos = -0.816232562,16.1343708,2.5865941
 	attPos = 0,0,0
 	attPos0 = 0,-3.576231,0
 	rot = 0,0,0,1
@@ -855,23 +517,23 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 0
 	resPri = 0
-	dstg = 4
+	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = -1
 	attm = 0
 	sameVesselCollision = False
 	modCost = -0.000726938248
 	modMass = 1.22119673E-07
 	modSize = 0,0,0
-	link = bluedog.Saturn.S4B.EngineMount_4286831518
-	link = bluedog.Saturn.S4B.Ullage_4286540784
-	link = bluedog.Saturn.S4B.Ullage_4286537600
-	link = bluedog.Saturn.S4B.Ullage_4286537466
-	attN = top,bluedog.Saturn.S4B.InstrumentUnit_4287107692_0|3.21490002|0_0|1|0_0|3.21490002|0_0|1|0
-	attN = bottom,bluedog.Saturn.S4B.EngineMount_4286831518_0|-3.21490002|0_0|-1|0_0|-3.21490002|0_0|-1|0
+	link = bluedog.Saturn.S4B.EngineMount_4287341020
+	link = bluedog.Saturn.S4B.Ullage_4287330744
+	link = bluedog.Saturn.S4B.Ullage_4287330614
+	link = bluedog.Saturn.S4B.Ullage_4287330484
+	attN = top,bluedog.Saturn.S4B.InstrumentUnit_4287343212_0|3.21490002|0_0|1|0_0|3.21490002|0_0|1|0
+	attN = bottom,bluedog.Saturn.S4B.EngineMount_4287341020_0|-3.21490002|0_0|-1|0_0|-3.21490002|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -935,7 +597,7 @@ PART
 	{
 		name = ModuleSystemHeatCryoTank
 		isEnabled = True
-		LastUpdateTime = 9156.5805860371511
+		LastUpdateTime = 16134.638740454091
 		CoolingAllowed = True
 		CoolingEnabled = False
 		BoiloffOccuring = False
@@ -1141,10 +803,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S4B.EngineMount_4286831518
+	part = bluedog.Saturn.S4B.EngineMount_4287341020
 	partName = Part
 	persistentId = 4092632283
-	pos = 0.0941352844,25.245945,-0.586673319
+	pos = -0.816232562,12.2808208,2.5865941
 	attPos = 0,0,0
 	attPos0 = 0,-3.85355186,0
 	rot = 0,0,0,1
@@ -1154,24 +816,24 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 0
 	resPri = 0
-	dstg = 4
+	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = -1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = bluedog.Saturn.Engine.J2_4286814632
-	link = bluedog.Saturn.S1B.Interstage_4286985606
-	link = bluedog.Saturn.S4B.APS.200_4285907182
-	link = bluedog.Saturn.S4B.APS.200_4285906630
-	attN = top,bluedog.Saturn.S4B.Tank_4287092666_0|0.63865|0_0|1|0_0|0.63865|0_0|1|0
-	attN = bottom,bluedog.Saturn.S1B.Interstage_4286985606_0|-0.748600006|0_0|-1|0_0|-0.748600006|0_0|-1|0
-	attN = engine,bluedog.Saturn.Engine.J2_4286814632_0|-2.08430004|0_0|-1|0_0|-2.08430004|0_0|-1|0
+	link = bluedog.Saturn.Engine.J2_4287340764
+	link = bluedog.Saturn.S1B.Interstage_4287340574
+	link = bluedog.Saturn.S4B.APS.200_4287330880
+	link = bluedog.Saturn.S4B.APS.200_4287330812
+	attN = top,bluedog.Saturn.S4B.Tank_4287341186_0|0.63865|0_0|1|0_0|0.63865|0_0|1|0
+	attN = bottom,bluedog.Saturn.S1B.Interstage_4287340574_0|-0.748600006|0_0|-1|0_0|-0.748600006|0_0|-1|0
+	attN = engine,bluedog.Saturn.Engine.J2_4287340764_0|-2.08430004|0_0|-1|0_0|-2.08430004|0_0|-1|0
 	attN = LASS_node1,Null_0_1.18606234|-2.75033855|5.03682429E-08_0.155099243|-0.987899065|-1.44354999E-07_1.18606234|-2.75033855|5.03682429E-08_0.155099243|-0.987899065|-1.44354999E-07
 	attN = LASS_node2,Null_0_-1.18599999|-2.75033855|5.03682429E-08_-0.155106992|-0.987897694|8.1025064E-08_-1.18599999|-2.75033855|5.03682429E-08_-0.155106992|-0.987897694|8.1025064E-08
 	attN = Dual_1,Null_0_-0.86438936|-2.08321071|4.00557269E-07_0|-0.99999994|1.78813934E-07_-0.86438936|-2.08321071|4.00557269E-07_0|-0.99999994|1.78813934E-07
@@ -1366,10 +1028,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.Engine.J2_4286814632
+	part = bluedog.Saturn.Engine.J2_4287340764
 	partName = Part
 	persistentId = 3373949518
-	pos = 0.0941352844,22.1861534,-0.586673319
+	pos = -0.816232562,9.22102928,2.5865941
 	attPos = 0,0,0
 	attPos0 = 0,-3.05979156,0
 	rot = 0,0,0,1
@@ -1379,18 +1041,18 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 3
+	istg = 1
 	resPri = 0
-	dstg = 5
+	dstg = 1
 	sidx = 0
 	sqor = 2
-	sepI = 0
+	sepI = -1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	attN = top,bluedog.Saturn.S4B.EngineMount_4286831518_0|0.975489974|0_0|1|0_0|0.975489974|0_0|1|0
+	attN = top,bluedog.Saturn.S4B.EngineMount_4287341020_0|0.975489974|0_0|1|0_0|0.975489974|0_0|1|0
 	attN = bottom,Null_0_0|-1.06669998|0_0|-1|0_0|-1.06669998|0_0|-1|0
 	EVENTS
 	{
@@ -1868,10 +1530,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1B.Interstage_4286985606
+	part = bluedog.Saturn.S1B.Interstage_4287340574
 	partName = Part
 	persistentId = 2190295304
-	pos = 0.0941352844,22.7342415,-0.586673319
+	pos = -0.816232562,9.76911736,2.5865941
 	attPos = 0,0,0
 	attPos0 = 0,-2.51169968,0
 	rot = 0,0,0,1
@@ -1881,20 +1543,20 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 5
+	dstg = 1
 	sidx = 2
 	sqor = 3
-	sepI = 3
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0.0399999991
 	modSize = 0,0,0
-	link = bluedog.Saturn.S1.Tanks_4287144714
-	attN = top,bluedog.Saturn.S4B.EngineMount_4286831518_0|1.76310003|0_0|1|0_0|1.76310003|0_0|1|0
-	attN = bottom,bluedog.Saturn.S1.Tanks_4287144714_0|-1.76310003|0_0|-1|0_0|-1.76310003|0_0|-1|0
+	link = bluedog.Saturn.S1.Tanks_4287339342
+	attN = top,bluedog.Saturn.S4B.EngineMount_4287341020_0|1.76310003|0_0|1|0_0|1.76310003|0_0|1|0
+	attN = bottom,bluedog.Saturn.S1.Tanks_4287339342_0|-1.76310003|0_0|-1|0_0|-1.76310003|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -2238,10 +1900,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.Tanks_4287144714
+	part = bluedog.Saturn.S1.Tanks_4287339342
 	partName = Part
 	persistentId = 4217780033
-	pos = 0.0941352844,14.5774498,-0.586673319
+	pos = -0.816232562,1.61232567,2.5865941
 	attPos = 0,0,0
 	attPos0 = 0,-8.15679741,0
 	rot = 0,0,0,1
@@ -2251,24 +1913,24 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = -0.00128173828
 	modMass = -2.23517418E-07
 	modSize = 0,0,0
-	link = bluedog.Saturn.S1.EngineMount_4286962112
-	link = bluedog.Saturn.S1.Retro_4286542868
-	link = bluedog.Saturn.S1.Retro_4286542330
-	link = bluedog.Saturn.S1.Retro_4286542250
-	link = bluedog.Saturn.S1.Retro_4286542170
-	attN = top,bluedog.Saturn.S1B.Interstage_4286985606_0|6.39370012|0_0|1|0_0|6.39370012|0_0|1|0
-	attN = bottom,bluedog.Saturn.S1.EngineMount_4286962112_0|-6.39370012|0_0|-1|0_0|-6.39370012|0_0|-1|0
+	link = bluedog.Saturn.S1.EngineMount_4287337114
+	link = bluedog.Saturn.S1.Retro_4287331184
+	link = bluedog.Saturn.S1.Retro_4287331108
+	link = bluedog.Saturn.S1.Retro_4287331032
+	link = bluedog.Saturn.S1.Retro_4287330956
+	attN = top,bluedog.Saturn.S1B.Interstage_4287340574_0|6.39370012|0_0|1|0_0|6.39370012|0_0|1|0
+	attN = bottom,bluedog.Saturn.S1.EngineMount_4287337114_0|-6.39370012|0_0|-1|0_0|-6.39370012|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -2452,7 +2114,7 @@ PART
 	{
 		name = ModuleSystemHeatCryoTank
 		isEnabled = True
-		LastUpdateTime = 9156.5805860371511
+		LastUpdateTime = 16134.638740454091
 		CoolingAllowed = True
 		CoolingEnabled = False
 		BoiloffOccuring = False
@@ -2538,10 +2200,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.EngineMount_4286962112
+	part = bluedog.Saturn.S1.EngineMount_4287337114
 	partName = Part
 	persistentId = 701973586
-	pos = 0.0941352844,7.22726059,-0.586673319
+	pos = -0.816232562,-5.73786354,2.5865941
 	attPos = 0,0,0
 	attPos0 = 0,-7.35018921,0
 	rot = 0,0,0,1
@@ -2551,45 +2213,45 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = bluedog.Saturn.Engine.H1C_4286947352
-	link = bluedog.Saturn.Engine.H1C_4286944034
-	link = bluedog.Saturn.Engine.H1C_4286943930
-	link = bluedog.Saturn.Engine.H1C_4286943826
-	link = bluedog.Saturn.Engine.H1D_4286941268
-	link = bluedog.Saturn.Engine.H1D_4286940240
-	link = bluedog.Saturn.Engine.H1D_4286939902
-	link = bluedog.Saturn.Engine.H1D_4286939564
-	link = bluedog.Saturn.S1.LargeFin_4286922210
-	link = bluedog.Saturn.S1.LargeFin_4286919624
-	link = bluedog.Saturn.S1.LargeFin_4286919480
-	link = bluedog.Saturn.S1.LargeFin_4286919336
-	link = bluedog.Saturn.S1.SmallFin_4286918766
-	link = bluedog.Saturn.S1.SmallFin_4286916012
-	link = bluedog.Saturn.S1.SmallFin_4286915884
-	link = bluedog.Saturn.S1.SmallFin_4286915756
-	link = AM.MLP.LargeLaunchStand_4286120034
-	attN = top,bluedog.Saturn.S1.Tanks_4287144714_0|0.95648998|0_0|1|0_0|0.95648998|0_0|1|0
-	attN = bottom,AM.MLP.LargeLaunchStand_4286120034_0|-2.75|0_0|-1|0_0|-2.75|0_0|-1|0
+	link = bluedog.Saturn.Engine.H1C_4287335190
+	link = bluedog.Saturn.Engine.H1C_4287335090
+	link = bluedog.Saturn.Engine.H1C_4287334990
+	link = bluedog.Saturn.Engine.H1C_4287334890
+	link = bluedog.Saturn.Engine.H1D_4287334790
+	link = bluedog.Saturn.Engine.H1D_4287334456
+	link = bluedog.Saturn.Engine.H1D_4287334122
+	link = bluedog.Saturn.Engine.H1D_4287333788
+	link = bluedog.Saturn.S1.LargeFin_4287333454
+	link = bluedog.Saturn.S1.LargeFin_4287333320
+	link = bluedog.Saturn.S1.LargeFin_4287333186
+	link = bluedog.Saturn.S1.LargeFin_4287333052
+	link = bluedog.Saturn.S1.SmallFin_4287332918
+	link = bluedog.Saturn.S1.SmallFin_4287332800
+	link = bluedog.Saturn.S1.SmallFin_4287332682
+	link = bluedog.Saturn.S1.SmallFin_4287332564
+	link = AM.MLP.LargeLaunchStand_4287332446
+	attN = top,bluedog.Saturn.S1.Tanks_4287339342_0|0.95648998|0_0|1|0_0|0.95648998|0_0|1|0
+	attN = bottom,AM.MLP.LargeLaunchStand_4287332446_0|-2.75|0_0|-1|0_0|-2.75|0_0|-1|0
 	attN = node_F1,Null_0_0|0.603630006|0_0|-1.00000012|-1.1920929E-07_0|0.603630006|0_0|-1.00000012|-1.1920929E-07
-	attN = innerEngine_1,bluedog.Saturn.Engine.H1C_4286944034_1.08223307E-14|-0.141357481|0.408823282_0|-0.997564018|0.0697565079_1.08223307E-14|-0.141357481|0.408823282_0|-0.997564018|0.0697565079
-	attN = innerEngine_2,bluedog.Saturn.Engine.H1C_4286947352_-0.408823311|-0.141357481|1.13699613E-14_-0.0697564855|-0.997564137|-7.34580681E-08_-0.408823311|-0.141357481|1.13699613E-14_-0.0697564855|-0.997564137|-7.34580681E-08
-	attN = innerEngine_3,bluedog.Saturn.Engine.H1C_4286943826_-1.15920059E-14|-0.141357481|-0.408823311_0|-0.997564018|-0.0697565079_-1.15920059E-14|-0.141357481|-0.408823311_0|-0.997564018|-0.0697565079
-	attN = innerEngine_4,bluedog.Saturn.Engine.H1C_4286943930_0.408823282|-0.141357481|-1.11023522E-14_0.0697564855|-0.997564137|-7.34580681E-08_0.408823282|-0.141357481|-1.11023522E-14_0.0697564855|-0.997564137|-7.34580681E-08
-	attN = outerEngine_1,bluedog.Saturn.Engine.H1D_4286940240_1.09479558|-0.118095934|-1.09479558_0.0616284311|-0.99619472|-0.0616284311_1.09479558|-0.118095934|-1.09479558_0.0616284311|-0.99619472|-0.0616284311
-	attN = outerEngine_2,bluedog.Saturn.Engine.H1D_4286941268_1.09479558|-0.118095934|1.09479558_0.0616284013|-0.99619472|0.0616284385_1.09479558|-0.118095934|1.09479558_0.0616284013|-0.99619472|0.0616284385
-	attN = outerEngine_3,bluedog.Saturn.Engine.H1D_4286939564_-1.09479558|-0.118095934|1.09479558_-0.0616284013|-0.99619472|0.0616284385_-1.09479558|-0.118095934|1.09479558_-0.0616284013|-0.99619472|0.0616284385
-	attN = outerEngine_4,bluedog.Saturn.Engine.H1D_4286939902_-1.09479558|-0.118095934|-1.09479558_-0.0616284013|-0.99619472|-0.0616284311_-1.09479558|-0.118095934|-1.09479558_-0.0616284013|-0.99619472|-0.0616284311
+	attN = innerEngine_1,bluedog.Saturn.Engine.H1C_4287335090_1.08223307E-14|-0.141357481|0.408823282_0|-0.997564018|0.0697565079_1.08223307E-14|-0.141357481|0.408823282_0|-0.997564018|0.0697565079
+	attN = innerEngine_2,bluedog.Saturn.Engine.H1C_4287335190_-0.408823311|-0.141357481|1.13699613E-14_-0.0697564855|-0.997564137|-7.34580681E-08_-0.408823311|-0.141357481|1.13699613E-14_-0.0697564855|-0.997564137|-7.34580681E-08
+	attN = innerEngine_3,bluedog.Saturn.Engine.H1C_4287334890_-1.15920059E-14|-0.141357481|-0.408823311_0|-0.997564018|-0.0697565079_-1.15920059E-14|-0.141357481|-0.408823311_0|-0.997564018|-0.0697565079
+	attN = innerEngine_4,bluedog.Saturn.Engine.H1C_4287334990_0.408823282|-0.141357481|-1.11023522E-14_0.0697564855|-0.997564137|-7.34580681E-08_0.408823282|-0.141357481|-1.11023522E-14_0.0697564855|-0.997564137|-7.34580681E-08
+	attN = outerEngine_1,bluedog.Saturn.Engine.H1D_4287334456_1.09479558|-0.118095934|-1.09479558_0.0616284311|-0.99619472|-0.0616284311_1.09479558|-0.118095934|-1.09479558_0.0616284311|-0.99619472|-0.0616284311
+	attN = outerEngine_2,bluedog.Saturn.Engine.H1D_4287334790_1.09479558|-0.118095934|1.09479558_0.0616284013|-0.99619472|0.0616284385_1.09479558|-0.118095934|1.09479558_0.0616284013|-0.99619472|0.0616284385
+	attN = outerEngine_3,bluedog.Saturn.Engine.H1D_4287333788_-1.09479558|-0.118095934|1.09479558_-0.0616284013|-0.99619472|0.0616284385_-1.09479558|-0.118095934|1.09479558_-0.0616284013|-0.99619472|0.0616284385
+	attN = outerEngine_4,bluedog.Saturn.Engine.H1D_4287334122_-1.09479558|-0.118095934|-1.09479558_-0.0616284013|-0.99619472|-0.0616284311_-1.09479558|-0.118095934|-1.09479558_-0.0616284013|-0.99619472|-0.0616284311
 	attN = engineNode_E1_1,Null_0_-4.4408921E-16|0.389243543|2.22044605E-16_0|-1.00000012|-1.1920929E-07_-4.4408921E-16|0.389243543|2.22044605E-16_0|-1.00000012|-1.1920929E-07
 	attN = engineNode_E1_2,Null_0_-0.825773835|0.417242467|0.825773835_-0.0370070338|-0.99862957|0.037007153_-0.825773835|0.417242467|0.825773835_-0.0370070338|-0.99862957|0.037007153
 	attN = engineNode_E1_3,Null_0_0.825773835|0.417242467|0.825773835_0.0370070338|-0.99862957|0.037007153_0.825773835|0.417242467|0.825773835_0.0370070338|-0.99862957|0.037007153
@@ -2716,10 +2378,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.Engine.H1C_4286947352
+	part = bluedog.Saturn.Engine.H1C_4287335190
 	partName = Part
 	persistentId = 670967356
-	pos = -0.370343387,6.2899971,-0.586673319
+	pos = -1.28071117,-6.67512703,2.5865941
 	attPos = 0,0,0
 	attPos0 = -0.464478523,-0.937263489,-5.96046448E-08
 	rot = 3.72528994E-08,0,-0.034899503,0.999390841
@@ -2729,21 +2391,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 6
+	istg = 4
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 0
 	sqor = 5
-	sepI = 3
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.Engine.H1C_4286944034
-	sym = bluedog.Saturn.Engine.H1C_4286943930
-	sym = bluedog.Saturn.Engine.H1C_4286943826
-	attN = top,bluedog.Saturn.S1.EngineMount_4286962112_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
+	sym = bluedog.Saturn.Engine.H1C_4287335090
+	sym = bluedog.Saturn.Engine.H1C_4287334990
+	sym = bluedog.Saturn.Engine.H1C_4287334890
+	attN = top,bluedog.Saturn.S1.EngineMount_4287337114_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
 	attN = bottom,Null_0_0|-0.793070018|0_0|-1|0_0|-0.793070018|0_0|-1|0
 	EVENTS
 	{
@@ -3207,10 +2869,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.Engine.H1C_4286944034
+	part = bluedog.Saturn.Engine.H1C_4287335090
 	partName = Part
 	persistentId = 4034898279
-	pos = 0.094135344,6.2899971,-0.122194678
+	pos = -0.816232502,-6.67512703,3.05107284
 	attPos = 0,0,0
 	attPos0 = -5.96046448E-08,-0.937263489,0.464478493
 	rot = -0.0246776547,0.706676066,-0.0246777032,0.706676066
@@ -3220,21 +2882,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 6
+	istg = 4
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 0
 	sqor = 5
-	sepI = 3
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.Engine.H1C_4286943930
-	sym = bluedog.Saturn.Engine.H1C_4286943826
-	sym = bluedog.Saturn.Engine.H1C_4286947352
-	attN = top,bluedog.Saturn.S1.EngineMount_4286962112_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
+	sym = bluedog.Saturn.Engine.H1C_4287334990
+	sym = bluedog.Saturn.Engine.H1C_4287334890
+	sym = bluedog.Saturn.Engine.H1C_4287335190
+	attN = top,bluedog.Saturn.S1.EngineMount_4287337114_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
 	attN = bottom,Null_0_0|-0.793070018|0_0|-1|0_0|-0.793070018|0_0|-1|0
 	EVENTS
 	{
@@ -3690,10 +3352,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.Engine.H1C_4286943930
+	part = bluedog.Saturn.Engine.H1C_4287334990
 	partName = Part
 	persistentId = 1590954659
-	pos = 0.558614016,6.2899971,-0.586673319
+	pos = -0.351753831,-6.67512703,2.5865941
 	attPos = 0,0,0
 	attPos0 = 0.464478552,-0.937263489,5.96046448E-08
 	rot = -0.0348995067,0.999390841,-3.35276091E-08,-8.94069601E-08
@@ -3703,21 +3365,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 6
+	istg = 4
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 0
 	sqor = 5
-	sepI = 3
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.Engine.H1C_4286943826
-	sym = bluedog.Saturn.Engine.H1C_4286947352
-	sym = bluedog.Saturn.Engine.H1C_4286944034
-	attN = top,bluedog.Saturn.S1.EngineMount_4286962112_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
+	sym = bluedog.Saturn.Engine.H1C_4287334890
+	sym = bluedog.Saturn.Engine.H1C_4287335190
+	sym = bluedog.Saturn.Engine.H1C_4287335090
+	attN = top,bluedog.Saturn.S1.EngineMount_4287337114_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
 	attN = bottom,Null_0_0|-0.793070018|0_0|-1|0_0|-0.793070018|0_0|-1|0
 	EVENTS
 	{
@@ -4173,10 +3835,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.Engine.H1C_4286943826
+	part = bluedog.Saturn.Engine.H1C_4287334890
 	partName = Part
 	persistentId = 3845808661
-	pos = 0.0941352248,6.2899971,-1.05115199
+	pos = -0.816232622,-6.67512703,2.12211537
 	attPos = 0,0,0
 	attPos0 = 5.96046448E-08,-0.937263489,-0.464478552
 	rot = -0.0246777032,0.706676066,0.0246776547,-0.706676066
@@ -4186,21 +3848,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 6
+	istg = 4
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 0
 	sqor = 5
-	sepI = 3
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.Engine.H1C_4286947352
-	sym = bluedog.Saturn.Engine.H1C_4286944034
-	sym = bluedog.Saturn.Engine.H1C_4286943930
-	attN = top,bluedog.Saturn.S1.EngineMount_4286962112_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
+	sym = bluedog.Saturn.Engine.H1C_4287335190
+	sym = bluedog.Saturn.Engine.H1C_4287335090
+	sym = bluedog.Saturn.Engine.H1C_4287334990
+	attN = top,bluedog.Saturn.S1.EngineMount_4287337114_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
 	attN = bottom,Null_0_0|-0.793070018|0_0|-1|0_0|-0.793070018|0_0|-1|0
 	EVENTS
 	{
@@ -4656,10 +4318,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.Engine.H1D_4286941268
+	part = bluedog.Saturn.Engine.H1D_4287334790
 	partName = Part
 	persistentId = 2195771820
-	pos = 1.2381016,6.31435013,0.557292402
+	pos = 0.327733755,-6.650774,3.73055983
 	attPos = 0,0,0
 	attPos0 = 1.14396584,-0.912910461,1.14396572
 	rot = -0.0308435746,0,0.0308435559,0.999048233
@@ -4669,21 +4331,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 6
+	istg = 4
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 1
 	sqor = 5
-	sepI = 3
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.Engine.H1D_4286940240
-	sym = bluedog.Saturn.Engine.H1D_4286939902
-	sym = bluedog.Saturn.Engine.H1D_4286939564
-	attN = top,bluedog.Saturn.S1.EngineMount_4286962112_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
+	sym = bluedog.Saturn.Engine.H1D_4287334456
+	sym = bluedog.Saturn.Engine.H1D_4287334122
+	sym = bluedog.Saturn.Engine.H1D_4287333788
+	attN = top,bluedog.Saturn.S1.EngineMount_4287337114_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
 	attN = bottom,Null_0_0|-0.793070018|0_0|-1|0_0|-0.793070018|0_0|-1|0
 	EVENTS
 	{
@@ -5243,10 +4905,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.Engine.H1D_4286940240
+	part = bluedog.Saturn.Engine.H1D_4287334456
 	partName = Part
 	persistentId = 233196139
-	pos = 1.23810112,6.31435013,-1.7306397
+	pos = 0.327733278,-6.650774,1.44262767
 	attPos = 0,0,0
 	attPos0 = 1.14396584,-0.912910461,-1.14396584
 	rot = -1.30385125E-08,0.706433773,0.0436193869,0.706433773
@@ -5256,21 +4918,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 6
+	istg = 4
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 1
 	sqor = 5
-	sepI = 3
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.Engine.H1D_4286939902
-	sym = bluedog.Saturn.Engine.H1D_4286939564
-	sym = bluedog.Saturn.Engine.H1D_4286941268
-	attN = top,bluedog.Saturn.S1.EngineMount_4286962112_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
+	sym = bluedog.Saturn.Engine.H1D_4287334122
+	sym = bluedog.Saturn.Engine.H1D_4287333788
+	sym = bluedog.Saturn.Engine.H1D_4287334790
+	attN = top,bluedog.Saturn.S1.EngineMount_4287337114_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
 	attN = bottom,Null_0_0|-0.793070018|0_0|-1|0_0|-0.793070018|0_0|-1|0
 	EVENTS
 	{
@@ -5822,10 +5484,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.Engine.H1D_4286939902
+	part = bluedog.Saturn.Engine.H1D_4287334122
 	partName = Part
 	persistentId = 960259920
-	pos = -1.04983091,6.31435013,-1.73063922
+	pos = -1.96019876,-6.650774,1.44262815
 	attPos = 0,0,0
 	attPos0 = -1.14396584,-0.912910461,-1.14396584
 	rot = 0.0308435578,0.999048233,0.0308435727,-8.94069601E-08
@@ -5835,21 +5497,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 6
+	istg = 4
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 1
 	sqor = 5
-	sepI = 3
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.Engine.H1D_4286939564
-	sym = bluedog.Saturn.Engine.H1D_4286941268
-	sym = bluedog.Saturn.Engine.H1D_4286940240
-	attN = top,bluedog.Saturn.S1.EngineMount_4286962112_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
+	sym = bluedog.Saturn.Engine.H1D_4287333788
+	sym = bluedog.Saturn.Engine.H1D_4287334790
+	sym = bluedog.Saturn.Engine.H1D_4287334456
+	attN = top,bluedog.Saturn.S1.EngineMount_4287337114_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
 	attN = bottom,Null_0_0|-0.793070018|0_0|-1|0_0|-0.793070018|0_0|-1|0
 	EVENTS
 	{
@@ -6401,10 +6063,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.Engine.H1D_4286939564
+	part = bluedog.Saturn.Engine.H1D_4287333788
 	partName = Part
 	persistentId = 2780163857
-	pos = -1.04983056,6.31435013,0.557292879
+	pos = -1.9601984,-6.650774,3.7305603
 	attPos = 0,0,0
 	attPos0 = -1.14396584,-0.912910461,1.14396572
 	rot = 0.0436193869,0.706433773,1.30385125E-08,-0.706433773
@@ -6414,21 +6076,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 6
+	istg = 4
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 1
 	sqor = 5
-	sepI = 3
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.Engine.H1D_4286941268
-	sym = bluedog.Saturn.Engine.H1D_4286940240
-	sym = bluedog.Saturn.Engine.H1D_4286939902
-	attN = top,bluedog.Saturn.S1.EngineMount_4286962112_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
+	sym = bluedog.Saturn.Engine.H1D_4287334790
+	sym = bluedog.Saturn.Engine.H1D_4287334456
+	sym = bluedog.Saturn.Engine.H1D_4287334122
+	attN = top,bluedog.Saturn.S1.EngineMount_4287337114_0|0.797850013|0_0|1|0_0|0.797850013|0_0|1|0
 	attN = bottom,Null_0_0|-0.793070018|0_0|-1|0_0|-0.793070018|0_0|-1|0
 	EVENTS
 	{
@@ -6980,10 +6642,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.LargeFin_4286922210
+	part = bluedog.Saturn.S1.LargeFin_4287333454
 	partName = Part
 	persistentId = 2457002242
-	pos = -1.39220905,6.52810287,-2.07301736
+	pos = -2.30257702,-6.43702126,1.10025001
 	attPos = 0,0,0
 	attPos0 = -1.48634398,-0.699157715,-1.48634386
 	rot = 0,0.382683456,0,-0.923879564
@@ -6993,21 +6655,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.LargeFin_4286919624
-	sym = bluedog.Saturn.S1.LargeFin_4286919480
-	sym = bluedog.Saturn.S1.LargeFin_4286919336
-	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4286962112,pCylinder749_BOXCOLLIDER14 1,0|0|0,1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.LargeFin_4287333320
+	sym = bluedog.Saturn.S1.LargeFin_4287333186
+	sym = bluedog.Saturn.S1.LargeFin_4287333052
+	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4287337114,pCylinder749_BOXCOLLIDER14 1,0|0|0,1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -7144,10 +6806,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.LargeFin_4286919624
+	part = bluedog.Saturn.S1.LargeFin_4287333320
 	partName = Part
 	persistentId = 1478192107
-	pos = -1.39220858,6.52810287,0.899671018
+	pos = -2.30257654,-6.43702126,4.07293844
 	attPos = 0,0,0
 	attPos0 = -1.48634386,-0.699157715,1.48634386
 	rot = 0,-0.382683456,0,-0.923879564
@@ -7157,21 +6819,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.LargeFin_4286919480
-	sym = bluedog.Saturn.S1.LargeFin_4286919336
-	sym = bluedog.Saturn.S1.LargeFin_4286922210
-	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4286962112,pCylinder749_BOXCOLLIDER14 1,0|0|0,1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.LargeFin_4287333186
+	sym = bluedog.Saturn.S1.LargeFin_4287333052
+	sym = bluedog.Saturn.S1.LargeFin_4287333454
+	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4287337114,pCylinder749_BOXCOLLIDER14 1,0|0|0,1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -7308,10 +6970,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.LargeFin_4286919480
+	part = bluedog.Saturn.S1.LargeFin_4287333186
 	partName = Part
 	persistentId = 1692284173
-	pos = 1.58047986,6.52810287,0.899670422
+	pos = 0.670112014,-6.43702126,4.07293797
 	attPos = 0,0,0
 	attPos0 = 1.4863441,-0.699157715,1.48634374
 	rot = 0,-0.923879564,0,-0.382683456
@@ -7321,21 +6983,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.LargeFin_4286919336
-	sym = bluedog.Saturn.S1.LargeFin_4286922210
-	sym = bluedog.Saturn.S1.LargeFin_4286919624
-	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4286962112,pCylinder749_BOXCOLLIDER14 1,0|0|0,1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.LargeFin_4287333052
+	sym = bluedog.Saturn.S1.LargeFin_4287333454
+	sym = bluedog.Saturn.S1.LargeFin_4287333320
+	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4287337114,pCylinder749_BOXCOLLIDER14 1,0|0|0,1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -7472,10 +7134,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.LargeFin_4286919336
+	part = bluedog.Saturn.S1.LargeFin_4287333052
 	partName = Part
 	persistentId = 4093461248
-	pos = 1.58047903,6.52810287,-2.07301807
+	pos = 0.670111179,-6.43702126,1.10024929
 	attPos = 0,0,0
 	attPos0 = 1.48634374,-0.699157715,-1.48634398
 	rot = 0,-0.923879564,0,0.382683456
@@ -7485,21 +7147,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.LargeFin_4286922210
-	sym = bluedog.Saturn.S1.LargeFin_4286919624
-	sym = bluedog.Saturn.S1.LargeFin_4286919480
-	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4286962112,pCylinder749_BOXCOLLIDER14 1,0|0|0,1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.LargeFin_4287333454
+	sym = bluedog.Saturn.S1.LargeFin_4287333320
+	sym = bluedog.Saturn.S1.LargeFin_4287333186
+	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4287337114,pCylinder749_BOXCOLLIDER14 1,0|0|0,1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -7636,10 +7298,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.SmallFin_4286918766
+	part = bluedog.Saturn.S1.SmallFin_4287332918
 	partName = Part
 	persistentId = 1344824617
-	pos = -1.99810767,6.68775558,-0.586672604
+	pos = -2.9084754,-6.27736855,2.58659482
 	attPos = 0,0,0
 	attPos0 = -2.09224248,-0.539505005,1.1920929E-07
 	rot = 0,-2.08616228E-07,0,1
@@ -7649,21 +7311,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.SmallFin_4286916012
-	sym = bluedog.Saturn.S1.SmallFin_4286915884
-	sym = bluedog.Saturn.S1.SmallFin_4286915756
-	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4286962112,pCylinder749_BOXCOLLIDER12 1,0|0|0,1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.SmallFin_4287332800
+	sym = bluedog.Saturn.S1.SmallFin_4287332682
+	sym = bluedog.Saturn.S1.SmallFin_4287332564
+	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4287337114,pCylinder749_BOXCOLLIDER12 1,0|0|0,1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -7800,10 +7462,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.SmallFin_4286916012
+	part = bluedog.Saturn.S1.SmallFin_4287332800
 	partName = Part
 	persistentId = 4255120432
-	pos = 0.0941357613,6.68775558,1.50556946
+	pos = -0.816232085,-6.27736855,4.67883682
 	attPos = 0,0,0
 	attPos0 = 0,-0.539505005,2.09224224
 	rot = 0,0.707106709,0,0.707106948
@@ -7813,21 +7475,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.SmallFin_4286915884
-	sym = bluedog.Saturn.S1.SmallFin_4286915756
-	sym = bluedog.Saturn.S1.SmallFin_4286918766
-	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4286962112,pCylinder749_BOXCOLLIDER12 1,0|0|0,1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.SmallFin_4287332682
+	sym = bluedog.Saturn.S1.SmallFin_4287332564
+	sym = bluedog.Saturn.S1.SmallFin_4287332918
+	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4287337114,pCylinder749_BOXCOLLIDER12 1,0|0|0,1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -7964,10 +7626,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.SmallFin_4286915884
+	part = bluedog.Saturn.S1.SmallFin_4287332682
 	partName = Part
 	persistentId = 645816428
-	pos = 2.18637824,6.68775558,-0.586674035
+	pos = 1.27601039,-6.27736855,2.58659339
 	attPos = 0,0,0
 	attPos0 = 2.09224248,-0.539505005,-2.98023224E-07
 	rot = 0,1,0,1.19209275E-07
@@ -7977,21 +7639,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.SmallFin_4286915756
-	sym = bluedog.Saturn.S1.SmallFin_4286918766
-	sym = bluedog.Saturn.S1.SmallFin_4286916012
-	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4286962112,pCylinder749_BOXCOLLIDER12 1,0|0|0,1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.SmallFin_4287332564
+	sym = bluedog.Saturn.S1.SmallFin_4287332918
+	sym = bluedog.Saturn.S1.SmallFin_4287332800
+	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4287337114,pCylinder749_BOXCOLLIDER12 1,0|0|0,1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -8128,10 +7790,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.SmallFin_4286915756
+	part = bluedog.Saturn.S1.SmallFin_4287332564
 	partName = Part
 	persistentId = 1134638196
-	pos = 0.0941345692,6.68775558,-2.67891598
+	pos = -0.816233277,-6.27736855,0.494351387
 	attPos = 0,0,0
 	attPos0 = -2.38418579E-07,-0.539505005,-2.09224224
 	rot = 0,0.707106948,0,-0.707106709
@@ -8141,21 +7803,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.SmallFin_4286918766
-	sym = bluedog.Saturn.S1.SmallFin_4286916012
-	sym = bluedog.Saturn.S1.SmallFin_4286915884
-	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4286962112,pCylinder749_BOXCOLLIDER12 1,0|0|0,1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.SmallFin_4287332918
+	sym = bluedog.Saturn.S1.SmallFin_4287332800
+	sym = bluedog.Saturn.S1.SmallFin_4287332682
+	srfN = srfAttach,bluedog.Saturn.S1.EngineMount_4287337114,pCylinder749_BOXCOLLIDER12 1,0|0|0,1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -8292,10 +7954,10 @@ PART
 }
 PART
 {
-	part = AM.MLP.LargeLaunchStand_4286120034
+	part = AM.MLP.LargeLaunchStand_4287332446
 	partName = Part
 	persistentId = 3847779883
-	pos = 0.0941352844,-2.02273941,-0.586673319
+	pos = -0.816232562,-14.9878635,2.5865941
 	attPos = 0,0,0
 	attPos0 = 0,-9.25,0
 	rot = 0,-0.707106829,0,-0.707106829
@@ -8305,18 +7967,18 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 5
+	istg = 3
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 0
 	sqor = 4
-	sepI = 4
+	sepI = 2
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	attN = top,bluedog.Saturn.S1.EngineMount_4286962112_0|6.5|0_0|1|0_0|6.5|0_0|1|0
+	attN = top,bluedog.Saturn.S1.EngineMount_4287337114_0|6.5|0_0|1|0_0|6.5|0_0|1|0
 	attN = top01,Null_0_8.35000038|1|0_0|-1|0_8.35000038|1|0_0|-1|0
 	attN = top02,Null_0_0|1|-8.35000038_0|-1|0_0|1|-8.35000038_0|-1|0
 	attN = top03,Null_0_-8.35000038|1|0_0|-1|0_-8.35000038|1|0_0|-1|0
@@ -8346,8 +8008,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.59545213
-		height = 2.97726059
+		scaleFactor = -1.99757266
+		height = -9.98786354
 		stagingEnabled = True
 		towerRot = 0,0.707106829,0,-0.707106829
 		EVENTS
@@ -8629,10 +8291,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.Retro_4286542868
+	part = bluedog.Saturn.S1.Retro_4287331184
 	partName = Part
 	persistentId = 754627169
-	pos = -1.99022102,19.3187027,-0.586672843
+	pos = -2.90058899,6.35357857,2.58659458
 	attPos = 0,0,0
 	attPos0 = -2.08435583,4.74125671,0
 	rot = 0,-1,0,1.19209275E-07
@@ -8642,21 +8304,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 0
 	sqor = 3
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0.00499999989
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.Retro_4286542330
-	sym = bluedog.Saturn.S1.Retro_4286542250
-	sym = bluedog.Saturn.S1.Retro_4286542170
-	srfN = srfAttach,bluedog.Saturn.S1.Tanks_4287144714,S1_COLLIDER 3,0|0|0,-1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.Retro_4287331108
+	sym = bluedog.Saturn.S1.Retro_4287331032
+	sym = bluedog.Saturn.S1.Retro_4287330956
+	srfN = srfAttach,bluedog.Saturn.S1.Tanks_4287339342,S1_COLLIDER 3,0|0|0,-1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -8926,10 +8588,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.Retro_4286542330
+	part = bluedog.Saturn.S1.Retro_4287331108
 	partName = Part
 	persistentId = 3762045392
-	pos = 0.0941357613,19.3187027,1.49768305
+	pos = -0.816232085,6.35357857,4.67095041
 	attPos = 0,0,0
 	attPos0 = -1.1920929E-07,4.74125671,2.08435583
 	rot = 0,-0.707106769,0,0.707106888
@@ -8939,21 +8601,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 0
 	sqor = 3
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0.00499999989
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.Retro_4286542250
-	sym = bluedog.Saturn.S1.Retro_4286542170
-	sym = bluedog.Saturn.S1.Retro_4286542868
-	srfN = srfAttach,bluedog.Saturn.S1.Tanks_4287144714,S1_COLLIDER 3,0|0|0,-1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.Retro_4287331032
+	sym = bluedog.Saturn.S1.Retro_4287330956
+	sym = bluedog.Saturn.S1.Retro_4287331184
+	srfN = srfAttach,bluedog.Saturn.S1.Tanks_4287339342,S1_COLLIDER 3,0|0|0,-1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -9223,10 +8885,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.Retro_4286542250
+	part = bluedog.Saturn.S1.Retro_4287331032
 	partName = Part
 	persistentId = 3933781981
-	pos = 2.17849159,19.3187027,-0.586674035
+	pos = 1.26812375,6.35357857,2.58659339
 	attPos = 0,0,0
 	attPos0 = 2.08435583,4.74125671,-2.38418579E-07
 	rot = 0,2.08616228E-07,0,1
@@ -9236,21 +8898,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 0
 	sqor = 3
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0.00499999989
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.Retro_4286542170
-	sym = bluedog.Saturn.S1.Retro_4286542868
-	sym = bluedog.Saturn.S1.Retro_4286542330
-	srfN = srfAttach,bluedog.Saturn.S1.Tanks_4287144714,S1_COLLIDER 3,0|0|0,-1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.Retro_4287330956
+	sym = bluedog.Saturn.S1.Retro_4287331184
+	sym = bluedog.Saturn.S1.Retro_4287331108
+	srfN = srfAttach,bluedog.Saturn.S1.Tanks_4287339342,S1_COLLIDER 3,0|0|0,-1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -9520,10 +9182,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S1.Retro_4286542170
+	part = bluedog.Saturn.S1.Retro_4287330956
 	partName = Part
 	persistentId = 3251549808
-	pos = 0.0941348076,19.3187027,-2.67102957
+	pos = -0.816233039,6.35357857,0.502237797
 	attPos = 0,0,0
 	attPos0 = -1.19209261E-07,4.74125671,-2.08435559
 	rot = 0,0.707106888,0,0.707106769
@@ -9533,21 +9195,21 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 6
+	dstg = 2
 	sidx = 0
 	sqor = 3
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0.00499999989
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S1.Retro_4286542868
-	sym = bluedog.Saturn.S1.Retro_4286542330
-	sym = bluedog.Saturn.S1.Retro_4286542250
-	srfN = srfAttach,bluedog.Saturn.S1.Tanks_4287144714,S1_COLLIDER 3,0|0|0,-1|0|0,0|0|0
+	sym = bluedog.Saturn.S1.Retro_4287331184
+	sym = bluedog.Saturn.S1.Retro_4287331108
+	sym = bluedog.Saturn.S1.Retro_4287331032
+	srfN = srfAttach,bluedog.Saturn.S1.Tanks_4287339342,S1_COLLIDER 3,0|0|0,-1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -9817,10 +9479,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S4B.APS.200_4285907182
+	part = bluedog.Saturn.S4B.APS.200_4287330880
 	partName = Part
 	persistentId = 2771364706
-	pos = 0.0941354632,25.0982552,-2.78670597
+	pos = -0.816232383,12.133131,0.386561394
 	attPos = 0,0,0
 	attPos0 = 1.78813934E-07,-0.147689819,-2.20003271
 	rot = 0,-1,0,-1.74622912E-08
@@ -9830,19 +9492,19 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 0
 	resPri = 0
-	dstg = 5
+	dstg = 1
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = -1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S4B.APS.200_4285906630
-	srfN = srfAttach,bluedog.Saturn.S4B.EngineMount_4286831518,pCylinder740_COLLIDER,0|0|-0.064000003,0|0|1,0|0|-0.064000003
+	sym = bluedog.Saturn.S4B.APS.200_4287330812
+	srfN = srfAttach,bluedog.Saturn.S4B.EngineMount_4287341020,pCylinder740_COLLIDER,0|0|-0.064000003,0|0|1,0|0|-0.064000003
 	EVENTS
 	{
 	}
@@ -10078,10 +9740,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S4B.APS.200_4285906630
+	part = bluedog.Saturn.S4B.APS.200_4287330812
 	partName = Part
 	persistentId = 689788720
-	pos = 0.0941352844,25.0982552,1.61335945
+	pos = -0.816232562,12.133131,4.78662682
 	attPos = 0,0,0
 	attPos0 = 0,-0.147689819,2.20003271
 	rot = 0,2.62490971E-08,0,1
@@ -10091,19 +9753,19 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 0
 	resPri = 0
-	dstg = 5
+	dstg = 1
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = -1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S4B.APS.200_4285907182
-	srfN = srfAttach,bluedog.Saturn.S4B.EngineMount_4286831518,pCylinder740_COLLIDER,0|0|-0.064000003,0|0|1,0|0|-0.064000003
+	sym = bluedog.Saturn.S4B.APS.200_4287330880
+	srfN = srfAttach,bluedog.Saturn.S4B.EngineMount_4287341020,pCylinder740_COLLIDER,0|0|-0.064000003,0|0|1,0|0|-0.064000003
 	EVENTS
 	{
 	}
@@ -10339,10 +10001,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S4B.Ullage_4286540784
+	part = bluedog.Saturn.S4B.Ullage_4287330744
 	partName = Part
 	persistentId = 4267012932
-	pos = -2.16326189,25.9968109,-0.586672843
+	pos = -3.07362986,13.0316868,2.58659458
 	attPos = 0,0,0
 	attPos0 = -2.2573967,-3.10268402,0
 	rot = 0,-1,0,2.08616228E-07
@@ -10352,20 +10014,20 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 4
+	dstg = 0
 	sidx = 1
 	sqor = 3
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S4B.Ullage_4286537600
-	sym = bluedog.Saturn.S4B.Ullage_4286537466
-	srfN = srfAttach,bluedog.Saturn.S4B.Tank_4287092666,S4B_Tank_COLLIDER,-0.172000006|0|0,-1|0|0,-0.172000006|0|0
+	sym = bluedog.Saturn.S4B.Ullage_4287330614
+	sym = bluedog.Saturn.S4B.Ullage_4287330484
+	srfN = srfAttach,bluedog.Saturn.S4B.Tank_4287341186,S4B_Tank_COLLIDER,-0.172000006|0|0,-1|0|0,-0.172000006|0|0
 	EVENTS
 	{
 	}
@@ -10675,10 +10337,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S4B.Ullage_4286537600
+	part = bluedog.Saturn.S4B.Ullage_4287330614
 	partName = Part
 	persistentId = 2620445166
-	pos = 1.22283459,25.9968109,1.36828971
+	pos = 0.312466741,13.0316868,4.54155731
 	attPos = 0,0,0
 	attPos0 = 1.12869883,-3.10268402,1.95496261
 	rot = 0,-0.499999851,0,0.866025507
@@ -10688,20 +10350,20 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 4
+	dstg = 0
 	sidx = 1
 	sqor = 3
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S4B.Ullage_4286537466
-	sym = bluedog.Saturn.S4B.Ullage_4286540784
-	srfN = srfAttach,bluedog.Saturn.S4B.Tank_4287092666,S4B_Tank_COLLIDER,-0.172000006|0|0,-1|0|0,-0.172000006|0|0
+	sym = bluedog.Saturn.S4B.Ullage_4287330484
+	sym = bluedog.Saturn.S4B.Ullage_4287330744
+	srfN = srfAttach,bluedog.Saturn.S4B.Tank_4287341186,S4B_Tank_COLLIDER,-0.172000006|0|0,-1|0|0,-0.172000006|0|0
 	EVENTS
 	{
 	}
@@ -11003,10 +10665,10 @@ PART
 }
 PART
 {
-	part = bluedog.Saturn.S4B.Ullage_4286537466
+	part = bluedog.Saturn.S4B.Ullage_4287330484
 	partName = Part
 	persistentId = 1546867752
-	pos = 1.2228334,25.9968109,-2.54163742
+	pos = 0.312465549,13.0316868,0.631629944
 	attPos = 0,0,0
 	attPos0 = 1.12869823,-3.10268402,-1.95496321
 	rot = 0,0.500000238,0,0.866025329
@@ -11016,20 +10678,20 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 4
+	istg = 2
 	resPri = 0
-	dstg = 4
+	dstg = 0
 	sidx = 1
 	sqor = 3
-	sepI = 3
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = bluedog.Saturn.S4B.Ullage_4286540784
-	sym = bluedog.Saturn.S4B.Ullage_4286537600
-	srfN = srfAttach,bluedog.Saturn.S4B.Tank_4287092666,S4B_Tank_COLLIDER,-0.172000006|0|0,-1|0|0,-0.172000006|0|0
+	sym = bluedog.Saturn.S4B.Ullage_4287330744
+	sym = bluedog.Saturn.S4B.Ullage_4287330614
+	srfN = srfAttach,bluedog.Saturn.S4B.Tank_4287341186,S4B_Tank_COLLIDER,-0.172000006|0|0,-1|0|0,-0.172000006|0|0
 	EVENTS
 	{
 	}

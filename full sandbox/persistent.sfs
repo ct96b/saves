@@ -12,7 +12,7 @@ GAME
 	editor = None
 	flag = FlagPack/Flags/United States of America
 	launchID = 17
-	defaultVABLaunchSite = LC-34 (Saturn I)
+	defaultVABLaunchSite = Wallops Island_Pad B
 	defaultSPHLaunchSite = BocaChica_SmallHelipad
 	modded = True
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
@@ -3337,6 +3337,30 @@ GAME
 		{
 			intact = True
 		}
+		1b350601-a587-4658-a06f-286ac9594040
+		{
+			intact = True
+		}
+		27237040-db54-4168-8f0a-ae2e85bf318c
+		{
+			intact = True
+		}
+		2dd1657b-8048-4eed-aa38-0871682a34b3
+		{
+			intact = True
+		}
+		7c9adcd3-3a68-4816-8cc7-f44a1af67567
+		{
+			intact = True
+		}
+		53ebcf12-37e3-417e-9e53-b3b7d96f48f3
+		{
+			intact = True
+		}
+		bf9af74d-a6da-4e42-a4b7-f28dafedbeaa
+		{
+			intact = True
+		}
 	}
 	SCENARIO
 	{
@@ -3383,7 +3407,7 @@ GAME
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
 		initialized = False
-		savetime = 15220.878740434146
+		savetime = 15224.858740434232
 		useUUID = True
 		KKSettings
 		{
@@ -5808,7 +5832,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.12.5
-		UT = 15220.878740434146
+		UT = 15224.858740434232
 		activeVessel = 0
 		mapViewFiltering = 15359
 		commNetUIModeTracking = Network
@@ -19091,13 +19115,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 61.426490237862765
+				INC = 61.426490237862438
 				LPE = 90
-				LAN = 83.447898283092229
+				LAN = 83.643690050162661
 				MNA = 0
-				EPH = 15212.538740433964
+				EPH = 15224.258740434219
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19475,13 +19499,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 61.423875654355626
+				INC = 61.423875654355541
 				LPE = 90
-				LAN = 83.44435268192683
+				LAN = 83.640144448996693
 				MNA = 0
-				EPH = 15212.538740433964
+				EPH = 15224.258740434219
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19889,13 +19913,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 61.511533649458805
+				SMA = 796407.99215800886
+				ECC = 0.99999999999999989
+				INC = 61.511533649458755
 				LPE = 90
-				LAN = 83.579489464219591
-				MNA = 0
-				EPH = 15212.538740433964
+				LAN = 83.775281231295992
+				MNA = 3.1415926207170166
+				EPH = 15224.258740434219
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -29832,13 +29856,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 61.511508836978294
+				INC = 61.511508836979552
 				LPE = 90
-				LAN = 83.57942003015313
+				LAN = 83.775211797223335
 				MNA = 0
-				EPH = 15212.538740433964
+				EPH = 15224.258740434219
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -30869,13 +30893,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796413.13779146492
-				ECC = 0.99999999999999989
-				INC = 61.560604321698534
+				SMA = NaN
+				ECC = 1
+				INC = 61.560604321679783
 				LPE = 90
-				LAN = 83.563961606580619
-				MNA = 3.1415926207170166
-				EPH = 15212.538740433964
+				LAN = 83.759753373649403
+				MNA = 0
+				EPH = 15224.258740434219
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -41539,13 +41563,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796413.52080613072
-				ECC = 0.99999999999999989
-				INC = 61.508723031200887
-				LPE = 90.000000000000014
-				LAN = 83.590398516917048
-				MNA = 3.1415926207170166
-				EPH = 15212.538740433964
+				SMA = NaN
+				ECC = 1
+				INC = 61.508723031147142
+				LPE = 90
+				LAN = 83.786190283988219
+				MNA = 0
+				EPH = 15224.258740434219
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -83987,13 +84011,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 61.391414840411962
+				INC = 61.391414840399733
 				LPE = 90
-				LAN = 83.532906411969066
+				LAN = 83.728698179040407
 				MNA = 0
-				EPH = 15212.538740433964
+				EPH = 15224.258740434219
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84346,13 +84370,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.91860572551
+				SMA = 796410.91860561084
 				ECC = 0.99999999999999989
-				INC = 61.391507713057472
-				LPE = 90
-				LAN = 83.532899116122451
+				INC = 61.391507713049293
+				LPE = 90.000000000000014
+				LAN = 83.728690883194645
 				MNA = 3.1415926207170166
-				EPH = 15212.538740433964
+				EPH = 15224.258740434219
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84705,13 +84729,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.95199676941
-				ECC = 0.99999999999999989
-				INC = 61.391429398757666
+				SMA = 0
+				ECC = 1
+				INC = 61.391429398750745
 				LPE = 90
-				LAN = 83.533187846087344
-				MNA = 3.1415926207170166
-				EPH = 15212.538740433964
+				LAN = 83.728979613152887
+				MNA = 0
+				EPH = 15224.258740434219
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -85064,13 +85088,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.391276504537579
-				LPE = 90
-				LAN = 83.533033543170006
-				MNA = 0
-				EPH = 15212.538740433964
+				SMA = 796410.27377072803
+				ECC = 0.99999999999999989
+				INC = 61.391276504527958
+				LPE = 90.000000000000014
+				LAN = 83.728825310225375
+				MNA = 3.1415926207170166
+				EPH = 15224.258740434219
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -96439,485 +96463,6 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 78a43de8f27e41768963493814ff3cac
-			persistentId = 2190468555
-			name = Apollo LEO CSM Saturn I-B Mk1 MM Debris
-			type = Debris
-			sit = LANDED
-			landed = True
-			skipGroundPositioning = False
-			skipGroundPositioningForDroppedPart = False
-			vesselSpawning = True
-			launchedFrom = LC-34 (Saturn I)
-			landedAt = LC-34 (Saturn I)
-			displaylandedAt = 
-			splashed = False
-			met = 27.48000000059983
-			lct = 12267.014082198446
-			lastUT = 12294.494082199046
-			distanceTraveled = 0
-			root = 0
-			lat = 28.521797207373918
-			lon = -80.56110719084208
-			alt = 61.925114828161895
-			hgt = 0.563043535
-			nrm = -0.00183757395,0.999998212,-0.000860750675
-			rot = 0.502653182,-0.00752217881,0.0879507065,-0.859969795
-			CoM = 0,0,0
-			stg = 4
-			prst = False
-			ref = 0
-			ctrl = False
-			PQSMin = 2
-			PQSMax = 9
-			GroupOverride = 0
-			OverrideDefault = False,False,False,False
-			OverrideActionControl = 0,0,0,0
-			OverrideAxisControl = 0,0,0,0
-			OverrideGroupNames = ,,,
-			altDispState = DEFAULT
-			cPch = 0
-			cHdg = 0
-			cMod = -1
-			ORBIT
-			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.478202792626078
-				LPE = 90.000000000000014
-				LAN = 83.576251302770913
-				MNA = 0
-				EPH = 15212.538740433964
-				REF = 1
-				IDENT = Kerbin
-			}
-			PART
-			{
-				name = AM.MLP.LargeLaunchStand
-				cid = 4286755874
-				uid = 3942858134
-				mid = 2403541925
-				persistentId = 349488615
-				launchID = 16
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1.00000012
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 4
-				resPri = 0
-				dstg = 6
-				sqor = 4
-				sepI = 4
-				sidx = 0
-				attm = 0
-				sameVesselCollision = False
-				srfN = srfAttach, -1
-				attN = top, -1
-				attN = top01, -1
-				attN = top02, -1
-				attN = top03, -1
-				attN = top04, -1
-				mass = 15
-				shielded = False
-				temp = 286.60906972294191
-				tempExt = 287.22769435341166
-				tempExtUnexp = 287.23036377110981
-				staticPressureAtm = 0.99069207090523215
-				expt = 0.5
-				state = 1
-				attached = False
-				autostrutMode = Off
-				rigidAttachment = False
-				flag = FlagPack/Flags/United States of America
-				rTrf = AM.MLP.LargeLaunchStand
-				modCost = 0
-				modMass = 0
-				moduleVariantName = 
-				moduleCargoStackableQuantity = 1
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-					ToggleSameVesselInteraction
-					{
-						actionGroup = None
-					}
-					SetSameVesselInteraction
-					{
-						actionGroup = None
-					}
-					RemoveSameVesselInteraction
-					{
-						actionGroup = None
-					}
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = LaunchClamp
-					isEnabled = True
-					scaleFactor = 0.995000184
-					height = 4.97500134
-					stagingEnabled = True
-					towerRot = 0,0.707106829,0,-0.707106829
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						ReleaseClamp
-						{
-							actionGroup = None
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleGenerator
-					isEnabled = True
-					generatorIsActive = False
-					throttle = 0
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleGenerator
-					isEnabled = True
-					generatorIsActive = False
-					throttle = 0
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleB9PartSwitch
-					isEnabled = True
-					stagingEnabled = True
-					moduleID = meshSwitch
-					currentSubtype = 4.25m
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleB9PartSwitch
-					isEnabled = True
-					stagingEnabled = True
-					moduleID = clampSwitch
-					currentSubtype = 2x
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleAnimateGenericExtra
-					isEnabled = True
-					aniState = LOCKED
-					animSwitch = True
-					animTime = 0
-					animSpeed = 1
-					deployPercent = 100
-					animationIsDisabled = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-					AXISGROUPS
-					{
-						deployPercent
-						{
-							axisGroup = None
-							axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-							axisSpeedMultiplier = 0
-							axisInverted = None
-							overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-							overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-							overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-							overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-						}
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleB9AssignUiGroups
-					isEnabled = True
-					stagingEnabled = True
-					moduleID = 
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleReliabilityInfo
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = InspectionModule
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleGeneratorReliability
-					isEnabled = True
-					MTBF = 525600
-					LifeTime = 142800
-					RepairCost = 3
-					RepairBonus = 0.800000012
-					MaintenanceCost = 1
-					MaintenanceBonus = 0.300000012
-					InspectionBonus = 300
-					Silent = False
-					Priority = MEDIUM
-					PerksRequirementName = 
-					PerksRequirementValue = 0
-					HasInitted = True
-					TimeOfLastReset = 12251.19
-					TimeOfLastInspection = -Infinity
-					Age = 0.002802191
-					LastFixedUpdate = 12267.01
-					CurrentMTBF = 525600
-					LifeTimeSecs = 5.1408E+08
-					HasFailed = False
-					alarmDisabled = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = FMRS_PM
-					isEnabled = True
-					stagingEnabled = True
-					MM_DYNAMIC = true
-					parent_vessel = 00000000-0000-0000-0000-000000000000
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleB9PartInfo
-					isEnabled = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleCargoPart
-					isEnabled = True
-					beingAttached = False
-					beingSettled = False
-					reinitResourcesOnStoreInVessel = False
-					stagingEnabled = True
-					EVENTS
-					{
-					}
-					ACTIONS
-					{
-					}
-					UPGRADESAPPLIED
-					{
-					}
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = True, 12266.3340821984
-				Gear = False, 0
-				Light = False, 0
-				RCS = False, 0
-				SAS = False, 0
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = False, 0
-				Custom02 = False, 0
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-			DISCOVERY
-			{
-				state = -1
-				lastObservedTime = 0
-				lifetime = Infinity
-				refTime = Infinity
-				size = 2
-			}
-			FLIGHTPLAN
-			{
-			}
-			CTRLSTATE
-			{
-				pitch = 0
-				yaw = 0
-				roll = 0
-				trimPitch = 0
-				trimYaw = 0
-				trimRoll = 0
-				mainThrottle = 0
-			}
-			VESSELMODULES
-			{
-				ModularFlightIntegrator
-				{
-				}
-				AxisGroupsModule
-				{
-				}
-				SuspensionLoadBalancer
-				{
-				}
-				ModuleStabilization
-				{
-				}
-				WorkshopManager
-				{
-					Workshops
-					{
-					}
-				}
-				RPMVesselComputer
-				{
-				}
-				KerbetrotterEngineVesselControl
-				{
-				}
-				VesselModuleSave
-				{
-				}
-				SystemHeatVessel
-				{
-				}
-			}
-		}
-		VESSEL
-		{
 			pid = 5d3173b2b6fc4edf8502fd9ec2e42911
 			persistentId = 2051463410
 			name = Apollo Saturn V Debris
@@ -97610,7 +97155,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420974
+							cid = 4292420960
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97744,7 +97289,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421092
+							cid = 4292421078
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97976,7 +97521,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420974
+							cid = 4292420960
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98110,7 +97655,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421092
+							cid = 4292421078
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98341,7 +97886,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420974
+							cid = 4292420960
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98475,7 +98020,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421092
+							cid = 4292421078
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98704,7 +98249,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292516080
+							cid = 4292420960
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98838,7 +98383,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292516198
+							cid = 4292421078
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99849,7 +99394,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420974
+							cid = 4292420960
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99983,7 +99528,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421092
+							cid = 4292421078
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101353,7 +100898,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420974
+							cid = 4292420960
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101487,7 +101032,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421092
+							cid = 4292421078
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101715,7 +101260,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420974
+							cid = 4292420960
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101849,7 +101394,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421092
+							cid = 4292421078
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -102410,14 +101955,6 @@ GAME
 		}
 		MESSAGE
 		{
-			title = Achievement
-			message = Most Complex Vessel Launched achievement completed!
-			color = 4
-			icon = 6
-			read = False
-		}
-		MESSAGE
-		{
 			title = FMRS Recovery Info: STS-1a Probe
 			message = ~nParts & Resources:~n       1 x TT-70 Radial Decoupler~n       1 x S2 SRB-KD50k “Typhoon” Solid Rocket Booster~n       1 x Assisted Separation Nose Cone~n       3 x Mk12-R Radial-Mount Drogue Chute~n       3 x Mk2-R Radial-Mount Parachute~n       1 x Saturn Booster Radial Separation Motor~n       1 x MechJeb 2 (AR202 case)~n       SolidFuel: 38.95~n       ~n
 			color = 2
@@ -102658,9 +102195,6 @@ GAME
 			{
 			}
 			f0bad360-b32f-46c6-86b4-77320c945506
-			{
-			}
-			78a43de8-f27e-4176-8963-493814ff3cac
 			{
 			}
 			5d3173b2-b6fc-4edf-8502-fd9ec2e42911
