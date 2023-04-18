@@ -1,0 +1,26 @@
+craftName = Falcon Dragon Crew
+cachedCraftData
+{
+	origChecksum = 13054bcdd0dd140cdeb769290e926213
+	cacheVersion = 3
+	name = Falcon Dragon Crew
+	kspVersion = 1.12.5
+	stagesCount = 5
+	cost = 101666
+	partCount = 20
+	mass = 1119.75232
+	description = 
+	crewCapacity = 4
+	partNames = TE.18.DRAGONV2.POD
+	partNames = dockingPort2
+	partNames = TE.19.C-Dragon.Heatshield
+	partNames = TE.18.DRAGONV2.TRUNK
+	partNames = mumech.MJ2.AR202
+	partNames = TE.19.C.Dragon.Decoupler
+	partNames = TE.19.F910.S2.Tank
+	partNames = TE.19.F910.S2.Engine
+	partNames = TE.19.F910.S1.Tank
+	partNames = TE.19.F9.S1.Octaweb
+	partNames = TE2.19.F9.Merlin.1D
+	partNames = TE.Ghidorah.Erector.3
+}

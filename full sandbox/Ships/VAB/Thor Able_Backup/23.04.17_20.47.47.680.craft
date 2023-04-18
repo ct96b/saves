@@ -3132,7 +3132,7 @@ PART
 		totalSystemTemperature = 0
 		totalSystemFlux = 0
 		currentLoopID = 0
-		currentLoopTemperature = 0
+		currentLoopTemperature = 2.70000005
 		nominalLoopTemperature = 0
 		currentLoopFlux = 0
 		stagingEnabled = True
@@ -3150,7 +3150,7 @@ PART
 	{
 		name = ModuleSystemHeatCryoTank
 		isEnabled = True
-		LastUpdateTime = 15633.578740443154
+		LastUpdateTime = 16228.070820524008
 		CoolingAllowed = True
 		CoolingEnabled = False
 		BoiloffOccuring = False
@@ -3264,7 +3264,7 @@ PART
 	resPri = 0
 	dstg = 6
 	sidx = 0
-	sqor = 6
+	sqor = 4
 	sepI = 2
 	attm = 0
 	sameVesselCollision = False
@@ -3748,7 +3748,7 @@ PART
 	resPri = 0
 	dstg = 7
 	sidx = 0
-	sqor = 6
+	sqor = 5
 	sepI = 5
 	attm = 0
 	sameVesselCollision = False
@@ -3982,7 +3982,7 @@ PART
 	resPri = 0
 	dstg = 9
 	sidx = 1
-	sqor = 9
+	sqor = 5
 	sepI = 5
 	attm = 0
 	sameVesselCollision = False
@@ -4488,7 +4488,7 @@ PART
 		totalSystemTemperature = 0
 		totalSystemFlux = 0
 		currentLoopID = 0
-		currentLoopTemperature = 0
+		currentLoopTemperature = 2.70000005
 		nominalLoopTemperature = 0
 		currentLoopFlux = 0
 		stagingEnabled = True
@@ -4506,7 +4506,7 @@ PART
 	{
 		name = ModuleSystemHeatCryoTank
 		isEnabled = True
-		LastUpdateTime = 15633.578740443154
+		LastUpdateTime = 16228.070820524008
 		CoolingAllowed = True
 		CoolingEnabled = False
 		BoiloffOccuring = False
@@ -4767,7 +4767,7 @@ PART
 		totalSystemTemperature = 0
 		totalSystemFlux = 0
 		currentLoopID = 0
-		currentLoopTemperature = 0
+		currentLoopTemperature = 2.70000005
 		nominalLoopTemperature = 0
 		currentLoopFlux = 0
 		stagingEnabled = True
@@ -4785,7 +4785,7 @@ PART
 	{
 		name = ModuleSystemHeatCryoTank
 		isEnabled = True
-		LastUpdateTime = 15633.578740443154
+		LastUpdateTime = 16228.070820524008
 		CoolingAllowed = True
 		CoolingEnabled = False
 		BoiloffOccuring = False
@@ -5046,7 +5046,7 @@ PART
 		totalSystemTemperature = 0
 		totalSystemFlux = 0
 		currentLoopID = 0
-		currentLoopTemperature = 0
+		currentLoopTemperature = 2.70000005
 		nominalLoopTemperature = 0
 		currentLoopFlux = 0
 		stagingEnabled = True
@@ -5064,7 +5064,7 @@ PART
 	{
 		name = ModuleSystemHeatCryoTank
 		isEnabled = True
-		LastUpdateTime = 15633.578740443154
+		LastUpdateTime = 16228.070820524008
 		CoolingAllowed = True
 		CoolingEnabled = False
 		BoiloffOccuring = False
@@ -5318,8 +5318,8 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 10
-	sidx = 0
-	sqor = 8
+	sidx = 1
+	sqor = 7
 	sepI = 5
 	attm = 0
 	sameVesselCollision = False
@@ -5921,7 +5921,7 @@ PART
 	resPri = 0
 	dstg = 10
 	sidx = 0
-	sqor = 10
+	sqor = 6
 	sepI = 6
 	attm = 0
 	sameVesselCollision = False
@@ -6138,8 +6138,8 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 11
-	sidx = 1
-	sqor = 11
+	sidx = 0
+	sqor = 7
 	sepI = 5
 	attm = 0
 	sameVesselCollision = False
@@ -6653,8 +6653,8 @@ PART
 	istg = 7
 	resPri = 0
 	dstg = 11
-	sidx = 1
-	sqor = 11
+	sidx = 0
+	sqor = 7
 	sepI = 5
 	attm = 0
 	sameVesselCollision = False

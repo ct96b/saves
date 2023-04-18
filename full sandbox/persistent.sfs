@@ -12,7 +12,7 @@ GAME
 	editor = None
 	flag = FlagPack/Flags/United States of America
 	launchID = 17
-	defaultVABLaunchSite = Wallops Island_Pad B
+	defaultVABLaunchSite = LaunchPad
 	defaultSPHLaunchSite = BocaChica_SmallHelipad
 	modded = True
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
@@ -3361,6 +3361,30 @@ GAME
 		{
 			intact = True
 		}
+		b2f8cd48-27b9-48e3-a900-a5f82ca977b2
+		{
+			intact = True
+		}
+		b4f761e0-4219-488a-b493-4fa3b9ace1a5
+		{
+			intact = True
+		}
+		9d7a34f0-edef-47a3-91dd-86815d5f8f8b
+		{
+			intact = True
+		}
+		8e07b15a-cd6b-4ca5-8613-64bd70ab2e80
+		{
+			intact = True
+		}
+		25232f8a-7ca7-42bc-bfcc-92ac83793b64
+		{
+			intact = True
+		}
+		f3fcbc19-3f2c-469e-8960-a5ecf712e7cb
+		{
+			intact = True
+		}
 	}
 	SCENARIO
 	{
@@ -3407,7 +3431,7 @@ GAME
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
 		initialized = False
-		savetime = 15224.858740434232
+		savetime = 15311.038740436114
 		useUUID = True
 		KKSettings
 		{
@@ -5832,7 +5856,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.12.5
-		UT = 15224.858740434232
+		UT = 15311.038740436114
 		activeVessel = 0
 		mapViewFiltering = 15359
 		commNetUIModeTracking = Network
@@ -6956,10 +6980,10 @@ GAME
 					tailMaxWidthRatio = 1
 					tailMaxLengthRatio = 94.558253288269043
 					ionTailMaxWidthRatio = 0.29999999999999999
-					comaWidth = 1099459.2590193492
-					tailWidth = 1099459.2590193492
-					tailLength = 103962947.09448422
-					ionTailWidth = 329837.77770580474
+					comaWidth = 1099512.52596478
+					tailWidth = 1099512.52596478
+					tailLength = 103967983.92380217
+					ionTailWidth = 329853.75778943399
 					hasName = False
 					radius = 21.3565884
 					seed = 749448530
@@ -19117,11 +19141,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 61.426490237862438
-				LPE = 90
-				LAN = 83.643690050162661
+				INC = 61.426490237862446
+				LPE = 90.000000000000014
+				LAN = 85.07437323547623
 				MNA = 0
-				EPH = 15224.258740434219
+				EPH = 15309.898740436089
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19499,13 +19523,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.423875654355541
+				SMA = 796410.91012173938
+				ECC = 0.99999999999999989
+				INC = 61.423875654355641
 				LPE = 90
-				LAN = 83.640144448996693
-				MNA = 0
-				EPH = 15224.258740434219
+				LAN = 85.070827634310263
+				MNA = 3.1415926207170166
+				EPH = 15309.898740436089
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19913,13 +19937,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796407.99215800886
+				SMA = 796407.99215793051
 				ECC = 0.99999999999999989
-				INC = 61.511533649458755
+				INC = 61.511533649457746
 				LPE = 90
-				LAN = 83.775281231295992
-				MNA = 3.1415926207170166
-				EPH = 15224.258740434219
+				LAN = 85.205964416605184
+				MNA = 3.1415926864625696
+				EPH = 15309.898740436089
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -29856,13 +29880,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.511508836979552
+				SMA = 796407.51029071596
+				ECC = 0.99999999999999989
+				INC = 61.511508836978436
 				LPE = 90
-				LAN = 83.775211797223335
-				MNA = 0
-				EPH = 15224.258740434219
+				LAN = 85.205894982536734
+				MNA = 3.1415926207170166
+				EPH = 15309.898740436089
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -30895,11 +30919,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 61.560604321679783
+				INC = 61.5606043217186
 				LPE = 90
-				LAN = 83.759753373649403
+				LAN = 85.190436558960982
 				MNA = 0
-				EPH = 15224.258740434219
+				EPH = 15309.898740436089
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -41563,13 +41587,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.508723031147142
+				SMA = 796413.52080608089
+				ECC = 0.99999999999999989
+				INC = 61.508723031184353
 				LPE = 90
-				LAN = 83.786190283988219
-				MNA = 0
-				EPH = 15224.258740434219
+				LAN = 85.216873469304346
+				MNA = 3.1415926207170166
+				EPH = 15309.898740436089
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -62272,24 +62296,24 @@ GAME
 			landed = False
 			skipGroundPositioning = False
 			skipGroundPositioningForDroppedPart = False
-			vesselSpawning = True
+			vesselSpawning = False
 			launchedFrom = SLC-39A
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 141.36000000308559
+			met = 6174.8981543994087
 			lct = 9130.5805860365836
-			lastUT = 9271.9405860396691
-			distanceTraveled = 567894.85789617919
+			lastUT = 15305.498740435993
+			distanceTraveled = 699286.82314248534
 			root = 0
-			lat = 21.753565065238547
-			lon = -46.135277907873743
-			alt = 150049.42474442208
-			hgt = 150049.422
-			nrm = 3.16202641E-05,-0.277839541,0.960627437
-			rot = -0.700631857,-0.58156848,-0.406109273,-0.077255629
-			CoM = 6.6757143E-06,-9.76715851,-8.10622805E-06
-			stg = 4
+			lat = 9.0648718922767628
+			lon = -116.91977147536569
+			alt = 149347.01441173861
+			hgt = 149347.016
+			nrm = -0.282577544,-0.89340651,0.349249244
+			rot = -0.702235281,-0.581870258,-0.403329968,-0.0749514177
+			CoM = -1.47819519E-05,-9.76723957,8.58306885E-06
+			stg = 2
 			prst = False
 			ref = 0
 			ctrl = False
@@ -62300,19 +62324,19 @@ GAME
 			OverrideActionControl = 0,0,0,0
 			OverrideAxisControl = 0,0,0,0
 			OverrideGroupNames = ,,,
-			altDispState = DEFAULT
-			cPch = 0
-			cHdg = 0
-			cMod = -1
+			altDispState = ASL
+			cPch = -0.001999987
+			cHdg = 2.732001
+			cMod = 0
 			ORBIT
 			{
-				SMA = 1739420.0159751321
-				ECC = 0.001954634654832909
-				INC = 28.60993900223345
-				LPE = 303.03131798977472
-				LAN = 335.77824400914454
-				MNA = 2.9888203969762821
-				EPH = 9151.260586037035
+				SMA = 1739420.5294118582
+				ECC = 0.0019545493043918679
+				INC = 28.60993887447939
+				LPE = 303.02732205663517
+				LAN = 335.77824336823954
+				MNA = 3.8030750188505129
+				EPH = 15305.478740435992
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -62329,12 +62353,12 @@ GAME
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 3
+				istg = 0
 				resPri = 0
 				dstg = 5
-				sqor = 3
-				sepI = 3
-				sidx = 1
+				sqor = 0
+				sepI = 0
+				sidx = 0
 				attm = 0
 				sameVesselCollision = False
 				srfN = , -1
@@ -62342,8 +62366,8 @@ GAME
 				attN = bottom, 1
 				mass = 1.39999998
 				shielded = False
-				temp = 402.96862094046202
-				tempExt = 399.34868224131964
+				temp = 173.51213948623231
+				tempExt = 173.55741612747809
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -62352,7 +62376,7 @@ GAME
 				autostrutMode = Off
 				rigidAttachment = False
 				flag = FlagPack/Flags/United States of America
-				rTrf = bluedog.Saturn.S4B.Interstage
+				rTrf = bluedog.Saturn.S4B.Interstage (Apollo Saturn V Debris)
 				modCost = 0
 				modMass = 0
 				moduleVariantName = 
@@ -62585,9 +62609,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 381.9829
-					LastFixedUpdate = 9130.581
-					CurrentMTBF = 350399.7
+					Age = 6558.908
+					LastFixedUpdate = 15305.5
+					CurrentMTBF = 350395.1
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -62620,8 +62644,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 0.03077012
-					LastFixedUpdate = 9130.581
+					Age = 2.037537
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -62712,11 +62736,11 @@ GAME
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 3
+				istg = 0
 				resPri = 0
 				dstg = 6
 				sqor = -1
-				sepI = 3
+				sepI = 0
 				sidx = -1
 				attm = 0
 				sameVesselCollision = False
@@ -62725,8 +62749,8 @@ GAME
 				attN = bottom, 2
 				mass = 15.0500011
 				shielded = False
-				temp = 413.8783362166256
-				tempExt = 411.03445557356224
+				temp = 173.49944014988077
+				tempExt = 173.45107516025996
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 10
@@ -62785,7 +62809,7 @@ GAME
 					totalSystemTemperature = 0
 					totalSystemFlux = 0
 					currentLoopID = 0
-					currentLoopTemperature = 189.365143
+					currentLoopTemperature = 164.053009
 					nominalLoopTemperature = 2.70000005
 					currentLoopFlux = 0
 					stagingEnabled = True
@@ -62803,7 +62827,7 @@ GAME
 				{
 					name = ModuleSystemHeatCryoTank
 					isEnabled = True
-					LastUpdateTime = 9138.6605860367599
+					LastUpdateTime = 15278.858740435411
 					CoolingAllowed = True
 					CoolingEnabled = False
 					BoiloffOccuring = True
@@ -62900,9 +62924,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 381.9812
-					LastFixedUpdate = 9130.581
-					CurrentMTBF = 350399.7
+					Age = 6558.201
+					LastFixedUpdate = 15305.5
+					CurrentMTBF = 350395.1
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -62987,7 +63011,7 @@ GAME
 				RESOURCE
 				{
 					name = LqdHydrogen
-					amount = 33135.848809140327
+					amount = 33118.824509999278
 					maxAmount = 225750
 					flowState = True
 					isTweakable = True
@@ -63020,11 +63044,11 @@ GAME
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 3
+				istg = 0
 				resPri = 0
 				dstg = 6
 				sqor = -1
-				sepI = 3
+				sepI = 0
 				sidx = -1
 				attm = 0
 				sameVesselCollision = False
@@ -63044,8 +63068,8 @@ GAME
 				attN = engine_7x_6, -1
 				mass = 7
 				shielded = False
-				temp = 414.2177812829413
-				tempExt = 411.38906924824249
+				temp = 173.49555248787445
+				tempExt = 173.39284390531631
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 5
@@ -63191,11 +63215,11 @@ GAME
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 4
+				istg = 1
 				resPri = 0
 				dstg = 7
-				sqor = 4
-				sepI = 3
+				sqor = 1
+				sepI = 0
 				sidx = 1
 				attm = 0
 				sameVesselCollision = False
@@ -63204,8 +63228,8 @@ GAME
 				attN = bottom, -1
 				mass = 1
 				shielded = False
-				temp = 414.40226458763937
-				tempExt = 409.67286826066345
+				temp = 173.4924218035201
+				tempExt = 173.33865116294041
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -63506,8 +63530,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 4351.632
 					LifeTimeSecs = 36000
 					HasFailed = False
@@ -63541,8 +63565,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 8208.888
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -63577,8 +63601,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 8208.888
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -63612,8 +63636,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 4239.984
 					LifeTimeSecs = 7200
 					HasFailed = False
@@ -63738,11 +63762,11 @@ GAME
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 4
+				istg = 1
 				resPri = 0
 				dstg = 7
-				sqor = 4
-				sepI = 3
+				sqor = 1
+				sepI = 0
 				sidx = 0
 				attm = 0
 				sameVesselCollision = False
@@ -63754,8 +63778,8 @@ GAME
 				attN = bottom, -1
 				mass = 1
 				shielded = False
-				temp = 414.40226189844543
-				tempExt = 409.67287541694623
+				temp = 173.49242180357678
+				tempExt = 173.33865116376325
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -64056,8 +64080,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 4351.632
 					LifeTimeSecs = 36000
 					HasFailed = False
@@ -64091,8 +64115,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 8208.888
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -64127,8 +64151,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 8208.888
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -64162,8 +64186,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 4239.984
 					LifeTimeSecs = 7200
 					HasFailed = False
@@ -64288,11 +64312,11 @@ GAME
 				rotation = 0,0.707106829,0,0.707106829
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 4
+				istg = 1
 				resPri = 0
 				dstg = 7
-				sqor = 4
-				sepI = 3
+				sqor = 1
+				sepI = 0
 				sidx = 0
 				attm = 0
 				sameVesselCollision = False
@@ -64304,8 +64328,8 @@ GAME
 				attN = bottom, -1
 				mass = 1
 				shielded = False
-				temp = 414.4022645513412
-				tempExt = 409.67286861638678
+				temp = 173.49242180368913
+				tempExt = 173.33865116540815
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -64598,8 +64622,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 4351.632
 					LifeTimeSecs = 36000
 					HasFailed = False
@@ -64633,8 +64657,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 8208.888
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -64669,8 +64693,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 8208.888
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -64704,8 +64728,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 4239.984
 					LifeTimeSecs = 7200
 					HasFailed = False
@@ -64830,11 +64854,11 @@ GAME
 				rotation = 0,1,0,-4.37113883E-08
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 4
+				istg = 1
 				resPri = 0
 				dstg = 7
-				sqor = 4
-				sepI = 3
+				sqor = 1
+				sepI = 0
 				sidx = 0
 				attm = 0
 				sameVesselCollision = False
@@ -64846,8 +64870,8 @@ GAME
 				attN = bottom, -1
 				mass = 1
 				shielded = False
-				temp = 414.4022662224296
-				tempExt = 409.67286270614011
+				temp = 173.49242180368913
+				tempExt = 173.33865116540815
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -65140,8 +65164,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 4351.632
 					LifeTimeSecs = 36000
 					HasFailed = False
@@ -65175,8 +65199,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 8208.888
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -65211,8 +65235,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 8208.888
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -65246,8 +65270,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 4239.984
 					LifeTimeSecs = 7200
 					HasFailed = False
@@ -65372,11 +65396,11 @@ GAME
 				rotation = 0,0.707106829,0,-0.707106829
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 4
+				istg = 1
 				resPri = 0
 				dstg = 7
-				sqor = 4
-				sepI = 3
+				sqor = 1
+				sepI = 0
 				sidx = 0
 				attm = 0
 				sameVesselCollision = False
@@ -65388,8 +65412,8 @@ GAME
 				attN = bottom, -1
 				mass = 1
 				shielded = False
-				temp = 414.40225419304704
-				tempExt = 409.6729011859419
+				temp = 173.49242180357678
+				tempExt = 173.33865116376325
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -65682,8 +65706,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 4351.632
 					LifeTimeSecs = 36000
 					HasFailed = False
@@ -65717,8 +65741,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 8208.888
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -65753,8 +65777,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 8208.888
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -65788,8 +65812,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 233.9316
-					LastFixedUpdate = 9130.581
+					Age = 236.2397
+					LastFixedUpdate = 15305.5
 					CurrentMTBF = 4239.984
 					LifeTimeSecs = 7200
 					HasFailed = False
@@ -66928,24 +66952,24 @@ GAME
 			landed = False
 			skipGroundPositioning = False
 			skipGroundPositioningForDroppedPart = False
-			vesselSpawning = True
+			vesselSpawning = False
 			launchedFrom = SLC-39A
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 180.26000000393469
+			met = 6141.838154398687
 			lct = 9136.420586036711
-			lastUT = 9316.6805860406457
-			distanceTraveled = 808309.90969428199
+			lastUT = 15278.298740435399
+			distanceTraveled = 871955.89720816573
 			root = 0
-			lat = 19.820796053072591
-			lon = -41.19153601020497
-			alt = 149535.48760372819
-			hgt = 149535.484
-			nrm = -0.930462122,-0.0953563452,0.353762209
-			rot = -0.373305768,-0.494541556,-0.733912528,0.278287441
+			lat = 14.568003201759689
+			lon = -127.86913658783371
+			alt = 150130.79744832986
+			hgt = 150130.797
+			nrm = -0.305927813,-0.946329057,-0.104257762
+			rot = -0.374744892,-0.493994236,-0.733178914,0.279257625
 			CoM = 0,0,0
-			stg = 3
+			stg = 1
 			prst = False
 			ref = 0
 			ctrl = False
@@ -66956,19 +66980,19 @@ GAME
 			OverrideActionControl = 0,0,0,0
 			OverrideAxisControl = 0,0,0,0
 			OverrideGroupNames = ,,,
-			altDispState = DEFAULT
-			cPch = 0
-			cHdg = 0
-			cMod = -1
+			altDispState = ASL
+			cPch = -0.176
+			cHdg = -3.36
+			cMod = 0
 			ORBIT
 			{
-				SMA = 1754302.1555713394
-				ECC = 0.0068829403459754876
-				INC = 28.598482140413179
-				LPE = 129.23556899537053
-				LAN = 335.8363317633075
-				MNA = 6.1784301539765316
-				EPH = 9222.4805860385895
+				SMA = 1754302.0553250094
+				ECC = 0.0068829155262380478
+				INC = 28.59848214689292
+				LPE = 129.23543290085564
+				LAN = 335.83633178829888
+				MNA = 0.32825978607445749
+				EPH = 15278.278740435846
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -66982,22 +67006,22 @@ GAME
 				launchID = 12
 				parent = 0
 				position = 0,0,0
-				rotation = 0,0,0,1.00000012
+				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Radial
-				istg = 3
+				istg = 0
 				resPri = 0
 				dstg = 4
-				sqor = 3
-				sepI = 3
+				sqor = 0
+				sepI = 0
 				sidx = 0
 				attm = 1
 				sameVesselCollision = False
 				srfN = srfAttach, -1,S4B_Tank_COLLIDER
 				mass = 0.0125000002
 				shielded = False
-				temp = 609.64257575298552
-				tempExt = 595.62024020592253
+				temp = 179.63910338068925
+				tempExt = 179.64035449987412
 				tempExtUnexp = 4
 				staticPressureAtm = 0
 				expt = 0.5
@@ -67006,7 +67030,7 @@ GAME
 				autostrutMode = Off
 				rigidAttachment = False
 				flag = FlagPack/Flags/United States of America
-				rTrf = bluedog.Saturn.S4B.Ullage
+				rTrf = bluedog.Saturn.S4B.Ullage (Apollo Saturn V Debris)
 				modCost = 0
 				modMass = 0
 				moduleVariantName = 
@@ -67196,9 +67220,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 387.8288
-					LastFixedUpdate = 9136.421
-					CurrentMTBF = 350399.7
+					Age = 6545.561
+					LastFixedUpdate = 15278.3
+					CurrentMTBF = 350395.2
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -67231,9 +67255,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 5.872515
-					LastFixedUpdate = 9136.421
-					CurrentMTBF = 7986.96
+					Age = 6163.605
+					LastFixedUpdate = 15278.3
+					CurrentMTBF = 1443.873
 					LifeTimeSecs = 3600
 					HasFailed = False
 					alarmDisabled = False
@@ -84011,13 +84035,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 61.391414840399733
+				INC = 61.391414840411443
 				LPE = 90
-				LAN = 83.728698179040407
+				LAN = 85.159381364352726
 				MNA = 0
-				EPH = 15224.258740434219
+				EPH = 15309.898740436089
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84370,13 +84394,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.91860561084
+				SMA = 796410.91860568873
 				ECC = 0.99999999999999989
-				INC = 61.391507713049293
+				INC = 61.391507713058445
 				LPE = 90.000000000000014
-				LAN = 83.728690883194645
+				LAN = 85.159374068508669
 				MNA = 3.1415926207170166
-				EPH = 15224.258740434219
+				EPH = 15309.898740436089
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84729,13 +84753,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 61.391429398750745
+				SMA = 796410.95199682773
+				ECC = 0.99999999999999989
+				INC = 61.391429398763009
 				LPE = 90
-				LAN = 83.728979613152887
-				MNA = 0
-				EPH = 15224.258740434219
+				LAN = 85.159662798471572
+				MNA = 3.1415926207170166
+				EPH = 15309.898740436089
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -85088,13 +85112,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.27377072803
+				SMA = 796410.27377050486
 				ECC = 0.99999999999999989
-				INC = 61.391276504527958
-				LPE = 90.000000000000014
-				LAN = 83.728825310225375
+				INC = 61.391276504519688
+				LPE = 90
+				LAN = 85.159508495539853
 				MNA = 3.1415926207170166
-				EPH = 15224.258740434219
+				EPH = 15309.898740436089
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -97107,6 +97131,12 @@ GAME
 		SOCKrepainted = True
 		Space Shuttle Accessories = True
 		HabTech2 = True
+		DepthMask v1.1.3.0 / v1.1.3 = True
+		WhoAmI v1.4.0.0 = True
+		DepthMask = True
+		ShuttleStuff_SharedAssets = True
+		shuttle_OV200 = True
+		WhoAmI = True
 		System.Buffers v4.0.3.0 / v4.6.28619.01 @BuiltBy: dlab14-DDVSOWINAGE069 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/7601f4f6225089ffb291dc7d58293c7bbf5c5d4f / v4.6.28619.01 = True
 	}
 	ROSTER
@@ -97155,7 +97185,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420960
+							cid = 4292401638
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97289,7 +97319,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421078
+							cid = 4292401756
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97521,7 +97551,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420960
+							cid = 4292401638
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97655,7 +97685,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421078
+							cid = 4292401756
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97886,7 +97916,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420960
+							cid = 4292401638
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98020,7 +98050,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421078
+							cid = 4292401756
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98249,7 +98279,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420960
+							cid = 4292401638
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98383,7 +98413,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421078
+							cid = 4292401756
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99394,7 +99424,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420960
+							cid = 4292401638
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99528,7 +99558,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421078
+							cid = 4292401756
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -100898,7 +100928,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420960
+							cid = 4292401638
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101032,7 +101062,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421078
+							cid = 4292401756
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101260,7 +101290,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292420960
+							cid = 4292401638
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101394,7 +101424,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292421078
+							cid = 4292401756
 							uid = 0
 							mid = 0
 							persistentId = 0

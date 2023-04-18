@@ -1,0 +1,19 @@
+craftName = Dragon Crew
+cachedCraftData
+{
+	origChecksum = 0da20913d1c4908a96456366842597e9
+	cacheVersion = 3
+	name = Dragon Crew
+	kspVersion = 1.12.5
+	stagesCount = 1
+	cost = 11916
+	partCount = 5
+	mass = 5.98090076
+	description = 
+	crewCapacity = 4
+	partNames = TE.18.DRAGONV2.POD
+	partNames = dockingPort2
+	partNames = TE.19.C-Dragon.Heatshield
+	partNames = TE.18.DRAGONV2.TRUNK
+	partNames = mumech.MJ2.AR202
+}
