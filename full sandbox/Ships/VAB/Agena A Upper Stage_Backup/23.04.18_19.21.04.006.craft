@@ -1,10 +1,10 @@
-ship = Untitled Space Craft
+ship = Agena A Upper Stage
 version = 1.12.5
 description = 
 type = VAB
-size = 3.250386,11.6352768,3.25038576
+size = 1.30793417,6.81097984,1.24999964
 steamPublishedFileId = 0
-persistentId = 522845922
+persistentId = 493929613
 rot = 0,0,0,0
 missionFlag = FlagPack/Flags/United States of America
 vesselType = Debris
@@ -14,9 +14,9 @@ OverrideAxisControl = 0,0,0,0
 OverrideGroupNames = ,,,
 PART
 {
-	part = DIRECT.Orion_4286489098
+	part = bluedog.Agena.Avionics_4290891216
 	partName = Part
-	persistentId = 517485363
+	persistentId = 1563908945
 	pos = 0,15,0
 	attPos = 0,0,0
 	attPos0 = 0,15,0
@@ -38,12 +38,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = DIRECT.orionServiceCone_4286266628
-	link = DIRECT.orionHeatShield_4286264242
-	link = DIRECT.LaunchEscapeSystem_4286263072
-	attN = node_stack_top,DIRECT.LaunchEscapeSystem_4286263072_0|1.11389995|0_4.26325641E-14|0.99999994|1.78813906E-07_0|1.11389995|0_4.26325641E-14|0.99999994|1.78813906E-07
-	attN = node_stack_bottom,DIRECT.orionHeatShield_4286264242_0|-0.548737705|0_4.26325641E-14|-0.99999994|1.78813906E-07_0|-0.548737705|0_4.26325641E-14|-0.99999994|1.78813906E-07
-	attN = chute_assembly,DIRECT.orionServiceCone_4286266628_0|0.705540001|0_4.26325641E-14|0.99999994|1.78813906E-07_0|0.705540001|0_4.26325641E-14|0.99999994|1.78813906E-07
+	link = bluedog.Agena.StandardFairingBase_4291040860
+	link = bluedog.Agena.Tank.Short_4290912484
+	attN = top,bluedog.Agena.StandardFairingBase_4291040860_0|0.145099998|0_0|1|0_0|0.145099998|0_0|1|0
+	attN = bottom,bluedog.Agena.Tank.Short_4290912484_0|-0.145119995|0_0|-1|0_0|-0.145119995|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -67,6 +65,23 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitchPaint
+		currentSubtype = White
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleCommand
 		isEnabled = True
 		hibernation = False
@@ -85,7 +100,6 @@ PART
 			HibernateToggle
 			{
 				actionGroup = None
-				active = False
 			}
 		}
 		UPGRADESAPPLIED
@@ -129,73 +143,9 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleColorChanger
+		name = ModuleSAS
 		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = Light
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleScienceExperiment
-		isEnabled = True
-		Deployed = False
-		Inoperable = False
-		cooldownToGo = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DeployAction
-			{
-				actionGroup = None
-			}
-			ResetAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleScienceContainer
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			CollectAllAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleConductionMultiplier
-		isEnabled = True
+		standaloneToggle = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -223,36 +173,6 @@ PART
 				actionGroup = None
 				active = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleProbeControlPoint
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -311,21 +231,6 @@ PART
 	MODULE
 	{
 		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSparesContainer
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -1067,8 +972,8 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleCrewRandR
-		isEnabled = True
+		name = ModuleB9PartInfo
+		isEnabled = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1117,129 +1022,11 @@ PART
 		{
 		}
 	}
-	MODULE
-	{
-		name = ModuleKISInventory
-		isEnabled = True
-		invName = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleKISInventory
-		isEnabled = True
-		invName = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleKISInventory
-		isEnabled = True
-		invName = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleKISInventory
-		isEnabled = True
-		invName = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleKISInventory
-		isEnabled = True
-		invName = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleKISInventory
-		isEnabled = True
-		invName = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 150
-		maxAmount = 150
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = MonoPropellant
-		amount = 45
-		maxAmount = 45
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = SpareParts
 		amount = 60
-		maxAmount = 300
+		maxAmount = 60
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -1249,12 +1036,12 @@ PART
 }
 PART
 {
-	part = DIRECT.orionServiceCone_4286266628
+	part = bluedog.Agena.StandardFairingBase_4291040860
 	partName = Part
-	persistentId = 479884892
-	pos = 0,15.8655396,0
+	persistentId = 2173361550
+	pos = 0,15.1687937,0
 	attPos = 0,0,0
-	attPos0 = 0,0.865539551,0
+	attPos0 = 0,0.168793678,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -1264,181 +1051,30 @@ PART
 	rigidAttachment = False
 	istg = 0
 	resPri = 0
-	dstg = 0
+	dstg = 1
 	sidx = 0
 	sqor = 0
-	sepI = 0
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = node_stack_bottom,DIRECT.Orion_4286489098_0|-0.159999996|0_0|-0.99999994|-1.1920929E-07_0|-0.159999996|0_0|-0.99999994|-1.1920929E-07
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDecouple
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleToggleCrossfeed
-		isEnabled = True
-		crossfeedStatus = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			EnableAction
-			{
-				actionGroup = None
-			}
-			DisableAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = DIRECT.orionHeatShield_4286264242
-	partName = Part
-	persistentId = 136811811
-	pos = 0,14.3182621,0
-	attPos = 0,0,0
-	attPos0 = 0,-0.6817379,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 1
-	sidx = -1
-	sqor = -1
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
+	modCost = 15.1539431
+	modMass = 0.0303078853
 	modSize = 0,0,0
-	link = DIRECT.orionAvionicsRing_4286265862
-	attN = node_stack_bottom,DIRECT.orionAvionicsRing_4286265862_0|-0.214000002|0_0|-0.99999994|-1.1920929E-07_0|-0.214000002|0_0|-0.99999994|-1.1920929E-07
-	attN = node_stack_top,DIRECT.Orion_4286489098_0|0.133000001|0_0|0.99999994|-1.1920929E-07_0|0.133000001|0_0|0.99999994|-1.1920929E-07
+	attN = top,Null_0_0|0.0714870021|0_0|1|0_0|0.0714870021|0_0|1|0
+	attN = bottom,bluedog.Agena.Avionics_4290891216_0|-0.0236939993|0_0|-1|0_0|-0.0236939993|0_0|-1|0
+	attN = dpaf,Null_0_0|1.15525806|0_0|1|0_0|1.15525806|0_0|1|0
+	attN = interstage01a,Null_0_0|0.417076528|0_0|-1|0_0|0.417076528|0_0|-1|0
+	attN = interstage01b,Null_0_0|0.452076524|0_0|1|0_0|0.452076524|0_0|1|0
+	attN = interstage02a,Null_0_0|0.792076528|0_0|-1|0_0|0.792076528|0_0|-1|0
+	attN = interstage02b,Null_0_0|0.827076554|0_0|1|0_0|0.827076554|0_0|1|0
+	attN = interstage03a,Null_0_0|1.16707659|0_0|-1|0_0|1.16707659|0_0|-1|0
+	attN = interstage03b,Null_0_0|1.20207655|0_0|1|0_0|1.20207655|0_0|1|0
+	attN = interstage04a,Null_0_0|1.54207659|0_0|-1|0_0|1.54207659|0_0|-1|0
+	attN = interstage04b,Null_0_0|1.57707655|0_0|1|0_0|1.57707655|0_0|1|0
+	attN = interstage05a,Null_0_0|1.91707659|0_0|-1|0_0|1.91707659|0_0|-1|0
+	attN = interstage05b,Null_0_0|1.95207655|0_0|1|0_0|1.95207655|0_0|1|0
+	attN = interstage06a,Null_0_0|2.29207659|0_0|-1|0_0|2.29207659|0_0|-1|0
+	attN = interstage06b,Null_0_0|2.32707644|0_0|1|0_0|2.32707644|0_0|1|0
 	EVENTS
 	{
 	}
@@ -1462,19 +1098,68 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleDecouple
+		name = ModuleProceduralFairing
 		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = False
+		interstageCraftID = 0
+		nArcs = 2
+		ejectionForce = 200
+		useClamshell = True
+		isCapped = True
+		stagingEnabled = True
+		fsm = st_idle
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			DecoupleAction
+			DeployFairingAction
 			{
 				actionGroup = None
+			}
+		}
+		XSECTION
+		{
+			h = 0
+			r = 0.49000001
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 0
+			}
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 1
+			}
+		}
+		XSECTION
+		{
+			h = 0.718860626
+			r = 0.49000001
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 2
+			}
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 3
+			}
+		}
+		XSECTION
+		{
+			h = 1.12331009
+			r = 0.150000006
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 4
+			}
+			ATTACHEDFLAG
+			{
+				attachedFlagPartIDs = 
+				panelIndex = 5
 			}
 		}
 		UPGRADESAPPLIED
@@ -1483,44 +1168,7 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleAblator
-		isEnabled = True
-		nominalAmountRecip = -1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColorChanger
-		isEnabled = True
-		animState = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTestSubject
+		name = ModuleCargoBay
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -1532,359 +1180,14 @@ PART
 		UPGRADESAPPLIED
 		{
 		}
-	}
-	MODULE
-	{
-		name = ModuleLiftingSurface
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTankReliability
-		isEnabled = True
-		pole = 0.01
-		MaxTC = 360
-		MinTC = 90
-		leakName = none
-		MTBF = 350400
-		LifeTime = 131400
-		RepairCost = 1
-		RepairBonus = 0.100000001
-		MaintenanceCost = 1
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 7200
-		Silent = False
-		Priority = HIGH
-		PerksRequirementName = Engineer
-		PerksRequirementValue = 1
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = Ablator
-		amount = 800
-		maxAmount = 800
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = DIRECT.orionAvionicsRing_4286265862
-	partName = Part
-	persistentId = 2237089351
-	pos = 0,14.1042624,0
-	attPos = 0,0,0
-	attPos0 = 0,-0.213999748,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 2
-	sidx = 0
-	sqor = 2
-	sepI = 1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = DIRECT.orion.ServiceModule_4286256862
-	attN = node_stack_bottom,DIRECT.orion.ServiceModule_4286256862_0|-0.35769999|0_0|-0.99999994|-1.1920929E-07_0|-0.35769999|0_0|-0.99999994|-1.1920929E-07
-	attN = node_stack_top,DIRECT.orionHeatShield_4286264242_0|0|0_0|0.99999994|-1.1920929E-07_0|0|0_0|0.99999994|-1.1920929E-07
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleDecouple
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleToggleCrossfeed
-		isEnabled = True
-		crossfeedStatus = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-			EnableAction
-			{
-				actionGroup = None
-			}
-			DisableAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = DIRECT.LaunchEscapeSystem_4286263072
-	partName = Part
-	persistentId = 3508144227
-	pos = 0,16.8168983,0
-	attPos = 0,0,0
-	attPos0 = 0,1.81689835,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 0
-	sidx = 1
-	sqor = 0
-	sepI = 0
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = bottom2,Null_0_0|-1.46000004|0_0|-1|0_0|-1.46000004|0_0|-1|0
-	attN = bottom1,DIRECT.Orion_4286489098_0|-0.703000009|0_0|-1|0_0|-0.703000009|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
 	}
 	MODULE
 	{
 		name = ModuleB9PartSwitch
 		isEnabled = True
 		stagingEnabled = True
-		moduleID = BPCswitch
-		currentSubtype = Bare
+		moduleID = dpaf_node
+		currentSubtype = No
 		EVENTS
 		{
 		}
@@ -1897,65 +1200,33 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleEnginesFX
+		name = ModuleB9PartSwitch
 		isEnabled = True
-		independentThrottle = False
-		independentThrottlePercentage = 0
-		staged = False
-		flameout = False
-		EngineIgnited = False
-		engineShutdown = False
-		currentThrottle = 0
-		thrustPercentage = 100
-		manuallyOverridden = False
-		includeinDVCalcs = False
+		stagingEnabled = True
+		moduleID = textureSwitchBody
+		currentSubtype = White
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStructuralNode
+		isEnabled = True
+		spawnState = False
+		visibilityState = True
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			OnAction
-			{
-				actionGroup = None
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-			}
-			ActivateAction
-			{
-				actionGroup = None
-			}
-			ToggleThrottle
-			{
-				actionGroup = None
-			}
-		}
-		AXISGROUPS
-		{
-			independentThrottlePercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-			}
-			thrustPercentage
-			{
-				axisGroup = None
-				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				axisSpeedMultiplier = 0
-				axisInverted = None
-				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
-			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -1963,20 +1234,16 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleDecouple
+		name = ModuleStructuralNode
 		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
+		spawnState = False
+		visibilityState = True
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			DecoupleAction
-			{
-				actionGroup = None
-			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -1984,8 +1251,180 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleTestSubject
+		name = ModuleStructuralNode
 		isEnabled = True
+		spawnState = False
+		visibilityState = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStructuralNode
+		isEnabled = True
+		spawnState = False
+		visibilityState = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStructuralNode
+		isEnabled = True
+		spawnState = False
+		visibilityState = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStructuralNode
+		isEnabled = True
+		spawnState = False
+		visibilityState = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStructuralNode
+		isEnabled = True
+		spawnState = False
+		visibilityState = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStructuralNode
+		isEnabled = True
+		spawnState = False
+		visibilityState = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStructuralNode
+		isEnabled = True
+		spawnState = False
+		visibilityState = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStructuralNode
+		isEnabled = True
+		spawnState = False
+		visibilityState = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStructuralNode
+		isEnabled = True
+		spawnState = False
+		visibilityState = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStructuralNode
+		isEnabled = True
+		spawnState = False
+		visibilityState = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleStructuralNodeToggle
+		isEnabled = True
+		showMesh = True
+		showNodes = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2016,80 +1455,6 @@ PART
 	{
 		name = InspectionModule
 		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTankReliability
-		isEnabled = True
-		pole = 0.01
-		MaxTC = 360
-		MinTC = 90
-		leakName = none
-		MTBF = 350400
-		LifeTime = 131400
-		RepairCost = 1
-		RepairBonus = 0.100000001
-		MaintenanceCost = 1
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 7200
-		Silent = False
-		Priority = HIGH
-		PerksRequirementName = Engineer
-		PerksRequirementValue = 1
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSRBFXReliability
-		isEnabled = True
-		MTBF = 8000
-		LifeTime = 1
-		RepairCost = 10
-		RepairBonus = 1
-		MaintenanceCost = 5
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 600
-		Silent = False
-		Priority = HIGH
-		PerksRequirementName = 
-		PerksRequirementValue = 0
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2151,26 +1516,15 @@ PART
 		{
 		}
 	}
-	RESOURCE
-	{
-		name = SolidFuel
-		amount = 180
-		maxAmount = 180
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
 }
 PART
 {
-	part = DIRECT.orion.ServiceModule_4286256862
+	part = bluedog.Agena.Tank.Short_4290912484
 	partName = Part
-	persistentId = 1151784861
-	pos = 0,13.080162,0
+	persistentId = 3187529636
+	pos = 0,14.4532299,0
 	attPos = 0,0,0
-	attPos0 = 0,-1.0241003,0
+	attPos0 = 0,-0.546770096,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -2178,28 +1532,20 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = -1
 	resPri = 0
-	dstg = 2
+	dstg = 0
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
+	modCost = -23.1800098
+	modMass = -0.0125000048
 	modSize = 0,0,0
-	link = DIRECT.orion.LinearRCSBlock_4286256412
-	link = DIRECT.orion.LinearRCSBlock_4286255914
-	link = DIRECT.orion.LinearRCSBlock_4286255830
-	link = DIRECT.orion.LinearRCSBlock_4286255746
-	link = DIRECT.orion.RCSBlock_4285826014
-	link = DIRECT.orion.RCSBlock_4285823372
-	link = DIRECT.orion.RCSBlock_4285823260
-	link = DIRECT.orion.RCSBlock_4285823148
-	link = bluedog.LM.Descent.Engine_4285712866
-	attN = node_stack_top,DIRECT.orionAvionicsRing_4286265862_0|0.666400015|0_0|0.99999994|-1.1920929E-07_0|0.666400015|0_0|0.99999994|-1.1920929E-07
-	attN = node_stack_engine,bluedog.LM.Descent.Engine_4285712866_0|-0.566600025|0_0|-0.99999994|-1.1920929E-07_0|-0.566600025|0_0|-0.99999994|-1.1920929E-07
+	link = bluedog.Agena.EngineMount_4290898530
+	attN = top,bluedog.Agena.Avionics_4290891216_0|0.401650012|0_0|1|0_0|0.401650012|0_0|1|0
+	attN = bottom,bluedog.Agena.EngineMount_4290898530_0|-0.483649999|0_0|-1|0_0|-0.483649999|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -2220,6 +1566,513 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitchPaint
+		currentSubtype = Agena A
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = meshSwitchDome
+		currentSubtype = Low
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReliabilityInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = InspectionModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTankReliability
+		isEnabled = True
+		pole = 0.01
+		MaxTC = 360
+		MinTC = 90
+		leakName = none
+		MTBF = 350400
+		LifeTime = 131400
+		RepairCost = 1
+		RepairBonus = 0.100000001
+		MaintenanceCost = 1
+		MaintenanceBonus = 0.300000012
+		InspectionBonus = 7200
+		Silent = False
+		Priority = HIGH
+		PerksRequirementName = Engineer
+		PerksRequirementValue = 1
+		HasInitted = False
+		TimeOfLastReset = Infinity
+		TimeOfLastInspection = -Infinity
+		Age = 0
+		LastFixedUpdate = 0
+		CurrentMTBF = Infinity
+		LifeTimeSecs = Infinity
+		HasFailed = False
+		alarmDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = fuelSwitch
+		currentSubtype = LF/O
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSystemHeat
+		isEnabled = True
+		totalSystemTemperature = 0
+		totalSystemFlux = 0
+		currentLoopID = 0
+		currentLoopTemperature = 0
+		nominalLoopTemperature = 0
+		currentLoopFlux = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSystemHeatCryoTank
+		isEnabled = True
+		LastUpdateTime = 15314.458740436188
+		CoolingAllowed = True
+		CoolingEnabled = False
+		BoiloffOccuring = False
+		DebugMode = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			EnableAction
+			{
+				actionGroup = None
+			}
+			DisableAction
+			{
+				actionGroup = None
+			}
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 45
+		maxAmount = 45
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 55
+		maxAmount = 55
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = bluedog.Agena.EngineMount_4290898530
+	partName = Part
+	persistentId = 2871252333
+	pos = 0,13.7611094,0
+	attPos = 0,0,0
+	attPos0 = 0,-0.692120552,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = bluedog.Agena.EngineShroud_4290898196
+	attN = top,bluedog.Agena.Tank.Short_4290912484_0|0.208470002|0_0|1|0_0|0.208470002|0_0|1|0
+	attN = bottom,bluedog.Agena.EngineShroud_4290898196_0|0.150309995|0_0|-1|0_0|0.150309995|0_0|-1|0
+	attN = engine,Null_0_0|-0.220750004|0_0|-1|0_0|-0.220750004|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitchPaint
+		currentSubtype = Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReliabilityInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = InspectionModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = bluedog.Agena.EngineShroud_4290898196
+	partName = Part
+	persistentId = 2772546697
+	pos = 0,13.5766792,0
+	attPos = 0,0,0
+	attPos0 = 0,-0.184430122,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = bluedog.Agena.Engine.XLR81_4290895806
+	link = bluedog.Agena.UllageMotor_4290840222
+	link = bluedog.Agena.UllageMotor_4290838498
+	attN = top,bluedog.Agena.EngineMount_4290898530_0|0.334740013|0_0|1|0_0|0.334740013|0_0|1|0
+	attN = bottom,bluedog.Agena.Engine.XLR81_4290895806_0|0.334740013|0_0|-1|0_0|0.334740013|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleRCSFX
+		isEnabled = True
+		rcsEnabled = True
+		thrustPercentage = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		enableX = True
+		enableY = True
+		enableZ = True
+		useThrottle = False
+		fullThrust = False
+		stagingEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceConverter
+		isEnabled = True
+		EfficiencyBonus = 1
+		IsActivated = False
+		stagingEnabled = True
+		lastUpdateTime = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StopResourceConverterAction
+			{
+				actionGroup = None
+			}
+			StartResourceConverterAction
+			{
+				actionGroup = None
+			}
+			ToggleResourceConverterAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 	MODULE
 	{
@@ -2288,6 +2141,41 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleRCSReliability
+		isEnabled = True
+		MTBF = 8760
+		LifeTime = 1
+		RepairCost = 3
+		RepairBonus = 0.100000001
+		MaintenanceCost = 1
+		MaintenanceBonus = 0.300000012
+		InspectionBonus = 240
+		Silent = False
+		Priority = MEDIUM
+		PerksRequirementName = Engineer
+		PerksRequirementValue = 3
+		HasInitted = False
+		TimeOfLastReset = Infinity
+		TimeOfLastInspection = -Infinity
+		Age = 0
+		LastFixedUpdate = 0
+		CurrentMTBF = Infinity
+		LifeTimeSecs = Infinity
+		HasFailed = False
+		alarmDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTankReliability
 		isEnabled = True
 		pole = 0.01
@@ -2344,6 +2232,21 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleWaterfallFX
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleCargoPart
 		isEnabled = True
 		beingAttached = False
@@ -2363,30 +2266,8 @@ PART
 	RESOURCE
 	{
 		name = MonoPropellant
-		amount = 100
-		maxAmount = 100
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = LiquidFuel
-		amount = 360
-		maxAmount = 360
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 440
-		maxAmount = 440
+		amount = 15
+		maxAmount = 15
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2396,8 +2277,8 @@ PART
 	RESOURCE
 	{
 		name = ElectricCharge
-		amount = 240
-		maxAmount = 240
+		amount = 50
+		maxAmount = 50
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -2407,1468 +2288,12 @@ PART
 }
 PART
 {
-	part = DIRECT.orion.LinearRCSBlock_4286256412
+	part = bluedog.Agena.Engine.XLR81_4290895806
 	partName = Part
-	persistentId = 3224239804
-	pos = -0.605220973,12.391284,0.605220854
+	persistentId = 2562281336
+	pos = 0,13.4135389,0
 	attPos = 0,0,0
-	attPos0 = -0.605220973,-0.688878059,0.605220854
-	rot = 0.264571995,0.276492804,0.638733327,0.667512715
-	attRot = 0,0,0,1
-	attRot0 = 0.264571995,0.276492804,0.638733327,0.667512715
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = DIRECT.orion.LinearRCSBlock_4286255914
-	sym = DIRECT.orion.LinearRCSBlock_4286255830
-	sym = DIRECT.orion.LinearRCSBlock_4286255746
-	srfN = srfAttach,DIRECT.orion.ServiceModule_4286256862,SM_COLLIDER_Circle.052_None,0|0|0,0.125|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSReliability
-		isEnabled = True
-		MTBF = 8760
-		LifeTime = 1
-		RepairCost = 3
-		RepairBonus = 0.100000001
-		MaintenanceCost = 1
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 240
-		Silent = False
-		Priority = MEDIUM
-		PerksRequirementName = Engineer
-		PerksRequirementValue = 3
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = DIRECT.orion.LinearRCSBlock_4286255914
-	partName = Part
-	persistentId = 2360360193
-	pos = 0.605220795,12.391284,0.605220973
-	attPos = 0,0,0
-	attPos0 = 0.605220795,-0.688878059,0.605220973
-	rot = 0.638733327,0.667512715,0.264572024,0.276492834
-	attRot = 0,0,0,1
-	attRot0 = 0.638733327,0.667512715,0.264572024,0.276492834
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = DIRECT.orion.LinearRCSBlock_4286255830
-	sym = DIRECT.orion.LinearRCSBlock_4286255746
-	sym = DIRECT.orion.LinearRCSBlock_4286256412
-	srfN = srfAttach,DIRECT.orion.ServiceModule_4286256862,SM_COLLIDER_Circle.052_None,0|0|0,0.125|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSReliability
-		isEnabled = True
-		MTBF = 8760
-		LifeTime = 1
-		RepairCost = 3
-		RepairBonus = 0.100000001
-		MaintenanceCost = 1
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 240
-		Silent = False
-		Priority = MEDIUM
-		PerksRequirementName = Engineer
-		PerksRequirementValue = 3
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = DIRECT.orion.LinearRCSBlock_4286255830
-	partName = Part
-	persistentId = 1832932266
-	pos = 0.605220914,12.391284,-0.605220914
-	attPos = 0,0,0
-	attPos0 = 0.605220914,-0.688878059,-0.605220914
-	rot = 0.638733327,0.667512715,-0.264572024,-0.276492834
-	attRot = 0,0,0,1
-	attRot0 = 0.638733327,0.667512715,-0.264572024,-0.276492834
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = DIRECT.orion.LinearRCSBlock_4286255746
-	sym = DIRECT.orion.LinearRCSBlock_4286256412
-	sym = DIRECT.orion.LinearRCSBlock_4286255914
-	srfN = srfAttach,DIRECT.orion.ServiceModule_4286256862,SM_COLLIDER_Circle.052_None,0|0|0,0.125|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSReliability
-		isEnabled = True
-		MTBF = 8760
-		LifeTime = 1
-		RepairCost = 3
-		RepairBonus = 0.100000001
-		MaintenanceCost = 1
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 240
-		Silent = False
-		Priority = MEDIUM
-		PerksRequirementName = Engineer
-		PerksRequirementValue = 3
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = DIRECT.orion.LinearRCSBlock_4286255746
-	partName = Part
-	persistentId = 3172010168
-	pos = -0.605220854,12.391284,-0.605220914
-	attPos = 0,0,0
-	attPos0 = -0.605220854,-0.688878059,-0.605220914
-	rot = 0.264572024,0.276492834,-0.638733327,-0.667512715
-	attRot = 0,0,0,1
-	attRot0 = 0.264572024,0.276492834,-0.638733327,-0.667512715
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = DIRECT.orion.LinearRCSBlock_4286256412
-	sym = DIRECT.orion.LinearRCSBlock_4286255914
-	sym = DIRECT.orion.LinearRCSBlock_4286255830
-	srfN = srfAttach,DIRECT.orion.ServiceModule_4286256862,SM_COLLIDER_Circle.052_None,0|0|0,0.125|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSReliability
-		isEnabled = True
-		MTBF = 8760
-		LifeTime = 1
-		RepairCost = 3
-		RepairBonus = 0.100000001
-		MaintenanceCost = 1
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 240
-		Silent = False
-		Priority = MEDIUM
-		PerksRequirementName = Engineer
-		PerksRequirementValue = 3
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = DIRECT.orion.RCSBlock_4285826014
-	partName = Part
-	persistentId = 3192409023
-	pos = 0,13.6780205,1.23631907
-	attPos = 0,0,0
-	attPos0 = 0,0.597858429,1.23631907
-	rot = 0,0.707106829,0,0.707106829
-	attRot = 0,0,0,1
-	attRot0 = 0,0.707106829,0,0.707106829
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = DIRECT.orion.RCSBlock_4285823372
-	sym = DIRECT.orion.RCSBlock_4285823260
-	sym = DIRECT.orion.RCSBlock_4285823148
-	srfN = srfAttach,DIRECT.orion.ServiceModule_4286256862,SM_COLLIDER_Circle.052_None,0|0|0,0.125|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSReliability
-		isEnabled = True
-		MTBF = 8760
-		LifeTime = 1
-		RepairCost = 3
-		RepairBonus = 0.100000001
-		MaintenanceCost = 1
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 240
-		Silent = False
-		Priority = MEDIUM
-		PerksRequirementName = Engineer
-		PerksRequirementValue = 3
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = DIRECT.orion.RCSBlock_4285823372
-	partName = Part
-	persistentId = 4073810457
-	pos = 1.23631895,13.6780205,7.36903587E-08
-	attPos = 0,0,0
-	attPos0 = 1.23631895,0.597858429,7.36903587E-08
-	rot = 0,1,0,0
-	attRot = 0,0,0,1
-	attRot0 = 0,1,0,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = DIRECT.orion.RCSBlock_4285823260
-	sym = DIRECT.orion.RCSBlock_4285823148
-	sym = DIRECT.orion.RCSBlock_4285826014
-	srfN = srfAttach,DIRECT.orion.ServiceModule_4286256862,SM_COLLIDER_Circle.052_None,0|0|0,0.125|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSReliability
-		isEnabled = True
-		MTBF = 8760
-		LifeTime = 1
-		RepairCost = 3
-		RepairBonus = 0.100000001
-		MaintenanceCost = 1
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 240
-		Silent = False
-		Priority = MEDIUM
-		PerksRequirementName = Engineer
-		PerksRequirementValue = 3
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = DIRECT.orion.RCSBlock_4285823260
-	partName = Part
-	persistentId = 1088891899
-	pos = -1.08082446E-07,13.6780205,-1.23631907
-	attPos = 0,0,0
-	attPos0 = -1.08082446E-07,0.597858429,-1.23631907
-	rot = 0,0.707106769,0,-0.707106888
-	attRot = 0,0,0,1
-	attRot0 = 0,0.707106769,0,-0.707106888
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = DIRECT.orion.RCSBlock_4285823148
-	sym = DIRECT.orion.RCSBlock_4285826014
-	sym = DIRECT.orion.RCSBlock_4285823372
-	srfN = srfAttach,DIRECT.orion.ServiceModule_4286256862,SM_COLLIDER_Circle.052_None,0|0|0,0.125|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSReliability
-		isEnabled = True
-		MTBF = 8760
-		LifeTime = 1
-		RepairCost = 3
-		RepairBonus = 0.100000001
-		MaintenanceCost = 1
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 240
-		Silent = False
-		Priority = MEDIUM
-		PerksRequirementName = Engineer
-		PerksRequirementValue = 3
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = DIRECT.orion.RCSBlock_4285823148
-	partName = Part
-	persistentId = 2276829553
-	pos = -1.23631895,13.6780205,7.36903587E-08
-	attPos = 0,0,0
-	attPos0 = -1.23631895,0.597858429,7.36903587E-08
-	rot = 0,0,0,-1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,-1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = DIRECT.orion.RCSBlock_4285826014
-	sym = DIRECT.orion.RCSBlock_4285823372
-	sym = DIRECT.orion.RCSBlock_4285823260
-	srfN = srfAttach,DIRECT.orion.ServiceModule_4286256862,SM_COLLIDER_Circle.052_None,0|0|0,0.125|0|0,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleRCSFX
-		isEnabled = True
-		rcsEnabled = True
-		thrustPercentage = 100
-		currentShowToggles = False
-		enableYaw = True
-		enablePitch = True
-		enableRoll = True
-		enableX = True
-		enableY = True
-		enableZ = True
-		useThrottle = False
-		fullThrust = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleRCSReliability
-		isEnabled = True
-		MTBF = 8760
-		LifeTime = 1
-		RepairCost = 3
-		RepairBonus = 0.100000001
-		MaintenanceCost = 1
-		MaintenanceBonus = 0.300000012
-		InspectionBonus = 240
-		Silent = False
-		Priority = MEDIUM
-		PerksRequirementName = Engineer
-		PerksRequirementValue = 3
-		HasInitted = False
-		TimeOfLastReset = Infinity
-		TimeOfLastInspection = -Infinity
-		Age = 0
-		LastFixedUpdate = 0
-		CurrentMTBF = Infinity
-		LifeTimeSecs = Infinity
-		HasFailed = False
-		alarmDisabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = bluedog.LM.Descent.Engine_4285712866
-	partName = Part
-	persistentId = 4031659663
-	pos = 0,12.5135622,0
-	attPos = 0,0,0
-	attPos0 = 0,-0.566599846,0
+	attPos0 = 0,-0.163140297,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -3876,19 +2301,20 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 2
+	istg = 1
 	resPri = 0
-	dstg = 2
+	dstg = 0
 	sidx = 0
-	sqor = 2
-	sepI = 1
+	sqor = 1
+	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 300
+	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	attN = top,DIRECT.orion.ServiceModule_4286256862_0|0|0_0|1|0_0|0|0_0|1|0
-	attN = bottom,Null_0_0|-0.80497998|0_0|-1|0_0|-0.80497998|0_0|-1|0
+	link = bluedog.Agena.AInterstage_4290859360
+	attN = top,bluedog.Agena.EngineShroud_4290898196_0|0.497880012|0_0|1|0_0|0.497880012|0_0|1|0
+	attN = bottom,bluedog.Agena.AInterstage_4290859360_0|-0.633360028|0_0|-1|0_0|-0.633360028|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -3909,23 +2335,6 @@ PART
 	}
 	PARTDATA
 	{
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = variantSwitch
-		currentSubtype = Lander
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
 	}
 	MODULE
 	{
@@ -3995,16 +2404,45 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleB9PartSwitch
+		name = ModuleGimbal
 		isEnabled = True
+		gimbalLock = False
+		gimbalLimiter = 100
+		currentShowToggles = False
+		enableYaw = True
+		enablePitch = True
+		enableRoll = True
+		gimbalActive = False
 		stagingEnabled = True
-		moduleID = engineSwitch
-		currentSubtype = Extended
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			LockAction
+			{
+				actionGroup = None
+			}
+			FreeAction
+			{
+				actionGroup = None
+			}
+			TogglePitchAction
+			{
+				actionGroup = None
+			}
+			ToggleYawAction
+			{
+				actionGroup = None
+			}
+			ToggleRollAction
+			{
+				actionGroup = None
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -4058,7 +2496,24 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleSurfaceFX
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = engineSwitch
+		currentSubtype = 8048
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FXModuleLookAtConstraint
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -4315,21 +2770,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleWaterfallFX
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleB9PartInfo
 		isEnabled = True
 		stagingEnabled = True
@@ -4360,5 +2800,906 @@ PART
 		UPGRADESAPPLIED
 		{
 		}
+	}
+}
+PART
+{
+	part = bluedog.Agena.UllageMotor_4290840222
+	partName = Part
+	persistentId = 1646125031
+	pos = 2.11531983E-08,13.2237844,-0.237732291
+	attPos = 0,0,0
+	attPos0 = 2.11531983E-08,-0.352894783,-0.237732291
+	rot = -0.707106829,0,0.707106829,0
+	attRot = 0,0.707106709,0,-0.707106709
+	attRot0 = -0.707106829,0,0.707106829,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 2
+	resPri = 0
+	dstg = 0
+	sidx = 0
+	sqor = 2
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = bluedog.Agena.UllageMotor_4290838498
+	srfN = srfAttach,bluedog.Agena.EngineShroud_4290898196,yo_BOXCOLLIDER22,0.0132999998|-0.0783170015|0,0|-1|0,0.0132999998|-0.0783170015|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		independentThrottle = False
+		independentThrottlePercentage = 0
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		includeinDVCalcs = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ToggleThrottle
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			independentThrottlePercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			thrustPercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReliabilityInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = InspectionModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTankReliability
+		isEnabled = True
+		pole = 0.01
+		MaxTC = 360
+		MinTC = 90
+		leakName = none
+		MTBF = 350400
+		LifeTime = 131400
+		RepairCost = 1
+		RepairBonus = 0.100000001
+		MaintenanceCost = 1
+		MaintenanceBonus = 0.300000012
+		InspectionBonus = 7200
+		Silent = False
+		Priority = HIGH
+		PerksRequirementName = Engineer
+		PerksRequirementValue = 1
+		HasInitted = False
+		TimeOfLastReset = Infinity
+		TimeOfLastInspection = -Infinity
+		Age = 0
+		LastFixedUpdate = 0
+		CurrentMTBF = Infinity
+		LifeTimeSecs = Infinity
+		HasFailed = False
+		alarmDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSRBFXReliability
+		isEnabled = True
+		MTBF = 8000
+		LifeTime = 1
+		RepairCost = 10
+		RepairBonus = 1
+		MaintenanceCost = 5
+		MaintenanceBonus = 0.300000012
+		InspectionBonus = 600
+		Silent = False
+		Priority = HIGH
+		PerksRequirementName = 
+		PerksRequirementValue = 0
+		HasInitted = False
+		TimeOfLastReset = Infinity
+		TimeOfLastInspection = -Infinity
+		Age = 0
+		LastFixedUpdate = 0
+		CurrentMTBF = Infinity
+		LifeTimeSecs = Infinity
+		HasFailed = False
+		alarmDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 1
+		maxAmount = 1
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = bluedog.Agena.UllageMotor_4290838498
+	partName = Part
+	persistentId = 2381062258
+	pos = -3.69981323E-10,13.2237844,0.237732291
+	attPos = 0,0,0
+	attPos0 = -3.69981323E-10,-0.352894783,0.237732291
+	rot = 0.707106888,0,0.707106769,0
+	attRot = 0,0.707106709,0,-0.707106709
+	attRot0 = 0.707106888,0,0.707106769,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 2
+	resPri = 0
+	dstg = 0
+	sidx = 0
+	sqor = 2
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = bluedog.Agena.UllageMotor_4290840222
+	srfN = srfAttach,bluedog.Agena.EngineShroud_4290898196,yo_BOXCOLLIDER22,0.0132999998|-0.0783170015|0,0|-1|0,0.0132999998|-0.0783170015|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		independentThrottle = False
+		independentThrottlePercentage = 0
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		includeinDVCalcs = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ToggleThrottle
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			independentThrottlePercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+			}
+			thrustPercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReliabilityInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = InspectionModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTankReliability
+		isEnabled = True
+		pole = 0.01
+		MaxTC = 360
+		MinTC = 90
+		leakName = none
+		MTBF = 350400
+		LifeTime = 131400
+		RepairCost = 1
+		RepairBonus = 0.100000001
+		MaintenanceCost = 1
+		MaintenanceBonus = 0.300000012
+		InspectionBonus = 7200
+		Silent = False
+		Priority = HIGH
+		PerksRequirementName = Engineer
+		PerksRequirementValue = 1
+		HasInitted = False
+		TimeOfLastReset = Infinity
+		TimeOfLastInspection = -Infinity
+		Age = 0
+		LastFixedUpdate = 0
+		CurrentMTBF = Infinity
+		LifeTimeSecs = Infinity
+		HasFailed = False
+		alarmDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSRBFXReliability
+		isEnabled = True
+		MTBF = 8000
+		LifeTime = 1
+		RepairCost = 10
+		RepairBonus = 1
+		MaintenanceCost = 5
+		MaintenanceBonus = 0.300000012
+		InspectionBonus = 600
+		Silent = False
+		Priority = HIGH
+		PerksRequirementName = 
+		PerksRequirementValue = 0
+		HasInitted = False
+		TimeOfLastReset = Infinity
+		TimeOfLastInspection = -Infinity
+		Age = 0
+		LastFixedUpdate = 0
+		CurrentMTBF = Infinity
+		LifeTimeSecs = Infinity
+		HasFailed = False
+		alarmDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 1
+		maxAmount = 1
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = bluedog.Agena.AInterstage_4290859360
+	partName = Part
+	persistentId = 2968014225
+	pos = 0,11.4928789,0
+	attPos = 0,0,0
+	attPos0 = 0,-1.92066002,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 1
+	sqor = 1
+	sepI = 1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = top,bluedog.Agena.Engine.XLR81_4290895806_0|1.28729999|0_0|1|0_0|1.28729999|0_0|1|0
+	attN = bottom,Null_0_0|-0.77929002|0_0|-1|0_0|-0.77929002|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitchPaint
+		currentSubtype = White
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleEnginesFX
+		isEnabled = True
+		independentThrottle = False
+		independentThrottlePercentage = 0
+		staged = False
+		flameout = False
+		EngineIgnited = False
+		engineShutdown = False
+		currentThrottle = 0
+		thrustPercentage = 100
+		manuallyOverridden = False
+		includeinDVCalcs = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			OnAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ToggleThrottle
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			independentThrottlePercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+			thrustPercentage
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisSpeedMultiplier = 0
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			EnableAction
+			{
+				actionGroup = None
+			}
+			DisableAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReliabilityInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = InspectionModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTankReliability
+		isEnabled = True
+		pole = 0.01
+		MaxTC = 360
+		MinTC = 90
+		leakName = none
+		MTBF = 350400
+		LifeTime = 131400
+		RepairCost = 1
+		RepairBonus = 0.100000001
+		MaintenanceCost = 1
+		MaintenanceBonus = 0.300000012
+		InspectionBonus = 7200
+		Silent = False
+		Priority = HIGH
+		PerksRequirementName = Engineer
+		PerksRequirementValue = 1
+		HasInitted = False
+		TimeOfLastReset = Infinity
+		TimeOfLastInspection = -Infinity
+		Age = 0
+		LastFixedUpdate = 0
+		CurrentMTBF = Infinity
+		LifeTimeSecs = Infinity
+		HasFailed = False
+		alarmDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSRBFXReliability
+		isEnabled = True
+		MTBF = 8000
+		LifeTime = 1
+		RepairCost = 10
+		RepairBonus = 1
+		MaintenanceCost = 5
+		MaintenanceBonus = 0.300000012
+		InspectionBonus = 600
+		Silent = False
+		Priority = HIGH
+		PerksRequirementName = 
+		PerksRequirementValue = 0
+		HasInitted = False
+		TimeOfLastReset = Infinity
+		TimeOfLastInspection = -Infinity
+		Age = 0
+		LastFixedUpdate = 0
+		CurrentMTBF = Infinity
+		LifeTimeSecs = Infinity
+		HasFailed = False
+		alarmDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = SolidFuel
+		amount = 1
+		maxAmount = 1
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
 	}
 }

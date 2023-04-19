@@ -2,9 +2,9 @@ ship = Shuttle Infinity
 version = 1.12.5
 description = 
 type = SPH
-size = 17.2525883,6.94981384,22.46418
+size = 17.2525902,6.94981384,22.4641895
 steamPublishedFileId = 0
-persistentId = 3826579286
+persistentId = 479959962
 rot = 0,0,0,0
 missionFlag = FlagPack/Flags/United States of America
 vesselType = Debris
@@ -16,7 +16,7 @@ PART
 {
 	part = pathfinder.shuttle.forwardFuselage_4288770652
 	partName = Part
-	persistentId = 3643630462
+	persistentId = 3311558911
 	pos = -4.93691254,16.377615,8.20219994
 	attPos = 0,0,0
 	attPos0 = -4.93691254,16.377615,8.20219994
@@ -1855,8 +1855,8 @@ PART
 {
 	part = pathfinder.shuttle.midFuselage_4288755474
 	partName = Part
-	persistentId = 2481621533
-	pos = -4.93691254,15.319375,0.285088539
+	persistentId = 3374231587
+	pos = -4.93691254,15.319375,0.285082817
 	attPos = 0,0,0
 	attPos0 = 0,-7.91711044,1.05824089
 	rot = 0.707106829,0,0,0.707106829
@@ -1878,14 +1878,14 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = pathfinder.shuttle.aftFuselage_4288741344
-	link = pathfinder.shuttle.deltaWing_4288735972
+	link = pathfinder.shuttle.deltaWing_4287189414
 	link = pathfinder.shuttle.deltaWing_4288724014
 	attN = top,pathfinder.shuttle.forwardFuselage_4288770652_0|4.44829369|-1.05823982_0|1.00000012|-1.1920929E-07_0|4.44829369|-1.05823982_0|1.00000012|-1.1920929E-07
 	attN = bottom,pathfinder.shuttle.aftFuselage_4288741344_0|-4.22589922|-1.05823982_0|-1.00000012|-1.1920929E-07_0|-4.22589922|-1.05823982_0|-1.00000012|-1.1920929E-07
 	attN = top2,Null_0_0|4.44829369|-1.05823982_0|-1.00000012|-1.1920929E-07_0|4.44829369|-1.05823982_0|-1.00000012|-1.1920929E-07
 	attN = bottom2,Null_0_0|-4.22589922|-1.05823982_0|1.00000012|-1.1920929E-07_0|-4.22589922|-1.05823982_0|1.00000012|-1.1920929E-07
 	attN = node_stack_L,pathfinder.shuttle.deltaWing_4288724014_-1.41808271|-3.57655144|0.018902922_-1.00000012|0|-1.1920929E-07_-1.41808271|-3.57655144|0.018902922_-1.00000012|0|-1.1920929E-07
-	attN = node_stack_R,pathfinder.shuttle.deltaWing_4288735972_1.41808271|-3.57655144|0.018902922_1.00000012|0|-1.1920929E-07_1.41808271|-3.57655144|0.018902922_1.00000012|0|-1.1920929E-07
+	attN = node_stack_R,pathfinder.shuttle.deltaWing_4287189414_1.41808271|-3.57655144|0.018902922_1.00000012|0|-1.1920929E-07_1.41808271|-3.57655144|0.018902922_1.00000012|0|-1.1920929E-07
 	attN = bayNode1,Null_0_0|-3.85359859|0.236037731_0|0|-1_0|-3.85359859|0.236037731_0|0|-1
 	attN = bayNode2,Null_0_0|-1.94109845|0.236037731_0|0|-1_0|-1.94109845|0.236037731_0|0|-1
 	attN = bayNode3,Null_0_0|-0.0285985712|0.236037731_0|0|-1_0|-0.0285985712|0.236037731_0|0|-1
@@ -2326,8 +2326,8 @@ PART
 {
 	part = pathfinder.shuttle.aftFuselage_4288741344
 	partName = Part
-	persistentId = 526958999
-	pos = -4.93691254,16.3455353,-5.61578751
+	persistentId = 1955007827
+	pos = -4.93691254,16.3455353,-5.61579895
 	attPos = 0,0,0
 	attPos0 = 0,-5.90087509,-1.02615929
 	rot = 0.707106829,0,0,0.707106829
@@ -2353,7 +2353,8 @@ PART
 	link = SaberEngine_4288675234
 	link = SurfAntenna_4287958924
 	link = SurfAntenna_4287958778
-	attN = node_stack_Chute,Null_0_0|-4.30271339|-1.01763177_0|-0.795579255|0.605849564_0|-4.30271339|-1.01763177_0|-0.795579255|0.605849564
+	link = pathfinder.shuttle.Dragchute_4287173666
+	attN = node_stack_Chute,pathfinder.shuttle.Dragchute_4287173666_0|-4.30271339|-1.01763177_0|-0.795579255|0.605849564_0|-4.30271339|-1.01763177_0|-0.795579255|0.605849564
 	attN = node_stack_Top,pathfinder.shuttle.midFuselage_4288755474_0|1.67497241|-0.0320803672_0|1.00000012|-1.1920929E-07_0|1.67497241|-0.0320803672_0|1.00000012|-1.1920929E-07
 	attN = nodeDecoupler,Null_0_0|1.20056844|1.73471618_0|0|1_0|1.20056844|1.73471618_0|0|1
 	attN = engineNode,pathfinder.nerva.main.engine_4288674248_0|-2.12637067|0.18482928_0|-0.99619472|-0.0871559381_0|-2.12637067|0.18482928_0|-0.99619472|-0.0871559381
@@ -2954,13 +2955,13 @@ PART
 }
 PART
 {
-	part = pathfinder.shuttle.deltaWing_4288735972
+	part = pathfinder.shuttle.deltaWing_4287189414
 	partName = Part
 	persistentId = 331707091
-	pos = -0.968089104,15.4445362,-2.91251659
+	pos = -0.968089104,15.4445362,-2.91252232
 	attPos = 0,0,0
 	attPos0 = 3.96882343,-3.19760513,-0.125161171
-	rot = 0.703233302,0.0739128441,0.073912859,0.703233302
+	rot = 0.703233242,0.0739128366,0.0739128515,0.703233242
 	attRot = 0,0,0,1
 	attRot0 = 0,0.104528546,1.49011612E-08,0.994521976
 	mir = 1,1,1
@@ -2978,20 +2979,20 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = pathfinder.shuttle.rudder_4288697322
-	link = pathfinder.shuttle.elevon2_4288694262
-	link = pathfinder.shuttle.elevon1_4288689314
-	link = pathfinder.shuttle.mainGear_4288655608
+	link = pathfinder.shuttle.rudder_4287188548
+	link = pathfinder.shuttle.elevon2_4287188464
+	link = pathfinder.shuttle.elevon1_4287187394
+	link = pathfinder.shuttle.mainGear_4287186164
 	attN = wingNodeL,Null_0_2.52495241|-0.378948361|-0.389413804_0.978147686|0|-0.20791173_2.52495241|-0.378948361|-0.389413804_0.978147686|0|-0.20791173
 	attN = wingNodeR,pathfinder.shuttle.midFuselage_4288755474_-2.52495337|-0.378948361|-0.389413565_-0.978147805|0|-0.20791173_-2.52495337|-0.378948361|-0.389413565_-0.978147805|0|-0.20791173
 	attN = elevon2L,Null_0_0.883298516|-3.37925529|-0.315345854_-0.116428003|0|-0.993199468_0.883298516|-3.37925529|-0.315345854_-0.116428003|0|-0.993199468
-	attN = elevon2R,pathfinder.shuttle.elevon2_4288694262_-0.883298516|-3.37925529|-0.315345615_0.116428383|0|-0.993199229_-0.883298516|-3.37925529|-0.315345615_0.116428383|0|-0.993199229
+	attN = elevon2R,pathfinder.shuttle.elevon2_4287188464_-0.883298516|-3.37925529|-0.315345615_0.116428383|0|-0.993199229_-0.883298516|-3.37925529|-0.315345615_0.116428383|0|-0.993199229
 	attN = elevon1L,Null_0_-1.45551348|-3.37925529|-0.0415810756_-0.116428189|0|-0.993199468_-1.45551348|-3.37925529|-0.0415810756_-0.116428189|0|-0.993199468
-	attN = elevon1R,pathfinder.shuttle.elevon1_4288689314_1.45551395|-3.37925529|-0.0415813215_0.116428383|0|-0.993199229_1.45551395|-3.37925529|-0.0415813215_0.116428383|0|-0.993199229
+	attN = elevon1R,pathfinder.shuttle.elevon1_4287187394_1.45551395|-3.37925529|-0.0415813215_0.116428383|0|-0.993199229_1.45551395|-3.37925529|-0.0415813215_0.116428383|0|-0.993199229
 	attN = rudderNodeL,Null_0_-2.8912406|-3.39852452|-0.0883483589_-0.601814926|0|-0.79863596_-2.8912406|-3.39852452|-0.0883483589_-0.601814926|0|-0.79863596
-	attN = rudderNodeR,pathfinder.shuttle.rudder_4288697322_2.89124012|-3.39852452|-0.0883488432_0.601815045|0|-0.79863584_2.89124012|-3.39852452|-0.0883488432_0.601815045|0|-0.79863584
+	attN = rudderNodeR,pathfinder.shuttle.rudder_4287188548_2.89124012|-3.39852452|-0.0883488432_0.601815045|0|-0.79863584_2.89124012|-3.39852452|-0.0883488432_0.601815045|0|-0.79863584
 	attN = GearL,Null_0_1.78509951|0.0984475464|-0.418846965_0.207911685|0|0.978147626_1.78509951|0.0984475464|-0.418846965_0.207911685|0|0.978147626
-	attN = GearR,pathfinder.shuttle.mainGear_4288655608_-1.78510046|0.0984475464|-0.418846965_-0.207911506|0|0.978147626_-1.78510046|0.0984475464|-0.418846965_-0.207911506|0|0.978147626
+	attN = GearR,pathfinder.shuttle.mainGear_4287186164_-1.78510046|0.0984475464|-0.418846965_-0.207911506|0|0.978147626_-1.78510046|0.0984475464|-0.418846965_-0.207911506|0|0.978147626
 	EVENTS
 	{
 	}
@@ -3296,10 +3297,10 @@ PART
 }
 PART
 {
-	part = pathfinder.shuttle.rudder_4288697322
+	part = pathfinder.shuttle.rudder_4287188548
 	partName = Part
 	persistentId = 281313057
-	pos = 1.84160137,16.1320782,-7.66219902
+	pos = 1.84160137,16.1320782,-7.66221046
 	attPos = 0,0,0
 	attPos0 = 2.89123988,-4.74968052,-0.0883485377
 	rot = -0.37992835,0.596367776,0.596367896,-0.379928291
@@ -3320,7 +3321,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	attN = node_stack_bottom,pathfinder.shuttle.deltaWing_4288735972_0|1.35115206|0_1.00000012|0|-1.1920929E-07_0|1.35115206|0_1.00000012|0|-1.1920929E-07
+	attN = node_stack_bottom,pathfinder.shuttle.deltaWing_4287189414_0|1.35115206|0_1.00000012|0|-1.1920929E-07_0|1.35115206|0_1.00000012|0|-1.1920929E-07
 	EVENTS
 	{
 	}
@@ -3586,13 +3587,13 @@ PART
 }
 PART
 {
-	part = pathfinder.shuttle.elevon2_4288694262
+	part = pathfinder.shuttle.elevon2_4287188464
 	partName = Part
 	persistentId = 977298461
-	pos = -1.89764929,15.5693436,-6.29177761
+	pos = -1.89764929,15.5693436,-6.29178905
 	attPos = 0,0,0
 	attPos0 = -0.883298397,-3.37925935,-0.315345615
-	rot = 0.706346691,0.0327791534,0.0327791609,0.706346691
+	rot = 0.706346691,0.0327791646,0.0327791721,0.706346691
 	attRot = 0,0,0,1
 	attRot0 = 1.066702E-10,-0.0583133884,-9.32781585E-09,0.998298287
 	mir = 1,1,1
@@ -3610,7 +3611,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	attN = node_stack_top,pathfinder.shuttle.deltaWing_4288735972_0|0|0_0|0|1_0|0|0_0|0|1
+	attN = node_stack_top,pathfinder.shuttle.deltaWing_4287189414_0|0|0_0|0|1_0|0|0_0|0|1
 	EVENTS
 	{
 	}
@@ -3984,11 +3985,11 @@ PART
 {
 	part = pathfinder.shuttle.deltaWing_4288724014
 	partName = Part
-	persistentId = 1452239451
-	pos = -8.90573502,15.4445353,-2.91251659
+	persistentId = 344548897
+	pos = -8.90573502,15.4445353,-2.91252232
 	attPos = 0,0,0
 	attPos0 = -3.96882248,-3.19760513,-0.125160217
-	rot = 0.703233302,-0.0739128515,-0.0739128664,0.703233302
+	rot = 0.703233242,-0.0739128366,-0.0739128515,0.703233242
 	attRot = 0,0,0,1
 	attRot0 = 0,-0.104528561,-1.49011612E-08,0.994521976
 	mir = 1,1,1
@@ -4326,8 +4327,8 @@ PART
 {
 	part = pathfinder.shuttle.rudder_4288697926
 	partName = Part
-	persistentId = 3515950109
-	pos = -11.7154264,16.1320763,-7.66219902
+	persistentId = 3865441552
+	pos = -11.7154264,16.1320763,-7.66221046
 	attPos = 0,0,0
 	attPos0 = -2.8912406,-4.74968004,-0.0883473307
 	rot = -0.596367776,0.37992847,0.379928529,-0.596367776
@@ -4614,13 +4615,13 @@ PART
 }
 PART
 {
-	part = pathfinder.shuttle.elevon1_4288689314
+	part = pathfinder.shuttle.elevon1_4287187394
 	partName = Part
 	persistentId = 4140450210
-	pos = 0.446973324,15.7878284,-6.29177761
+	pos = 0.446973324,15.7878284,-6.29178905
 	attPos = 0,0,0
 	attPos0 = 1.45551419,-3.37925935,-0.0415812433
-	rot = 0.706346691,0.0327791534,0.0327791609,0.706346691
+	rot = 0.706346691,0.0327791646,0.0327791721,0.706346691
 	attRot = 0,0,0,1
 	attRot0 = 1.066702E-10,-0.0583133884,-9.32781585E-09,0.998298287
 	mir = 1,1,1
@@ -4638,7 +4639,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	attN = node_stack_top,pathfinder.shuttle.deltaWing_4288735972_0|0|0_0|0|1_0|0|0_0|0|1
+	attN = node_stack_top,pathfinder.shuttle.deltaWing_4287189414_0|0|0_0|0|1_0|0|0_0|0|1
 	EVENTS
 	{
 	}
@@ -4906,11 +4907,11 @@ PART
 {
 	part = pathfinder.shuttle.elevon1_4288680968
 	partName = Part
-	persistentId = 530650127
-	pos = -10.320797,15.7878275,-6.29177761
+	persistentId = 4153517995
+	pos = -10.320797,15.7878275,-6.29178905
 	attPos = 0,0,0
 	attPos0 = -1.45551372,-3.37925935,-0.0415812992
-	rot = 0.70634675,-0.0327792391,-0.0327792466,0.70634675
+	rot = 0.706346691,-0.0327792317,-0.0327792391,0.706346691
 	attRot = 0,0,0,1
 	attRot0 = 1.06671991E-10,0.0583132878,9.32781763E-09,0.998298407
 	mir = 1,1,1
@@ -5196,11 +5197,11 @@ PART
 {
 	part = pathfinder.shuttle.elevon2_4288680338
 	partName = Part
-	persistentId = 1351776923
-	pos = -7.97617435,15.5693426,-6.29177761
+	persistentId = 3069381990
+	pos = -7.97617435,15.5693426,-6.29178905
 	attPos = 0,0,0
 	attPos0 = 0.883298874,-3.37925935,-0.315345764
-	rot = 0.70634675,-0.0327793024,-0.0327793099,0.70634675
+	rot = 0.706346691,-0.032779295,-0.0327793024,0.706346691
 	attRot = 0,0,0,1
 	attRot0 = 3.0137301E-10,0.0583131947,1.11802585E-08,0.998298407
 	mir = 1,1,1
@@ -5592,22 +5593,22 @@ PART
 {
 	part = pathfinder.nerva.main.engine_4288674248
 	partName = Part
-	persistentId = 459845838
-	pos = -4.93691254,16.1607056,-7.7421608
+	persistentId = 3261010848
+	pos = -4.93691254,16.1607056,-7.74217224
 	attPos = 0,0,0
 	attPos0 = 0,-2.12637329,0.184829712
-	rot = 0.737277567,0,0,0.675590217
+	rot = 0.737277508,0,0,0.675590158
 	attRot = 0,0,0,1
 	attRot0 = 0.0436195731,0,0,0.999048293
 	mir = 1,1,1
 	symMethod = Mirror
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 0
 	sidx = 0
-	sqor = 0
+	sqor = 1
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
@@ -6180,22 +6181,22 @@ PART
 {
 	part = SaberEngine_4288676060
 	partName = Part
-	persistentId = 3682623886
-	pos = -6.52150154,17.4519539,-7.21719837
+	persistentId = 1456875657
+	pos = -6.52150154,17.4519539,-7.21721077
 	attPos = 0,0,0
 	attPos0 = -1.584589,-1.60141087,-1.10641956
-	rot = 0.73561269,0,0,0.677402556
+	rot = 0.735612631,0,0,0.677402496
 	attRot = 0,0,0,1
 	attRot0 = 0.0411607623,0,0,0.999152601
 	mir = 1,1,1
 	symMethod = Mirror
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 0
 	sidx = 0
-	sqor = 1
+	sqor = 2
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
@@ -6759,22 +6760,22 @@ PART
 {
 	part = SaberEngine_4288675234
 	partName = Part
-	persistentId = 1026708259
-	pos = -3.35280299,17.4519539,-7.21719837
+	persistentId = 497435281
+	pos = -3.35280299,17.4519539,-7.21721077
 	attPos = 0,0,0
 	attPos0 = 1.58410954,-1.60141087,-1.10641956
-	rot = 0.73561269,0,0,0.677402556
+	rot = 0.735612631,0,0,0.677402496
 	attRot = 0,0,0,1
 	attRot0 = 0.0411607623,0,0,0.999152601
 	mir = 1,1,1
 	symMethod = Mirror
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 1
+	istg = 2
 	resPri = 0
 	dstg = 0
 	sidx = 1
-	sqor = 1
+	sqor = 2
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
@@ -7338,7 +7339,7 @@ PART
 {
 	part = pathfinder.shuttle.noseGear_4288664356
 	partName = Part
-	persistentId = 1181465791
+	persistentId = 3001545103
 	pos = -4.93691254,14.8840361,7.87114954
 	attPos = 0,0,0
 	attPos0 = 0,-0.331050277,1.49357903
@@ -7733,13 +7734,13 @@ PART
 }
 PART
 {
-	part = pathfinder.shuttle.mainGear_4288655608
+	part = pathfinder.shuttle.mainGear_4287186164
 	partName = Part
 	persistentId = 526394896
-	pos = -2.80126429,15.237999,-2.78155136
+	pos = -2.80126429,15.237999,-2.78155708
 	attPos = 0,0,0
 	attPos0 = -1.83605719,0.130965263,-0.179114908
-	rot = 0,-2.14141038E-09,2.14141038E-09,1.00000036
+	rot = 0,1.56347368E-09,-1.56347368E-09,1.00000012
 	attRot = -0.707106769,0,0,0.707106769
 	attRot0 = -0.703233242,-0.0739128366,-0.0739128515,0.703233242
 	mir = 1,1,1
@@ -7757,7 +7758,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	attN = topNode,pathfinder.shuttle.deltaWing_4288735972_0|0.245087937|-0.0325192027_0|0.99999994|0.00034558773_0|0.245087937|-0.0325192027_0|0.99999994|0.00034558773
+	attN = topNode,pathfinder.shuttle.deltaWing_4287189414_0|0.245087937|-0.0325192027_0|0.99999994|0.00034558773_0|0.245087937|-0.0325192027_0|0.99999994|0.00034558773
 	EVENTS
 	{
 	}
@@ -8115,11 +8116,11 @@ PART
 {
 	part = pathfinder.shuttle.mainGear_4288646422
 	partName = Part
-	persistentId = 3171368658
-	pos = -7.07256079,15.237998,-2.78155136
+	persistentId = 3484529143
+	pos = -7.07256079,15.237998,-2.78155708
 	attPos = 0,0,0
 	attPos0 = 1.83605647,0.130965263,-0.179114789
-	rot = 0,2.14141038E-09,-2.14141038E-09,1.00000036
+	rot = 0,-1.56347357E-09,-8.97323904E-09,1.00000012
 	attRot = -0.707106769,0,0,0.707106769
 	attRot0 = -0.703233242,0.0739128441,0.073912859,0.703233242
 	mir = 1,1,1
@@ -8495,11 +8496,11 @@ PART
 {
 	part = mumech.MJ2.AR202_4288614368
 	partName = Part
-	persistentId = 1133836152
-	pos = -4.93691254,17.5776157,6.60219908
+	persistentId = 2310904387
+	pos = -4.93691254,17.5776157,6.60219765
 	attPos = 0,0.0968837738,0.369566083
 	attPos0 = 0,-1.69688463,-1.56956673
-	rot = -0.505125523,0.494821459,0.505125582,-0.494821399
+	rot = -0.505125523,0.494821489,0.505125523,-0.494821489
 	attRot = 0,0,0,1
 	attRot0 = -0.00728613138,0.707069278,0.00728610158,-0.707069218
 	mir = 1,1,1
@@ -8880,8 +8881,8 @@ PART
 {
 	part = benjee10.shuttle.ODS_4288591994
 	partName = Part
-	persistentId = 1400048335
-	pos = -4.93691254,16.1421547,3.89504766
+	persistentId = 1332562653
+	pos = -4.93691254,16.1421547,3.8950448
 	attPos = 0,0,0
 	attPos0 = 0,-4.30715179,0.235460758
 	rot = 0.707106829,0,0,0.707106829
@@ -9175,8 +9176,8 @@ PART
 {
 	part = benjee10.shuttle.crewTubeZ_4288371476
 	partName = Part
-	persistentId = 1618490087
-	pos = -4.93691254,16.1194077,2.31480789
+	persistentId = 1790200925
+	pos = -4.93691254,16.1194077,2.31480503
 	attPos = 0,0,0
 	attPos0 = 0,-1.58023977,0.0227470398
 	rot = 0.707106829,0,0,0.707106829
@@ -9306,8 +9307,8 @@ PART
 {
 	part = sspx-habitation-25-1_4288412318
 	partName = Part
-	persistentId = 405218486
-	pos = -4.93691254,16.4049072,-0.406272888
+	persistentId = 3362695862
+	pos = -4.93691254,16.4049072,-0.40627861
 	attPos = 0,0,0
 	attPos0 = 0,-2.72107792,-0.285498828
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -9854,8 +9855,8 @@ PART
 {
 	part = crewCabin_4288374444
 	partName = Part
-	persistentId = 797972762
-	pos = -4.93691254,16.4049072,-3.23617458
+	persistentId = 1795558663
+	pos = -4.93691254,16.4049072,-3.23618031
 	attPos = 0,0,0
 	attPos0 = 0,-2.82990074,0
 	rot = 0.707106888,0,0,0.707106888
@@ -10298,8 +10299,8 @@ PART
 {
 	part = benjee10.shuttle.kuBand_4288260684
 	partName = Part
-	persistentId = 2987216452
-	pos = -4.28582573,17.505331,4.70561886
+	persistentId = 180194601
+	pos = -4.28582573,17.505331,4.705616
 	attPos = 0,0,0
 	attPos0 = 0.651086807,-3.4965806,-1.12771559
 	rot = 0.655622661,-0.175673544,0.190068603,-0.709345996
@@ -10349,7 +10350,7 @@ PART
 		isEnabled = True
 		currentRotation = (0.606643856, 0.363294959, -0.363294959, 0.606643856)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -10518,11 +10519,11 @@ PART
 {
 	part = SurfAntenna_4287958924
 	partName = Part
-	persistentId = 2414638988
-	pos = -5.81470203,17.8659096,-6.75521278
+	persistentId = 3984264113
+	pos = -5.81470203,17.8659096,-6.75522423
 	attPos = 0,0,0
 	attPos0 = -0.877789497,-1.13942528,-1.5203743
-	rot = -0.17936632,0.683979452,-0.186653972,-0.682026625
+	rot = -0.179366261,0.683979511,-0.186653972,-0.682026625
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 0.355434507,0.351662189,-0.615630746,-0.609096766
 	mir = 1,1,1
@@ -10653,8 +10654,8 @@ PART
 {
 	part = SurfAntenna_4287958778
 	partName = Part
-	persistentId = 9669891
-	pos = -4.05912304,17.8659096,-6.75521469
+	persistentId = 1779554762
+	pos = -4.05912304,17.8659096,-6.75522614
 	attPos = 0,0,0
 	attPos0 = 0.877789497,-1.13942719,-1.5203743
 	rot = 0.17936635,0.683979452,-0.186654031,0.682026625
@@ -10788,8 +10789,8 @@ PART
 {
 	part = mediumDishAntenna_4287955008
 	partName = Part
-	persistentId = 1650496858
-	pos = -5.82354021,17.2915344,-2.8487587
+	persistentId = 3371268499
+	pos = -5.82354164,17.2915344,-2.84876442
 	attPos = 0,0,0
 	attPos0 = -0.886627614,0.387413919,-0.88662684
 	rot = -0.382683516,0.923879743,0,1.34110451E-07
@@ -10839,7 +10840,7 @@ PART
 		isEnabled = True
 		currentRotation = (0.707106769, 2.2476458E-08, 8.42937098E-08, 0.707106888)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -10989,8 +10990,8 @@ PART
 {
 	part = mediumDishAntenna_4287954464
 	partName = Part
-	persistentId = 3412142195
-	pos = -4.05028486,17.2915344,-2.84875965
+	persistentId = 2371002523
+	pos = -4.05028343,17.2915344,-2.84876442
 	attPos = 0,0,0
 	attPos0 = 0.886627614,0.387413919,-0.88662684
 	rot = 0.382683516,0.923879743,0,-1.34110451E-07
@@ -11040,7 +11041,7 @@ PART
 		isEnabled = True
 		currentRotation = (0.707106769, 2.2476458E-08, 8.42937098E-08, 0.707106888)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -11190,11 +11191,11 @@ PART
 {
 	part = HighGainAntenna5.v2_4287937872
 	partName = Part
-	persistentId = 2309331178
-	pos = -6.0140295,17.0267811,-0.0453062057
+	persistentId = 1161374704
+	pos = -6.0140295,17.0267811,-0.0453119278
 	attPos = 0,0,0
 	attPos0 = 0.621874034,0.360966742,-1.07711685
-	rot = -0.500000119,0.866025567,-8.94069672E-08,1.93715096E-07
+	rot = -0.500000119,0.866025567,-1.78813934E-07,1.93715096E-07
 	attRot = 0,0,0,1
 	attRot0 = 0.183012664,0.683012605,-0.683012903,0.183012784
 	mir = 1,1,1
@@ -11242,7 +11243,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -11426,11 +11427,11 @@ PART
 {
 	part = HighGainAntenna5.v2_4287936160
 	partName = Part
-	persistentId = 3250642878
-	pos = -3.85979533,17.0267811,-0.0453062057
+	persistentId = 3355621208
+	pos = -3.85979462,17.0267811,-0.0453119278
 	attPos = 0,0,0
 	attPos0 = 0.621873796,0.360966742,1.07711709
-	rot = 0.5,0.866025686,-8.94069672E-08,-2.38418579E-07
+	rot = 0.49999994,0.866025686,-1.1920929E-07,-2.23517418E-07
 	attRot = 0,0,0,1
 	attRot0 = 0.683012903,0.183012858,-0.183012739,0.683012545
 	mir = 1,1,1
@@ -11662,8 +11663,8 @@ PART
 {
 	part = dockingPort2_4288264864
 	partName = Part
-	persistentId = 270553566
-	pos = -4.93691254,17.2551289,3.8160181
+	persistentId = 3068802386
+	pos = -4.93691254,17.2551289,3.81601524
 	attPos = 0,0,0
 	attPos0 = 0,-0.0790295601,-1.11297417
 	rot = 0,0,0,1.00000012
@@ -11919,6 +11920,276 @@ PART
 	{
 		name = ModuleB9PartInfo
 		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = pathfinder.shuttle.Dragchute_4287173666
+	partName = Part
+	persistentId = 1522304212
+	pos = -4.93691254,17.3540955,-9.91160774
+	attPos = 0,0,0
+	attPos0 = 0,-4.29580879,-1.00856018
+	rot = -0.896060824,0,0,0.44393155
+	attRot = -0.99999994,0,0,0
+	attRot0 = -0.947517633,0,0,-0.319703668
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = node_stack_Top,pathfinder.shuttle.aftFuselage_4288741344_0|0|0.0114032114_0|-1.00000012|-1.1920929E-07_0|0|0.0114032114_0|-1.00000012|-1.1920929E-07
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDepthMask
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDepthMask
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = chuteBase
+		currentSubtype = ov2
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleParachute
+		isEnabled = True
+		persistentState = STOWED
+		animTime = 0
+		minAirPressureToOpen = 0.0199999996
+		deployAltitude = 2500
+		spreadAngle = 7
+		automateSafeDeploy = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DeployAction
+			{
+				actionGroup = None
+			}
+			CutAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDragModifier
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDragModifier
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReliabilityInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = InspectionModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleParachuteReliability
+		isEnabled = True
+		MTBF = 17520
+		LifeTime = 20
+		RepairCost = 1
+		RepairBonus = 1
+		MaintenanceCost = 1
+		MaintenanceBonus = 0.300000012
+		InspectionBonus = 3600
+		Silent = False
+		Priority = HIGH
+		PerksRequirementName = 
+		PerksRequirementValue = 0
+		HasInitted = False
+		TimeOfLastReset = Infinity
+		TimeOfLastInspection = -Infinity
+		Age = 0
+		LastFixedUpdate = 0
+		CurrentMTBF = Infinity
+		LifeTimeSecs = Infinity
+		HasFailed = False
+		alarmDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{

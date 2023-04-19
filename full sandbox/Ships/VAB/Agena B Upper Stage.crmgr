@@ -1,0 +1,22 @@
+craftName = Agena B Upper Stage
+cachedCraftData
+{
+	origChecksum = f388770d2aa46f0bae178656147abfd4
+	cacheVersion = 3
+	name = Agena B Upper Stage
+	kspVersion = 1.12.5
+	stagesCount = 2
+	cost = 3705.15381
+	partCount = 9
+	mass = 1.74005795
+	description = 
+	crewCapacity = 0
+	partNames = bluedog.Agena.StandardFairingBase
+	partNames = bluedog.Agena.Avionics
+	partNames = bluedog.Agena.Tank.Long
+	partNames = bluedog.Agena.EngineMount
+	partNames = bluedog.Agena.EngineShroud
+	partNames = bluedog.Agena.Engine.XLR81
+	partNames = bluedog.Agena.UllageMotor
+	partNames = bluedog.Agena.StraightInterstage
+}

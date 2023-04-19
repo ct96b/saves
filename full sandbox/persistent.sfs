@@ -13,7 +13,7 @@ GAME
 	flag = FlagPack/Flags/United States of America
 	launchID = 17
 	defaultVABLaunchSite = LaunchPad
-	defaultSPHLaunchSite = BocaChica_SmallHelipad
+	defaultSPHLaunchSite = Runway
 	modded = True
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
 	versionFull = 1.12.5.3190 (WindowsPlayer x64)
@@ -3385,6 +3385,30 @@ GAME
 		{
 			intact = True
 		}
+		3f9d5024-3091-4d14-8a1f-05056a42ec4d
+		{
+			intact = True
+		}
+		5e8bce78-62c3-4809-83e4-5c97485790c9
+		{
+			intact = True
+		}
+		eaa58420-8098-4a96-85ab-344a06e7701b
+		{
+			intact = True
+		}
+		4f257ef3-d3fb-4866-a003-c547f0fb898b
+		{
+			intact = True
+		}
+		dbe1c27a-00f9-4f9a-9d10-2cc5ee4d5adc
+		{
+			intact = True
+		}
+		b1450a9f-7b2a-47af-9cb5-61d102d41ce5
+		{
+			intact = True
+		}
 	}
 	SCENARIO
 	{
@@ -3431,7 +3455,7 @@ GAME
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
 		initialized = False
-		savetime = 15311.038740436114
+		savetime = 15516.778740440604
 		useUUID = True
 		KKSettings
 		{
@@ -3446,7 +3470,7 @@ GAME
 			mapShowRecovery = False
 			defaultVABlaunchsite = LC-39A
 			defaultSPHlaunchsite = LaunchPad
-			lastLaunchSiteUsed = LC-34 (Saturn I)
+			lastLaunchSiteUsed = LaunchPad
 		}
 		Facilities
 		{
@@ -5856,9 +5880,9 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.12.5
-		UT = 15311.038740436114
+		UT = 15516.778740440604
 		activeVessel = 0
-		mapViewFiltering = 15359
+		mapViewFiltering = 15358
 		commNetUIModeTracking = Network
 		commNetUIModeFlight = Path
 		VESSEL
@@ -6980,10 +7004,10 @@ GAME
 					tailMaxWidthRatio = 1
 					tailMaxLengthRatio = 94.558253288269043
 					ionTailMaxWidthRatio = 0.29999999999999999
-					comaWidth = 1099512.52596478
-					tailWidth = 1099512.52596478
-					tailLength = 103967983.92380217
-					ionTailWidth = 329853.75778943399
+					comaWidth = 1099660.7607139559
+					tailWidth = 1099660.7607139559
+					tailLength = 103982000.74276085
+					ionTailWidth = 329898.22821418673
 					hasName = False
 					radius = 21.3565884
 					seed = 749448530
@@ -19139,13 +19163,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.426490237862446
+				SMA = 796403.26643015759
+				ECC = 0.99999999999999989
+				INC = 61.426490237862559
 				LPE = 90.000000000000014
-				LAN = 85.07437323547623
-				MNA = 0
-				EPH = 15309.898740436089
+				LAN = 88.52111021345172
+				MNA = 3.1415926207170166
+				EPH = 15516.218740440592
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19523,13 +19547,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.91012173938
-				ECC = 0.99999999999999989
+				SMA = 0
+				ECC = 1
 				INC = 61.423875654355641
 				LPE = 90
-				LAN = 85.070827634310263
-				MNA = 3.1415926207170166
-				EPH = 15309.898740436089
+				LAN = 88.517564612286264
+				MNA = 0
+				EPH = 15516.218740440592
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19908,18 +19932,18 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 6117.814863407054
+			met = 9209.319521645757
 			lct = 6175.5992187919683
-			lastUT = 12293.414082199022
+			lastUT = 15384.958740437727
 			distanceTraveled = 4.8619979264832693
 			root = 0
-			lat = 28.488545409896993
-			lon = -80.557911562764602
-			alt = 65.969837994780391
-			hgt = 1.43774199
-			nrm = 0.000209458172,0.0116500854,-0.99993211
-			rot = -0.217649892,0.132888511,-0.230649412,-0.939026117
-			CoM = 0.000210702419,-2.43093109,-0.036350131
+			lat = 28.488546496794743
+			lon = -80.557910530141172
+			alt = 65.905248414725065
+			hgt = 1.44374847
+			nrm = 5.07161021E-05,0.0102314055,-0.999947667
+			rot = -0.218117431,0.133177534,-0.232280463,-0.938474476
+			CoM = 0.000238180161,-2.47857237,0.0205179453
 			stg = 0
 			prst = False
 			ref = 1110947214
@@ -19932,18 +19956,18 @@ GAME
 			OverrideAxisControl = 0,0,0,0
 			OverrideGroupNames = ,,,
 			altDispState = ASL
-			cPch = 0
-			cHdg = 0
+			cPch = 0.204
+			cHdg = -0.09600116
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796407.99215793051
-				ECC = 0.99999999999999989
-				INC = 61.511533649457746
-				LPE = 90
-				LAN = 85.205964416605184
-				MNA = 3.1415926864625696
-				EPH = 15309.898740436089
+				SMA = NaN
+				ECC = 1
+				INC = 61.511533970304342
+				LPE = 90.000000000000014
+				LAN = 88.652703556307983
+				MNA = 0
+				EPH = 15516.218740440592
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19976,10 +20000,10 @@ GAME
 				attN = right, 21
 				mass = 1.20000017
 				shielded = False
-				temp = 285.10256370733566
-				tempExt = 285.51615322415722
-				tempExtUnexp = 285.51611074699849
-				staticPressureAtm = 0.9900865383039954
+				temp = 277.84052807806887
+				tempExt = 278.25058248392304
+				tempExtUnexp = 278.25054854557089
+				staticPressureAtm = 0.99009625152279168
 				expt = 0.5
 				state = 0
 				attached = True
@@ -20162,7 +20186,7 @@ GAME
 				{
 					name = ModuleColorChanger
 					isEnabled = True
-					animState = False
+					animState = True
 					stagingEnabled = True
 					EVENTS
 					{
@@ -20182,7 +20206,7 @@ GAME
 				{
 					name = ModuleKerbetrotterLight
 					isEnabled = True
-					animState = False
+					animState = True
 					stagingEnabled = True
 					EVENTS
 					{
@@ -20251,9 +20275,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.557
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.689
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -21052,7 +21076,7 @@ GAME
 						{
 							markUT = 6175.5992187919683
 							deltaVExpended = NaN
-							dragLosses = 9.786058896605871
+							dragLosses = 9.7862016455989753
 							gravityLosses = 0
 							steeringLosses = NaN
 							markLAN = 293.28991818019864
@@ -21177,7 +21201,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 499.94518181929243
+					amount = 499.85907792493299
 					maxAmount = 500
 					flowState = True
 					isTweakable = True
@@ -21229,10 +21253,10 @@ GAME
 				attN = top2, 18
 				mass = 2.2650001
 				shielded = False
-				temp = 285.06322762221339
-				tempExt = 285.47509876420696
-				tempExtUnexp = 285.47508575607981
-				staticPressureAtm = 0.99008872189581787
+				temp = 277.77424118316293
+				tempExt = 278.17757918118616
+				tempExtUnexp = 278.17756688292468
+				staticPressureAtm = 0.99009805863326539
 				expt = 0.5
 				state = 0
 				attached = True
@@ -21288,7 +21312,7 @@ GAME
 				{
 					name = ModuleColorChanger
 					isEnabled = True
-					animState = False
+					animState = True
 					stagingEnabled = True
 					EVENTS
 					{
@@ -21383,9 +21407,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.681
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -21601,7 +21625,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 799.91229091096386
+					amount = 799.77452468013951
 					maxAmount = 800
 					flowState = True
 					isTweakable = True
@@ -21653,10 +21677,10 @@ GAME
 				attN = top2, 11
 				mass = 0.699999988
 				shielded = False
-				temp = 285.04641738602635
-				tempExt = 285.40994538737596
-				tempExtUnexp = 285.40993920356055
-				staticPressureAtm = 0.99009098078391
+				temp = 277.74895981301893
+				tempExt = 278.1070670618127
+				tempExtUnexp = 278.1070617526064
+				staticPressureAtm = 0.99010001633627864
 				expt = 0.5
 				state = 0
 				attached = True
@@ -21740,9 +21764,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.677
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -21809,9 +21833,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 350397.6
+					Age = 9226.677
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 350393.2
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -21881,7 +21905,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 799.91229091096386
+					amount = 799.77452468013951
 					maxAmount = 800
 					flowState = True
 					isTweakable = True
@@ -21939,10 +21963,10 @@ GAME
 				attN = hitch, -1
 				mass = 0.349999994
 				shielded = False
-				temp = 285.05528962572822
-				tempExt = 285.39979958378052
-				tempExtUnexp = 285.39979185170711
-				staticPressureAtm = 0.99009248670930483
+				temp = 277.76237624100622
+				tempExt = 278.0995504677179
+				tempExtUnexp = 278.09954422121467
+				staticPressureAtm = 0.99010129637286415
 				expt = 0.5
 				state = 0
 				attached = True
@@ -21995,7 +22019,7 @@ GAME
 				{
 					name = ModuleColorChanger
 					isEnabled = True
-					animState = False
+					animState = True
 					stagingEnabled = True
 					EVENTS
 					{
@@ -22062,9 +22086,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.679
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -22131,9 +22155,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 350397.6
+					Age = 9226.679
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 350393.2
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -22203,7 +22227,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.97807272774097
+					amount = 199.94363117003488
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -22258,10 +22282,10 @@ GAME
 				srfN = srfAttach, 3,Collision_1
 				mass = 0.0149999997
 				shielded = False
-				temp = 285.11966344477429
-				tempExt = 285.43316881525777
-				tempExtUnexp = 285.43316117019174
-				staticPressureAtm = 0.98997600338001934
+				temp = 277.82574909633144
+				tempExt = 278.13209358725919
+				tempExtUnexp = 278.13208735563671
+				staticPressureAtm = 0.98998481304357877
 				expt = 0.5
 				state = 0
 				attached = True
@@ -22406,10 +22430,10 @@ GAME
 				srfN = srfAttach, 3,Collision_1
 				mass = 0.0500000007
 				shielded = False
-				temp = 285.0776766472153
-				tempExt = 285.3871398025189
-				tempExtUnexp = 285.38713136346195
-				staticPressureAtm = 0.99009248670930483
+				temp = 277.78507445236767
+				tempExt = 278.08890548874234
+				tempExtUnexp = 278.08889910799837
+				staticPressureAtm = 0.99010129637286415
 				expt = 0.5
 				state = 0
 				attached = True
@@ -22469,10 +22493,10 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.07000005
+					springTweakable = 1.08000004
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-3.56137753E-06, -0.120111108, -0.500368595)
+					suspensionPos = (1.22189505E-07, -0.120109349, -0.506973386)
 					suspensionDefaultPos = (0, -0.120109171, 2.78353691E-05)
 					autoBoost = 0
 					stagingEnabled = True
@@ -22649,9 +22673,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 344.854
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 350399.8
+					Age = 6340.12
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 350395.3
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -22684,9 +22708,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 344.854
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 350399.8
+					Age = 6340.12
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 350395.3
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -22744,10 +22768,10 @@ GAME
 				srfN = srfAttach, 3,Collision_1
 				mass = 0.0500000007
 				shielded = False
-				temp = 285.07767714240936
-				tempExt = 285.38714581496146
-				tempExtUnexp = 285.38713737592087
-				staticPressureAtm = 0.99009233611676528
+				temp = 277.78507484325871
+				tempExt = 278.08891033771698
+				tempExtUnexp = 278.08890395695244
+				staticPressureAtm = 0.99010107048405493
 				expt = 0.5
 				state = 0
 				attached = True
@@ -22807,10 +22831,10 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.07000005
+					springTweakable = 1.08000004
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (1.09344692E-05, -0.120112211, -0.499910325)
+					suspensionPos = (2.89082521E-07, -0.1201092, -0.506732523)
 					suspensionDefaultPos = (0, -0.120109171, 2.78353691E-05)
 					autoBoost = 0
 					stagingEnabled = True
@@ -22987,9 +23011,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 344.854
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 350399.8
+					Age = 6340.12
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 350395.3
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -23022,9 +23046,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 344.854
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 350399.8
+					Age = 6340.12
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 350395.3
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -23082,10 +23106,10 @@ GAME
 				attN = front, 2
 				mass = 0.100000001
 				shielded = False
-				temp = 285.05892904413247
-				tempExt = 285.42329018999686
-				tempExtUnexp = 285.42328688669397
-				staticPressureAtm = 0.99016740649769452
+				temp = 277.76402324855263
+				tempExt = 278.11802857972373
+				tempExtUnexp = 278.11802283254116
+				staticPressureAtm = 0.99017629145752373
 				expt = 0.5
 				state = 0
 				attached = True
@@ -23148,9 +23172,9 @@ GAME
 					springTweakable = 1
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.899980187, -0.498010814, 3.09944153E-05)
+					suspensionPos = (-0.899999619, -0.498000026, -1.78813892E-07)
 					suspensionDefaultPos = (-0.899999976, -0.360087246, -1.58611435E-08)
-					autoBoost = 0.0979990289
+					autoBoost = 0.0779990256
 					stagingEnabled = True
 					EVENTS
 					{
@@ -23364,8 +23388,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 295.6667
-					LastFixedUpdate = 9364.521
+					Age = 307.6384
+					LastFixedUpdate = 15375.7
 					CurrentMTBF = 350399.8
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
@@ -23497,10 +23521,10 @@ GAME
 				attN = front, 2
 				mass = 0.100000001
 				shielded = False
-				temp = 285.05892465778959
-				tempExt = 285.423095899494
-				tempExtUnexp = 285.42309258998745
-				staticPressureAtm = 0.9901674817939643
+				temp = 277.76402081817048
+				tempExt = 278.117910141111
+				tempExtUnexp = 278.11790439417376
+				staticPressureAtm = 0.99017636675379339
 				expt = 0.5
 				state = 0
 				attached = True
@@ -23563,9 +23587,9 @@ GAME
 					springTweakable = 1
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.89998877, -0.498015732, 2.74181366E-05)
+					suspensionPos = (-0.899999917, -0.498000205, -1.19209261E-07)
 					suspensionDefaultPos = (-0.899999976, -0.360087246, -1.58611435E-08)
-					autoBoost = 0.0739990249
+					autoBoost = 0.061999023
 					stagingEnabled = True
 					EVENTS
 					{
@@ -23779,8 +23803,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 282.3013
-					LastFixedUpdate = 9364.521
+					Age = 294.273
+					LastFixedUpdate = 15375.7
 					CurrentMTBF = 350399.8
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
@@ -23912,10 +23936,10 @@ GAME
 				attN = front, 2
 				mass = 0.119999997
 				shielded = False
-				temp = 285.05379489241346
-				tempExt = 285.41348817404958
-				tempExtUnexp = 285.4134832423598
-				staticPressureAtm = 0.99016635234991823
+				temp = 277.75907758746348
+				tempExt = 278.11005378431196
+				tempExtUnexp = 278.11004797303724
+				staticPressureAtm = 0.99017538790228687
 				expt = 0.5
 				state = 0
 				attached = True
@@ -23984,9 +24008,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.679
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -24128,7 +24152,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.97807272774097
+					amount = 199.94363117003488
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -24162,10 +24186,10 @@ GAME
 				attN = front, 2
 				mass = 0.119999997
 				shielded = False
-				temp = 285.05379489241346
-				tempExt = 285.41348817404958
-				tempExtUnexp = 285.4134832423598
-				staticPressureAtm = 0.99016620175737879
+				temp = 277.75907758746348
+				tempExt = 278.11005378431196
+				tempExtUnexp = 278.11004797303724
+				staticPressureAtm = 0.9901753126060171
 				expt = 0.5
 				state = 0
 				attached = True
@@ -24234,9 +24258,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.679
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -24378,7 +24402,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.97807272774097
+					amount = 199.94363117003488
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -24412,10 +24436,10 @@ GAME
 				attN = front, 2
 				mass = 0.25
 				shielded = False
-				temp = 285.05302014580462
-				tempExt = 285.41279357370303
-				tempExtUnexp = 285.4127886299226
-				staticPressureAtm = 0.98997969289723653
+				temp = 277.75832156263084
+				tempExt = 278.10937753252773
+				tempExtUnexp = 278.10937171076336
+				staticPressureAtm = 0.98998857785706573
 				expt = 0.5
 				state = 0
 				attached = True
@@ -24455,7 +24479,7 @@ GAME
 					EfficiencyBonus = 1
 					IsActivated = False
 					stagingEnabled = True
-					lastUpdateTime = 12293.414082199022
+					lastUpdateTime = 15384.958740437727
 					EVENTS
 					{
 					}
@@ -24514,9 +24538,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.679
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -24658,7 +24682,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 99.989036363870483
+					amount = 99.971815585017438
 					maxAmount = 100
 					flowState = True
 					isTweakable = True
@@ -24692,10 +24716,10 @@ GAME
 				attN = front, 2
 				mass = 0.0799999982
 				shielded = False
-				temp = 285.05831024504533
-				tempExt = 285.41753642112906
-				tempExtUnexp = 285.41753155991313
-				staticPressureAtm = 0.98997856345319046
+				temp = 277.7634824309834
+				tempExt = 278.1139938475593
+				tempExtUnexp = 278.11398809742604
+				staticPressureAtm = 0.9899875990055591
 				expt = 0.5
 				state = 0
 				attached = True
@@ -24800,9 +24824,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.68
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -24979,7 +25003,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 59.99342181832229
+					amount = 59.983089351010463
 					maxAmount = 60
 					flowState = True
 					isTweakable = True
@@ -25012,10 +25036,10 @@ GAME
 				srfN = srfAttach, 2,BF_Collision_1
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 285.09646575233484
-				tempExt = 285.4327844942228
-				tempExtUnexp = 285.43277720192555
-				staticPressureAtm = 0.99009120667271922
+				temp = 277.80039893470666
+				tempExt = 278.13011680424688
+				tempExtUnexp = 278.13010986026609
+				staticPressureAtm = 0.99010009163254842
 				expt = 0.5
 				state = 0
 				attached = True
@@ -25070,6 +25094,22 @@ GAME
 							actionGroup = None
 							active = False
 						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleSAS
+					isEnabled = True
+					standaloneToggle = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
 					}
 					UPGRADESAPPLIED
 					{
@@ -25218,9 +25258,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3195.263
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9206.586
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -25363,7 +25403,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.9994518181935241
+					amount = 4.9985907792508719
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -25397,10 +25437,10 @@ GAME
 				attN = front, 1
 				mass = 0.119999997
 				shielded = False
-				temp = 285.07792000657059
-				tempExt = 285.45027796756489
-				tempExtUnexp = 285.45026026352548
-				staticPressureAtm = 0.99016514760960239
+				temp = 277.7981504895007
+				tempExt = 278.1574229522804
+				tempExtUnexp = 278.15740787174343
+				staticPressureAtm = 0.99017440905078025
 				expt = 0.5
 				state = 0
 				attached = True
@@ -25469,9 +25509,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.684
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -25613,7 +25653,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.97807272774097
+					amount = 199.94363117003488
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -25647,10 +25687,10 @@ GAME
 				attN = front, 1
 				mass = 0.119999997
 				shielded = False
-				temp = 285.07792000657059
-				tempExt = 285.45027796756489
-				tempExtUnexp = 285.45026026352548
-				staticPressureAtm = 0.99016401816555633
+				temp = 277.7981504895007
+				tempExt = 278.1574229522804
+				tempExtUnexp = 278.15740787174343
+				staticPressureAtm = 0.99017350549554339
 				expt = 0.5
 				state = 0
 				attached = True
@@ -25719,9 +25759,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.684
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -25863,7 +25903,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.97807272774097
+					amount = 199.94363117003488
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -25897,10 +25937,10 @@ GAME
 				attN = front, 1
 				mass = 0.119999997
 				shielded = False
-				temp = 285.07792000657059
-				tempExt = 285.45027796756489
-				tempExtUnexp = 285.45026026352548
-				staticPressureAtm = 0.99016394286928655
+				temp = 277.7981504895007
+				tempExt = 278.1574229522804
+				tempExtUnexp = 278.15740787174343
+				staticPressureAtm = 0.99017335490300395
 				expt = 0.5
 				state = 0
 				attached = True
@@ -25969,9 +26009,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.684
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -26113,7 +26153,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.97807272774097
+					amount = 199.94363117003488
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -26147,10 +26187,10 @@ GAME
 				attN = front, 1
 				mass = 0.119999997
 				shielded = False
-				temp = 285.07792000657059
-				tempExt = 285.45027796756489
-				tempExtUnexp = 285.45026026352548
-				staticPressureAtm = 0.99016507231333262
+				temp = 277.7981504895007
+				tempExt = 278.1574229522804
+				tempExtUnexp = 278.15740787174343
+				staticPressureAtm = 0.99017433375451047
 				expt = 0.5
 				state = 0
 				attached = True
@@ -26219,9 +26259,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.556
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.684
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -26363,7 +26403,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 199.97807272774097
+					amount = 199.94363117003488
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -26397,10 +26437,10 @@ GAME
 				attN = front, 1
 				mass = 0.0799999982
 				shielded = False
-				temp = 285.08246434080559
-				tempExt = 285.44771611434356
-				tempExtUnexp = 285.44769879672765
-				staticPressureAtm = 0.98997735871287462
+				temp = 277.80255083955075
+				tempExt = 278.15570487012883
+				tempExtUnexp = 278.15568922792733
+				staticPressureAtm = 0.98998662015405248
 				expt = 0.5
 				state = 0
 				attached = True
@@ -26505,9 +26545,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.557
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.686
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -26684,7 +26724,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 59.99342181832229
+					amount = 59.983089351010463
 					maxAmount = 60
 					flowState = True
 					isTweakable = True
@@ -26718,10 +26758,10 @@ GAME
 				attN = front, 1
 				mass = 0.0799999982
 				shielded = False
-				temp = 285.08246434080559
-				tempExt = 285.44771611434356
-				tempExtUnexp = 285.44769879672765
-				staticPressureAtm = 0.98997622926882856
+				temp = 277.80255083955075
+				tempExt = 278.15570487012883
+				tempExtUnexp = 278.15568922792733
+				staticPressureAtm = 0.98998564130254596
 				expt = 0.5
 				state = 0
 				attached = True
@@ -26826,9 +26866,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.557
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.686
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -27005,7 +27045,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 59.99342181832229
+					amount = 59.983089351010463
 					maxAmount = 60
 					flowState = True
 					isTweakable = True
@@ -27038,10 +27078,10 @@ GAME
 				srfN = srfAttach, 1,Collision_1
 				mass = 0.00249999994
 				shielded = False
-				temp = 285.30407417060007
-				tempExt = 285.75769778368107
-				tempExtUnexp = 285.75770913323674
-				staticPressureAtm = 0.9901479047638323
+				temp = 278.01812944884222
+				tempExt = 278.46283222269199
+				tempExtUnexp = 278.46281490248049
+				staticPressureAtm = 0.99015731679754959
 				expt = 0.5
 				state = 0
 				attached = True
@@ -27231,10 +27271,10 @@ GAME
 				attN = front, 0
 				mass = 0.100000001
 				shielded = False
-				temp = 285.12037671646425
-				tempExt = 285.48142681265546
-				tempExtUnexp = 285.48138981517411
-				staticPressureAtm = 0.99016281342524048
+				temp = 277.86409059315872
+				tempExt = 278.21286126124005
+				tempExtUnexp = 278.21282719491779
+				staticPressureAtm = 0.99017237605149733
 				expt = 0.5
 				state = 0
 				attached = True
@@ -27297,7 +27337,7 @@ GAME
 					springTweakable = 1
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.899997532, -0.497978032, 5.30481293E-06)
+					suspensionPos = (-0.899999738, -0.498000026, -5.96046377E-08)
 					suspensionDefaultPos = (-0.899999976, -0.360087246, -1.58611435E-08)
 					autoBoost = 0.833999991
 					stagingEnabled = True
@@ -27513,8 +27553,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 296.7717
-					LastFixedUpdate = 9364.521
+					Age = 308.7558
+					LastFixedUpdate = 15375.7
 					CurrentMTBF = 350399.8
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
@@ -27646,10 +27686,10 @@ GAME
 				attN = front, 0
 				mass = 0.100000001
 				shielded = False
-				temp = 285.12032152126744
-				tempExt = 285.4787383614032
-				tempExtUnexp = 285.47870135518582
-				staticPressureAtm = 0.99016288872151026
+				temp = 277.86404761704563
+				tempExt = 278.21076770997081
+				tempExtUnexp = 278.21073364249878
+				staticPressureAtm = 0.99017252664403677
 				expt = 0.5
 				state = 0
 				attached = True
@@ -27712,7 +27752,7 @@ GAME
 					springTweakable = 1
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-0.900009453, -0.497996569, -1.41859018E-05)
+					suspensionPos = (-0.899999857, -0.497999877, 2.38418551E-07)
 					suspensionDefaultPos = (-0.899999976, -0.360087246, -1.58611435E-08)
 					autoBoost = 0.737999797
 					stagingEnabled = True
@@ -27928,8 +27968,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 287.6286
-					LastFixedUpdate = 9364.521
+					Age = 299.6127
+					LastFixedUpdate = 15375.7
 					CurrentMTBF = 350399.8
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
@@ -28061,10 +28101,10 @@ GAME
 				attN = front, 0
 				mass = 0.0799999982
 				shielded = False
-				temp = 285.119895460669
-				tempExt = 285.4809834898191
-				tempExtUnexp = 285.48094589853343
-				staticPressureAtm = 0.98997750930541417
+				temp = 277.86364145342071
+				tempExt = 278.21325334105438
+				tempExtUnexp = 278.21321925541929
+				staticPressureAtm = 0.98998714722794068
 				expt = 0.5
 				state = 0
 				attached = True
@@ -28169,9 +28209,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3203.558
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9226.694
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -28348,7 +28388,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 59.99342181832229
+					amount = 59.983089351010463
 					maxAmount = 60
 					flowState = True
 					isTweakable = True
@@ -28381,10 +28421,10 @@ GAME
 				srfN = srfAttach, 0,Collision4
 				mass = 0.00499999989
 				shielded = False
-				temp = 286.08301535181107
-				tempExt = 286.25727051823156
-				tempExtUnexp = 286.2572457128062
-				staticPressureAtm = 0.99014707650486522
+				temp = 278.79070715617524
+				tempExt = 278.95798737964901
+				tempExtUnexp = 278.95797177042715
+				staticPressureAtm = 0.99015663913112195
 				expt = 0.5
 				state = 0
 				attached = True
@@ -28573,10 +28613,10 @@ GAME
 				srfN = srfAttach, 0,Collision1
 				mass = 0.0149999997
 				shielded = False
-				temp = 285.40383384320614
-				tempExt = 285.6724032211157
-				tempExtUnexp = 285.67233320754173
-				staticPressureAtm = 0.98996967849336137
+				temp = 278.21303505349812
+				tempExt = 278.42515778111908
+				tempExtUnexp = 278.42511434420521
+				staticPressureAtm = 0.98997939171215765
 				expt = 0.5
 				state = 0
 				attached = True
@@ -28721,10 +28761,10 @@ GAME
 				srfN = srfAttach, 0,Collision1
 				mass = 0.0500000007
 				shielded = False
-				temp = 285.14339782562934
-				tempExt = 285.41734925776359
-				tempExtUnexp = 285.41729607628855
-				staticPressureAtm = 0.99008638771145596
+				temp = 277.9101208960131
+				tempExt = 278.17334841962924
+				tempExtUnexp = 278.17330155583329
+				staticPressureAtm = 0.99009610093025224
 				expt = 0.5
 				state = 0
 				attached = True
@@ -28784,10 +28824,10 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.07000005
+					springTweakable = 1.08000004
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (-1.02490203E-05, -0.12011233, -0.544437468)
+					suspensionPos = (-3.30805733E-07, -0.120109349, -0.547692895)
 					suspensionDefaultPos = (0, -0.120109171, 2.78353691E-05)
 					autoBoost = 0
 					stagingEnabled = True
@@ -28964,9 +29004,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 343.2342
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 350399.8
+					Age = 6338.501
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 350395.3
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -28999,9 +29039,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 343.2342
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 350399.8
+					Age = 6338.501
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 350395.3
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -29059,10 +29099,10 @@ GAME
 				srfN = srfAttach, 0,Collision1
 				mass = 0.0500000007
 				shielded = False
-				temp = 285.1434034417203
-				tempExt = 285.41736733617529
-				tempExtUnexp = 285.41731415263314
-				staticPressureAtm = 0.99008616182264675
+				temp = 277.91012648584945
+				tempExt = 278.17336305109637
+				tempExtUnexp = 278.17331618536639
+				staticPressureAtm = 0.99009587504144303
 				expt = 0.5
 				state = 0
 				attached = True
@@ -29122,10 +29162,10 @@ GAME
 				{
 					name = ModuleWheelSuspension
 					isEnabled = True
-					springTweakable = 1.07000005
+					springTweakable = 1.08000004
 					damperTweakable = 1.10000002
 					autoSpringDamper = True
-					suspensionPos = (8.88407158E-06, -0.120091707, -0.543767512)
+					suspensionPos = (3.87430106E-08, -0.12010926, -0.547494888)
 					suspensionDefaultPos = (0, -0.120109171, 2.78353691E-05)
 					autoBoost = 0
 					stagingEnabled = True
@@ -29302,9 +29342,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 344.8146
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 350399.8
+					Age = 6340.082
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 350395.3
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -29337,9 +29377,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 344.8146
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 350399.8
+					Age = 6340.082
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 350395.3
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -29396,10 +29436,10 @@ GAME
 				srfN = srfAttach, 0,Collision4
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 285.47663810118496
-				tempExt = 285.66486841070537
-				tempExtUnexp = 285.66481273007605
-				staticPressureAtm = 0.99008699008161383
+				temp = 278.24450078497841
+				tempExt = 278.40138718537349
+				tempExtUnexp = 278.40135418423716
+				staticPressureAtm = 0.99009655270787067
 				expt = 0.5
 				state = 0
 				attached = True
@@ -29454,6 +29494,22 @@ GAME
 							actionGroup = None
 							active = False
 						}
+					}
+					UPGRADESAPPLIED
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleSAS
+					isEnabled = True
+					standaloneToggle = True
+					stagingEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
 					}
 					UPGRADESAPPLIED
 					{
@@ -29602,9 +29658,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 6169.339
 					TimeOfLastInspection = -Infinity
-					Age = 3195.263
-					LastFixedUpdate = 9364.521
-					CurrentMTBF = 175198.2
+					Age = 9206.587
+					LastFixedUpdate = 15375.7
+					CurrentMTBF = 175194.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -29747,7 +29803,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.9994518181935241
+					amount = 4.9985907792508719
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -29760,7 +29816,7 @@ GAME
 			{
 				Stage = True, 6435.71921879765
 				Gear = True, 6459.39921879816
-				Light = False, 0
+				Light = True, 15359.4987404372
 				RCS = True, 6736.1392188042
 				SAS = False, 0
 				Brakes = True, 6452.43921879801
@@ -29824,6 +29880,18 @@ GAME
 				}
 				RPMVesselComputer
 				{
+					RPM_PERSISTENT_VARS
+					{
+						name = 0279fa8d-68ee-45ea-b416-e8d3ef986a25
+						activePage3 = System.Double,21
+						activePage34 = System.Double,21
+						activePage35 = System.Double,21
+						activePage36 = System.Double,21
+						targetfilter3 = System.Double,15
+						targetfilter34 = System.Double,15
+						targetfilter35 = System.Double,15
+						targetfilter36 = System.Double,15
+					}
 				}
 				KerbetrotterEngineVesselControl
 				{
@@ -29851,18 +29919,18 @@ GAME
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 5496.8148633934989
+			met = 8588.3595216322028
 			lct = 6796.5592188055225
-			lastUT = 12293.374082199021
-			distanceTraveled = 1.0987323944703746
+			lastUT = 15384.958740437727
+			distanceTraveled = 1.722494326434032
 			root = 0
-			lat = 28.48849113249787
-			lon = -80.557938564976951
-			alt = 64.792966824490577
-			hgt = 0.256927729
-			nrm = -0.00328622013,0.999994636,0.000169098377
-			rot = -0.396561861,0.42556107,-0.323117822,0.746479392
-			CoM = -2.74088234E-05,0.227615893,0.00250580907
+			lat = 28.488466296196371
+			lon = -80.557962165066328
+			alt = 64.724045337643474
+			hgt = 0.256823331
+			nrm = 0.00318485498,0.999990702,-0.00293952227
+			rot = 0.250630111,0.807686627,-0.446521252,-0.292311043
+			CoM = 0,0,0
 			stg = 0
 			prst = False
 			ref = 0
@@ -29875,18 +29943,18 @@ GAME
 			OverrideAxisControl = 0,0,0,0
 			OverrideGroupNames = ,,,
 			altDispState = ASL
-			cPch = 0
-			cHdg = 0
+			cPch = 0.3419999
+			cHdg = 0.6600001
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796407.51029071596
-				ECC = 0.99999999999999989
-				INC = 61.511508836978436
+				SMA = 0
+				ECC = 1
+				INC = 61.511533703803629
 				LPE = 90
-				LAN = 85.205894982536734
-				MNA = 3.1415926207170166
-				EPH = 15309.898740436089
+				LAN = 88.652608258906128
+				MNA = 0
+				EPH = 15516.218740440592
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -29914,10 +29982,10 @@ GAME
 				srfN = , -1
 				mass = 0.0939999968
 				shielded = False
-				temp = 289.18578026008458
-				tempExt = 288.98511921124879
-				tempExtUnexp = 288.9851743742496
-				staticPressureAtm = 0.99026265627891374
+				temp = 281.60294411589149
+				tempExt = 281.43078613394289
+				tempExtUnexp = 281.43083299483317
+				staticPressureAtm = 0.99027304716413767
 				expt = 0
 				state = 0
 				attached = True
@@ -29957,7 +30025,7 @@ GAME
 					name = KerbalEVA
 					isEnabled = True
 					JetpackDeployed = False
-					lampOn = False
+					lampOn = True
 					isHelmetEnabled = True
 					isNeckRingEnabled = True
 					isVisorEnabled = False
@@ -30353,7 +30421,7 @@ GAME
 								cid = 4293240778
 								uid = 0
 								mid = 0
-								persistentId = 4249141501
+								persistentId = 910400010
 								launchID = 0
 								parent = 0
 								position = 0,0,0
@@ -30487,7 +30555,7 @@ GAME
 								cid = 4293240856
 								uid = 0
 								mid = 0
-								persistentId = 2601823085
+								persistentId = 264452087
 								launchID = 0
 								parent = 0
 								position = 0,0,0
@@ -30797,7 +30865,7 @@ GAME
 			{
 				Stage = False, 0
 				Gear = False, 0
-				Light = False, 0
+				Light = True, 15327.2587404365
 				RCS = False, 0
 				SAS = False, 0
 				Brakes = False, 0
@@ -30888,18 +30956,18 @@ GAME
 			landedAt = LC-5 (Redstone)
 			displaylandedAt = Untagged
 			splashed = False
-			met = 1415.0013672110008
+			met = 7434.0395216070074
 			lct = 7950.8792188307189
-			lastUT = 9365.9205860417205
+			lastUT = 15384.958740437727
 			distanceTraveled = 0
 			root = 0
-			lat = 28.439396138052658
-			lon = -80.573397596159666
-			alt = 83.172298012999818
-			hgt = 16.5970535
-			nrm = -0.000504255295,0.999999404,-0.00102758408
-			rot = 0.0408881381,0.856751561,-0.509314299,0.070028089
-			CoM = -2.68220901E-06,-6.89674854,1.57356262E-05
+			lat = 28.43939584666046
+			lon = -80.573397804528881
+			alt = 83.155759282875806
+			hgt = 16.6509972
+			nrm = -0.000826731324,0.99999851,-0.00153076649
+			rot = 0.040767543,0.856629908,-0.509541094,0.0699357912
+			CoM = -5.60283661E-06,-6.89676571,6.19888306E-06
 			stg = 7
 			prst = False
 			ref = 3415667148
@@ -30917,13 +30985,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.5606043217186
+				SMA = 796413.12951391819
+				ECC = 0.99999999999999989
+				INC = 61.560604487934334
 				LPE = 90
-				LAN = 85.190436558960982
-				MNA = 0
-				EPH = 15309.898740436089
+				LAN = 88.63717341965895
+				MNA = 3.1415926207170166
+				EPH = 15516.218740440592
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -30953,10 +31021,10 @@ GAME
 				attN = bottom, 1
 				mass = 0.375999987
 				shielded = False
-				temp = 293.88044247078494
-				tempExt = 293.98268114788499
-				tempExtUnexp = 293.98269604999297
-				staticPressureAtm = 0.98751471891480846
+				temp = 274.86108911476714
+				tempExt = 275.74132537800659
+				tempExtUnexp = 275.74126620202804
+				staticPressureAtm = 0.98751720369170981
 				expt = 0.5
 				state = 0
 				attached = True
@@ -31146,7 +31214,7 @@ GAME
 				{
 					name = ModuleColorChanger
 					isEnabled = True
-					animState = False
+					animState = True
 					stagingEnabled = True
 					EVENTS
 					{
@@ -31291,9 +31359,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1428.986
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 175199.2
+					Age = 7428.359
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 175195.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -31356,8 +31424,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1.745198
-					LastFixedUpdate = 9363.521
+					Age = 6.981435
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -31410,9 +31478,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1428.986
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7428.359
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -31445,8 +31513,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1.745198
-					LastFixedUpdate = 9363.521
+					Age = 6.981435
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 175200
 					LifeTimeSecs = 1.7136E+08
 					HasFailed = False
@@ -32309,10 +32377,10 @@ GAME
 				attN = top, 0
 				mass = 0.0562499985
 				shielded = False
-				temp = 293.87448845031503
-				tempExt = 293.98462584351068
-				tempExtUnexp = 293.98462898640508
-				staticPressureAtm = 0.98759091873978377
+				temp = 274.82016485231475
+				tempExt = 276.1712519052856
+				tempExtUnexp = 276.17122445836981
+				staticPressureAtm = 0.98759332822041535
 				expt = 0.5
 				state = 0
 				attached = True
@@ -32562,10 +32630,10 @@ GAME
 				attN = decoupler, 9
 				mass = 0.0199999996
 				shielded = False
-				temp = 293.83164309982993
-				tempExt = 293.80270046205152
-				tempExtUnexp = 293.80274944957324
-				staticPressureAtm = 0.98758896103677052
+				temp = 274.99087220604059
+				tempExt = 275.56265335238669
+				tempExtUnexp = 275.56263253699422
+				staticPressureAtm = 0.98759144581367198
 				expt = 0.5
 				state = 0
 				attached = True
@@ -32813,10 +32881,10 @@ GAME
 				srfN = srfAttach, 2,pCylinder267_COLLIDER
 				mass = 0.00124999997
 				shielded = False
-				temp = 293.87272734090101
-				tempExt = 293.8476753455767
-				tempExtUnexp = 293.84771140609342
-				staticPressureAtm = 0.9876287174671925
+				temp = 274.85443169763118
+				tempExt = 275.54175927483459
+				tempExtUnexp = 275.54173072770016
+				staticPressureAtm = 0.98763112694782407
 				expt = 0.5
 				state = 0
 				attached = True
@@ -32984,9 +33052,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.338
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7421.764
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -33019,8 +33087,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09610581
-					LastFixedUpdate = 9363.521
+					Age = 0.3844793
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -33124,10 +33192,10 @@ GAME
 				srfN = srfAttach, 2,pCylinder267_COLLIDER
 				mass = 0.00124999997
 				shielded = False
-				temp = 293.87272734090101
-				tempExt = 293.8476753455767
-				tempExtUnexp = 293.84771140609342
-				staticPressureAtm = 0.98762849157838328
+				temp = 274.85443169763118
+				tempExt = 275.54175927483459
+				tempExtUnexp = 275.54173072770016
+				staticPressureAtm = 0.98763097635528463
 				expt = 0.5
 				state = 0
 				attached = True
@@ -33287,9 +33355,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.338
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7421.764
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -33322,8 +33390,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09610581
-					LastFixedUpdate = 9363.521
+					Age = 0.3844793
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -33427,10 +33495,10 @@ GAME
 				srfN = srfAttach, 2,pCylinder267_COLLIDER
 				mass = 0.00124999997
 				shielded = False
-				temp = 293.87272734090101
-				tempExt = 293.8476753455767
-				tempExtUnexp = 293.84771140609342
-				staticPressureAtm = 0.98762864217092272
+				temp = 274.85443169763118
+				tempExt = 275.54175927483459
+				tempExtUnexp = 275.54173072770016
+				staticPressureAtm = 0.98763112694782407
 				expt = 0.5
 				state = 0
 				attached = True
@@ -33590,9 +33658,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.338
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7421.764
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -33625,8 +33693,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09610581
-					LastFixedUpdate = 9363.521
+					Age = 0.3844793
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -33731,10 +33799,10 @@ GAME
 				attN = top, -1
 				mass = 0.00344999996
 				shielded = False
-				temp = 293.87322673009635
-				tempExt = 293.85262273356881
-				tempExtUnexp = 293.85265449509609
-				staticPressureAtm = 0.98763406350234395
+				temp = 274.79685774597237
+				tempExt = 275.49847750732903
+				tempExtUnexp = 275.49844874326777
+				staticPressureAtm = 0.9876365482792453
 				expt = 0.5
 				state = 0
 				attached = True
@@ -33924,9 +33992,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.338
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7421.764
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -33959,8 +34027,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09610595
-					LastFixedUpdate = 9363.521
+					Age = 0.3842971
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -34065,10 +34133,10 @@ GAME
 				attN = top, -1
 				mass = 0.00344999996
 				shielded = False
-				temp = 293.87322673009635
-				tempExt = 293.85262273356881
-				tempExtUnexp = 293.85265449509609
-				staticPressureAtm = 0.98763406350234395
+				temp = 274.79685774597237
+				tempExt = 275.49847750732903
+				tempExtUnexp = 275.49844874326777
+				staticPressureAtm = 0.9876365482792453
 				expt = 0.5
 				state = 0
 				attached = True
@@ -34250,9 +34318,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.338
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7421.764
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -34285,8 +34353,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09610595
-					LastFixedUpdate = 9363.521
+					Age = 0.3842971
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -34391,10 +34459,10 @@ GAME
 				attN = top, -1
 				mass = 0.00344999996
 				shielded = False
-				temp = 293.87322673009635
-				tempExt = 293.85262273356881
-				tempExtUnexp = 293.85265449509609
-				staticPressureAtm = 0.98763413879861361
+				temp = 274.79685774597237
+				tempExt = 275.49847750732903
+				tempExtUnexp = 275.49844874326777
+				staticPressureAtm = 0.98763662357551496
 				expt = 0.5
 				state = 0
 				attached = True
@@ -34576,9 +34644,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.338
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7421.764
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -34611,8 +34679,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09610595
-					LastFixedUpdate = 9363.521
+					Age = 0.3842971
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -34716,10 +34784,10 @@ GAME
 				attN = bottom, 10
 				mass = 0.0399999991
 				shielded = False
-				temp = 293.87714616498693
-				tempExt = 293.95545247324236
-				tempExtUnexp = 293.95545555954124
-				staticPressureAtm = 0.9875903163696258
+				temp = 274.75051213483977
+				tempExt = 275.46382335925307
+				tempExtUnexp = 275.46379584831624
+				staticPressureAtm = 0.98759280114652725
 				expt = 0.5
 				state = 0
 				attached = True
@@ -34928,10 +34996,10 @@ GAME
 				attN = bottom, 11
 				mass = 0.099999994
 				shielded = False
-				temp = 293.87724269913082
-				tempExt = 294.09709973870133
-				tempExtUnexp = 294.09734584286377
-				staticPressureAtm = 0.9877451255002081
+				temp = 274.70348067580352
+				tempExt = 275.38255598050489
+				tempExtUnexp = 275.38254774776959
+				staticPressureAtm = 0.98774761027710956
 				expt = 0
 				state = 0
 				attached = True
@@ -35126,9 +35194,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1431.011
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 175199.2
+					Age = 7436.447
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 175195.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -35195,9 +35263,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1431.011
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7436.447
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -35359,7 +35427,7 @@ GAME
 				{
 					name = ModuleSystemHeatCryoTank
 					isEnabled = True
-					LastUpdateTime = 9347.2205860413123
+					LastUpdateTime = 15319.198740436292
 					CoolingAllowed = True
 					CoolingEnabled = False
 					BoiloffOccuring = False
@@ -35499,10 +35567,10 @@ GAME
 				attN = bottom, 12
 				mass = 0.1875
 				shielded = False
-				temp = 293.87640536287569
-				tempExt = 294.11952296574952
-				tempExtUnexp = 294.11981335722072
-				staticPressureAtm = 0.9880038434830295
+				temp = 274.68395529288546
+				tempExt = 275.38512066882907
+				tempExtUnexp = 275.38511604122129
+				staticPressureAtm = 0.98800632825993084
 				expt = 0.5
 				state = 0
 				attached = True
@@ -35604,9 +35672,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.535
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7422.551
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -35680,7 +35748,7 @@ GAME
 				{
 					name = ModuleSystemHeatCryoTank
 					isEnabled = True
-					LastUpdateTime = 9347.2205860413123
+					LastUpdateTime = 15319.198740436292
 					CoolingAllowed = True
 					CoolingEnabled = False
 					BoiloffOccuring = False
@@ -35790,10 +35858,10 @@ GAME
 				attN = bottom, 13
 				mass = 0.1875
 				shielded = False
-				temp = 293.876866862508
-				tempExt = 294.14517049763697
-				tempExtUnexp = 294.14545414884833
-				staticPressureAtm = 0.98822242855408027
+				temp = 274.68227982452015
+				tempExt = 275.41092554856738
+				tempExtUnexp = 275.41092153007867
+				staticPressureAtm = 0.98822491333098161
 				expt = 0.5
 				state = 0
 				attached = True
@@ -35895,9 +35963,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.535
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7422.551
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -35971,7 +36039,7 @@ GAME
 				{
 					name = ModuleSystemHeatCryoTank
 					isEnabled = True
-					LastUpdateTime = 9347.2205860413123
+					LastUpdateTime = 15319.198740436292
 					CoolingAllowed = True
 					CoolingEnabled = False
 					BoiloffOccuring = False
@@ -36081,10 +36149,10 @@ GAME
 				attN = bottom, 14
 				mass = 1.0625
 				shielded = False
-				temp = 293.87741262917763
-				tempExt = 294.17521885409201
-				tempExtUnexp = 294.17560155679178
-				staticPressureAtm = 0.98892810519406915
+				temp = 274.68422858315438
+				tempExt = 275.45781627223766
+				tempExtUnexp = 275.45781264452603
+				staticPressureAtm = 0.9889305899709705
 				expt = 0.5
 				state = 0
 				attached = True
@@ -36203,9 +36271,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.535
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7422.551
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -36279,7 +36347,7 @@ GAME
 				{
 					name = ModuleSystemHeatCryoTank
 					isEnabled = True
-					LastUpdateTime = 9347.2205860413123
+					LastUpdateTime = 15319.198740436292
 					CoolingAllowed = True
 					CoolingEnabled = False
 					BoiloffOccuring = False
@@ -36393,10 +36461,10 @@ GAME
 				attN = Node4, -1
 				mass = 0.75
 				shielded = False
-				temp = 293.90961486414528
-				tempExt = 294.34255780641018
-				tempExtUnexp = 294.34328524048647
-				staticPressureAtm = 0.98956179860018811
+				temp = 274.8268696016392
+				tempExt = 275.44425835252179
+				tempExtUnexp = 275.44421234948697
+				staticPressureAtm = 0.98956428337708946
 				expt = 0.5
 				state = 0
 				attached = True
@@ -36743,8 +36811,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09614971
-					LastFixedUpdate = 9363.521
+					Age = 0.3844421
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 4380
 					LifeTimeSecs = 36000
 					HasFailed = False
@@ -36778,8 +36846,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09614971
-					LastFixedUpdate = 9363.521
+					Age = 0.3844421
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -36814,8 +36882,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09614971
-					LastFixedUpdate = 9363.521
+					Age = 0.3844421
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -36849,8 +36917,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09614971
-					LastFixedUpdate = 9363.521
+					Age = 0.3844421
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 4380
 					LifeTimeSecs = 7200
 					HasFailed = False
@@ -36990,10 +37058,10 @@ GAME
 				attN = Node, -1
 				mass = 0.0140000004
 				shielded = False
-				temp = 293.87094656133468
-				tempExt = 293.71107007430589
-				tempExtUnexp = 293.71130856608664
-				staticPressureAtm = 0.98976404438070564
+				temp = 275.29973867844296
+				tempExt = 277.55033113069572
+				tempExtUnexp = 277.55002834929735
+				staticPressureAtm = 0.98976645386133721
 				expt = 0.00999999978
 				state = 0
 				attached = True
@@ -37170,9 +37238,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.364
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 3999.819
+					Age = 7422.05
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 3999.059
 					LifeTimeSecs = 3.1536E+07
 					HasFailed = False
 					alarmDisabled = False
@@ -37296,10 +37364,10 @@ GAME
 				attN = Node, -1
 				mass = 0.0140000004
 				shielded = False
-				temp = 293.86701699496786
-				tempExt = 293.68487489947626
-				tempExtUnexp = 293.68509880545287
-				staticPressureAtm = 0.98976366789935688
+				temp = 275.31506470513739
+				tempExt = 277.553414589017
+				tempExtUnexp = 277.5531099146429
+				staticPressureAtm = 0.98976607737998856
 				expt = 0.00999999978
 				state = 0
 				attached = True
@@ -37468,9 +37536,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.364
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 3999.819
+					Age = 7422.05
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 3999.059
 					LifeTimeSecs = 3.1536E+07
 					HasFailed = False
 					alarmDisabled = False
@@ -37594,10 +37662,10 @@ GAME
 				attN = Node, -1
 				mass = 0.0140000004
 				shielded = False
-				temp = 293.87175371513206
-				tempExt = 293.71654337194371
-				tempExtUnexp = 293.71678601505613
-				staticPressureAtm = 0.98976374319562666
+				temp = 275.31508582961305
+				tempExt = 277.55369847736944
+				tempExtUnexp = 277.55339365874119
+				staticPressureAtm = 0.989766227972528
 				expt = 0.00999999978
 				state = 0
 				attached = True
@@ -37766,9 +37834,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.364
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 3999.819
+					Age = 7422.05
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 3999.059
 					LifeTimeSecs = 3.1536E+07
 					HasFailed = False
 					alarmDisabled = False
@@ -37892,10 +37960,10 @@ GAME
 				attN = Node, -1
 				mass = 0.0140000004
 				shielded = False
-				temp = 293.9572677757065
-				tempExt = 295.08257470781717
-				tempExtUnexp = 295.08223051695768
-				staticPressureAtm = 0.98976411967697531
+				temp = 275.31534129868032
+				tempExt = 277.55472698425359
+				tempExtUnexp = 277.55442211392614
+				staticPressureAtm = 0.98976660445387676
 				expt = 0.00999999978
 				state = 0
 				attached = True
@@ -38064,9 +38132,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.364
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 3999.819
+					Age = 7422.05
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 3999.059
 					LifeTimeSecs = 3.1536E+07
 					HasFailed = False
 					alarmDisabled = False
@@ -38187,10 +38255,10 @@ GAME
 				attN = top, 14
 				mass = 0.100000001
 				shielded = False
-				temp = 293.87374852550255
-				tempExt = 293.87370045467446
-				tempExtUnexp = 293.87370050732568
-				staticPressureAtm = 0.98993775287499219
+				temp = 274.65376898713168
+				tempExt = 274.65463799944115
+				tempExtUnexp = 274.65463773998931
+				staticPressureAtm = 0.98994023765189365
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -38227,7 +38295,7 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 1.79010117
+					scaleFactor = 1.7900635
 					height = 0.895662308
 					stagingEnabled = True
 					towerRot = 0,0,0,1
@@ -38340,9 +38408,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.242
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 525598.5
+					Age = 7421.38
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 525592.4
 					LifeTimeSecs = 5.1408E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -38418,10 +38486,10 @@ GAME
 				srfN = srfAttach, 13,pCylinder162_COLLIDER
 				mass = 0.000500000024
 				shielded = False
-				temp = 293.95800662217954
-				tempExt = 294.11649594481042
-				tempExtUnexp = 294.11648545697943
-				staticPressureAtm = 0.9886120867499768
+				temp = 275.71972334847914
+				tempExt = 277.7806926639916
+				tempExtUnexp = 277.78070725504261
+				staticPressureAtm = 0.98861449623060849
 				expt = 0.5
 				state = 0
 				attached = True
@@ -38568,10 +38636,10 @@ GAME
 				srfN = srfAttach, 13,pCylinder162_COLLIDER
 				mass = 0.000500000024
 				shielded = False
-				temp = 293.95800662696166
-				tempExt = 294.11649594665602
-				tempExtUnexp = 294.11648545885595
-				staticPressureAtm = 0.98861171026862815
+				temp = 275.71972334847914
+				tempExt = 277.7806926639916
+				tempExtUnexp = 277.78070725504261
+				staticPressureAtm = 0.9886141950455295
 				expt = 0.5
 				state = 0
 				attached = True
@@ -38718,10 +38786,10 @@ GAME
 				srfN = srfAttach, 13,pCylinder162_COLLIDER
 				mass = 0.000500000024
 				shielded = False
-				temp = 293.95800662022475
-				tempExt = 294.1164959440564
-				tempExtUnexp = 294.11648545621279
-				staticPressureAtm = 0.98879806853623087
+				temp = 275.71972334847914
+				tempExt = 277.7806926639916
+				tempExtUnexp = 277.78070725504261
+				staticPressureAtm = 0.98880055331313221
 				expt = 0.5
 				state = 0
 				attached = True
@@ -38868,10 +38936,10 @@ GAME
 				srfN = srfAttach, 13,pCylinder162_COLLIDER
 				mass = 0.000500000024
 				shielded = False
-				temp = 293.95800662909693
-				tempExt = 294.11649594747985
-				tempExtUnexp = 294.11648545969359
-				staticPressureAtm = 0.98879867090638873
+				temp = 275.71972334847914
+				tempExt = 277.7806926639916
+				tempExtUnexp = 277.78070725504261
+				staticPressureAtm = 0.98880115568329008
 				expt = 0.5
 				state = 0
 				attached = True
@@ -39017,10 +39085,10 @@ GAME
 				srfN = srfAttach, 0,pCylinder258_COLLIDER
 				mass = 0.000500000024
 				shielded = False
-				temp = 294.17482944581468
-				tempExt = 294.7094725957474
-				tempExtUnexp = 294.71422858903151
-				staticPressureAtm = 0.9875007891049068
+				temp = 276.00394979519365
+				tempExt = 277.98669338944057
+				tempExtUnexp = 277.98667412209369
+				staticPressureAtm = 0.98750327388180814
 				expt = 0.5
 				state = 0
 				attached = True
@@ -39166,10 +39234,10 @@ GAME
 				srfN = srfAttach, 0,pCylinder258_COLLIDER
 				mass = 0.0149999997
 				shielded = False
-				temp = 293.90627200829937
-				tempExt = 293.96145985424903
-				tempExtUnexp = 293.96144567903292
-				staticPressureAtm = 0.98757450415298076
+				temp = 275.60577511153912
+				tempExt = 276.04731241769133
+				tempExtUnexp = 276.04719335682177
+				staticPressureAtm = 0.98757691363361244
 				expt = 0.5
 				state = 0
 				attached = True
@@ -39315,10 +39383,10 @@ GAME
 				attN = top, 27
 				mass = 0.0399999991
 				shielded = False
-				temp = 293.88125675745613
-				tempExt = 293.95471158865854
-				tempExtUnexp = 293.95470996928685
-				staticPressureAtm = 0.98744921116013595
+				temp = 274.88334053345841
+				tempExt = 275.61812769501802
+				tempExtUnexp = 275.61807100491967
+				staticPressureAtm = 0.98745162064076764
 				expt = 0
 				state = 0
 				attached = True
@@ -39470,9 +39538,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1431.011
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 175199.2
+					Age = 7436.468
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 175195.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -39719,10 +39787,10 @@ GAME
 				attN = parachute, 28
 				mass = 0.0700000003
 				shielded = False
-				temp = 293.87694901348971
-				tempExt = 293.91854683048291
-				tempExtUnexp = 293.91853835577012
-				staticPressureAtm = 0.98741412309843779
+				temp = 274.88731580176341
+				tempExt = 275.54529877965376
+				tempExtUnexp = 275.54524633926985
+				staticPressureAtm = 0.98741660787533925
 				expt = 0.5
 				state = 0
 				attached = True
@@ -39992,8 +40060,8 @@ GAME
 					name = ModuleAnimateGeneric
 					isEnabled = True
 					aniState = LOCKED
-					animSwitch = True
-					animTime = 0
+					animSwitch = False
+					animTime = 1
 					animSpeed = 1
 					deployPercent = 100
 					animationIsDisabled = False
@@ -40090,8 +40158,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.2933022
-					LastFixedUpdate = 9363.521
+					Age = 1.173703
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -40125,8 +40193,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.2933022
-					LastFixedUpdate = 9363.521
+					Age = 1.173703
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 175200
 					LifeTimeSecs = 1.7136E+08
 					HasFailed = False
@@ -40233,10 +40301,10 @@ GAME
 				attN = parachute, 27
 				mass = 0.0199999996
 				shielded = False
-				temp = 293.87493055292362
-				tempExt = 293.88229441808539
-				tempExtUnexp = 293.88228918373159
-				staticPressureAtm = 0.98741864087462217
+				temp = 274.89264925972958
+				tempExt = 275.52539641096314
+				tempExtUnexp = 275.52534239966491
+				staticPressureAtm = 0.98742112565152351
 				expt = 0.5
 				state = 0
 				attached = True
@@ -40394,8 +40462,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09610692
-					LastFixedUpdate = 9363.521
+					Age = 0.3846207
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 17520
 					LifeTimeSecs = 72000
 					HasFailed = False
@@ -40456,10 +40524,10 @@ GAME
 				attN = Node1, 30
 				mass = 0.0299999993
 				shielded = False
-				temp = 293.87883571267565
-				tempExt = 293.94758849408009
-				tempExtUnexp = 293.9475693684418
-				staticPressureAtm = 0.98735019656542988
+				temp = 274.88211411667538
+				tempExt = 275.46194790526386
+				tempExtUnexp = 275.46191195377702
+				staticPressureAtm = 0.98735260604606156
 				expt = 0.5
 				state = 0
 				attached = True
@@ -40653,8 +40721,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.0961113
-					LastFixedUpdate = 9363.521
+					Age = 0.3846261
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 17520
 					LifeTimeSecs = 72000
 					HasFailed = False
@@ -40746,10 +40814,10 @@ GAME
 				attN = Node1, 29
 				mass = 0.00200000009
 				shielded = False
-				temp = 293.87972015914249
-				tempExt = 293.9016888756945
-				tempExtUnexp = 293.90167592499188
-				staticPressureAtm = 0.98731059072754745
+				temp = 274.92375442201143
+				tempExt = 275.51794948946019
+				tempExtUnexp = 275.51790341391199
+				staticPressureAtm = 0.9873130755044488
 				expt = 0.5
 				state = 0
 				attached = True
@@ -41057,10 +41125,10 @@ GAME
 				attN = bottom, 29
 				mass = 0.400000006
 				shielded = False
-				temp = 293.87680245126177
-				tempExt = 294.16508066262941
-				tempExtUnexp = 294.16522096237031
-				staticPressureAtm = 0.98721601861275599
+				temp = 274.68682330224254
+				tempExt = 275.36633689236845
+				tempExtUnexp = 275.36632476402167
+				staticPressureAtm = 0.98721850338965733
 				expt = 0.5
 				state = 0
 				attached = True
@@ -41364,9 +41432,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 1427.338
-					LastFixedUpdate = 9363.521
-					CurrentMTBF = 350398.9
+					Age = 7421.764
+					LastFixedUpdate = 15357.66
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -41399,8 +41467,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7936.279
 					TimeOfLastInspection = -Infinity
-					Age = 0.09610925
-					LastFixedUpdate = 9363.521
+					Age = 0.3839859
+					LastFixedUpdate = 15357.66
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -41467,7 +41535,7 @@ GAME
 			{
 				Stage = False, 0
 				Gear = False, 0
-				Light = False, 0
+				Light = True, 15357.2987404371
 				RCS = False, 0
 				SAS = False, 0
 				Brakes = False, 0
@@ -41558,18 +41626,18 @@ GAME
 			landedAt = LaunchpadFX
 			displaylandedAt = LaunchpadFX
 			splashed = False
-			met = 4297.6148633673229
+			met = 7388.9595216060234
 			lct = 7995.9592188317029
-			lastUT = 12293.574082199026
+			lastUT = 15384.958740437727
 			distanceTraveled = 0
 			root = 0
-			lat = 28.491277744299758
-			lon = -80.546960376011171
-			alt = 86.899947317084298
-			hgt = 17.6129742
-			nrm = -0.000424221158,0.999999881,0.000166594982
-			rot = -0.508501291,-0.0676331893,-0.0439905748,0.857272983
-			CoM = 0.0100913048,-9.85835838,0.00048828125
+			lat = 28.491277649498453
+			lon = -80.546960369065957
+			alt = 86.894503123359755
+			hgt = 17.6779461
+			nrm = -0.000454887748,0.999999881,0.000306248665
+			rot = -0.508560061,-0.0676372945,-0.0440088026,0.857236922
+			CoM = 4.76837158E-07,-9.89635181,4.76837158E-06
 			stg = 8
 			prst = False
 			ref = 3556641942
@@ -41587,13 +41655,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796413.52080608089
-				ECC = 0.99999999999999989
-				INC = 61.508723031184353
+				SMA = NaN
+				ECC = 1
+				INC = 61.508723093931543
 				LPE = 90
-				LAN = 85.216873469304346
-				MNA = 3.1415926207170166
-				EPH = 15309.898740436089
+				LAN = 88.663610029046026
+				MNA = 0
+				EPH = 15516.218740440592
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -41623,10 +41691,10 @@ GAME
 				attN = bottom, 1
 				mass = 0.375999987
 				shielded = False
-				temp = 283.20321408457477
-				tempExt = 283.95306263287938
-				tempExtUnexp = 283.95300390239669
-				staticPressureAtm = 0.98695812888890166
+				temp = 276.07298941712122
+				tempExt = 276.79113018673166
+				tempExtUnexp = 276.7910869846429
+				staticPressureAtm = 0.98695895714786885
 				expt = 0.5
 				state = 0
 				attached = True
@@ -41816,7 +41884,7 @@ GAME
 				{
 					name = ModuleColorChanger
 					isEnabled = True
-					animState = False
+					animState = True
 					stagingEnabled = True
 					EVENTS
 					{
@@ -41961,9 +42029,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1416.809
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 175199.2
+					Age = 7415.06
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 175195.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -42026,8 +42094,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1.748916
-					LastFixedUpdate = 9365.921
+					Age = 7.103195
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -42080,9 +42148,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1416.809
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7415.06
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -42115,8 +42183,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1.748916
-					LastFixedUpdate = 9365.921
+					Age = 7.103195
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 175200
 					LifeTimeSecs = 1.7136E+08
 					HasFailed = False
@@ -42922,7 +42990,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 75.772611859164584
+					amount = 73.900611900993411
 					maxAmount = 80
 					flowState = True
 					isTweakable = True
@@ -42979,10 +43047,10 @@ GAME
 				attN = top, 0
 				mass = 0.0562499985
 				shielded = False
-				temp = 283.17167767266005
-				tempExt = 284.34991001983866
-				tempExtUnexp = 284.34988977261446
-				staticPressureAtm = 0.98703425341760731
+				temp = 276.01513537687299
+				tempExt = 277.1293718363454
+				tempExtUnexp = 277.12935609050464
+				staticPressureAtm = 0.98703508167657439
 				expt = 0.5
 				state = 0
 				attached = True
@@ -43232,10 +43300,10 @@ GAME
 				attN = decoupler, 9
 				mass = 0.0199999996
 				shielded = False
-				temp = 283.27748507002724
-				tempExt = 283.73168798799298
-				tempExtUnexp = 283.73168071546127
-				staticPressureAtm = 0.98703237101086383
+				temp = 276.10593463362727
+				tempExt = 276.54435987064687
+				tempExtUnexp = 276.5443530934204
+				staticPressureAtm = 0.98703319926983091
 				expt = 0.5
 				state = 0
 				attached = True
@@ -43483,10 +43551,10 @@ GAME
 				srfN = srfAttach, 2,pCylinder267_COLLIDER
 				mass = 0.00124999997
 				shielded = False
-				temp = 283.19867402030076
-				tempExt = 283.72865658769223
-				tempExtUnexp = 283.72864166935977
-				staticPressureAtm = 0.98707190155247648
+				temp = 276.05660524058095
+				tempExt = 276.55476860423209
+				tempExtUnexp = 276.55474036263939
+				staticPressureAtm = 0.98707272981144367
 				expt = 0.5
 				state = 0
 				attached = True
@@ -43654,9 +43722,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.158
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7408.35
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -43689,8 +43757,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631379
-					LastFixedUpdate = 9365.921
+					Age = 0.3911626
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -43794,10 +43862,10 @@ GAME
 				srfN = srfAttach, 2,pCylinder267_COLLIDER
 				mass = 0.00124999997
 				shielded = False
-				temp = 283.19867402030076
-				tempExt = 283.72865658769223
-				tempExtUnexp = 283.72864166935977
-				staticPressureAtm = 0.98707197684874626
+				temp = 276.05660524058095
+				tempExt = 276.55476860423209
+				tempExtUnexp = 276.55474036263939
+				staticPressureAtm = 0.98707280510771334
 				expt = 0.5
 				state = 0
 				attached = True
@@ -43957,9 +44025,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.158
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7408.35
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -43992,8 +44060,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631379
-					LastFixedUpdate = 9365.921
+					Age = 0.3911626
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -44097,10 +44165,10 @@ GAME
 				srfN = srfAttach, 2,pCylinder267_COLLIDER
 				mass = 0.00124999997
 				shielded = False
-				temp = 283.19867402030076
-				tempExt = 283.72865658769223
-				tempExtUnexp = 283.72864166935977
-				staticPressureAtm = 0.98707205214501603
+				temp = 276.05660524058095
+				tempExt = 276.55476860423209
+				tempExtUnexp = 276.55474036263939
+				staticPressureAtm = 0.98707288040398311
 				expt = 0.5
 				state = 0
 				attached = True
@@ -44260,9 +44328,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.158
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7408.35
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -44295,8 +44363,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631379
-					LastFixedUpdate = 9365.921
+					Age = 0.3911626
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -44401,10 +44469,10 @@ GAME
 				attN = top, -1
 				mass = 0.00344999996
 				shielded = False
-				temp = 283.17389474114049
-				tempExt = 283.71459854577586
-				tempExtUnexp = 283.7145817669425
-				staticPressureAtm = 0.98707747347643715
+				temp = 276.02075882096835
+				tempExt = 276.53602101911275
+				tempExtUnexp = 276.53600538847638
+				staticPressureAtm = 0.98707822643913457
 				expt = 0.5
 				state = 0
 				attached = True
@@ -44594,9 +44662,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.158
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7408.35
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -44629,8 +44697,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631501
-					LastFixedUpdate = 9365.921
+					Age = 0.3910408
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -44735,10 +44803,10 @@ GAME
 				attN = top, -1
 				mass = 0.00344999996
 				shielded = False
-				temp = 283.17389474114049
-				tempExt = 283.71459854577586
-				tempExtUnexp = 283.7145817669425
-				staticPressureAtm = 0.98707754877270693
+				temp = 276.02075882096835
+				tempExt = 276.53602101911275
+				tempExtUnexp = 276.53600538847638
+				staticPressureAtm = 0.98707830173540434
 				expt = 0.5
 				state = 0
 				attached = True
@@ -44920,9 +44988,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.158
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7408.35
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -44955,8 +45023,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631501
-					LastFixedUpdate = 9365.921
+					Age = 0.3910408
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -45061,10 +45129,10 @@ GAME
 				attN = top, -1
 				mass = 0.00344999996
 				shielded = False
-				temp = 283.17389474114049
-				tempExt = 283.71459854577586
-				tempExtUnexp = 283.7145817669425
-				staticPressureAtm = 0.98707747347643715
+				temp = 276.02075882096835
+				tempExt = 276.53602101911275
+				tempExtUnexp = 276.53600538847638
+				staticPressureAtm = 0.98707822643913457
 				expt = 0.5
 				state = 0
 				attached = True
@@ -45246,9 +45314,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.158
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7408.35
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -45281,8 +45349,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631501
-					LastFixedUpdate = 9365.921
+					Age = 0.3910408
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -45378,7 +45446,7 @@ GAME
 				dstg = 4
 				sqor = 4
 				sepI = 4
-				sidx = 1
+				sidx = 0
 				attm = 0
 				sameVesselCollision = False
 				srfN = , -1
@@ -45386,10 +45454,10 @@ GAME
 				attN = bottom, 10
 				mass = 0.0399999991
 				shielded = False
-				temp = 283.17629082823078
-				tempExt = 283.70832363644064
-				tempExtUnexp = 283.70831957346837
-				staticPressureAtm = 0.98708786436166107
+				temp = 275.99618300561451
+				tempExt = 276.51381151067994
+				tempExtUnexp = 276.51380719564196
+				staticPressureAtm = 0.98708861732435849
 				expt = 0.5
 				state = 0
 				attached = True
@@ -45578,10 +45646,10 @@ GAME
 				attN = bottom, 11
 				mass = 0.174999997
 				shielded = False
-				temp = 283.13020279157314
-				tempExt = 283.68491302452111
-				tempExtUnexp = 283.68491072410217
-				staticPressureAtm = 0.98735704852597606
+				temp = 275.94948620852807
+				tempExt = 276.48700543972677
+				tempExtUnexp = 276.48700255746724
+				staticPressureAtm = 0.98735780148867347
 				expt = 0.5
 				state = 0
 				attached = True
@@ -45683,9 +45751,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.355
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7409.151
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -45944,10 +46012,10 @@ GAME
 				attN = bottom, 12
 				mass = 0.300000012
 				shielded = False
-				temp = 283.12087133616018
-				tempExt = 283.67840782355267
-				tempExtUnexp = 283.67840715938058
-				staticPressureAtm = 0.98774934209131349
+				temp = 275.93561198288523
+				tempExt = 276.47848396661868
+				tempExtUnexp = 276.47848252945465
+				staticPressureAtm = 0.98775017035028057
 				expt = 0.5
 				state = 0
 				attached = True
@@ -46032,9 +46100,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.355
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7409.151
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -46278,10 +46346,10 @@ GAME
 				attN = bottom, 13
 				mass = 0.300000012
 				shielded = False
-				temp = 283.12037943385405
-				tempExt = 283.67581094858156
-				tempExtUnexp = 283.67581067036065
-				staticPressureAtm = 0.98814314158204564
+				temp = 275.93447337049258
+				tempExt = 276.47520574369446
+				tempExtUnexp = 276.47520484937195
+				staticPressureAtm = 0.98814396984101283
 				expt = 0.5
 				state = 0
 				attached = True
@@ -46366,9 +46434,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.355
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7409.151
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -46613,10 +46681,10 @@ GAME
 				attN = bottom02, -1
 				mass = 0.550000012
 				shielded = False
-				temp = 283.12078392274861
-				tempExt = 283.6746203887468
-				tempExtUnexp = 283.67462056360631
-				staticPressureAtm = 0.98873497026219004
+				temp = 275.93506773385428
+				tempExt = 276.47418707388118
+				tempExtUnexp = 276.47418617795608
+				staticPressureAtm = 0.98873579852115712
 				expt = 0.5
 				state = 0
 				attached = True
@@ -46701,9 +46769,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.355
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7409.151
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -46948,10 +47016,10 @@ GAME
 				attN = fairing, 17
 				mass = 0.125
 				shielded = False
-				temp = 283.12026597224417
-				tempExt = 283.67536164274031
-				tempExtUnexp = 283.67535812184366
-				staticPressureAtm = 0.98909051924789504
+				temp = 275.93540075128635
+				tempExt = 276.4780190831807
+				tempExtUnexp = 276.47801603712298
+				staticPressureAtm = 0.98909134750686212
 				expt = 0.5
 				state = 0
 				attached = True
@@ -47036,9 +47104,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.355
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7409.151
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -47282,10 +47350,10 @@ GAME
 				attN = bottom, 16
 				mass = 0.600000024
 				shielded = False
-				temp = 283.14016752735495
-				tempExt = 283.64695507812655
-				tempExtUnexp = 283.64695073145538
-				staticPressureAtm = 0.98931189028092614
+				temp = 275.96124439018064
+				tempExt = 276.45412287032121
+				tempExtUnexp = 276.45411780229176
+				staticPressureAtm = 0.98931271853989322
 				expt = 0.5
 				state = 0
 				attached = True
@@ -47526,8 +47594,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631597
-					LastFixedUpdate = 9365.921
+					Age = 0.3908814
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 4380
 					LifeTimeSecs = 36000
 					HasFailed = False
@@ -47561,8 +47629,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631597
-					LastFixedUpdate = 9365.921
+					Age = 0.3908814
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -47597,8 +47665,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631597
-					LastFixedUpdate = 9365.921
+					Age = 0.3908814
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -47632,8 +47700,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631597
-					LastFixedUpdate = 9365.921
+					Age = 0.3908814
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 4380
 					LifeTimeSecs = 7200
 					HasFailed = False
@@ -47847,10 +47915,10 @@ GAME
 				attN = NodeE4, -1
 				mass = 3
 				shielded = False
-				temp = 283.13505712857284
-				tempExt = 283.68272913487658
-				tempExtUnexp = 283.6827235543509
-				staticPressureAtm = 0.98957557781755023
+				temp = 275.95742653715251
+				tempExt = 276.48773964975675
+				tempExtUnexp = 276.48773351579285
+				staticPressureAtm = 0.98957640607651731
 				expt = 0.5
 				state = 0
 				attached = True
@@ -47887,7 +47955,7 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 0.959995687
+					scaleFactor = 0.960006893
 					height = 0.479999393
 					stagingEnabled = True
 					towerRot = 0,-1,0,0
@@ -48130,8 +48198,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.2939474
-					LastFixedUpdate = 9365.921
+					Age = 1.192807
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 525600
 					LifeTimeSecs = 5.1408E+08
 					HasFailed = False
@@ -48225,10 +48293,10 @@ GAME
 				attN = right, 19
 				mass = 0.800000012
 				shielded = False
-				temp = 283.17083653746613
-				tempExt = 283.69077693769395
-				tempExtUnexp = 283.69075090339192
-				staticPressureAtm = 0.98924675900760239
+				temp = 276.01556308195904
+				tempExt = 276.51713770523253
+				tempExtUnexp = 276.51711647291182
+				staticPressureAtm = 0.98924758726656947
 				expt = 0.5
 				state = 0
 				attached = True
@@ -48417,9 +48485,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.158
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7408.35
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -48452,8 +48520,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09632507
-					LastFixedUpdate = 9365.921
+					Age = 0.3910326
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -48543,10 +48611,10 @@ GAME
 				attN = bottom, -1
 				mass = 1.75
 				shielded = False
-				temp = 283.12163539289082
-				tempExt = 283.61696197501709
-				tempExtUnexp = 283.61696095269645
-				staticPressureAtm = 0.98927778107073461
+				temp = 275.9366596269964
+				tempExt = 276.422665333032
+				tempExtUnexp = 276.42266368188899
+				staticPressureAtm = 0.98927853403343202
 				expt = 0.5
 				state = 0
 				attached = True
@@ -48787,8 +48855,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631658
-					LastFixedUpdate = 9365.921
+					Age = 0.3907905
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 4380
 					LifeTimeSecs = 36000
 					HasFailed = False
@@ -48822,8 +48890,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631658
-					LastFixedUpdate = 9365.921
+					Age = 0.3907905
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -48858,8 +48926,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631658
-					LastFixedUpdate = 9365.921
+					Age = 0.3907905
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -48893,8 +48961,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631658
-					LastFixedUpdate = 9365.921
+					Age = 0.3907905
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 4380
 					LifeTimeSecs = 7200
 					HasFailed = False
@@ -49098,10 +49166,10 @@ GAME
 				attN = bottom, -1
 				mass = 1.75
 				shielded = False
-				temp = 283.12163525735713
-				tempExt = 283.61695535228887
-				tempExtUnexp = 283.61695433000654
-				staticPressureAtm = 0.98927770577446483
+				temp = 275.93665935702768
+				tempExt = 276.42265742501257
+				tempExtUnexp = 276.42265577393135
+				staticPressureAtm = 0.98927853403343202
 				expt = 0.5
 				state = 0
 				attached = True
@@ -49334,8 +49402,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631658
-					LastFixedUpdate = 9365.921
+					Age = 0.3907905
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 4380
 					LifeTimeSecs = 36000
 					HasFailed = False
@@ -49369,8 +49437,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631658
-					LastFixedUpdate = 9365.921
+					Age = 0.3907905
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -49405,8 +49473,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631658
-					LastFixedUpdate = 9365.921
+					Age = 0.3907905
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -49440,8 +49508,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631658
-					LastFixedUpdate = 9365.921
+					Age = 0.3907905
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 4380
 					LifeTimeSecs = 7200
 					HasFailed = False
@@ -49636,17 +49704,17 @@ GAME
 				dstg = 6
 				sqor = 7
 				sepI = 4
-				sidx = 1
+				sidx = 0
 				attm = 1
 				sameVesselCollision = False
 				sym = 21
 				srfN = srfAttach, 13,pCube112
 				mass = 0.0680000037
 				shielded = False
-				temp = 283.16034268056694
-				tempExt = 283.66339748420194
-				tempExtUnexp = 283.66339313926721
-				staticPressureAtm = 0.98897177703051742
+				temp = 275.99070531367727
+				tempExt = 276.46947945203891
+				tempExtUnexp = 276.46947513288785
+				staticPressureAtm = 0.98897268058575438
 				expt = 0.5
 				state = 0
 				attached = True
@@ -49886,8 +49954,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.0963213
-					LastFixedUpdate = 9365.921
+					Age = 0.3909839
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -49922,8 +49990,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.0963213
-					LastFixedUpdate = 9365.921
+					Age = 0.3909839
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -49957,8 +50025,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.0963213
-					LastFixedUpdate = 9365.921
+					Age = 0.3909839
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 4380
 					LifeTimeSecs = 7200
 					HasFailed = False
@@ -50073,17 +50141,17 @@ GAME
 				dstg = 6
 				sqor = 7
 				sepI = 4
-				sidx = 1
+				sidx = 0
 				attm = 1
 				sameVesselCollision = False
 				sym = 20
 				srfN = srfAttach, 13,pCube112
 				mass = 0.0680000037
 				shielded = False
-				temp = 283.16035088474098
-				tempExt = 283.66348799061456
-				tempExtUnexp = 283.66348364499777
-				staticPressureAtm = 0.98897245469694517
+				temp = 275.99071251339586
+				tempExt = 276.4695357625402
+				tempExtUnexp = 276.46953144298539
+				staticPressureAtm = 0.98897328295591225
 				expt = 0.5
 				state = 0
 				attached = True
@@ -50315,8 +50383,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.0963213
-					LastFixedUpdate = 9365.921
+					Age = 0.3909839
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -50351,8 +50419,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.0963213
-					LastFixedUpdate = 9365.921
+					Age = 0.3909839
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -50386,8 +50454,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.0963213
-					LastFixedUpdate = 9365.921
+					Age = 0.3909839
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 4380
 					LifeTimeSecs = 7200
 					HasFailed = False
@@ -50508,10 +50576,10 @@ GAME
 				srfN = srfAttach, 0,pCylinder258_COLLIDER
 				mass = 0.000500000024
 				shielded = False
-				temp = 284.16807689555469
-				tempExt = 285.84085420610779
-				tempExtUnexp = 285.84084414932073
-				staticPressureAtm = 0.98694450026407898
+				temp = 276.98139507499252
+				tempExt = 278.55672992789403
+				tempExtUnexp = 278.55671995862366
+				staticPressureAtm = 0.98694532852304617
 				expt = 0.5
 				state = 0
 				attached = True
@@ -50657,10 +50725,10 @@ GAME
 				srfN = srfAttach, 0,pCylinder258_COLLIDER
 				mass = 0.0149999997
 				shielded = False
-				temp = 283.69864471694126
-				tempExt = 284.12395916602259
-				tempExtUnexp = 284.12385597970643
-				staticPressureAtm = 0.98701783883080429
+				temp = 276.68113055558251
+				tempExt = 277.03479209865691
+				tempExtUnexp = 277.03469940344098
+				staticPressureAtm = 0.98701866708977137
 				expt = 0.5
 				state = 0
 				attached = True
@@ -50806,10 +50874,10 @@ GAME
 				attN = top, 25
 				mass = 0.0399999991
 				shielded = False
-				temp = 283.21928215641333
-				tempExt = 283.83774693956951
-				tempExtUnexp = 283.83769792417405
-				staticPressureAtm = 0.98689262113422926
+				temp = 276.09202601185689
+				tempExt = 276.68413148582215
+				tempExtUnexp = 276.6840900228014
+				staticPressureAtm = 0.98689344939319634
 				expt = 0
 				state = 0
 				attached = True
@@ -50961,9 +51029,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1418.836
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 175199.2
+					Age = 7423.307
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 175195.9
 					LifeTimeSecs = 3.1536E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -51174,7 +51242,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 4.7357882411977865
+					amount = 4.6187882438120882
 					maxAmount = 5
 					flowState = True
 					isTweakable = True
@@ -51201,7 +51269,7 @@ GAME
 				dstg = 0
 				sqor = 0
 				sepI = 0
-				sidx = 1
+				sidx = 0
 				attm = 0
 				sameVesselCollision = False
 				srfN = , -1
@@ -51210,10 +51278,10 @@ GAME
 				attN = parachute, 26
 				mass = 0.0700000003
 				shielded = False
-				temp = 283.22367891660269
-				tempExt = 283.76791813449097
-				tempExtUnexp = 283.76787617324663
-				staticPressureAtm = 0.98685760836880088
+				temp = 276.0986885239613
+				tempExt = 276.62108481224641
+				tempExtUnexp = 276.6210466732241
+				staticPressureAtm = 0.98685843662776795
 				expt = 0.5
 				state = 0
 				attached = True
@@ -51483,9 +51551,9 @@ GAME
 					name = ModuleAnimateGeneric
 					isEnabled = True
 					aniState = LOCKED
-					animSwitch = True
-					animTime = 0
-					animSpeed = -1
+					animSwitch = False
+					animTime = 1
+					animSpeed = 1
 					deployPercent = 100
 					animationIsDisabled = False
 					stagingEnabled = True
@@ -51581,8 +51649,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.2939297
-					LastFixedUpdate = 9365.921
+					Age = 1.194175
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8760
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -51616,8 +51684,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.2939297
-					LastFixedUpdate = 9365.921
+					Age = 1.194175
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 175200
 					LifeTimeSecs = 1.7136E+08
 					HasFailed = False
@@ -51717,17 +51785,17 @@ GAME
 				dstg = 0
 				sqor = 0
 				sepI = 0
-				sidx = 2
+				sidx = 0
 				attm = 0
 				sameVesselCollision = False
 				srfN = , -1
 				attN = parachute, 25
 				mass = 0.0199999996
 				shielded = False
-				temp = 283.22829505921976
-				tempExt = 283.74435298721028
-				tempExtUnexp = 283.74431042213672
-				staticPressureAtm = 0.98686212614498514
+				temp = 276.10335795476436
+				tempExt = 276.59998077714783
+				tempExtUnexp = 276.59994098029625
+				staticPressureAtm = 0.98686287910768256
 				expt = 0.5
 				state = 0
 				attached = True
@@ -51885,8 +51953,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09630987
-					LastFixedUpdate = 9365.921
+					Age = 0.3913227
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 17520
 					LifeTimeSecs = 72000
 					HasFailed = False
@@ -51938,7 +52006,7 @@ GAME
 				dstg = 1
 				sqor = 1
 				sepI = 0
-				sidx = 1
+				sidx = 0
 				attm = 0
 				sameVesselCollision = False
 				srfN = , -1
@@ -51947,10 +52015,10 @@ GAME
 				attN = Node1, 28
 				mass = 0.0299999993
 				shielded = False
-				temp = 283.22237349281755
-				tempExt = 283.71827988031669
-				tempExtUnexp = 283.71824809181476
-				staticPressureAtm = 0.98679368183579286
+				temp = 276.09583672543579
+				tempExt = 276.55035168565183
+				tempExtUnexp = 276.55032512064292
+				staticPressureAtm = 0.98679443479849027
 				expt = 0.5
 				state = 0
 				attached = True
@@ -52144,8 +52212,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09631385
-					LastFixedUpdate = 9365.921
+					Age = 0.3913256
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 17520
 					LifeTimeSecs = 72000
 					HasFailed = False
@@ -52237,10 +52305,10 @@ GAME
 				attN = Node1, 27
 				mass = 0.00200000009
 				shielded = False
-				temp = 283.2260208640767
-				tempExt = 283.71532355898751
-				tempExtUnexp = 283.71528955564872
-				staticPressureAtm = 0.98675422659044998
+				temp = 276.12723344460863
+				tempExt = 276.59365609218088
+				tempExtUnexp = 276.59363133901638
+				staticPressureAtm = 0.98675497955314728
 				expt = 0.5
 				state = 0
 				attached = True
@@ -52548,10 +52616,10 @@ GAME
 				attN = bottom, 27
 				mass = 0.400000006
 				shielded = False
-				temp = 283.12631725652216
-				tempExt = 283.6687621575839
-				tempExtUnexp = 283.66875050452006
-				staticPressureAtm = 0.98665957917938862
+				temp = 275.94569793484709
+				tempExt = 276.47987084657598
+				tempExtUnexp = 276.47986253826645
+				staticPressureAtm = 0.98666040743835581
 				expt = 0.5
 				state = 0
 				attached = True
@@ -52855,9 +52923,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 1415.158
-					LastFixedUpdate = 9365.921
-					CurrentMTBF = 350399
+					Age = 7408.35
+					LastFixedUpdate = 15358.82
+					CurrentMTBF = 350394.5
 					LifeTimeSecs = 4.7304E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -52890,8 +52958,8 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 7950.859
 					TimeOfLastInspection = -Infinity
-					Age = 0.09632085
-					LastFixedUpdate = 9365.921
+					Age = 0.3908163
+					LastFixedUpdate = 15358.82
 					CurrentMTBF = 8000
 					LifeTimeSecs = 3600
 					HasFailed = False
@@ -52958,7 +53026,7 @@ GAME
 			{
 				Stage = False, 0
 				Gear = False, 0
-				Light = False, 7985.89921883148
+				Light = True, 15358.3787404371
 				RCS = False, 0
 				SAS = False, 0
 				Brakes = False, 0
@@ -84035,13 +84103,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.391414840411443
+				SMA = 796410.93156319403
+				ECC = 0.99999999999999989
+				INC = 61.39141484041177
 				LPE = 90
-				LAN = 85.159381364352726
-				MNA = 0
-				EPH = 15309.898740436089
+				LAN = 88.606118342327306
+				MNA = 3.1415926207170166
+				EPH = 15516.218740440592
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84394,13 +84462,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.91860568873
+				SMA = 796410.91860572738
 				ECC = 0.99999999999999989
-				INC = 61.391507713058445
-				LPE = 90.000000000000014
-				LAN = 85.159374068508669
+				INC = 61.391507713055248
+				LPE = 90
+				LAN = 88.60611104649189
 				MNA = 3.1415926207170166
-				EPH = 15309.898740436089
+				EPH = 15516.218740440592
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84753,13 +84821,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.95199682773
+				SMA = 796410.95199680841
 				ECC = 0.99999999999999989
-				INC = 61.391429398763009
+				INC = 61.391429398758632
 				LPE = 90
-				LAN = 85.159662798471572
+				LAN = 88.606399776449109
 				MNA = 3.1415926207170166
-				EPH = 15309.898740436089
+				EPH = 15516.218740440592
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -85112,13 +85180,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.27377050486
-				ECC = 0.99999999999999989
-				INC = 61.391276504519688
+				SMA = NaN
+				ECC = 1
+				INC = 61.391276504517961
 				LPE = 90
-				LAN = 85.159508495539853
-				MNA = 3.1415926207170166
-				EPH = 15309.898740436089
+				LAN = 88.606245473511876
+				MNA = 0
+				EPH = 15516.218740440592
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -97185,7 +97253,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292401638
+							cid = 4292983054
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97319,7 +97387,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292401756
+							cid = 4292983132
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97551,7 +97619,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292401638
+							cid = 4292983054
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97685,7 +97753,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292401756
+							cid = 4292983132
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97916,7 +97984,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292401638
+							cid = 4292983054
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98050,7 +98118,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292401756
+							cid = 4292983132
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98279,7 +98347,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292401638
+							cid = 4292983054
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98413,7 +98481,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292401756
+							cid = 4292983132
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99424,7 +99492,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292401638
+							cid = 4292983054
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99558,7 +99626,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292401756
+							cid = 4292983132
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -100200,7 +100268,7 @@ GAME
 							cid = 4293240778
 							uid = 0
 							mid = 0
-							persistentId = 4249141501
+							persistentId = 910400010
 							launchID = 0
 							parent = 0
 							position = 0,0,0
@@ -100334,7 +100402,7 @@ GAME
 							cid = 4293240856
 							uid = 0
 							mid = 0
-							persistentId = 2601823085
+							persistentId = 264452087
 							launchID = 0
 							parent = 0
 							position = 0,0,0
@@ -100928,7 +100996,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292401638
+							cid = 4292983054
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101062,7 +101130,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292401756
+							cid = 4292983132
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101290,7 +101358,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292401638
+							cid = 4292983054
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101424,7 +101492,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292401756
+							cid = 4292983132
 							uid = 0
 							mid = 0
 							persistentId = 0

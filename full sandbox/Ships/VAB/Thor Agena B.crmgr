@@ -1,0 +1,30 @@
+craftName = Thor Agena B
+cachedCraftData
+{
+	origChecksum = ce9264a8e8b9e7cc22a4ff8f35299baf
+	cacheVersion = 3
+	name = Thor Agena B
+	kspVersion = 1.12.5
+	stagesCount = 4
+	cost = 8045.15381
+	partCount = 18
+	mass = 13.5575581
+	description = 
+	crewCapacity = 0
+	partNames = bluedog.Agena.StandardFairingBase
+	partNames = bluedog.Agena.Avionics
+	partNames = bluedog.Agena.Tank.Long
+	partNames = bluedog.Agena.EngineMount
+	partNames = bluedog.Agena.EngineShroud
+	partNames = bluedog.Agena.Engine.XLR81
+	partNames = bluedog.Agena.UllageMotor
+	partNames = bluedog.Agena.StraightInterstage
+	partNames = bluedog.Agena.AInterstage
+	partNames = bluedog.Thor.1p25mAdapter.Long
+	partNames = bluedog.Thor.MediumExtensionTank
+	partNames = bluedog.Thor.ShortExtensionTank
+	partNames = bluedog.Thor.EngineMount
+	partNames = bluedog.Thor.LR79
+	partNames = BDB.FASAlaunchClamp125
+	partNames = bluedog.Thor.LR101
+}

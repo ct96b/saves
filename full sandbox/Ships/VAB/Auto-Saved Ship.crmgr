@@ -1,14 +1,14 @@
 craftName = Untitled Space Craft
 cachedCraftData
 {
-	origChecksum = 2ea1384bf564bf65ed578991ba3c85de
+	origChecksum = af485002291a461fefe709df173f7ddd
 	cacheVersion = 3
-	name = Vanguard 1
+	name = Thor Able
 	kspVersion = 1.12.5
 	stagesCount = 7
-	cost = 7696.2583
-	partCount = 14
-	mass = 7.10910559
+	cost = 7944.40869
+	partCount = 18
+	mass = 12.4258566
 	description = 
 	crewCapacity = 0
 	partNames = bluedog.Vanguard.Satellite1
@@ -16,12 +16,16 @@ cachedCraftData
 	partNames = bluedog.UpperSolids.BE3
 	partNames = bluedog.SpinDecoupler.p3125m
 	partNames = bluedog.FairingBase.0p625m
-	partNames = bluedog.Vanguard.S2.Guidance
-	partNames = bluedog.Vanguard.S2.Tank
-	partNames = bluedog.Able.Engine
-	partNames = bluedog.Vanguard.S1.Interstage
-	partNames = bluedog.Vanguard.S1.Tank
-	partNames = BDB.FASAlaunchClampApollo
-	partNames = bluedog.Vanguard.GE405
-	partNames = AM.MLP.FlatLaunchBaseSmall
+	partNames = bluedog.ThorAble.Guidance
+	partNames = bluedog.ThorAble.Tank
+	partNames = bluedog.Ablestar.Engine
+	partNames = bluedog.ThorDelta.Interstage
+	partNames = bluedog.Agena.AInterstage
+	partNames = bluedog.Thor.1p25mAdapter.Long
+	partNames = bluedog.Thor.MediumExtensionTank
+	partNames = bluedog.Thor.ShortExtensionTank
+	partNames = bluedog.Thor.EngineMount
+	partNames = bluedog.Thor.LR79
+	partNames = BDB.FASAlaunchClamp125
+	partNames = bluedog.Thor.LR101
 }
