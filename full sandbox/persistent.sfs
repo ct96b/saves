@@ -3409,6 +3409,30 @@ GAME
 		{
 			intact = True
 		}
+		9670b033-1a40-4c16-92a0-b732550f84dd
+		{
+			intact = True
+		}
+		d91ae5e0-4565-4156-91b7-b16aedf3771d
+		{
+			intact = True
+		}
+		a171934f-287a-4a08-8545-d72e1c5f6d08
+		{
+			intact = True
+		}
+		e6b0e65f-5825-415d-8cc8-2e9305afceec
+		{
+			intact = True
+		}
+		61a842e5-0487-4432-8021-7b45df3f5262
+		{
+			intact = True
+		}
+		a5ea3362-0c11-4691-8f88-2903c4b1757f
+		{
+			intact = True
+		}
 	}
 	SCENARIO
 	{
@@ -3455,7 +3479,7 @@ GAME
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
 		initialized = False
-		savetime = 15516.778740440604
+		savetime = 15520.958740440696
 		useUUID = True
 		KKSettings
 		{
@@ -5880,7 +5904,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.12.5
-		UT = 15516.778740440604
+		UT = 15520.958740440696
 		activeVessel = 0
 		mapViewFiltering = 15358
 		commNetUIModeTracking = Network
@@ -19163,13 +19187,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796403.26643015759
-				ECC = 0.99999999999999989
-				INC = 61.426490237862559
+				SMA = NaN
+				ECC = 1
+				INC = 61.426490237862858
 				LPE = 90.000000000000014
-				LAN = 88.52111021345172
-				MNA = 3.1415926207170166
-				EPH = 15516.218740440592
+				LAN = 88.590940382935344
+				MNA = 0
+				EPH = 15520.398740440683
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19547,13 +19571,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 61.423875654355641
+				SMA = 796410.91012174019
+				ECC = 0.99999999999999978
+				INC = 61.423875654355669
 				LPE = 90
-				LAN = 88.517564612286264
-				MNA = 0
-				EPH = 15516.218740440592
+				LAN = 88.587394781770286
+				MNA = 3.1415926303452304
+				EPH = 15520.398740440683
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19961,13 +19985,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.511533970304342
-				LPE = 90.000000000000014
-				LAN = 88.652703556307983
-				MNA = 0
-				EPH = 15516.218740440592
+				SMA = 796407.93297051557
+				ECC = 0.99999999999999989
+				INC = 61.511533970305734
+				LPE = 90
+				LAN = 88.722533725788196
+				MNA = 3.1415926207170166
+				EPH = 15520.398740440683
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -29948,13 +29972,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
+				SMA = 796407.36202266894
+				ECC = 0.99999999999999989
 				INC = 61.511533703803629
 				LPE = 90
-				LAN = 88.652608258906128
-				MNA = 0
-				EPH = 15516.218740440592
+				LAN = 88.722438428390092
+				MNA = 3.1415926207170166
+				EPH = 15520.398740440683
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -30985,13 +31009,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796413.12951391819
-				ECC = 0.99999999999999989
-				INC = 61.560604487934334
+				SMA = NaN
+				ECC = 1
+				INC = 61.560604487937631
 				LPE = 90
-				LAN = 88.63717341965895
-				MNA = 3.1415926207170166
-				EPH = 15516.218740440592
+				LAN = 88.707003589149622
+				MNA = 0
+				EPH = 15520.398740440683
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -41657,11 +41681,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 61.508723093931543
+				INC = 61.50872309391918
 				LPE = 90
-				LAN = 88.663610029046026
+				LAN = 88.733440198526466
 				MNA = 0
-				EPH = 15516.218740440592
+				EPH = 15520.398740440683
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84103,13 +84127,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.93156319403
+				SMA = 796410.9315632541
 				ECC = 0.99999999999999989
-				INC = 61.39141484041177
+				INC = 61.391414840416985
 				LPE = 90
-				LAN = 88.606118342327306
-				MNA = 3.1415926207170166
-				EPH = 15516.218740440592
+				LAN = 88.67594851181633
+				MNA = 3.1415926864625696
+				EPH = 15520.398740440683
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84462,13 +84486,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.91860572738
-				ECC = 0.99999999999999989
-				INC = 61.391507713055248
+				SMA = 0
+				ECC = 1
+				INC = 61.391507713058061
 				LPE = 90
-				LAN = 88.60611104649189
-				MNA = 3.1415926207170166
-				EPH = 15516.218740440592
+				LAN = 88.675941215975342
+				MNA = 0
+				EPH = 15520.398740440683
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84821,13 +84845,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.95199680841
+				SMA = 796410.95199681178
 				ECC = 0.99999999999999989
-				INC = 61.391429398758632
+				INC = 61.39142939875908
 				LPE = 90
-				LAN = 88.606399776449109
+				LAN = 88.676229945931425
 				MNA = 3.1415926207170166
-				EPH = 15516.218740440592
+				EPH = 15520.398740440683
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -85180,13 +85204,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.391276504517961
+				SMA = 796410.27377048263
+				ECC = 0.99999999999999989
+				INC = 61.391276504519993
 				LPE = 90
-				LAN = 88.606245473511876
-				MNA = 0
-				EPH = 15516.218740440592
+				LAN = 88.676075642997546
+				MNA = 3.1415926207170166
+				EPH = 15520.398740440683
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -97253,7 +97277,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292983054
+							cid = 4292982974
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97387,7 +97411,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983132
+							cid = 4292983052
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97619,7 +97643,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292983054
+							cid = 4292982974
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97753,7 +97777,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983132
+							cid = 4292983052
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97960,15 +97984,16 @@ GAME
 			ToD = 0
 			idx = 0
 			extraXP = 0
-			hasHelmetOn = False
-			hasNeckRingOn = False
+			hasHelmetOn = True
+			hasNeckRingOn = True
 			hasVisorDown = False
 			lightR = 1
 			lightG = 0.5176
 			lightB = 0
-			completedFirstEVA = False
+			completedFirstEVA = True
 			suit = Default
 			hero = True
+			comboId = slim_male_1
 			INVENTORY
 			{
 				inventory = evaChute,evaJetpack
@@ -97984,7 +98009,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292983054
+							cid = 4292982974
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98118,7 +98143,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983132
+							cid = 4292983052
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98323,15 +98348,16 @@ GAME
 			ToD = 0
 			idx = 1
 			extraXP = 0
-			hasHelmetOn = False
-			hasNeckRingOn = False
+			hasHelmetOn = True
+			hasNeckRingOn = True
 			hasVisorDown = False
 			lightR = 1
 			lightG = 0.5176
 			lightB = 0
-			completedFirstEVA = False
+			completedFirstEVA = True
 			suit = Default
 			hero = True
+			comboId = slim_female_1
 			INVENTORY
 			{
 				inventory = evaChute,evaJetpack
@@ -98347,7 +98373,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292983054
+							cid = 4292982974
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98481,7 +98507,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983132
+							cid = 4292983052
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99468,8 +99494,8 @@ GAME
 			ToD = 234439.26550541291
 			idx = -1
 			extraXP = 0
-			hasHelmetOn = False
-			hasNeckRingOn = False
+			hasHelmetOn = True
+			hasNeckRingOn = True
 			hasVisorDown = False
 			lightR = 1
 			lightG = 0.5176
@@ -99477,6 +99503,7 @@ GAME
 			completedFirstEVA = False
 			suit = Default
 			hero = False
+			comboId = default_female_2
 			INVENTORY
 			{
 				inventory = evaChute,evaJetpack
@@ -99492,7 +99519,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292983054
+							cid = 4292982974
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99626,7 +99653,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983132
+							cid = 4292983052
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -100996,7 +101023,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292983054
+							cid = 4292982974
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101130,7 +101157,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983132
+							cid = 4292983052
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101358,7 +101385,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292983054
+							cid = 4292982974
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101492,7 +101519,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983132
+							cid = 4292983052
 							uid = 0
 							mid = 0
 							persistentId = 0

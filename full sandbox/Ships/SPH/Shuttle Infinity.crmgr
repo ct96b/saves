@@ -1,1 +1,36 @@
-craftName = Untitled Space Craft
+craftName = Shuttle Infinity
+cachedCraftData
+{
+	origChecksum = 47fb2cd715683c4d90633faa55349787
+	cacheVersion = 3
+	name = Shuttle Infinity
+	kspVersion = 1.12.5
+	stagesCount = 2
+	cost = 113865.109
+	partCount = 31
+	mass = 58.7626762
+	description = 
+	crewCapacity = 19
+	partNames = pathfinder.shuttle.forwardFuselage
+	partNames = pathfinder.shuttle.midFuselage
+	partNames = pathfinder.shuttle.aftFuselage
+	partNames = pathfinder.shuttle.deltaWing
+	partNames = pathfinder.shuttle.rudder
+	partNames = pathfinder.shuttle.elevon2
+	partNames = pathfinder.shuttle.elevon1
+	partNames = pathfinder.nerva.main.engine
+	partNames = SaberEngine
+	partNames = pathfinder.shuttle.noseGear
+	partNames = pathfinder.shuttle.mainGear
+	partNames = mumech.MJ2.AR202
+	partNames = benjee10.shuttle.ODS
+	partNames = benjee10.shuttle.crewTubeZ
+	partNames = sspx-habitation-25-1
+	partNames = crewCabin
+	partNames = benjee10.shuttle.kuBand
+	partNames = SurfAntenna
+	partNames = mediumDishAntenna
+	partNames = HighGainAntenna5.v2
+	partNames = dockingPort2
+	partNames = pathfinder.shuttle.Dragchute
+}
