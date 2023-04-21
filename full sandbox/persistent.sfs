@@ -8,6 +8,7 @@ GAME
 	Mode = SANDBOX
 	Status = 1
 	Seed = 1726726792
+	ROCSeed = -1
 	scene = 5
 	editor = None
 	flag = FlagPack/Flags/United States of America
@@ -18,6 +19,9 @@ GAME
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
 	versionFull = 1.12.5.3190 (WindowsPlayer x64)
 	versionCreated = 1.11.1.3066 (WindowsPlayer x64)
+	RemovedROCs
+	{
+	}
 	CometNames
 	{
 	}
@@ -3433,6 +3437,30 @@ GAME
 		{
 			intact = True
 		}
+		5dd24ed2-ac87-41c3-a994-f583bb7a49b3
+		{
+			intact = True
+		}
+		4bead5b0-0807-47b2-bc99-5bde639996c5
+		{
+			intact = True
+		}
+		056b7b9f-ee8d-4e24-8cd8-a8c57bb4abf0
+		{
+			intact = True
+		}
+		49f35fdc-9f84-4023-9969-e9c90814b2f9
+		{
+			intact = True
+		}
+		2cf456a2-082f-4402-a5c9-fb13f8686402
+		{
+			intact = True
+		}
+		6219ddc9-a469-4e8b-9fe7-58d856824e16
+		{
+			intact = True
+		}
 	}
 	SCENARIO
 	{
@@ -3479,7 +3507,7 @@ GAME
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
 		initialized = False
-		savetime = 15520.958740440696
+		savetime = 15525.038740440785
 		useUUID = True
 		KKSettings
 		{
@@ -5901,10 +5929,128 @@ GAME
 		TypeAscOrder = False
 		StockAscOrder = False
 	}
+	SCENARIO
+	{
+		name = DeployedScience
+		scene = 7, 8, 5, 6
+		ScienceTimeDelay = 60
+		DataSendFailedTimeDelay = 600
+		SCIENCECLUSTERS
+		{
+		}
+		DIMINISHINGRETURNS
+		{
+			ENTRY
+			{
+				ExpCount = 1
+				Rate = 1
+			}
+			ENTRY
+			{
+				ExpCount = 2
+				Rate = 0.200000003
+			}
+			ENTRY
+			{
+				ExpCount = 3
+				Rate = 0.349999994
+			}
+			ENTRY
+			{
+				ExpCount = 4
+				Rate = 0.449999988
+			}
+			ENTRY
+			{
+				ExpCount = 5
+				Rate = 0.5
+			}
+		}
+		SEISMICENERGY
+		{
+			MinimumEnergyRequired = 3000
+			SeismicScienceProcessingDelay = 3
+			ENTRY
+			{
+				BodyName = Moho
+				Energy = 2.02E+09
+			}
+			ENTRY
+			{
+				BodyName = Eve
+				Energy = 9.78000036E+10
+			}
+			ENTRY
+			{
+				BodyName = Gilly
+				Energy = 1000000
+			}
+			ENTRY
+			{
+				BodyName = Kerbin
+				Energy = 4.1840001E+10
+			}
+			ENTRY
+			{
+				BodyName = Mun
+				Energy = 782000000
+			}
+			ENTRY
+			{
+				BodyName = Minmus
+				Energy = 21200000
+			}
+			ENTRY
+			{
+				BodyName = Duna
+				Energy = 3.62E+09
+			}
+			ENTRY
+			{
+				BodyName = Ike
+				Energy = 223000000
+			}
+			ENTRY
+			{
+				BodyName = Dres
+				Energy = 258000000
+			}
+			ENTRY
+			{
+				BodyName = Laythe
+				Energy = 2.3600001E+10
+			}
+			ENTRY
+			{
+				BodyName = Vall
+				Energy = 2.48999987E+09
+			}
+			ENTRY
+			{
+				BodyName = Tylo
+				Energy = 3.38999992E+10
+			}
+			ENTRY
+			{
+				BodyName = Bop
+				Energy = 29900000
+			}
+			ENTRY
+			{
+				BodyName = Pol
+				Energy = 8660000
+			}
+			ENTRY
+			{
+				BodyName = Eeloo
+				Energy = 894000000
+			}
+		}
+	}
 	FLIGHTSTATE
 	{
 		version = 1.12.5
-		UT = 15520.958740440696
+		UT = 15525.038740440785
 		activeVessel = 0
 		mapViewFiltering = 15358
 		commNetUIModeTracking = Network
@@ -19187,13 +19333,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 61.426490237862858
-				LPE = 90.000000000000014
-				LAN = 88.590940382935344
+				INC = 61.426490237862474
+				LPE = 90
+				LAN = 88.656427049054457
 				MNA = 0
-				EPH = 15520.398740440683
+				EPH = 15524.318740440769
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19571,13 +19717,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.91012174019
-				ECC = 0.99999999999999978
-				INC = 61.423875654355669
+				SMA = NaN
+				ECC = 1
+				INC = 61.423875654355626
 				LPE = 90
-				LAN = 88.587394781770286
-				MNA = 3.1415926303452304
-				EPH = 15520.398740440683
+				LAN = 88.652881447889172
+				MNA = 0
+				EPH = 15524.318740440769
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19985,13 +20131,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796407.93297051557
-				ECC = 0.99999999999999989
-				INC = 61.511533970305734
-				LPE = 90
-				LAN = 88.722533725788196
-				MNA = 3.1415926207170166
-				EPH = 15520.398740440683
+				SMA = NaN
+				ECC = 1
+				INC = 61.511533970304953
+				LPE = 90.000000000000014
+				LAN = 88.788020391909981
+				MNA = 0
+				EPH = 15524.318740440769
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -29972,13 +30118,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796407.36202266894
-				ECC = 0.99999999999999989
+				SMA = 0
+				ECC = 1
 				INC = 61.511533703803629
 				LPE = 90
-				LAN = 88.722438428390092
-				MNA = 3.1415926207170166
-				EPH = 15520.398740440683
+				LAN = 88.787925094509092
+				MNA = 0
+				EPH = 15524.318740440769
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -31009,13 +31155,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.560604487937631
+				SMA = 796413.12951391377
+				ECC = 0.99999999999999989
+				INC = 61.560604487943216
 				LPE = 90
-				LAN = 88.707003589149622
-				MNA = 0
-				EPH = 15520.398740440683
+				LAN = 88.772490255261346
+				MNA = 3.1415926207170166
+				EPH = 15524.318740440769
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -41679,13 +41825,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.50872309391918
+				SMA = 796413.499086314
+				ECC = 0.99999999999999989
+				INC = 61.508723093912309
 				LPE = 90
-				LAN = 88.733440198526466
-				MNA = 0
-				EPH = 15520.398740440683
+				LAN = 88.798926864650639
+				MNA = 3.1415926207170166
+				EPH = 15524.318740440769
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84127,13 +84273,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.9315632541
+				SMA = 796410.93156322674
 				ECC = 0.99999999999999989
-				INC = 61.391414840416985
+				INC = 61.391414840413148
 				LPE = 90
-				LAN = 88.67594851181633
+				LAN = 88.741435177934306
 				MNA = 3.1415926864625696
-				EPH = 15520.398740440683
+				EPH = 15524.318740440769
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84486,13 +84632,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 61.391507713058061
+				SMA = 796410.91860571038
+				ECC = 0.99999999999999989
+				INC = 61.391507713057159
 				LPE = 90
-				LAN = 88.675941215975342
-				MNA = 0
-				EPH = 15520.398740440683
+				LAN = 88.74142788208917
+				MNA = 3.1415926207170166
+				EPH = 15524.318740440769
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84845,13 +84991,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.95199681178
-				ECC = 0.99999999999999989
-				INC = 61.39142939875908
+				SMA = NaN
+				ECC = 1
+				INC = 61.391429398759449
 				LPE = 90
-				LAN = 88.676229945931425
-				MNA = 3.1415926207170166
-				EPH = 15520.398740440683
+				LAN = 88.741716612051277
+				MNA = 0
+				EPH = 15524.318740440769
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -85204,13 +85350,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.27377048263
-				ECC = 0.99999999999999989
-				INC = 61.391276504519993
+				SMA = NaN
+				ECC = 1
+				INC = 61.391276504528797
 				LPE = 90
-				LAN = 88.676075642997546
-				MNA = 3.1415926207170166
-				EPH = 15520.398740440683
+				LAN = 88.741562309122116
+				MNA = 0
+				EPH = 15524.318740440769
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -97277,7 +97423,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292982974
+							cid = 4292394064
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97411,7 +97557,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983052
+							cid = 4292394182
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97643,7 +97789,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292982974
+							cid = 4292394064
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97777,7 +97923,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983052
+							cid = 4292394182
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98009,7 +98155,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292982974
+							cid = 4292394064
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98143,7 +98289,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983052
+							cid = 4292394182
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98373,7 +98519,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292982974
+							cid = 4292394064
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98507,7 +98653,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983052
+							cid = 4292394182
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99519,7 +99665,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292982974
+							cid = 4292394064
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99653,7 +99799,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983052
+							cid = 4292394182
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101023,7 +101169,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292982974
+							cid = 4292394064
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101157,7 +101303,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983052
+							cid = 4292394182
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101385,7 +101531,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292982974
+							cid = 4292394064
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101519,7 +101665,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292983052
+							cid = 4292394182
 							uid = 0
 							mid = 0
 							persistentId = 0

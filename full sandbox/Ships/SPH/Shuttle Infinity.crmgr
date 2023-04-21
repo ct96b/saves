@@ -1,14 +1,14 @@
 craftName = Shuttle Infinity
 cachedCraftData
 {
-	origChecksum = 47fb2cd715683c4d90633faa55349787
+	origChecksum = 284b84bf8346e1067112f9c211a5e05e
 	cacheVersion = 3
 	name = Shuttle Infinity
 	kspVersion = 1.12.5
-	stagesCount = 2
-	cost = 113865.109
-	partCount = 31
-	mass = 58.7626762
+	stagesCount = 3
+	cost = 116885.109
+	partCount = 35
+	mass = 61.4676819
 	description = 
 	crewCapacity = 19
 	partNames = pathfinder.shuttle.forwardFuselage
@@ -33,4 +33,6 @@ cachedCraftData
 	partNames = HighGainAntenna5.v2
 	partNames = dockingPort2
 	partNames = pathfinder.shuttle.Dragchute
+	partNames = Lynx.LadderPlatform
+	partNames = radialLiquidEngine1-2
 }
