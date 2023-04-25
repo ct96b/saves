@@ -1,16 +1,16 @@
 craftName = OV-102 Columbia
 cachedCraftData
 {
-	origChecksum = 4305ec7f47924a871c59d9bad038dd6d
+	origChecksum = 90834b5772add9def7e64a8072a271c5
 	cacheVersion = 3
 	name = OV-102 Columbia
 	kspVersion = 1.12.5
 	stagesCount = 1
-	cost = 97934
-	partCount = 21
-	mass = 25.5773983
+	cost = 108543
+	partCount = 23
+	mass = 26.1040974
 	description = 
-	crewCapacity = 7
+	crewCapacity = 9
 	partNames = benjee10.shuttle.forwardFuselage
 	partNames = benjee10.shuttle.midFuselage
 	partNames = benjee10.shuttle.aftFuselage
@@ -24,4 +24,6 @@ cachedCraftData
 	partNames = benjee10.shuttle.noseGear
 	partNames = benjee10.shuttle.mainGear
 	partNames = mumech.MJ2.AR202
+	partNames = benjee10.shuttle.ODS
+	partNames = B10.APASv2
 }

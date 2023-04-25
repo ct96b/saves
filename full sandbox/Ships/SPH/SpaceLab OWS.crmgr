@@ -1,16 +1,16 @@
 craftName = SpaceLab OWS
 cachedCraftData
 {
-	origChecksum = eebe57540ccdfcfa557c367d99fd996c
+	origChecksum = 8c6e2bc6e9d39a6ab341dd61751dc945
 	cacheVersion = 3
 	name = SpaceLab OWS
 	kspVersion = 1.12.5
 	stagesCount = 1
-	cost = 295066.188
-	partCount = 125
-	mass = 168.724091
+	cost = 294493.188
+	partCount = 126
+	mass = 173.148132
 	description = 
-	crewCapacity = 36
+	crewCapacity = 38
 	partNames = bluedog.Saturn.S4B.InstrumentUnit
 	partNames = bluedog.Saturn.S4B.Tank
 	partNames = bluedog.Saturn.S4B.EngineMount
@@ -35,13 +35,9 @@ cachedCraftData
 	partNames = bluedog.Skylab.TRS.omniAntenna
 	partNames = bluedog.Skylab.EOSS.dishSmall
 	partNames = ht2.PMA
-	partNames = bluedog.Apollo.APAS75
 	partNames = ht2.moduleDestiny
 	partNames = ht2.ITS.hex
 	partNames = ht2.TTS.hex
-	partNames = ht2.TTS.circle
-	partNames = ht2.ITS.adapter
-	partNames = ht2.S6.SAW
 	partNames = ht2.moduleKibo
 	partNames = ht2.moduleJEMlogistics
 	partNames = ht2.moduleHarmony
@@ -50,4 +46,10 @@ cachedCraftData
 	partNames = ht2.MPLM
 	partNames = bluedog.Apollo.ConeDockingPort
 	partNames = ht2.moduleCupola
+	partNames = ht2.ITS.adapter
+	partNames = ht2.TTS.semiHex
+	partNames = ht2.TTS.circle
+	partNames = ht2.S6.SAW
+	partNames = B10.APASv2
+	partNames = bluedog.Skylab.wetWorkshop.airlockMDA
 }

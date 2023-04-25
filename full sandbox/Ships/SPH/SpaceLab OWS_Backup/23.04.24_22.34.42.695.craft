@@ -2,9 +2,9 @@ ship = SpaceLab OWS
 version = 1.12.5
 description = 
 type = SPH
-size = 49.549324,18.9596024,51.8908081
+size = 49.5493088,18.9595871,51.8907928
 steamPublishedFileId = 0
-persistentId = 1301182715
+persistentId = 2375155278
 rot = 0,0,0,0
 missionFlag = Benjee10_shuttleOrbiter/Flags/ShuttlesAndStripesII
 vesselType = Debris
@@ -16,7 +16,7 @@ PART
 {
 	part = bluedog.Saturn.S4B.InstrumentUnit_4292050594
 	partName = Part
-	persistentId = 2198869479
+	persistentId = 2892515586
 	pos = -0.146713048,13.9703054,0.630399168
 	attPos = 0,0,0
 	attPos0 = -0.146713048,13.9703054,0.630399168
@@ -1094,7 +1094,7 @@ PART
 {
 	part = bluedog.Saturn.S4B.Tank_4292288270
 	partName = Part
-	persistentId = 2188633076
+	persistentId = 2276807446
 	pos = -0.146713048,13.9703054,-1.42412996
 	attPos = 0,0,0
 	attPos0 = 0,-3.57623005,0
@@ -1392,7 +1392,7 @@ PART
 {
 	part = bluedog.Saturn.S4B.EngineMount_4292288114
 	partName = Part
-	persistentId = 1085690311
+	persistentId = 4035229958
 	pos = -0.146713048,13.9703054,-5.27767992
 	attPos = 0,0,0
 	attPos0 = 0,-3.85354948,0
@@ -1618,7 +1618,7 @@ PART
 {
 	part = bluedog.Apollo.Block2.SPS_4292287868
 	partName = Part
-	persistentId = 3298330757
+	persistentId = 1470467371
 	pos = -0.146713048,13.9703054,-8.02278042
 	attPos = 0,0,0
 	attPos0 = 0,-2.74510002,0
@@ -2169,7 +2169,7 @@ PART
 {
 	part = bluedog.Skylab.VFB.ESM_4290427486
 	partName = Part
-	persistentId = 2008578083
+	persistentId = 2355680317
 	pos = -0.146713048,13.9703054,2.5537293
 	attPos = 0,0,0
 	attPos0 = 0,1.92333031,0
@@ -2765,7 +2765,7 @@ PART
 {
 	part = dockingPortLarge_4290426896
 	partName = Part
-	persistentId = 2433274907
+	persistentId = 1550126343
 	pos = -0.146713048,13.9703054,4.82145834
 	attPos = 0,0,0
 	attPos0 = 0,2.26772881,0
@@ -3023,7 +3023,7 @@ PART
 {
 	part = bluedog.Saturn.S4B.APS.550_4292286862
 	partName = Part
-	persistentId = 1605287014
+	persistentId = 2572571451
 	pos = -0.146713167,11.7930861,-1.26982546
 	attPos = 0,0,0
 	attPos0 = 2.17721891,0.154304504,1.14608952E-07
@@ -3361,7 +3361,7 @@ PART
 {
 	part = bluedog.Saturn.S4B.APS.550_4292286730
 	partName = Part
-	persistentId = 1697143294
+	persistentId = 3849113939
 	pos = -0.146713167,16.1475258,-1.26982546
 	attPos = 0,0,0
 	attPos0 = -2.17721891,0.154304504,7.57295737E-08
@@ -3699,7 +3699,7 @@ PART
 {
 	part = bluedog.skylab.solarWing_4290426508
 	partName = Part
-	persistentId = 1276763393
+	persistentId = 3928934023
 	pos = 1.67633271,12.9177694,1.09535933
 	attPos = 7.76336151E-09,0.195699692,0.0888025761
 	attPos0 = 1.05253613,-1.45837021,-1.82304573
@@ -3900,7 +3900,7 @@ PART
 {
 	part = bluedog.skylab.solarWing_4290424378
 	partName = Part
-	persistentId = 3147160326
+	persistentId = 3664080110
 	pos = -1.96975875,15.0228415,1.09535933
 	attPos = 7.76336151E-09,0.195699692,0.0888025761
 	attPos0 = -1.05253601,-1.45837021,1.82304585
@@ -4101,7 +4101,7 @@ PART
 {
 	part = bluedog.scimitar_4290891988
 	partName = Part
-	persistentId = 1172343896
+	persistentId = 281081181
 	pos = 1.31804037,12.5055513,0.512679517
 	attPos = 0,0,0
 	attPos0 = 1.46475339,-0.11771965,-1.46475327
@@ -4238,7 +4238,7 @@ PART
 {
 	part = bluedog.scimitar_4290891472
 	partName = Part
-	persistentId = 245246349
+	persistentId = 695226338
 	pos = 1.31804037,15.4350595,0.512679517
 	attPos = 0,0,0
 	attPos0 = -1.46475315,-0.11771965,-1.46475339
@@ -4375,7 +4375,7 @@ PART
 {
 	part = bluedog.scimitar_4290891432
 	partName = Part
-	persistentId = 1457401334
+	persistentId = 521140886
 	pos = -1.61146641,15.4350595,0.512679517
 	attPos = 0,0,0
 	attPos0 = -1.46475327,-0.11771965,1.46475339
@@ -4512,7 +4512,7 @@ PART
 {
 	part = bluedog.scimitar_4290891392
 	partName = Part
-	persistentId = 2482710484
+	persistentId = 253672594
 	pos = -1.61146617,12.5055513,0.512679517
 	attPos = 0,0,0
 	attPos0 = 1.46475327,-0.11771965,1.46475327
@@ -4649,7 +4649,7 @@ PART
 {
 	part = bluedog.Apollo.Block2.highGain_4292282214
 	partName = Part
-	persistentId = 3060416948
+	persistentId = 3667756908
 	pos = 0.717911005,12.4727335,-6.04844809
 	attPos = 0,0,0
 	attPos0 = 1.49757195,-0.770767689,-0.864623785
@@ -4866,7 +4866,7 @@ PART
 {
 	part = bluedog.Apollo.Block2.highGain_4292281956
 	partName = Part
-	persistentId = 343701150
+	persistentId = 946276552
 	pos = -1.01133704,15.4678774,-6.04844809
 	attPos = 0,0,0
 	attPos0 = -1.49757183,-0.770767689,0.864623904
@@ -5083,7 +5083,7 @@ PART
 {
 	part = bluedog.voyagerMarsOrbiter.solarFlat_4290421536
 	partName = Part
-	persistentId = 4064956177
+	persistentId = 751485757
 	pos = 0.874514341,15.7391214,1.78414869
 	attPos = 0,0,0
 	attPos0 = -1.76881707,-0.769580841,-1.02122724
@@ -5272,7 +5272,7 @@ PART
 {
 	part = bluedog.voyagerMarsOrbiter.solarFlat_4290421490
 	partName = Part
-	persistentId = 1223355787
+	persistentId = 3214020318
 	pos = -1.91552997,14.9915323,1.78414869
 	attPos = 0,0,0
 	attPos0 = -1.02122724,-0.769580841,1.76881695
@@ -5461,7 +5461,7 @@ PART
 {
 	part = bluedog.voyagerMarsOrbiter.solarFlat_4290421444
 	partName = Part
-	persistentId = 2362690890
+	persistentId = 364232511
 	pos = -1.16794014,12.2014875,1.78414869
 	attPos = 0,0,0
 	attPos0 = 1.76881719,-0.769580841,1.02122712
@@ -5650,7 +5650,7 @@ PART
 {
 	part = bluedog.voyagerMarsOrbiter.solarFlat_4290421398
 	partName = Part
-	persistentId = 1861365943
+	persistentId = 2156076814
 	pos = 1.62210417,12.9490786,1.78414869
 	attPos = 0,0,0
 	attPos0 = 1.02122712,-0.769580841,-1.76881707
@@ -5839,7 +5839,7 @@ PART
 {
 	part = bluedog.MOL.Propellant_4292281546
 	partName = Part
-	persistentId = 946097888
+	persistentId = 2539529110
 	pos = 1.31671357,13.9703054,-6.58863878
 	attPos = 0,0,0
 	attPos0 = -8.70109389E-08,-1.31095886,-1.46342659
@@ -6089,7 +6089,7 @@ PART
 {
 	part = bluedog.MOL.Propellant_4292281510
 	partName = Part
-	persistentId = 1614479173
+	persistentId = 194231829
 	pos = -1.61013961,13.9703054,-6.58863878
 	attPos = 0,0,0
 	attPos0 = 2.14947761E-07,-1.31095886,1.46342659
@@ -6339,7 +6339,7 @@ PART
 {
 	part = dockingPortLarge_4290421256
 	partName = Part
-	persistentId = 3211157018
+	persistentId = 741714552
 	pos = -0.146713048,13.9703054,5.40145826
 	attPos = 0,0,0
 	attPos0 = 0,0.579999924,0
@@ -6597,8 +6597,8 @@ PART
 {
 	part = bluedog.Skylab.EOSS.aftMDA_4290421156
 	partName = Part
-	persistentId = 3820510435
-	pos = -0.146713048,13.9703054,7.75324774
+	persistentId = 4041144599
+	pos = -0.146713048,13.9703054,7.75324392
 	attPos = 0,0,0
 	attPos0 = 0,-2.3517704,0
 	rot = 0.707106829,0,0,0.707106829
@@ -6986,8 +6986,8 @@ PART
 {
 	part = bluedog.Skylab.Workshop_4290420674
 	partName = Part
-	persistentId = 87885459
-	pos = -0.146713048,13.9703054,11.1645231
+	persistentId = 2724933111
+	pos = -0.146713048,13.9703054,11.1645174
 	attPos = 0,0,0
 	attPos0 = 0,3.41126561,0
 	rot = 0.707106829,0,0,0.707106829
@@ -7540,8 +7540,8 @@ PART
 {
 	part = bluedog.Saturn.S4B.InstrumentUnit_4290420432
 	partName = Part
-	persistentId = 2048104311
-	pos = -0.146713048,13.9703054,15.5647678
+	persistentId = 1134565075
+	pos = -0.146713048,13.9703054,15.5647583
 	attPos = 0,0,0
 	attPos0 = 0,4.40022469,0
 	rot = 0.707106829,0,0,0.707106829
@@ -8030,8 +8030,8 @@ PART
 {
 	part = bluedog.spacelab.forwardAdapter_4290418406
 	partName = Part
-	persistentId = 1250918705
-	pos = -0.146713048,13.9703054,17.0912647
+	persistentId = 3041767386
+	pos = -0.146713048,13.9703054,17.0912571
 	attPos = 0,0,0
 	attPos0 = 0,1.52650404,0
 	rot = 0.707106829,0,0,0.707106829
@@ -8491,8 +8491,8 @@ PART
 {
 	part = bluedog.Spacelab.airlockModule_4290417996
 	partName = Part
-	persistentId = 1100164148
-	pos = -0.146713048,13.9703054,19.9179649
+	persistentId = 3960227006
+	pos = -0.146713048,13.9703054,19.9179459
 	attPos = 0,0,0
 	attPos0 = 0,3.12869835,0
 	rot = 0.707106829,0,0,0.707106829
@@ -8907,8 +8907,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290417540
 	partName = Part
-	persistentId = 3707395006
-	pos = -0.146713048,13.9703054,21.4905739
+	persistentId = 2725515451
+	pos = -0.146713048,13.9703054,21.4905548
 	attPos = 0,0,0
 	attPos0 = 0,1.57261086,0
 	rot = 0.707106829,0,0,0.707106829
@@ -9166,8 +9166,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290417274
 	partName = Part
-	persistentId = 4129592728
-	pos = -0.146713048,13.9703054,21.693264
+	persistentId = 1041305784
+	pos = -0.146713048,13.9703054,21.6932449
 	attPos = 0,0,0
 	attPos0 = 0,0.202690125,0
 	rot = -0.707106829,0,0,0.707106829
@@ -9499,8 +9499,8 @@ PART
 {
 	part = ht2.moduleUnity_4290416546
 	partName = Part
-	persistentId = 4046643004
-	pos = -0.146713048,13.9703054,23.2880516
+	persistentId = 2848500186
+	pos = -0.146713048,13.9703054,23.2880325
 	attPos = 0,0,0
 	attPos0 = 0,-1.59478784,0
 	rot = 0.707106829,0,0,0.707106829
@@ -9889,8 +9889,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290416266
 	partName = Part
-	persistentId = 3491711704
-	pos = -0.146713287,15.154088,23.6693573
+	persistentId = 869048804
+	pos = -0.146713287,15.154088,23.6693401
 	attPos = 0,0,0
 	attPos0 = -1.19209304E-07,0.381307453,-1.18378139
 	rot = 0,0,0,1.00000012
@@ -10148,8 +10148,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290416000
 	partName = Part
-	persistentId = 2892935095
-	pos = -0.14671281,12.7865229,23.6693573
+	persistentId = 2193778323
+	pos = -0.14671281,12.7865229,23.6693401
 	attPos = 0,0,0
 	attPos0 = 1.19209304E-07,0.381307453,1.18378139
 	rot = -1.00000012,0,0,0
@@ -10407,8 +10407,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290415734
 	partName = Part
-	persistentId = 2186662862
-	pos = -1.33049393,13.9703054,23.6693573
+	persistentId = 3015912327
+	pos = -1.33049393,13.9703054,23.6693401
 	attPos = 0,0,0
 	attPos0 = -1.18378091,0.381307453,-1.19209261E-07
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -10666,8 +10666,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290415468
 	partName = Part
-	persistentId = 1485580266
-	pos = 1.03706789,13.9703054,23.6693573
+	persistentId = 3158027793
+	pos = 1.03706789,13.9703054,23.6693401
 	attPos = 0,0,0
 	attPos0 = 1.18378091,0.381307453,1.19209261E-07
 	rot = 0.50000006,0.500000119,-0.500000119,0.50000006
@@ -10925,8 +10925,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290415202
 	partName = Part
-	persistentId = 705673160
-	pos = -0.146713048,13.9703054,24.8828545
+	persistentId = 3483449915
+	pos = -0.146713048,13.9703054,24.8828354
 	attPos = 0,0,0
 	attPos0 = 0,1.59478915,0
 	rot = 0.707106829,0,0,0.707106829
@@ -11258,8 +11258,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290414474
 	partName = Part
-	persistentId = 2323804736
-	pos = -0.146717817,15.6232777,6.2702527
+	persistentId = 2293286792
+	pos = -0.146716863,15.6232777,6.27024984
 	attPos = 0,0,0
 	attPos0 = -2.38418608E-07,-1.48299062,-1.65297055
 	rot = 0,0,0,1.00000012
@@ -11517,8 +11517,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290414208
 	partName = Part
-	persistentId = 3999915747
-	pos = 1.50626302,13.9703026,6.2702527
+	persistentId = 881553916
+	pos = 1.50626206,13.9703026,6.27024984
 	attPos = 0,0,0
 	attPos0 = 1.65297163,-1.48299062,1.1920929E-06
 	rot = -0.707106829,-0.707106829,0,0
@@ -11775,8 +11775,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290413942
 	partName = Part
-	persistentId = 1208448787
-	pos = -1.79968905,13.9703083,6.27025366
+	persistentId = 749457858
+	pos = -1.7996881,13.9703083,6.2702508
 	attPos = 0,0,0
 	attPos0 = -1.65297163,-1.48298967,-1.1920929E-06
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -12033,8 +12033,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290413676
 	partName = Part
-	persistentId = 1877307742
-	pos = -0.146708757,12.3173332,6.2702527
+	persistentId = 3213115789
+	pos = -0.14670971,12.3173332,6.27024984
 	attPos = 0,0,0
 	attPos0 = -2.38418664E-07,-1.48299062,1.65297151
 	rot = 1.00000012,0,0,0
@@ -12292,8 +12292,8 @@ PART
 {
 	part = bluedog.spacelab.solarWing_4290413410
 	partName = Part
-	persistentId = 37058983
-	pos = -1.98638868,15.0324421,16.3111553
+	persistentId = 1650817525
+	pos = -1.98638773,15.0324421,16.3111439
 	attPos = 0,0,0
 	attPos0 = -1.83967364,-0.78011322,-1.06213605
 	rot = 0.183014333,0.683012307,0.683013141,0.183011234
@@ -12493,8 +12493,8 @@ PART
 {
 	part = bluedog.spacelab.solarWing_4290409214
 	partName = Part
-	persistentId = 836530910
-	pos = 1.69296932,12.9081612,16.311161
+	persistentId = 98100677
+	pos = 1.69296741,12.9081631,16.3111496
 	attPos = 0,0,0
 	attPos0 = 1.83967364,-0.780114174,1.06213558
 	rot = -0.683012366,0.183014259,0.183011204,-0.683013082
@@ -12694,8 +12694,8 @@ PART
 {
 	part = bluedog.skylab.powerModule.radiator_4290405018
 	partName = Part
-	persistentId = 4250259507
-	pos = -0.14671281,12.9922705,19.9703369
+	persistentId = 1350317630
+	pos = -0.14671281,12.9922705,19.9703178
 	attPos = 0,0,0
 	attPos0 = 1.19209304E-07,0.0523738861,0.978034616
 	rot = 0.707106829,-1.49011612E-07,-0.707106829,1.49011612E-07
@@ -12925,8 +12925,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290404078
 	partName = Part
-	persistentId = 1151231812
-	pos = -0.14670828,12.1146507,6.27025318
+	persistentId = 1914608003
+	pos = -0.146709234,12.1146507,6.27025032
 	attPos = 0,0,0
 	attPos0 = 4.76837272E-07,0.202682093,-5.06639594E-07
 	rot = 0,0,0,1.00000012
@@ -13258,8 +13258,8 @@ PART
 {
 	part = bluedog.Saturn.S4B.APS.550_4290403350
 	partName = Part
-	persistentId = 3021610587
-	pos = -0.146713525,16.1567097,13.3525362
+	persistentId = 1022307495
+	pos = -0.146713525,16.1567097,13.3525286
 	attPos = 0,0,0
 	attPos0 = -2.38418608E-07,2.18800473,-2.18640351
 	rot = -5.96046448E-08,0.707106709,0.707106948,-5.96046448E-08
@@ -13596,8 +13596,8 @@ PART
 {
 	part = bluedog.Saturn.S4B.APS.550_4290403206
 	partName = Part
-	persistentId = 1349371433
-	pos = -0.146712571,11.7839012,13.3525534
+	persistentId = 488466319
+	pos = -0.146712571,11.7839012,13.3525419
 	attPos = 0,0,0
 	attPos0 = 2.38418608E-07,2.18800378,2.18640351
 	rot = -0.707106769,-5.96046448E-08,-5.96046448E-08,-0.707106888
@@ -13934,8 +13934,8 @@ PART
 {
 	part = bluedog.Skylab.TRS.omniAntenna_4290403062
 	partName = Part
-	persistentId = 426732816
-	pos = -0.387428373,14.8686647,18.0508213
+	persistentId = 313483311
+	pos = -0.387428373,14.8686647,18.0508022
 	attPos = 0,0,0
 	attPos0 = -0.240715206,0.959516525,-0.898359418
 	rot = -0.130526155,0.991445065,4.2617321E-06,-5.51342964E-07
@@ -14073,8 +14073,8 @@ PART
 {
 	part = bluedog.Skylab.TRS.omniAntenna_4290403022
 	partName = Part
-	persistentId = 2712811706
-	pos = -1.04507256,14.2110205,18.0508213
+	persistentId = 3937990291
+	pos = -1.04507256,14.2110205,18.0508022
 	attPos = 0,0,0
 	attPos0 = -0.898359537,0.959516525,-0.240715146
 	rot = -0.60876143,0.793353498,3.51667404E-06,-2.62260437E-06
@@ -14212,8 +14212,8 @@ PART
 {
 	part = bluedog.Skylab.TRS.omniAntenna_4290402982
 	partName = Part
-	persistentId = 1580049291
-	pos = -0.80435729,13.3126612,18.0508213
+	persistentId = 3583908073
+	pos = -0.80435729,13.3126612,18.0508022
 	attPos = 0,0,0
 	attPos0 = -0.657644391,0.959516525,0.657645166
 	rot = -0.923879623,0.382683516,1.59442425E-06,-3.88920307E-06
@@ -14351,8 +14351,8 @@ PART
 {
 	part = bluedog.Skylab.TRS.omniAntenna_4290402942
 	partName = Part
-	persistentId = 914551442
-	pos = 0.0940022767,13.0719461,18.0508213
+	persistentId = 1603004942
+	pos = 0.0940022767,13.0719461,18.0508022
 	attPos = 0,0,0
 	attPos0 = 0.240715206,0.959516525,0.898359418
 	rot = -0.991444886,-0.130526245,-5.96046448E-07,-3.9935112E-06
@@ -14490,8 +14490,8 @@ PART
 {
 	part = bluedog.Skylab.TRS.omniAntenna_4290402902
 	partName = Part
-	persistentId = 4223097950
-	pos = 0.751646519,13.7295904,18.0508213
+	persistentId = 1018503816
+	pos = 0.751646519,13.7295904,18.0508022
 	attPos = 0,0,0
 	attPos0 = 0.898359537,0.959516525,0.240715146
 	rot = -0.793353319,-0.608761549,-2.62260437E-06,-3.1888485E-06
@@ -14629,8 +14629,8 @@ PART
 {
 	part = bluedog.Skylab.TRS.omniAntenna_4290402862
 	partName = Part
-	persistentId = 2537593836
-	pos = 0.510931253,14.6279497,18.0508213
+	persistentId = 2386351144
+	pos = 0.510931253,14.6279497,18.0508022
 	attPos = 0,0,0
 	attPos0 = 0.657644391,0.959516525,-0.657644212
 	rot = -0.382683635,-0.923879504,-3.93390656E-06,-1.54972076E-06
@@ -14768,8 +14768,8 @@ PART
 {
 	part = bluedog.Skylab.EOSS.dishSmall_4290402822
 	partName = Part
-	persistentId = 4059174502
-	pos = -1.08251381,13.9703054,18.0955887
+	persistentId = 2577678405
+	pos = -1.08251381,13.9703054,18.0955696
 	attPos = 0,0,0
 	attPos0 = -0.935800791,1.00428391,-1.1920929E-07
 	rot = 0.707106948,-0.707106829,-6.85453415E-07,5.81145287E-07
@@ -14995,8 +14995,8 @@ PART
 {
 	part = bluedog.Skylab.EOSS.dishSmall_4290402746
 	partName = Part
-	persistentId = 2076944096
-	pos = -0.14671281,13.0345049,18.0955887
+	persistentId = 3392303439
+	pos = -0.14671281,13.0345049,18.0955696
 	attPos = 0,0,0
 	attPos0 = 1.19209304E-07,1.00428391,0.935800672
 	rot = 1.00000012,0,0,6.85453415E-07
@@ -15218,8 +15218,8 @@ PART
 {
 	part = bluedog.Skylab.EOSS.dishSmall_4290402670
 	partName = Part
-	persistentId = 2551811575
-	pos = 0.789087772,13.9703054,18.0955887
+	persistentId = 4247978330
+	pos = 0.789087772,13.9703054,18.0955696
 	attPos = 0,0,0
 	attPos0 = 0.935800791,1.00428391,1.1920929E-07
 	rot = 0.707106769,0.707106888,7.15255737E-07,7.15255737E-07
@@ -15441,8 +15441,8 @@ PART
 {
 	part = bluedog.Skylab.EOSS.dishSmall_4290402594
 	partName = Part
-	persistentId = 2346540244
-	pos = -0.146713287,14.906106,18.0955887
+	persistentId = 1568782295
+	pos = -0.146713287,14.906106,18.0955696
 	attPos = 0,0,0
 	attPos0 = -1.19209304E-07,1.00428391,-0.935800672
 	rot = -1.1920929E-07,1.00000012,8.34465027E-07,0
@@ -15664,8 +15664,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290402518
 	partName = Part
-	persistentId = 2922565688
-	pos = -0.146718293,15.8259602,6.27025318
+	persistentId = 611993663
+	pos = -0.14671734,15.8259602,6.27025032
 	attPos = 0,0,0
 	attPos0 = -4.76837272E-07,0.20268257,5.06639594E-07
 	rot = -1.00000012,0,0,0
@@ -15997,8 +15997,8 @@ PART
 {
 	part = ht2.PMA_4290401790
 	partName = Part
-	persistentId = 1570005304
-	pos = -0.14671877,16.3537521,6.46825552
+	persistentId = 4073213271
+	pos = -0.146717817,16.3537502,6.46825171
 	attPos = 0,0,0
 	attPos0 = 2.98023259E-08,-0.527788222,-0.198000014
 	rot = 0,0,0,1.00000012
@@ -16218,8 +16218,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290401670
 	partName = Part
-	persistentId = 2681884363
-	pos = 1.2397505,13.9703054,23.6693649
+	persistentId = 1996370135
+	pos = 1.2397505,13.9703054,23.6693478
 	attPos = 0,0,0
 	attPos0 = -6.70552436E-06,0.202682644,1.70848686E-08
 	rot = -0.50000006,0.50000006,-0.50000006,-0.50000006
@@ -16551,8 +16551,8 @@ PART
 {
 	part = ht2.moduleDestiny_4290400942
 	partName = Part
-	persistentId = 2147150485
-	pos = 4.27454758,13.9703035,23.6693726
+	persistentId = 1351843127
+	pos = 4.27454376,13.9703054,23.6693554
 	attPos = 0,0,0
 	attPos0 = 8.07642937E-06,-3.03478074,3.57627783E-07
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -17069,8 +17069,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290400642
 	partName = Part
-	persistentId = 81285565
-	pos = 6.34633112,13.9702864,23.6693802
+	persistentId = 411327752
+	pos = 6.3463273,13.9702902,23.669363
 	attPos = 0,0,0
 	attPos0 = 7.62939362E-06,-2.07178307,2.38418534E-06
 	rot = -0.50000006,-0.500000119,0.500000119,-0.50000006
@@ -17327,8 +17327,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290400376
 	partName = Part
-	persistentId = 1513351511
-	pos = -0.146713287,15.3567705,23.6693649
+	persistentId = 434582518
+	pos = -0.146713287,15.3567705,23.6693478
 	attPos = 0,0,0
 	attPos0 = 0,0.20268257,6.70552436E-06
 	rot = -1.00000012,0,0,0
@@ -17660,8 +17660,8 @@ PART
 {
 	part = ht2.ITS.hex_4290399648
 	partName = Part
-	persistentId = 247663813
-	pos = -0.146711618,16.5728836,23.6693726
+	persistentId = 3421147582
+	pos = -0.146711618,16.5728836,23.6693554
 	attPos = 0,0,0
 	attPos0 = 1.7881398E-06,-1.21611261,-7.71880332E-06
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -17853,8 +17853,8 @@ PART
 {
 	part = ht2.TTS.hex_4290399230
 	partName = Part
-	persistentId = 3609200958
-	pos = -4.39248276,16.5729027,23.6694107
+	persistentId = 1738653658
+	pos = -4.39247894,16.5729027,23.6693935
 	attPos = 0,0,0
 	attPos0 = 3.81469799E-05,4.24575567,-6.19888306E-06
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -18060,8 +18060,8 @@ PART
 {
 	part = ht2.TTS.hex_4290399166
 	partName = Part
-	persistentId = 3281216076
-	pos = 4.09895039,16.5728874,23.6693707
+	persistentId = 1252146209
+	pos = 4.09895039,16.5728874,23.6693516
 	attPos = 0,0,0
 	attPos0 = -1.90734954E-06,-4.24565983,-3.09944153E-06
 	rot = 0.50000006,0.500000119,-0.500000119,0.50000006
@@ -18267,8 +18267,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290399102
 	partName = Part
-	persistentId = 35640543
-	pos = -1.53317654,13.9703054,23.6693649
+	persistentId = 1423810736
+	pos = -1.53317654,13.9703054,23.6693478
 	attPos = 0,0,0
 	attPos0 = 6.70552527E-06,0.202682674,0
 	rot = -0.500000119,-0.5,-0.5,0.500000119
@@ -18600,8 +18600,8 @@ PART
 {
 	part = ht2.moduleKibo_4290398374
 	partName = Part
-	persistentId = 2679681896
-	pos = -4.63097382,13.9703074,23.6693726
+	persistentId = 3120079613
+	pos = -4.63097,13.9703054,23.6693554
 	attPos = 0,0,0
 	attPos0 = 8.0764321E-06,-3.09778166,3.57627925E-07
 	rot = 0.50000006,-0.50000006,-0.50000006,-0.50000006
@@ -19175,8 +19175,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290397998
 	partName = Part
-	persistentId = 3246201933
-	pos = -6.19217539,12.7865419,23.6693802
+	persistentId = 453542943
+	pos = -6.19217157,12.7865381,23.669363
 	attPos = 0,0,0
 	attPos0 = -7.62939226E-06,1.56120098,-1.18377841
 	rot = -1.00000012,0,0,0
@@ -19434,8 +19434,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290397732
 	partName = Part
-	persistentId = 2751711927
-	pos = -6.1921773,12.5838633,23.6693878
+	persistentId = 1305705174
+	pos = -6.19217348,12.5838594,23.6693707
 	attPos = 0,0,0
 	attPos0 = -1.90734954E-06,0.202679679,-7.62939817E-06
 	rot = 1.49011612E-07,5.96046448E-08,5.96046448E-08,1.00000012
@@ -19767,8 +19767,8 @@ PART
 {
 	part = ht2.moduleJEMlogistics_4290397004
 	partName = Part
-	persistentId = 999720564
-	pos = -6.19219112,11.5080843,23.6693974
+	persistentId = 2366309303
+	pos = -6.19218349,11.5080805,23.6693783
 	attPos = 0,0,0
 	attPos0 = -1.90734954E-06,-1.0757792,7.62939817E-06
 	rot = -1.00000012,0,0,0
@@ -20101,8 +20101,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290396886
 	partName = Part
-	persistentId = 2368737229
-	pos = -6.19218111,10.4983015,23.6694031
+	persistentId = 3725596957
+	pos = -6.1921773,10.4982977,23.6693859
 	attPos = 0,0,0
 	attPos0 = -1.90734954E-06,1.00978017,-7.62939135E-06
 	rot = -1.00000012,0,0,0
@@ -20359,8 +20359,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290396620
 	partName = Part
-	persistentId = 1763789096
-	pos = -0.146713048,13.9703054,25.0855446
+	persistentId = 3575290937
+	pos = -0.146713048,13.9703054,25.0855255
 	attPos = 0,0,0
 	attPos0 = 0,0.202690125,0
 	rot = -0.707106829,0,0,0.707106829
@@ -20692,8 +20692,8 @@ PART
 {
 	part = ht2.moduleDestiny_4290395892
 	partName = Part
-	persistentId = 1845551349
-	pos = -0.146713048,13.9703054,27.1573296
+	persistentId = 1821115544
+	pos = -0.146713048,13.9703054,27.1573124
 	attPos = 0,0,0
 	attPos0 = 0,-1.83178735,0
 	rot = 0.707106829,0,0,0.707106829
@@ -21210,8 +21210,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290395592
 	partName = Part
-	persistentId = 705567499
-	pos = -0.146713048,13.9703054,30.1921825
+	persistentId = 1602282039
+	pos = -0.146713048,13.9703054,30.1921482
 	attPos = 0,0,0
 	attPos0 = 0,3.03479624,0
 	rot = 0.707106829,0,0,0.707106829
@@ -21543,8 +21543,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290394864
 	partName = Part
-	persistentId = 865141281
-	pos = -0.146713048,13.9703054,30.3948803
+	persistentId = 834861039
+	pos = -0.146713048,13.9703054,30.394846
 	attPos = 0,0,0
 	attPos0 = 0,0.202697754,0
 	rot = -0.707106829,0,0,0.707106829
@@ -21876,8 +21876,8 @@ PART
 {
 	part = ht2.moduleHarmony_4290394136
 	partName = Part
-	persistentId = 1027146206
-	pos = -0.146713048,13.9703054,32.1066742
+	persistentId = 1266235000
+	pos = -0.146713048,13.9703054,32.1066437
 	attPos = 0,0,0
 	attPos0 = 0,-1.71179843,0
 	rot = 0.707106829,0,0,0.707106829
@@ -22248,8 +22248,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290393962
 	partName = Part
-	persistentId = 2034577027
-	pos = -1.33049774,13.9703093,32.8496704
+	persistentId = 667930457
+	pos = -1.33049774,13.9703093,32.8496399
 	attPos = 0,0,0
 	attPos0 = -1.18378317,0.743007779,-1.90734841E-06
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -22507,8 +22507,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290393696
 	partName = Part
-	persistentId = 4294492864
-	pos = 1.03706789,13.9703054,32.8496704
+	persistentId = 3861913761
+	pos = 1.03706789,13.9703054,32.8496399
 	attPos = 0,0,0
 	attPos0 = 1.18378103,0.743008077,-1.90734841E-06
 	rot = -0.50000006,-0.500000119,0.500000119,-0.50000006
@@ -22766,8 +22766,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290393430
 	partName = Part
-	persistentId = 2863611120
-	pos = -0.146717101,15.1540937,32.8496704
+	persistentId = 1810778113
+	pos = -0.146717101,15.1540937,32.8496399
 	attPos = 0,0,0
 	attPos0 = -1.96695373E-06,0.743006051,-1.18378437
 	rot = 0,0,0,1.00000012
@@ -23025,8 +23025,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290393164
 	partName = Part
-	persistentId = 1254096775
-	pos = -0.14671281,12.786521,32.8496704
+	persistentId = 3318372984
+	pos = -0.14671281,12.786521,32.8496399
 	attPos = 0,0,0
 	attPos0 = 1.19209304E-07,0.743007302,1.18378174
 	rot = -1.00000012,0,0,0
@@ -23284,8 +23284,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290392898
 	partName = Part
-	persistentId = 3602772294
-	pos = -0.146713048,13.9703054,34.0714607
+	persistentId = 2826562210
+	pos = -0.146713048,13.9703054,34.0714302
 	attPos = 0,0,0
 	attPos0 = 0,1.96479011,0
 	rot = -0.707106829,0,0,-0.707106829
@@ -23617,8 +23617,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290392170
 	partName = Part
-	persistentId = 958992038
-	pos = -0.146717101,15.3567762,32.8496857
+	persistentId = 3401315973
+	pos = -0.146717101,15.3567762,32.8496552
 	attPos = 0,0,0
 	attPos0 = -1.96695373E-06,0.202684,1.54078043E-05
 	rot = -1.00000012,0,0,0
@@ -23950,8 +23950,8 @@ PART
 {
 	part = ht2.PMA_4290391442
 	partName = Part
-	persistentId = 311843539
-	pos = -0.14671734,15.8845587,33.0476952
+	persistentId = 363285166
+	pos = -0.14671734,15.8845587,33.0476646
 	attPos = 0,0,0
 	attPos0 = -1.19209304E-07,-0.527782679,-0.198007718
 	rot = 0,0,0,1.00000012
@@ -24171,8 +24171,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290391322
 	partName = Part
-	persistentId = 263127792
-	pos = 1.2397505,13.9703054,32.8496857
+	persistentId = 2586804444
+	pos = 1.2397505,13.9703054,32.8496552
 	attPos = 0,0,0
 	attPos0 = -1.33812482E-05,0.202682555,2.02655769E-06
 	rot = -0.50000006,0.50000006,-0.50000006,-0.50000006
@@ -24504,11 +24504,11 @@ PART
 {
 	part = ht2.moduleQuest_4290390594
 	partName = Part
-	persistentId = 2000586912
-	pos = 2.96454597,13.9703054,32.8497009
+	persistentId = 1116288947
+	pos = 2.96454215,13.9703054,32.8496704
 	attPos = 0,0,0
 	attPos0 = 1.54674399E-05,-1.51818156,1.1920929E-07
-	rot = 0.707107067,0.707106709,2.08616257E-07,-1.1920929E-07
+	rot = 0.707107067,0.707106709,1.78813934E-07,-1.78813934E-07
 	attRot = 0.49999994,0.49999994,-0.49999994,0.49999994
 	attRot0 = -0.707106829,0,0.707106829,0
 	mir = 1,1,1
@@ -24526,7 +24526,6 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = KAS.W2_4290238802
 	attN = nodeTop,Null_0_0|1.43599999|0_4.26325641E-14|0.99999994|1.78813906E-07_0|1.43599999|0_4.26325641E-14|0.99999994|1.78813906E-07
 	attN = nodeBottom,bluedog.Apollo.CADS.active_4290391322_0|-1.41639996|0_4.26325641E-14|-0.99999994|1.78813906E-07_0|-1.62300003|0_4.26325641E-14|-0.99999994|1.78813906E-07
 	EVENTS
@@ -24886,8 +24885,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290390362
 	partName = Part
-	persistentId = 368797106
-	pos = -1.53317654,13.9703093,32.8496857
+	persistentId = 3137619401
+	pos = -1.53317654,13.9703093,32.8496552
 	attPos = 0,0,0
 	attPos0 = 1.36792714E-05,0.202680409,-2.0265511E-06
 	rot = 0.50000006,0.500000119,-0.500000119,0.50000006
@@ -25219,8 +25218,8 @@ PART
 {
 	part = ht2.MPLM_4290389634
 	partName = Part
-	persistentId = 204712167
-	pos = -3.35995984,13.9703093,32.8497009
+	persistentId = 3486629503
+	pos = -3.35995984,13.9703093,32.8496704
 	attPos = 0,0,0
 	attPos0 = -1.54674399E-05,-1.62778163,-3.57627641E-07
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -25551,8 +25550,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290389506
 	partName = Part
-	persistentId = 2457132815
-	pos = -5.18674278,13.9703093,32.8497162
+	persistentId = 1805705768
+	pos = -5.18674278,13.9703093,32.8496857
 	attPos = 0,0,0
 	attPos0 = 1.54972386E-05,1.82678497,0
 	rot = -0.50000006,0.50000006,-0.50000006,-0.50000006
@@ -25883,8 +25882,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290388778
 	partName = Part
-	persistentId = 512373275
-	pos = -0.14671281,12.5838404,23.6693649
+	persistentId = 2899556144
+	pos = -0.14671281,12.5838404,23.6693478
 	attPos = 0,0,0
 	attPos0 = 0,0.20268257,-6.70552436E-06
 	rot = 0,0,0,1.00000012
@@ -26216,8 +26215,8 @@ PART
 {
 	part = ht2.moduleKibo_4290388050
 	partName = Part
-	persistentId = 3211786056
-	pos = -0.146712095,9.48604298,23.6693745
+	persistentId = 491635794
+	pos = -0.146712095,9.48604679,23.6693554
 	attPos = 0,0,0
 	attPos0 = 3.57627925E-07,-2.8749826,8.07643119E-06
 	rot = -1.00000012,0,0,0
@@ -26791,8 +26790,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.passive_4290387674
 	partName = Part
-	persistentId = 2266371411
-	pos = -0.146695882,7.92483997,24.8531723
+	persistentId = 4132032722
+	pos = -0.146699697,7.9248457,24.8531551
 	attPos = 0,0,0
 	attPos0 = 2.38418625E-06,1.561203,-1.18379045
 	rot = 0.707106888,0,0,0.707106888
@@ -27049,8 +27048,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290387408
 	partName = Part
-	persistentId = 2697807622
-	pos = -0.146713048,13.9703054,34.2741585
+	persistentId = 3411472449
+	pos = -0.146713048,13.9703054,34.274128
 	attPos = 0,0,0
 	attPos0 = 0,0.202696666,0
 	rot = 0,0.707106829,-0.707106829,0
@@ -27382,8 +27381,8 @@ PART
 {
 	part = ht2.PMA_4290386680
 	partName = Part
-	persistentId = 449052574
-	pos = -0.146713108,14.1683073,34.8019447
+	persistentId = 1553809878
+	pos = -0.146713108,14.1683073,34.8019104
 	attPos = 0,0,0
 	attPos0 = 2.98023259E-08,-0.527788222,-0.198000014
 	rot = 0,-0.707106829,-0.707106829,0
@@ -27603,8 +27602,8 @@ PART
 {
 	part = bluedog.Apollo.ConeDockingPort_4290386560
 	partName = Part
-	persistentId = 254171840
-	pos = -0.146713108,14.3093061,35.4762917
+	persistentId = 2750582729
+	pos = -0.146713108,14.3093061,35.4762573
 	attPos = 0,0,0
 	attPos0 = 0,0.674345016,0.141000733
 	rot = 0,-0.707106829,-0.707106829,0
@@ -27841,8 +27840,8 @@ PART
 {
 	part = bluedog.Apollo.CADS.active_4290386342
 	partName = Part
-	persistentId = 1535922781
-	pos = -0.14671281,12.5838385,32.8496857
+	persistentId = 3218458294
+	pos = -0.14671281,12.5838385,32.8496552
 	attPos = 0,0,0
 	attPos0 = 0,0.202683151,-1.41561304E-05
 	rot = 0,0,0,1.00000012
@@ -28174,8 +28173,8 @@ PART
 {
 	part = ht2.moduleCupola_4290385614
 	partName = Part
-	persistentId = 3161939073
-	pos = -0.146712571,12.2668562,32.8497009
+	persistentId = 1641008589
+	pos = -0.146712571,12.2668562,32.8496704
 	attPos = 0,0,0
 	attPos0 = 1.19209304E-07,-0.316981703,1.52886241E-05
 	rot = -1.00000012,0,0,0
@@ -28696,8 +28695,8 @@ PART
 {
 	part = ht2.TTS.hex_4290385268
 	partName = Part
-	persistentId = 2267751091
-	pos = 4.13815022,16.5728874,23.6693783
+	persistentId = 3353149000
+	pos = 4.13815022,16.5728874,23.6693592
 	attPos = 0,0,0
 	attPos0 = -6.67572021E-06,0.0391998254,0
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -28903,8 +28902,8 @@ PART
 {
 	part = ht2.ITS.hex_4290385204
 	partName = Part
-	persistentId = 889508389
-	pos = 8.38391399,16.5728722,23.6693516
+	persistentId = 3366670704
+	pos = 8.38391113,16.5728722,23.6693363
 	attPos = 0,0,0
 	attPos0 = -2.28881763E-05,-4.24575329,6.19887987E-06
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -29095,8 +29094,8 @@ PART
 {
 	part = ht2.TTS.hex_4290384786
 	partName = Part
-	persistentId = 3214354765
-	pos = 12.629591,16.5728569,23.6693535
+	persistentId = 2285301818
+	pos = 12.6295843,16.5728645,23.6693363
 	attPos = 0,0,0
 	attPos0 = -1.90734863E-06,-4.24566174,-9.53673862E-07
 	rot = 0.50000006,0.500000119,-0.500000119,0.50000006
@@ -29302,8 +29301,8 @@ PART
 {
 	part = ht2.TTS.hex_4290384722
 	partName = Part
-	persistentId = 890491260
-	pos = 12.6687946,16.5728531,23.6693573
+	persistentId = 1210540451
+	pos = 12.668788,16.5728607,23.6693439
 	attPos = 0,0,0
 	attPos0 = -7.62939362E-06,0.0392026864,3.81469454E-06
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -29509,8 +29508,8 @@ PART
 {
 	part = ht2.ITS.adapter_4290384658
 	partName = Part
-	persistentId = 696413347
-	pos = 14.3645182,16.5728455,23.6693897
+	persistentId = 3635147010
+	pos = 14.3645124,16.5728531,23.6693707
 	attPos = 0,0,0
 	attPos0 = 2.28881727E-05,-1.69572604,8.58306521E-06
 	rot = 0.50000006,0.500000119,-0.500000119,0.50000006
@@ -29754,8 +29753,8 @@ PART
 {
 	part = ht2.TTS.semiHex_4290384456
 	partName = Part
-	persistentId = 3965538284
-	pos = 16.0958824,16.0536842,23.6693745
+	persistentId = 3653329084
+	pos = 16.0958748,16.0536919,23.6693592
 	attPos = 0,0,0
 	attPos0 = 7.62938907E-06,1.73135948,0.519159794
 	rot = -0.50000006,-0.500000119,0.500000119,-0.50000006
@@ -29961,8 +29960,8 @@ PART
 {
 	part = ht2.TTS.circle_4290384396
 	partName = Part
-	persistentId = 2592616414
-	pos = 16.0798874,16.0514107,23.6693859
+	persistentId = 256650933
+	pos = 16.0798798,16.0514183,23.6693668
 	attPos = 0,0,0
 	attPos0 = -7.62939453E-06,-0.0159950368,0.0022735612
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -30168,8 +30167,8 @@ PART
 {
 	part = ht2.S6.SAW_4290384332
 	partName = Part
-	persistentId = 286536500
-	pos = 19.3247318,16.0514069,23.6693878
+	persistentId = 2057901553
+	pos = 19.3247242,16.0514145,23.6693726
 	attPos = 0,0,0
 	attPos0 = 7.62939089E-06,-3.24484253,3.81469772E-06
 	rot = -0.50000006,-0.500000119,0.500000119,-0.50000006
@@ -30685,8 +30684,8 @@ PART
 {
 	part = ht2.TTS.circle_4290381150
 	partName = Part
-	persistentId = 3384311393
-	pos = 24.5510101,16.0513763,23.6694012
+	persistentId = 651760709
+	pos = 24.5509949,16.0513916,23.6693821
 	attPos = 0,0,0
 	attPos0 = -7.62938862E-06,5.22625256,7.62939044E-06
 	rot = 0.50000006,0.500000119,-0.500000119,0.50000006
@@ -30891,8 +30890,8 @@ PART
 {
 	part = B10.APASv2_4290381086
 	partName = Part
-	persistentId = 1382374192
-	pos = -0.146719247,16.8883514,6.60925436
+	persistentId = 462220266
+	pos = -0.146718293,16.8883495,6.60925198
 	attPos = 0,0,0
 	attPos0 = -4.76837158E-07,0.534599543,0.141000316
 	rot = 0,0,0,1.00000012
@@ -31269,8 +31268,8 @@ PART
 {
 	part = ht2.TTS.hex_4290380428
 	partName = Part
-	persistentId = 1577783359
-	pos = -4.43168449,16.5729027,23.6694183
+	persistentId = 2740017269
+	pos = -4.43168068,16.5729027,23.6694012
 	attPos = 0,0,0
 	attPos0 = 6.67572021E-06,0.0392017365,-1.90734863E-06
 	rot = 0.50000006,0.500000119,-0.500000119,0.50000006
@@ -31476,8 +31475,8 @@ PART
 {
 	part = ht2.ITS.hex_4290380364
 	partName = Part
-	persistentId = 2655539347
-	pos = -8.67743874,16.5729065,23.6694565
+	persistentId = 2004942
+	pos = -8.67743492,16.5728989,23.6694393
 	attPos = 0,0,0
 	attPos0 = -3.8146969E-05,-4.24575377,3.57627778E-06
 	rot = -0.50000006,-0.500000119,0.500000119,-0.50000006
@@ -31668,8 +31667,8 @@ PART
 {
 	part = ht2.TTS.hex_4290379946
 	partName = Part
-	persistentId = 1071149243
-	pos = -12.9231243,16.5729179,23.6694565
+	persistentId = 3046105790
+	pos = -12.9231138,16.5729103,23.6694412
 	attPos = 0,0,0
 	attPos0 = -1.90734863E-06,-4.24566174,-9.53673862E-07
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -31875,8 +31874,8 @@ PART
 {
 	part = ht2.TTS.hex_4290379882
 	partName = Part
-	persistentId = 3028631787
-	pos = -12.9623241,16.5729218,23.6694641
+	persistentId = 530474103
+	pos = -12.9623156,16.5729141,23.6694469
 	attPos = 0,0,0
 	attPos0 = 6.67572749E-06,0.0392036475,-3.81469772E-06
 	rot = 0.50000006,0.500000119,-0.500000119,0.50000006
@@ -32082,8 +32081,8 @@ PART
 {
 	part = ht2.ITS.adapter_4290379818
 	partName = Part
-	persistentId = 1413639941
-	pos = -14.6580467,16.5729218,23.6694565
+	persistentId = 721198602
+	pos = -14.658042,16.5729141,23.6694412
 	attPos = 0,0,0
 	attPos0 = 5.72205181E-06,-1.69572628,1.90734841E-06
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -32327,8 +32326,8 @@ PART
 {
 	part = ht2.TTS.semiHex_4290379616
 	partName = Part
-	persistentId = 3333975482
-	pos = -16.3894081,16.0537682,23.6694794
+	persistentId = 70136301
+	pos = -16.3893986,16.0537605,23.6694641
 	attPos = 0,0,0
 	attPos0 = 2.19345184E-05,1.73135781,0.519151747
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -32534,8 +32533,8 @@ PART
 {
 	part = ht2.TTS.circle_4290379556
 	partName = Part
-	persistentId = 4205932927
-	pos = -16.3734093,16.0515022,23.669487
+	persistentId = 1923728944
+	pos = -16.3733997,16.0514946,23.6694717
 	attPos = 0,0,0
 	attPos0 = 7.62940181E-06,-0.0159988366,0.00226592971
 	rot = 0.50000006,0.500000119,-0.500000119,0.50000006
@@ -32741,8 +32740,8 @@ PART
 {
 	part = ht2.S6.SAW_4290379492
 	partName = Part
-	persistentId = 349202087
-	pos = -19.6182518,16.051506,23.6694946
+	persistentId = 4088930771
+	pos = -19.6182461,16.0514984,23.6694794
 	attPos = 0,0,0
 	attPos0 = -7.62939089E-06,-3.24484181,-3.81469636E-06
 	rot = -0.50000006,0.50000006,-0.50000006,-0.50000006
@@ -33258,8 +33257,8 @@ PART
 {
 	part = ht2.TTS.circle_4290376310
 	partName = Part
-	persistentId = 983782153
-	pos = -24.8445511,16.0515289,23.669487
+	persistentId = 18933542
+	pos = -24.8445358,16.0515137,23.6694698
 	attPos = 0,0,0
 	attPos0 = -9.53671861E-06,5.22624683,7.62938043E-06
 	rot = 0.50000006,-0.50000006,0.50000006,0.50000006
@@ -33464,8 +33463,8 @@ PART
 {
 	part = bluedog.skylab.powerModule.radiator_4290376246
 	partName = Part
-	persistentId = 1854182064
-	pos = 0.92607522,15.0430937,6.04508734
+	persistentId = 1495888583
+	pos = 0.92607522,15.0430937,6.04508495
 	attPos = 0,0,0
 	attPos0 = 1.07278836,-1.70815659,-1.07278812
 	rot = -0.270598173,-0.65328151,-0.270597935,0.653281689
@@ -33698,8 +33697,8 @@ PART
 {
 	part = bluedog.skylab.powerModule.radiator_4290375306
 	partName = Part
-	persistentId = 1331589450
-	pos = -1.21950316,15.0430946,6.04508734
+	persistentId = 2763547645
+	pos = -1.21950221,15.0430946,6.04508495
 	attPos = 0,0,0
 	attPos0 = -1.07278812,-1.70815659,-1.07278848
 	rot = 0.270597935,-0.653281689,0.270598173,0.65328145
@@ -33932,8 +33931,8 @@ PART
 {
 	part = bluedog.skylab.powerModule.radiator_4290374366
 	partName = Part
-	persistentId = 3528031052
-	pos = -1.21950126,12.8975172,6.04508734
+	persistentId = 3404480025
+	pos = -1.21950126,12.8975172,6.04508495
 	attPos = 0,0,0
 	attPos0 = -1.07278836,-1.70815659,1.07278812
 	rot = 0.65328151,-0.270598084,0.653281689,0.270597935
@@ -34166,8 +34165,8 @@ PART
 {
 	part = bluedog.skylab.powerModule.radiator_4290373426
 	partName = Part
-	persistentId = 3931623476
-	pos = 0.926077127,12.8975163,6.04508734
+	persistentId = 1158436753
+	pos = 0.926076174,12.8975163,6.04508495
 	attPos = 0,0,0
 	attPos0 = 1.07278812,-1.70815659,1.07278848
 	rot = 0.653281569,0.270597994,0.653281569,-0.270598233
@@ -34400,8 +34399,8 @@ PART
 {
 	part = bluedog.Skylab.wetWorkshop.airlockMDA_4290372486
 	partName = Part
-	persistentId = 1174833575
-	pos = -0.146705419,10.3902817,6.27025414
+	persistentId = 3086139025
+	pos = -0.146707326,10.3902855,6.27025127
 	attPos = 0,0,0
 	attPos0 = 7.15255965E-07,-1.72436225,1.16229091E-06
 	rot = 1.00000012,0,0,0
@@ -34740,8 +34739,8 @@ PART
 {
 	part = bluedog.Apollo.ConeDockingPort_4290371902
 	partName = Part
-	persistentId = 28818021
-	pos = -0.146699697,7.89033699,6.27025318
+	persistentId = 2616471110
+	pos = -0.146703511,7.89034271,6.27025127
 	attPos = 0,0,0
 	attPos0 = 1.43051147E-06,2.4999404,-2.38418579E-07
 	rot = -1.00000012,0,0,0
@@ -34978,8 +34977,8 @@ PART
 {
 	part = bluedog.Apollo.ConeDockingPort_4290371684
 	partName = Part
-	persistentId = 1920303382
-	pos = -0.146704942,8.70151806,7.6046834
+	persistentId = 1277097075
+	pos = -0.146706849,8.70152187,7.60467958
 	attPos = 0,0,0
 	attPos0 = 4.76837158E-07,1.68876326,-1.33442628
 	rot = 0.707106888,0,0,0.707106888
@@ -35217,11 +35216,11 @@ PART
 {
 	part = bluedog.Apollo.ConeDockingPort_4290371466
 	partName = Part
-	persistentId = 2118205366
-	pos = -0.146703988,8.70151806,4.93582344
+	persistentId = 1558694376
+	pos = -0.146705896,8.70152187,4.93582201
 	attPos = 0,0,0
 	attPos0 = 1.43051147E-06,1.68876374,1.33442581
-	rot = -5.96019518E-08,-0.707106888,0.707106888,-5.96019518E-08
+	rot = -5.94321854E-08,-0.707106888,0.707106888,-5.94321854E-08
 	attRot = 0,0,0,0.99999994
 	attRot0 = 3.75294782E-08,0.707106829,0.707106829,-3.75294782E-08
 	mir = 1,1,1
@@ -35452,8 +35451,8 @@ PART
 {
 	part = bluedog.Apollo.ConeDockingPort_4290371248
 	partName = Part
-	persistentId = 3825682696
-	pos = 1.18772078,8.70151806,6.27025557
+	persistentId = 1916667547
+	pos = 1.18771887,8.70152187,6.27025175
 	attPos = 0,0,0
 	attPos0 = 1.33442581,1.6887635,-2.38418579E-07
 	rot = -0.50000006,-0.500000119,0.500000119,-0.50000006
@@ -35691,8 +35690,8 @@ PART
 {
 	part = bluedog.Apollo.ConeDockingPort_4290371030
 	partName = Part
-	persistentId = 3983116891
-	pos = -1.48112941,8.70151806,6.27025509
+	persistentId = 1525571715
+	pos = -1.48113132,8.70152187,6.27025127
 	attPos = 0,0,0
 	attPos0 = -1.3344239,1.6887635,-2.38418579E-07
 	rot = -0.50000006,0.500000119,-0.500000119,-0.50000006
@@ -35926,8 +35925,8 @@ PART
 {
 	part = B10.IDA_4290370812
 	partName = Part
-	persistentId = 861771453
-	pos = -0.14671734,16.5862541,33.1887131
+	persistentId = 2417011594
+	pos = -0.14671734,16.5862541,33.1886826
 	attPos = 0,0,0
 	attPos0 = 0,0.70169282,0.141015097
 	rot = 0,0,0,1.00000012
@@ -36196,11 +36195,11 @@ PART
 {
 	part = KAS.W2_4290243900
 	partName = Part
-	persistentId = 666818708
-	pos = -0.765405774,14.7304182,20.3883648
+	persistentId = 3746161607
+	pos = -0.765405774,14.7304182,20.3883457
 	attPos = 0,0,0
 	attPos0 = -0.618692636,0.470398903,-0.760112941
-	rot = -0.65328151,0.270598084,-0.653281689,-0.270597935
+	rot = -0.653281569,0.270598084,-0.653281689,-0.270597994
 	attRot = 0.49999994,0.49999994,0.49999994,-0.49999994
 	attRot0 = -0.270598143,-0.270598114,-0.653281569,-0.65328145
 	mir = 1,1,1
@@ -36380,8 +36379,8 @@ PART
 {
 	part = KAS.W2_4290252612
 	partName = Part
-	persistentId = 4172976141
-	pos = 0.613430262,14.5890265,20.387022
+	persistentId = 1733235629
+	pos = 0.613430262,14.5890265,20.3870029
 	attPos = 0.100000404,0.0163516998,0.142874718
 	attPos0 = 0.760143399,0.469056129,-0.618721843
 	rot = -0.270598054,0.65328145,-0.270598054,-0.653281689
@@ -36403,190 +36402,6 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	srfN = srfAttach,bluedog.Spacelab.airlockModule_4290417996,SLA_COLLIDER,0|0.100000001|0,0|1|0,0|0.100000001|0
-	attN = front,Null_0_-0.155000001|0|-0.241805002_0|0|-1_-0.155000001|0|-0.241805002_0|0|-1
-	attN = top,Null_0_0|0.100000001|0_0|1|0_0|0.100000001|0_0|1|0
-	attN = bottom,Null_0_0|-0.100000001|0_0|-1|0_0|-0.100000001|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KASLinkWinch
-		isEnabled = True
-		persistedIsConnectorLocked = True
-		persistedLinkState = Available
-		persistedLinkPartId = 0
-		persistedLinkNodeName = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ExtendCableAction
-			{
-				actionGroup = None
-			}
-			RetractCableAction
-			{
-				actionGroup = None
-			}
-			StopMotorAction
-			{
-				actionGroup = None
-			}
-			ReleaseCableAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KASRendererPipe
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KASJointCableBase
-		isEnabled = True
-		coupleWhenLinked = False
-		persistedLinkLength = -1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleReliabilityInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = InspectionModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = KAS.W2_4290238802
-	partName = Part
-	persistentId = 3706028355
-	pos = 3.76454902,14.3703012,32.4497261
-	attPos = -0.520171165,-0.00335478783,0.153426945
-	attPos0 = 0.920168936,0.803357542,0.246548206
-	rot = -4.76837158E-07,-1.1920929E-07,0.707107186,-0.70710659
-	attRot = -0.707106709,0,0.707106709,0
-	attRot0 = -1.47513944E-07,1,-1.89660781E-07,-2.08616271E-07
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 1
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 10
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	srfN = srfAttach,ht2.moduleQuest_4290390594,QuestCollider1_Circle_None,0|0.100000001|0,0|1|0,0|0.100000001|0
 	attN = front,Null_0_-0.155000001|0|-0.241805002_0|0|-1_-0.155000001|0|-0.241805002_0|0|-1
 	attN = top,Null_0_0|0.100000001|0_0|1|0_0|0.100000001|0_0|1|0
 	attN = bottom,Null_0_0|-0.100000001|0_0|-1|0_0|-0.100000001|0_0|-1|0
