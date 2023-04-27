@@ -188,7 +188,7 @@ PART
 	{
 		name = ModuleColorChanger
 		isEnabled = True
-		animState = True
+		animState = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1438,7 +1438,7 @@ PART
 	{
 		name = ModuleColorChanger
 		isEnabled = True
-		animState = True
+		animState = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2105,7 +2105,7 @@ PART
 	{
 		name = ModuleColorChanger
 		isEnabled = True
-		animState = True
+		animState = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2644,7 +2644,7 @@ PART
 	{
 		name = ModuleColorChanger
 		isEnabled = True
-		animState = True
+		animState = False
 		stagingEnabled = True
 		EVENTS
 		{

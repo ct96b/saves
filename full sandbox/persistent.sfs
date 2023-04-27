@@ -13,7 +13,7 @@ GAME
 	editor = None
 	flag = FlagPack/Flags/United States of America
 	launchID = 17
-	defaultVABLaunchSite = LaunchPad
+	defaultVABLaunchSite = LC-19 (Titan II)
 	defaultSPHLaunchSite = Runway
 	modded = True
 	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
@@ -3485,6 +3485,30 @@ GAME
 		{
 			intact = True
 		}
+		f42625a0-bd4c-4817-b7a3-b8f708581868
+		{
+			intact = True
+		}
+		770f8be8-326c-4520-95b4-1aa172d6d0a8
+		{
+			intact = True
+		}
+		ad91c6e1-8859-45bf-ad29-e86aa8e7fa02
+		{
+			intact = True
+		}
+		02fdcb31-2f74-424a-b157-ca7295e2a5ae
+		{
+			intact = True
+		}
+		d579b647-b170-46b9-8aec-2210d0d514f4
+		{
+			intact = True
+		}
+		898c8e68-748a-4ac1-8ab8-ee9bd243be5a
+		{
+			intact = True
+		}
 	}
 	SCENARIO
 	{
@@ -3531,7 +3555,7 @@ GAME
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
 		initialized = False
-		savetime = 15790.738740446584
+		savetime = 15892.398740448803
 		useUUID = True
 		KKSettings
 		{
@@ -5943,7 +5967,7 @@ GAME
 		scene = 5, 8
 		BodyPersistence = 1,True
 		BodyOrderList = 1,0,2,4,8,11,9,3,17,5,18,33,25,31,34
-		TypePersistence = 
+		TypePersistence = 9,True|5,True|8,True|11,True|7,True
 		TypeOrderList = 7,11,3,8,6,5,4,9,10,13,14,12,1,0,2
 		SortMode = 0
 		BodyOrderMode = 0
@@ -6074,9 +6098,9 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.12.5
-		UT = 15790.738740446584
+		UT = 15892.398740448803
 		activeVessel = 0
-		mapViewFiltering = 15358
+		mapViewFiltering = 15359
 		commNetUIModeTracking = Network
 		commNetUIModeFlight = Path
 		VESSEL
@@ -7198,10 +7222,10 @@ GAME
 					tailMaxWidthRatio = 1
 					tailMaxLengthRatio = 94.558253288269043
 					ionTailMaxWidthRatio = 0.29999999999999999
-					comaWidth = 1099852.6633430638
-					tailWidth = 1099852.6633430638
-					tailLength = 104000146.72017072
-					ionTailWidth = 329955.79900291911
+					comaWidth = 1099935.3569319085
+					tailWidth = 1099935.3569319085
+					tailLength = 104007966.08149002
+					ionTailWidth = 329980.60707957257
 					hasName = False
 					radius = 21.3565884
 					seed = 749448530
@@ -19357,13 +19381,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 61.426490237862588
+				SMA = 796403.26643015433
+				ECC = 0.99999999999999989
+				INC = 61.426490237862296
 				LPE = 90
-				LAN = 93.097158066336419
-				MNA = 0
-				EPH = 15790.138740446571
+				LAN = 94.749359923266866
+				MNA = 3.1415926864625696
+				EPH = 15889.03874044873
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -19741,13 +19765,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796410.91012173973
-				ECC = 0.99999999999999989
-				INC = 61.423875654355669
-				LPE = 90.000000000000014
-				LAN = 93.09361246517102
-				MNA = 3.1415926207170166
-				EPH = 15790.138740446571
+				SMA = NaN
+				ECC = 1
+				INC = 61.423875654355605
+				LPE = 90
+				LAN = 94.745814322101182
+				MNA = 0
+				EPH = 15889.03874044873
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -20155,13 +20179,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.511533970305237
-				LPE = 90
-				LAN = 93.228751409191148
-				MNA = 0
-				EPH = 15790.138740446571
+				SMA = 796407.93297052523
+				ECC = 0.99999999999999989
+				INC = 61.511533970305067
+				LPE = 90.000000000000014
+				LAN = 94.880953266121537
+				MNA = 3.1415926207170166
+				EPH = 15889.03874044873
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -30142,13 +30166,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 796407.36202266882
+				SMA = 796407.36202266894
 				ECC = 0.99999999999999989
 				INC = 61.511533703803629
 				LPE = 90
-				LAN = 93.22865611179094
+				LAN = 94.880857968721102
 				MNA = 3.1415926207170166
-				EPH = 15790.138740446571
+				EPH = 15889.03874044873
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -31179,13 +31203,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
-				INC = 61.560604487929602
+				INC = 61.560604487958521
 				LPE = 90
-				LAN = 93.213221272543763
+				LAN = 94.865423129471537
 				MNA = 0
-				EPH = 15790.138740446571
+				EPH = 15889.03874044873
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -41851,11 +41875,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 61.508723093887369
+				INC = 61.508723093937995
 				LPE = 90
-				LAN = 93.239657881931464
+				LAN = 94.891859738861228
 				MNA = 0
-				EPH = 15790.138740446571
+				EPH = 15889.03874044873
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84297,13 +84321,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = 61.391414840411556
-				LPE = 90.000000000000014
-				LAN = 93.182166195222521
-				MNA = 0
-				EPH = 15790.138740446571
+				SMA = 796410.93156322429
+				ECC = 0.99999999999999989
+				INC = 61.391414840415273
+				LPE = 90
+				LAN = 94.834368052149557
+				MNA = 3.1415926207170166
+				EPH = 15889.03874044873
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -84656,13 +84680,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
-				INC = 61.391507713057131
+				INC = 61.391507713058303
 				LPE = 90.000000000000014
-				LAN = 93.182158899375509
+				LAN = 94.834360756305045
 				MNA = 0
-				EPH = 15790.138740446571
+				EPH = 15889.03874044873
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -85017,11 +85041,11 @@ GAME
 			{
 				SMA = NaN
 				ECC = 1
-				INC = 61.391429398754561
+				INC = 61.391429398756699
 				LPE = 90
-				LAN = 93.182447629334604
+				LAN = 94.834649486266017
 				MNA = 0
-				EPH = 15790.138740446571
+				EPH = 15889.03874044873
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -85374,13 +85398,13 @@ GAME
 			cMod = 0
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = 61.391276504532975
-				LPE = 90.000000000000014
-				LAN = 93.182293326403396
-				MNA = 0
-				EPH = 15790.138740446571
+				SMA = 796410.27377058868
+				ECC = 0.99999999999999989
+				INC = 61.391276504521073
+				LPE = 90
+				LAN = 94.834495183327874
+				MNA = 3.1415926207170166
+				EPH = 15889.03874044873
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -96753,26 +96777,26 @@ GAME
 			persistentId = 2051463410
 			name = Apollo Saturn V Debris
 			type = Debris
-			sit = FLYING
+			sit = SUB_ORBITAL
 			landed = False
 			skipGroundPositioning = False
 			skipGroundPositioningForDroppedPart = False
-			vesselSpawning = True
+			vesselSpawning = False
 			launchedFrom = SLC-39A
 			landedAt = 
 			displaylandedAt = 
 			splashed = False
-			met = 61.440000001341105
+			met = 1382.1160254104816
 			lct = 14506.902715038248
-			lastUT = 14568.342715039589
-			distanceTraveled = 465515.26220106235
+			lastUT = 15889.01874044873
+			distanceTraveled = 603483.93407837593
 			root = 0
-			lat = 19.037731411284611
-			lon = 158.61761902962976
-			alt = 35573.044846593635
-			hgt = 35573.043
-			nrm = -0.825754821,0.255045503,0.503071368
-			rot = -0.0762128159,0.117618449,0.0790305212,-0.986971021
+			lat = -17.476703217283255
+			lon = -83.271950338492886
+			alt = 1064029.2999334661
+			hgt = 1064029.25
+			nrm = -0.037116915,-0.435847014,-0.899255157
+			rot = -0.0757077858,0.111328289,0.0795144513,-0.987700284
 			CoM = 0,0,0
 			stg = 0
 			prst = False
@@ -96785,19 +96809,19 @@ GAME
 			OverrideActionControl = 0,0,0,0
 			OverrideAxisControl = 0,0,0,0
 			OverrideGroupNames = ,,,
-			altDispState = DEFAULT
-			cPch = 0
-			cHdg = 0
-			cMod = -1
+			altDispState = ASL
+			cPch = 0.12
+			cHdg = 2.057999
+			cMod = 0
 			ORBIT
 			{
-				SMA = 2348635.8994126446
-				ECC = 0.31017738523612798
-				INC = 19.480356200448348
-				LPE = 113.82947007026391
-				LAN = 299.28275921277361
-				MNA = 6.1795332540919254
-				EPH = 14568.342715039589
+				SMA = 2348635.9205814367
+				ECC = 0.31017738363669389
+				INC = 19.480356638499046
+				LPE = 113.82947204617778
+				LAN = 299.2827578917728
+				MNA = 1.7264727123856289
+				EPH = 15889.01874044873
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -96827,17 +96851,17 @@ GAME
 				attN = top, -1
 				mass = 0.0299999993
 				shielded = False
-				temp = 1536.5697490176419
-				tempExt = 2757.2682635042793
+				temp = 141.94554231536799
+				tempExt = 141.94349341694254
 				tempExtUnexp = 2757.4986854434046
-				staticPressureAtm = 0.0014477409376440417
+				staticPressureAtm = 0
 				expt = 0.5
 				state = 0
 				attached = False
 				autostrutMode = Off
 				rigidAttachment = False
 				flag = FlagPack/Flags/United States of America
-				rTrf = bluedog.Apollo.ProbeDockingPort
+				rTrf = bluedog.Apollo.ProbeDockingPort (Apollo Saturn V Debris)
 				modCost = 0
 				modMass = 0
 				moduleVariantName = 
@@ -97044,9 +97068,9 @@ GAME
 					HasInitted = True
 					TimeOfLastReset = 8748.601
 					TimeOfLastInspection = -Infinity
-					Age = 5721.85
-					LastFixedUpdate = 14489.74
-					CurrentMTBF = 175194.2
+					Age = 7264.487
+					LastFixedUpdate = 15889.02
+					CurrentMTBF = 175192.6
 					LifeTimeSecs = 1.7136E+08
 					HasFailed = False
 					alarmDisabled = False
@@ -97399,6 +97423,8 @@ GAME
 		ShuttleStuff_SharedAssets = True
 		shuttle_OV200 = True
 		WhoAmI = True
+		NearFutureUtils v0.0.0.0 = True
+		NearFutureSpacecraft = True
 		System.Buffers v4.0.3.0 / v4.6.28619.01 @BuiltBy: dlab14-DDVSOWINAGE069 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/7601f4f6225089ffb291dc7d58293c7bbf5c5d4f / v4.6.28619.01 = True
 	}
 	ROSTER
@@ -97447,7 +97473,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292975816
+							cid = 4292357492
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97581,7 +97607,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292975894
+							cid = 4292357610
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97813,7 +97839,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292975816
+							cid = 4292357492
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -97947,7 +97973,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292975894
+							cid = 4292357610
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98179,7 +98205,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292975816
+							cid = 4292357492
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98313,7 +98339,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292975894
+							cid = 4292357610
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98543,7 +98569,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292975816
+							cid = 4292357492
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -98677,7 +98703,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292975894
+							cid = 4292357610
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99689,7 +99715,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292975816
+							cid = 4292357492
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -99823,7 +99849,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292975894
+							cid = 4292357610
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101193,7 +101219,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292975816
+							cid = 4292357492
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101327,7 +101353,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292975894
+							cid = 4292357610
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101555,7 +101581,7 @@ GAME
 						PART
 						{
 							name = evaChute
-							cid = 4292975816
+							cid = 4292357492
 							uid = 0
 							mid = 0
 							persistentId = 0
@@ -101689,7 +101715,7 @@ GAME
 						PART
 						{
 							name = evaJetpack
-							cid = 4292975894
+							cid = 4292357610
 							uid = 0
 							mid = 0
 							persistentId = 0
