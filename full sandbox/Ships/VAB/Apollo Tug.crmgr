@@ -1,16 +1,16 @@
 craftName = Apollo Tug
 cachedCraftData
 {
-	origChecksum = fec8a079834340d7cf2ce0554e015a7a
+	origChecksum = 069acfb53d0524501df4137d8fd298a9
 	cacheVersion = 3
 	name = Apollo Tug
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 13162.9004
-	partCount = 16
-	mass = 9.68320084
+	cost = 26771.9004
+	partCount = 53
+	mass = 13.3779078
 	description = 
-	crewCapacity = 0
+	crewCapacity = 2
 	partNames = bluedog.Apollo.AARDV.Core
 	partNames = bluedog.Apollo.Block2.SM
 	partNames = bluedog.Apollo.EngineMount
@@ -20,4 +20,15 @@ cachedCraftData
 	partNames = bluedog.Apollo.RCS.45
 	partNames = mumech.MJ2.AR202
 	partNames = bluedog.Apollo.DockingSpotlight
+	partNames = dockingPortLarge
+	partNames = ht2.moduleUnity
+	partNames = bluedog.Apollo.CADS.active
+	partNames = ht.PDGF
+	partNames = benjee10.shuttle.crewTubeAdapter
+	partNames = B10.NDS
+	partNames = bluedog.Apollo.CADS.passive
+	partNames = bluedog.Apollo.APAS75
+	partNames = adapterSmallMiniTall
+	partNames = bluedog.Apollo.ProbeDockingPort
+	partNames = domeLight1
 }

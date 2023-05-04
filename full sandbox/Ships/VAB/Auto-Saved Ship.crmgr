@@ -1,31 +1,18 @@
 craftName = Untitled Space Craft
 cachedCraftData
 {
-	origChecksum = af485002291a461fefe709df173f7ddd
+	origChecksum = 54212de67730c5be5f90d180a85fa4a3
 	cacheVersion = 3
-	name = Thor Able
+	name = Untitled Space Craft
 	kspVersion = 1.12.5
-	stagesCount = 7
-	cost = 7944.40869
-	partCount = 18
-	mass = 12.4258566
+	stagesCount = 0
+	cost = 41930
+	partCount = 4
+	mass = 9.2869997
 	description = 
-	crewCapacity = 0
-	partNames = bluedog.Vanguard.Satellite1
-	partNames = bluedog.Decoupler.0p125m
-	partNames = bluedog.UpperSolids.BE3
-	partNames = bluedog.SpinDecoupler.p3125m
-	partNames = bluedog.FairingBase.0p625m
-	partNames = bluedog.ThorAble.Guidance
-	partNames = bluedog.ThorAble.Tank
-	partNames = bluedog.Ablestar.Engine
-	partNames = bluedog.ThorDelta.Interstage
-	partNames = bluedog.Agena.AInterstage
-	partNames = bluedog.Thor.1p25mAdapter.Long
-	partNames = bluedog.Thor.MediumExtensionTank
-	partNames = bluedog.Thor.ShortExtensionTank
-	partNames = bluedog.Thor.EngineMount
-	partNames = bluedog.Thor.LR79
-	partNames = BDB.FASAlaunchClamp125
-	partNames = bluedog.Thor.LR101
+	crewCapacity = 11
+	partNames = command-125-orbit-1
+	partNames = command-mk3-9
+	partNames = utility-pod-25
+	partNames = command-ppd-1
 }
